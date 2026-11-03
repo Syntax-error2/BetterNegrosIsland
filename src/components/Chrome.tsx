@@ -61,26 +61,23 @@ export function Footer() {
         <div className="civic-footer-brand">
           <Link to="/" aria-label="BetterNegrosIsland — overview"><BrandLogo theme="dark" lazy /></Link>
           <p className="footer-tagline">Open Data. A Stronger Negros Island.</p>
-          <p>An independent, nonpartisan civic transparency initiative making published government budget information more accessible across the Negros Island Region.</p>
-          <p className="footer-independent">Independent and nonpartisan. No government affiliation, BetterGov.PH endorsement or partnership is implied.</p>
+          <p>Independent, nonpartisan budget transparency for Negros Island.</p>
         </div>
-        <FooterLinks title="Explore">{[["/","Overview"],["/projects","Projects"],["/provinces","Places"],["/analytics","Analytics"],["/budget-history","Budget history"],["/data-coverage","Data coverage"]].map(([to,label]) => <li key={to}><Link to={to}>{label}</Link></li>)}</FooterLinks>
-        <FooterLinks title="Information">
-          <li><Link to="/updates">Data update history</Link></li><li><Link to="/saved">Saved items</Link></li><li><Link to="/topics">Browse everyday needs</Link></li><li><Link to="/data-quality">Data reading notes</Link></li><li><Link to="/glossary">Budget glossary & languages</Link></li><li><Link to="/hearings">Budget hearing mentions</Link></li><li><Link to="/budget-guide">Budget reading guide</Link></li><li><Link to="/compare">Compare two records</Link></li><li><Link to="/methodology">Methodology</Link></li><li><Link to="/methodology#data-sources">Data sources</Link></li><li><Link to="/about">About the initiative</Link></li><li><a href={PORTAL_REPOSITORY_URL} target="_blank" rel="noopener noreferrer">BetterNegrosIsland repository</a></li><li><a href="https://bettergov.ph" target="_blank" rel="noopener noreferrer">BetterGov.PH</a></li><li><a href={SOURCE_CODE_URL} target="_blank" rel="noopener noreferrer">Original open-source repository</a></li>
-        </FooterLinks>
-        <FooterLinks title="Legal & accountability">
-          <li><Link to="/terms">Terms of Use</Link></li><li><Link to="/privacy">Privacy Notice</Link></li><li><Link to="/methodology#data-disclaimer">Full data disclaimer</Link></li><li><Link to="/methodology#source-attribution">Source attribution</Link></li><li><Link to="/about#operator">Operator information</Link></li>
-        </FooterLinks>
+        <FooterLinks title="Explore">{[["/projects","Projects"],["/provinces","Places"],["/analytics","Analytics"],["/budget-history","Budget history"]].map(([to,label]) => <li key={to}><Link to={to}>{label}</Link></li>)}</FooterLinks>
+        <FooterLinks title="Guide & sources">{[["/budget-guide","Budget guide"],["/updates","Data updates"],["/methodology","Methodology"],["/about","About"]].map(([to,label])=><li key={to}><Link to={to}>{label}</Link></li>)}</FooterLinks>
+        <FooterLinks title="Legal"><li><Link to="/terms">Terms of Use</Link></li><li><Link to="/privacy">Privacy Notice</Link></li><li><Link to="/methodology#data-disclaimer">Data disclaimer</Link></li></FooterLinks>
       </div>
       <div className="footer-evidence">
-        <p>Budget figures represent published proposals or appropriations, not necessarily actual spending. Document comparison classifications do not establish irregularity or wrongdoing.</p>
-        {meta ? <details className="footer-full-notice"><summary>Read the full source data disclaimer</summary><p>{meta.notice}</p><Link to="/methodology#data-disclaimer">All source caveats and restrictions</Link></details> : <Link to="/methodology#data-disclaimer">Read the full data disclaimer</Link>}
+        <p>Proposals and appropriations are not proof of spending or wrongdoing.</p>
+        <details className="footer-full-notice"><summary>Sources, operator & notices</summary>
+          <p>Independent and nonpartisan. No government affiliation, BetterGov.PH endorsement or partnership is implied.</p>
+          <p>Operated by Aqura Information Technology Solutions / Dave Hermoso, Binalbagan, Negros Occidental. <Link to="/about#operator">Operator information</Link>.</p>
+          <p>Built on <a href={SOURCE_CODE_URL}>BetterGov.PH’s Transparency Portal</a>. Original MIT license preserved. <a href="/LICENSE.txt">Read the license</a> · <a href={PORTAL_REPOSITORY_URL}>Portal repository</a>.</p>
+          {meta&&<p>{meta.notice}</p>}
+          <p><Link to="/methodology#data-disclaimer">Full source caveats and restrictions</Link> · <Link to="/methodology#source-attribution">Source attribution</Link> · <Link to="/data-coverage">Data coverage</Link></p>
+        </details>
       </div>
-      <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} BetterNegrosIsland<span>Independent civic transparency initiative</span></p>
-        <div className="footer-attribution"><p>Built on <a href={SOURCE_CODE_URL}>BetterGov.PH’s Transparency Portal</a>.<br />Budget data powered by BetterGov.PH. Original MIT license preserved.</p><nav aria-label="Footer legal links"><Link to="/methodology#source-attribution">Attribution</Link><a href="/LICENSE.txt">MIT license</a><Link to="/terms">Terms</Link><Link to="/privacy">Privacy</Link></nav></div>
-      </div>
-      <p className="footer-operator">Operated by Aqura Information Technology Solutions / Dave Hermoso, Binalbagan, Negros Occidental.</p>
+      <div className="footer-bottom"><p>© {new Date().getFullYear()} BetterNegrosIsland</p><p>Budget data powered by <a href="https://bettergov.ph">BetterGov.PH</a>.</p></div>
     </div>
   </footer>;
 }

@@ -7,7 +7,7 @@ import BrandLogo from '../components/BrandLogo';
 import { CHANGE_GROUPS,regionalChanges } from '../lib/regional-changes';
 import { PROVINCES } from '../lib/geography';
 import { useTitle } from '../lib/use-title';
-import { phpFull } from '../lib/format';
+import { phpFull,date } from '../lib/format';
 import { exactDifference } from '../lib/comparison-display';
 import { houseReading,recordPath } from '../lib/evidence';
 import { projectsCsv,downloadText } from '../lib/csv';
@@ -77,13 +77,17 @@ export default function RegionalChanges(){
           </details></div>
           {view.rows.length?chunks.map((rows,chunk)=><ol className="campaign-grid" start={chunk*60+1} key={chunk} role="list">{rows.map((p,i)=><ReadingRecord key={p.key} p={p} number={chunk*60+i+1}/>)}</ol>):<p className="campaign-empty" role="status">No matching records in this snapshot. Try another filter; this does not establish an absence of funding.</p>}
         </section>
-        <footer className="campaign-footer"><Link className="campaign-footer-logo" to="/" aria-label="BetterNegrosIsland — overview"><BrandLogo theme="dark" lazy/></Link>
-          <p className="campaign-footer-title">Negros Island Region · FY2027 budget reading list</p>
-          <p>Based on {view.regionalRecords} records carrying the source’s NIR flag. Office-only and place-name-only records are excluded here. House-only means a line in this comparison’s House version without a paired NEP line; it does not establish that the line was absent from every source document. Matches are candidates, not findings. House amounts use third reading for DPWH and second reading for FMR, HFEP and NIA. The records do not establish who requested a project, actual spending or wrongdoing.</p>
-          <p>{manifest.status==='ready'?<>Snapshot retrieved {manifest.value.retrieved_at}. Source built {manifest.value.source_build}.</>:'Snapshot dates are unavailable; inspect coverage before quoting.'} Unchanged, NEP-only and scope-review records remain in the full explorer.</p>
-          <nav aria-label="Regional reading references"><Link to="/projects">Full explorer</Link><Link to="/data-coverage">Coverage</Link><Link to="/methodology#data-disclaimer">Full data disclaimer</Link><Link to="/privacy">Privacy Notice</Link><Link to="/terms">Terms of Use</Link><External href={PORTAL_REPOSITORY_URL}>Open-source repository</External></nav>
-          <details className="campaign-notices"><summary>Source notices and responsible sharing</summary><p>Public availability does not remove privacy responsibilities. Do not add or republish unrelated identifiers, private contact details or sensitive personal information. A comparison classification alone does not establish an irregularity or wrongdoing.</p>{s.disclaimers.map(d=><p key={d.id}><strong>{d.title}</strong> {d.body} <External href={d.url}>Source notice</External></p>)}</details>
-          <p className="campaign-attribution">Budget data powered by BetterGov.PH. Regional presentation by BetterNegrosIsland, an independent, nonpartisan initiative operated by Aqura Information Technology Solutions / Dave Hermoso, Binalbagan, Negros Occidental. Visual direction inspired by the <External href="https://budget.bettergov.ph/hgab/2027/we-are-not-ignorant">national reading initiative</External>; no endorsement is implied. Illustration generated for this portal.</p>
+        <footer className="campaign-footer">
+          <div className="campaign-footer-top"><div className="campaign-footer-brand"><Link className="campaign-footer-logo" to="/" aria-label="BetterNegrosIsland — overview"><BrandLogo theme="dark" lazy/></Link><div><p className="campaign-footer-title">Negros Island · FY2027 reading list</p><p>Budget data by BetterGov.PH.{manifest.status==='ready'?<> Retrieved {date(manifest.value.retrieved_at)}.</>:' Snapshot date unavailable.'}</p></div></div>
+            <nav aria-label="Regional reading references"><Link to="/projects">Explorer</Link><Link to="/methodology">Sources</Link><Link to="/terms">Terms</Link><Link to="/privacy">Privacy</Link></nav>
+          </div>
+          <p>Proposals are not proof of spending or wrongdoing.</p>
+          <details className="campaign-notices"><summary>Scope, sources & credits</summary>
+            <p>Based on {view.regionalRecords} records carrying the source’s NIR flag. Office-only and place-name-only records are excluded here. House-only means a line in this comparison’s House version without a paired NEP line; it does not establish that the line was absent from every source document. Matches are candidates, not findings. House amounts use third reading for DPWH and second reading for FMR, HFEP and NIA. The records do not establish who requested a project, actual spending or wrongdoing.</p>
+            <p>{manifest.status==='ready'?<>Snapshot retrieved {manifest.value.retrieved_at}. Source built {manifest.value.source_build}.</>:'Snapshot dates are unavailable; inspect coverage before quoting.'} Unchanged, NEP-only and scope-review records remain in the full explorer. <Link to="/data-coverage">Data coverage</Link> · <Link to="/methodology#data-disclaimer">Full data disclaimer</Link>.</p>
+            <p>Public availability does not remove privacy responsibilities. Do not add or republish unrelated identifiers, private contact details or sensitive personal information. A comparison classification alone does not establish an irregularity or wrongdoing.</p>{s.disclaimers.map(d=><p key={d.id}><strong>{d.title}</strong> {d.body} <External href={d.url}>Source notice</External></p>)}
+            <p className="campaign-attribution">Regional presentation by BetterNegrosIsland, an independent, nonpartisan initiative operated by Aqura Information Technology Solutions / Dave Hermoso, Binalbagan, Negros Occidental. <External href={PORTAL_REPOSITORY_URL}>Open-source repository</External>. Visual direction inspired by the <External href="https://budget.bettergov.ph/hgab/2027/we-are-not-ignorant">national reading initiative</External>; no endorsement is implied. Illustration generated for this portal.</p>
+          </details>
         </footer>
       </>;
     }}</Await>

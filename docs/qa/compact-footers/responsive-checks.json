@@ -1,0 +1,70 @@
+[
+  {
+    "width": 320,
+    "footer": "campaign",
+    "footerHeight": 368,
+    "overflowLinks": [],
+    "scrollWidth": 305,
+    "viewport": 305
+  },
+  {
+    "width": 375,
+    "footer": "campaign",
+    "footerHeight": 326,
+    "overflowLinks": [],
+    "scrollWidth": 360,
+    "viewport": 360
+  },
+  {
+    "width": 768,
+    "footer": "campaign",
+    "footerHeight": 253,
+    "overflowLinks": [],
+    "scrollWidth": 753,
+    "viewport": 753
+  },
+  {
+    "width": 1440,
+    "footer": "campaign",
+    "footerHeight": 197,
+    "overflowLinks": [],
+    "scrollWidth": 1425,
+    "viewport": 1425
+  },
+  {
+    "width": 320,
+    "footer": "regular",
+    "actualWidth": 320,
+    "footerHeight": 871,
+    "overflowLinks": [],
+    "scrollWidth": 305,
+    "viewport": 305
+  },
+  {
+    "width": 375,
+    "footer": "regular",
+    "actualWidth": 375,
+    "footerHeight": 866,
+    "overflowLinks": [],
+    "scrollWidth": 360,
+    "viewport": 360
+  },
+  {
+    "width": 768,
+    "footer": "regular",
+    "actualWidth": 768,
+    "footerHeight": 640,
+    "overflowLinks": [],
+    "scrollWidth": 753,
+    "viewport": 753
+  },
+  {
+    "width": 1440,
+    "footer": "regular",
+    "actualWidth": 1440,
+    "footerHeight": 404,
+    "overflowLinks": [],
+    "scrollWidth": 1425,
+    "viewport": 1425
+  }
+]
