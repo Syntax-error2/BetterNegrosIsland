@@ -1,6 +1,6 @@
 # Release assessment — BetterNegrosIsland
 
-**Verdict: working local/static review candidate; public production release remains NO-GO.**
+**Deployment update, 3 November 2026: the owner authorized Vercel deployment at https://betternegrosisland.vercel.app. The earlier NO-GO assessment below records unresolved privacy/legal and independent QA items; deployment does not resolve or certify them.**
 
 The regional build implements the supplied identity, three provinces, 63-code official-source directory, static ingestion, analytics with exact tables, source evidence, accessible controls and versioned welcome. The source API integration and original MIT license are retained. No login, registration or application backend was introduced.
 
@@ -16,7 +16,7 @@ Public-release blockers:
 
 Additional engineering work: split large project/history shards where useful; improve source metadata and historical PDF links where APIs support them; audit place-name search recall and historical comparability. Retained prior district release archives are historical and are not this regional release.
 
-The source is publicly available at [Syntax-error2/BetterNegrosIsland](https://github.com/Syntax-error2/BetterNegrosIsland). Source publication is separate from website deployment, official endorsement, legal acceptance or public-launch clearance. No hosted website deployment has been performed.
+The source is publicly available at [Syntax-error2/BetterNegrosIsland](https://github.com/Syntax-error2/BetterNegrosIsland). The AQURA ITS Vercel project is connected to its `main` branch. The live website is https://betternegrosisland.vercel.app. Source publication and hosting are separate from official endorsement, legal acceptance or privacy certification. See [Vercel deployment evidence](qa/vercel-deployment/REPORT.md).
 
 Latest UI/privacy remediation: [report](qa/premium-ui/REPORT.md). Successful engineering checks do not resolve the remaining release gates.
 

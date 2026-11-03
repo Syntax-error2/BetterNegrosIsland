@@ -25,8 +25,8 @@ export default function Legal() {
       <p className="legal-revision">Review draft · Revised 3 November 2026 · Version {LEGAL_VERSION}</p>
       <h1>{title}</h1>
       <p className="notice">
-        <strong>Not yet approved for public launch.</strong> The operator has
-        been identified. Hosting, rights-request procedures, applicable lawful
+        <strong>Privacy and legal review remain pending.</strong> This portal is
+        hosted by Vercel. Rights-request procedures, applicable lawful
         criteria, retention and legal review remain unresolved. This draft is
         not a legal certification.
       </p>
@@ -69,9 +69,9 @@ export default function Legal() {
             <dd>
               Serving pages and data can reveal IP addresses, browser/request
               headers, requested paths, query strings and request times to the
-              hosting provider. A host has not yet been selected, so its
-              logging, retention, processors and processing locations have not
-              been verified. We do not claim that visiting a website produces no
+              hosting provider, Vercel. The operator has not yet completed its
+              review of provider logging, retention, subprocessors and processing
+              locations. We do not claim that visiting a website produces no
               personal data.
             </dd>
             <dt>Public budget records</dt>
@@ -197,8 +197,8 @@ export default function Legal() {
             <a href="https://privacy.gov.ph/pips-and-pics/advisories-circulars/">
               NPC issuances, including Circular 2023-04 on consent
             </a>
-            . Material changes require a new version. Hosting and legal/privacy
-            completion are required before public release.
+            . Material changes require a new version. Hosting does not establish
+            completion of the outstanding legal/privacy review.
           </p>
         </>
       ) : (
@@ -283,7 +283,7 @@ export default function Legal() {
       )}
       </div>
       <p className="fine">
-        Review draft revised 3 November 2026. Updated optional saved-item storage, reading tools and source access; this version requires renewed acknowledgment.{" "}
+        Review draft revised 3 November 2026. Identified Vercel as the hosting provider; optional local storage and source-access disclosures remain in place. This version requires renewed acknowledgment.{" "}
         <Link state={{ returnTo }} to={privacy ? "/terms" : "/privacy"}>
           {privacy ? "Read the Terms of Use" : "Read the Privacy Notice"}
         </Link>

@@ -20,7 +20,7 @@ Built from [BetterGov.PH's open-source Transparency Portal](https://github.com/b
 
 ## Citizen tools
 
-The homepage question shortcuts lead to Community Spotlight, analytics, historical appropriations, `/compare`, and `/budget-guide`. Project results offer “Share card” and “Compare”; `/evidence/:dataset/:id` creates a dated PNG with a public source QR code locally in the browser. Comparison selections survive in the URL. Localhost comparison links remain local until approved hosting exists. [Implementation and actual QA](docs/qa/citizen-tools/REPORT.md).
+The homepage question shortcuts lead to Community Spotlight, analytics, historical appropriations, `/compare`, and `/budget-guide`. Project results offer “Share card” and “Compare”; `/evidence/:dataset/:id` creates a dated PNG with a public source QR code locally in the browser. Comparison selections survive in the URL. Shared links use the current website origin. [Implementation and actual QA](docs/qa/citizen-tools/REPORT.md).
 
 ## Run locally
 
@@ -33,7 +33,7 @@ npm run dev
 
 Open [the local portal](http://localhost:5132/). Port 5132 is fixed; Vite fails instead of silently changing it. The current development server has been left running for review. Stop it with Ctrl+C in its terminal.
 
-React, TypeScript, Vite, React Router, the original API client and static hosting foundation are retained. Recharts is loaded with Analytics. Plus Jakarta Sans is served locally under its bundled font license. Welcome acknowledgment stores only a version string in browser storage; blocked storage permits current-session entry. Terms and Privacy Notice remain review drafts. The operator supplied by the owner is Aqura Information Technology Solutions / Dave Hermoso, Binalbagan, Negros Occidental. A monitored portal privacy contact has not been supplied; BetterGov.PH supplies the data, and no arrangement appointing it to handle this portal’s privacy requests has been verified. Hosting, rights handling and legal review remain pending.
+React, TypeScript, Vite, React Router, the original API client and static hosting foundation are retained. Recharts is loaded with Analytics. Plus Jakarta Sans is served locally under its bundled font license. Welcome acknowledgment stores only a version string in browser storage; blocked storage permits current-session entry. Terms and Privacy Notice remain review drafts. The operator supplied by the owner is Aqura Information Technology Solutions / Dave Hermoso, Binalbagan, Negros Occidental. A monitored portal privacy contact has not been supplied; BetterGov.PH supplies the data, and no arrangement appointing it to handle this portal’s privacy requests has been verified. The website is hosted on Vercel; provider processing review, rights handling and legal review remain pending.
 
 Run `npm run verify` for data validation, privacy pattern scans, tests, lint, build and deployment-policy checks. [Deployment instructions](docs/deploy.md) describe the optional HTTPS `VITE_SITE_URL`, host configuration and a local HTTP rehearsal. Passing checks do not provide legal clearance or deploy the website.
 
@@ -91,7 +91,7 @@ Legacy `/municipalities`, locality slugs, `/districts` and `/gaa` remain compati
 
 `npm run build` creates a static `dist/`; it includes the verified data artifacts and public license. Configure SPA fallback, public access without a host login, compression and the supplied security headers. Configure the actual `siteUrl` before generating production canonical/social URLs. [Deployment instructions](docs/deploy.md).
 
-No remote fork, production host, domain, or public release has been created. Operator legal/privacy completion, latest PSGC validation, hosting acceptance, native zoom and independent accessibility/device QA remain open.
+The public source repository is connected to the AQURA ITS Vercel project at https://betternegrosisland.vercel.app. The owner authorized deployment on 3 November 2026; this does not certify the outstanding legal/privacy or independent QA items. Operator legal/privacy completion, latest PSGC validation, hosting acceptance, native zoom and independent accessibility/device QA remain open.
 
 ## Current UI/privacy sprint
 

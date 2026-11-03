@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-03T10:18:34.682Z",
-  "origin": "http://127.0.0.1:5134",
+  "checked_at": "2026-11-03T13:50:25.332Z",
+  "origin": "https://betternegrosisland.vercel.app",
   "cases": [
     {
       "path": "/",
@@ -61,14 +61,14 @@
     {
       "path": "/data/update-history.json",
       "status": 200,
-      "type": "application/json",
+      "type": "application/json; charset=utf-8",
       "cache": "no-cache, must-revalidate",
       "result": "PASS"
     },
     {
       "path": "/data/hearings.json",
       "status": 200,
-      "type": "application/json",
+      "type": "application/json; charset=utf-8",
       "cache": "no-cache, must-revalidate",
       "result": "PASS"
     },
@@ -103,7 +103,7 @@
     {
       "path": "/data/manifest.json",
       "status": 200,
-      "type": "application/json",
+      "type": "application/json; charset=utf-8",
       "cache": "no-cache, must-revalidate",
       "result": "PASS"
     },
@@ -151,7 +151,7 @@
     }
   ],
   "module": {
-    "path": "/assets/index-Cj5BkVmn.js",
+    "path": "/assets/index-5N9S_e6K.js",
     "status": 200,
     "result": "PASS"
   },

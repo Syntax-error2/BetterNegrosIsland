@@ -1,6 +1,6 @@
 # Automatic data refresh and hosting
 
-This repository includes preparation for automatic refreshes. **No hosted schedule or deployment has been enabled.** The host is undecided. Ordinary frontend builds use the included validated snapshot; uploading the site alone does not turn on API refreshes.
+This repository includes preparation for automatic refreshes. **The website is deployed on Vercel, with GitHub code deployments connected. Scheduled API refresh and candidate publication are not enabled.** Ordinary frontend builds use the included validated snapshot; uploading the site alone does not turn on API refreshes.
 
 ## Prepared workflow
 
@@ -12,9 +12,9 @@ Some existing analytics regression tests intentionally pin the reference snapsho
 
 `nir-site-candidate-<run-id>` contains the built site; `nir-refresh-report-<run-id>` records old/new snapshot versions, source dates, counts, additions/removals/changed raw comparison records and privacy triage. Artifacts are retained for seven days. These are review/build artifacts, not a deployment or legal clearance. Hosting/provider and rights-request decisions remain necessary before public release.
 
-## Complete the publishing connection after choosing a host
+## Complete candidate publication to Vercel
 
-The final deploy step must upload the **validated artifact**, after the checks succeed, using the selected host's scoped credential stored in its secret manager. Use an atomic site deployment, preserve a rollback release and previously referenced snapshot files, and leave the previous live release in place on extraction, validation or deploy failure. Never trigger publication from a failed job or rebuild from an unrelated checkout. No deployment hook, token or public repository has been fabricated here.
+The final deploy step must upload the **validated artifact**, after the checks succeed, using the selected host's scoped credential stored in its secret manager. Use an atomic site deployment, preserve a rollback release and previously referenced snapshot files, and leave the previous live release in place on extraction, validation or deploy failure. Never trigger publication from a failed job or rebuild from an unrelated checkout. The public repository is Syntax-error2/BetterNegrosIsland. No refresh deployment hook or credential has been configured.
 
 The generated host configuration gives mutable manifest/status files revalidation and exact, existing checksummed shards long-lived immutable caching. Missing paths do not receive a blanket immutable rule. Verify actual HTTP responses after deployment. New page loads read the deployed manifest. An already-open page keeps its loaded snapshot until reloaded, preventing mixed-version figures.
 

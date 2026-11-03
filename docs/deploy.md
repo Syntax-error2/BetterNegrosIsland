@@ -1,6 +1,6 @@
 # Static deployment
 
-**BetterNegrosIsland is a working local review build. No hosted deployment or public release is claimed.** See [release gates](RELEASE.md) and [current implementation report](regional/IMPLEMENTATION_REPORT.md).
+**BetterNegrosIsland is hosted at https://betternegrosisland.vercel.app through the AQURA ITS Vercel project, connected to Syntax-error2/BetterNegrosIsland. The owner authorized deployment on 3 November 2026. Hosting does not resolve the outstanding privacy/legal and independent QA items.** See [release gates](RELEASE.md) and [current implementation report](regional/IMPLEMENTATION_REPORT.md).
 
 Use Node 24 (see `.nvmrc`). Install with `npm ci` and run `npm run verify`; deploy the resulting `dist/` directory. Only static hosting is needed: no database, Worker application logic or always-on backend. Route fallbacks are restricted to real application paths, so missing JSON, JavaScript, images and development fixtures return 404.
 
@@ -14,7 +14,7 @@ npm audit --omit=dev
 
 Data is already included under `public/data/`. An ordinary build must not trigger thousands of API calls. Run `npm run data:refresh` separately when the source changes, inspect the report, then rebuild. Failed extraction preserves the last successful pointer; publish the status artifact with it to disclose refresh failure.
 
-For scheduled, isolated preparation, see [automatic data updates](AUTOMATIC_DATA_UPDATES.md). The opt-in GitHub workflow prepares a validated site artifact daily; its host-specific publish step is pending the hosting choice. `npm run data:refresh:candidate -- --rehearse` tests preparation using existing data without API extraction or local snapshot promotion.
+For scheduled, isolated preparation, see [automatic data updates](AUTOMATIC_DATA_UPDATES.md). The opt-in GitHub workflow prepares a validated site artifact daily; its Vercel publish step remains unconfigured. `npm run data:refresh:candidate -- --rehearse` tests preparation using existing data without API extraction or local snapshot promotion.
 
 Set `VITE_SITE_URL` in the host's build environment to the real HTTPS website origin (or set `siteUrl` in `portal.config.ts`) before the final build. It must contain no path, credentials, query or fragment. This produces absolute canonical/Open Graph URLs for the supplied logo. `VITE_*` values are public build settings: never put secrets in them. Cloudflare's static Worker name is `betternegrosisland`; choose an available account-specific name if needed. `npm run deploy:cloudflare` verifies, builds and performs a real deployment; it has not been run.
 
@@ -36,4 +36,4 @@ The project and whole historical shards are deferred, not initial-bundle imports
 
 After an approved deployment, verify unauthenticated first and returning visits, regional acknowledgment, deep-route reloads, shared filters, all three provinces and representative locality profiles including Bacolod/Siquijor, source PDFs, outage recovery, CSV, mobile menu, favicon, social metadata, HTTP security/cache/compression headers, actual hosting log retention, and privacy contacts.
 
-Operator supplied by owner: Aqura Information Technology Solutions / Dave Hermoso, Binalbagan, Negros Occidental. A monitored portal privacy contact has not been supplied; BetterGov.PH is the data source, not an appointed portal privacy handler. Operational rights-request handling, lawful criteria, host logging/retention, legal/privacy review, latest PSGC reconciliation, final host/domain and independent device/accessibility acceptance remain outstanding. No optional analytics, account system or citizen report submission has been enabled.
+Operator supplied by owner: Aqura Information Technology Solutions / Dave Hermoso, Binalbagan, Negros Occidental. A monitored portal privacy contact has not been supplied; BetterGov.PH is the data source, not an appointed portal privacy handler. Operational rights-request handling, lawful criteria, host logging/retention, legal/privacy review, latest PSGC reconciliation, provider processing review and independent device/accessibility acceptance remain outstanding. No optional analytics, account system or citizen report submission has been enabled.
