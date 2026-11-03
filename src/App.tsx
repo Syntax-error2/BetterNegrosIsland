@@ -46,13 +46,14 @@ const ChartFixture = import.meta.env.DEV
 
 export default function App() {
   const location = useLocation();
+  const posterView=location.pathname==='/we-are-not-ignorant';
   const { config } = usePortal();
   const problems = import.meta.env.DEV ? configProblems(config) : [];
   return (
     <>
       <ScrollToTop />
       <LegalEntry>
-        <Masthead />
+        {!posterView&&<Masthead />}
         {problems.length > 0 && (
           <div className="page config-warning" role="alert">
             <strong>portal.config.ts needs attention</strong> (shown in
@@ -130,7 +131,7 @@ export default function App() {
             />
           </Routes>
         </Suspense></PageErrorBoundary>
-        <Footer />
+        {!posterView&&<Footer />}
       </LegalEntry>
       <BackToTop />
       {import.meta.env.DEV &&

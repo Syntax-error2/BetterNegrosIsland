@@ -1,5 +1,5 @@
 {
-  "reviewed_at": "2026-11-03T05:46:02.298Z",
+  "reviewed_at": "2026-11-03T06:10:03.912Z",
   "scope": "All JSON strings in public/data, including nested raw records and retained snapshots",
   "files": 11,
   "strings": 268663,

@@ -135,7 +135,6 @@
 .welcome-notices .entry-button { width: 100%; margin-top: 0; }
 .welcome-notices .decline { display: block; margin: 4px auto; }
 .welcome-notices .welcome-access { font-size: 12px; text-align: center; margin-block: 12px 0; }
-.welcome-review-note { font-size: 12px; color: var(--ink-3); border-top: 1px solid var(--rule); padding-top: 20px; margin: 0; }
 .button, .welcome-document-links > a { transition: background-color var(--motion-quick) ease, border-color var(--motion-quick) ease, box-shadow var(--motion-quick) ease, transform var(--motion-quick) var(--motion-ease); }
 .button:active:not(:disabled) { transform: translateY(1px); }
 .button:disabled { transform: none; box-shadow: none; }

@@ -60,7 +60,6 @@ export default function LegalEntry({ children }: { children: ReactNode }) {
             <p className="welcome-access">Free access. No login or registration.<br />Only the notice version is remembered in this browser.</p>
           </section>
         </div>
-        <p className="welcome-review-note">Review preview: hosting, rights-request handling and legal/privacy review remain pending before public launch.</p>
       </div>
     </main>
   );

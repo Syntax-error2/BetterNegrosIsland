@@ -1,0 +1,16 @@
+[
+  {
+    "file": "nir-default.csv",
+    "rows": 233,
+    "exact_source_values": true,
+    "nulls_preserved": true,
+    "stage_date_source_and_sharing_notices": true
+  },
+  {
+    "file": "nir-siquijor.csv",
+    "rows": 30,
+    "exact_source_values": true,
+    "nulls_preserved": true,
+    "stage_date_source_and_sharing_notices": true
+  }
+]

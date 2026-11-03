@@ -24,3 +24,5 @@ Latest 3 November audit: [privacy/deployment and regional reading report](qa/dep
 
 
 3 November 2026 critical hardening: see [implementation and issue register](qa/critical-hardening/REPORT.md) and [processing inventory / operator decisions](qa/critical-hardening/PRIVACY_PROCESSING.md). Footer status copy was removed at the owner’s request; this does not satisfy the monitored privacy-contact, rights-handling, provider, legal-approval or hosting gates. The repaired local UI is a review candidate only.
+
+3 November 2026 reference-poster repair: [visual, data/export and accessibility evidence](qa/reference-poster/REPORT.md). The welcome-screen review sentence was removed at the owner’s request. The NIR reading page now follows the national poster/grid direction with locally hosted original artwork and fonts. Published budget records and release gates remain unchanged.

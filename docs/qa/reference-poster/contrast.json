@@ -1,0 +1,37 @@
+[
+  {
+    "label": "heading red on paper",
+    "foreground": "#d62828",
+    "background": "#f3eee4",
+    "ratio": 4.33,
+    "required": 3
+  },
+  {
+    "label": "white badge on red",
+    "foreground": "#ffffff",
+    "background": "#d62828",
+    "ratio": 5.01,
+    "required": 4.5
+  },
+  {
+    "label": "ink on paper",
+    "foreground": "#141414",
+    "background": "#f3eee4",
+    "ratio": 15.93,
+    "required": 4.5
+  },
+  {
+    "label": "muted metadata on paper",
+    "foreground": "#5c5852",
+    "background": "#f3eee4",
+    "ratio": 6.11,
+    "required": 4.5
+  },
+  {
+    "label": "amount on paper",
+    "foreground": "#a4141b",
+    "background": "#f3eee4",
+    "ratio": 6.74,
+    "required": 4.5
+  }
+]
