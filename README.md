@@ -95,6 +95,8 @@ The public source repository is connected to the AQURA ITS Vercel project at htt
 
 ## Current UI/privacy sprint
 
+Research toolkit: `/methodology#research` provides a snapshot citation, downloadable notes with the loaded manifest and source notices, a CSV field guide and a verification checklist. Methodology is readable before the welcome acknowledgment. [Research workflow](docs/RESEARCH.md) · [QA](docs/qa/research-toolkit/REPORT.md).
+
 First-visit “Cookies & privacy” notice: one host-only cookie remembers dismissal for up to 180 days after “Got it”. It contains a shared version value, not a visitor identifier. No advertising or analytics cookies were added. Visitors can reopen the notice from Privacy Notice. [Implementation and verification](docs/qa/cookie-notice/REPORT.md).
 
 The new transparent wordmark is used throughout. Project results use a six-column native table with exact amounts and separate source actions; mobile cards share the same rows. All financial tables use the reusable DataTable. Advanced filters and aggregate context are progressive disclosures, while active shared filters are preserved. See [the current remediation report](docs/qa/premium-ui/REPORT.md), [QA](UI_QA_REPORT.md), [design](DESIGN.md), and [frontend contract](FRONTEND_CONTRACT.md). Development-only extreme fixtures and local axe controls are excluded from production. Existing budget snapshot artifacts remain unchanged.

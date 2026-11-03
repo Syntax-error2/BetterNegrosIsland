@@ -1,0 +1,12 @@
+.research-toolkit { border: 1px solid var(--rule); background: white; padding: clamp(16px, 3vw, 24px); margin-block: 24px; }
+.research-toolkit h3 { margin-top: 0; font-size: 20px; }
+.research-citation { border-left: 3px solid var(--accent); padding-left: 16px; overflow-wrap: anywhere; font-size: 14px; line-height: 1.8; user-select: text; }
+.research-toolkit .button { white-space: normal; min-height: 44px; }
+.research-fields { border-top: 1px solid var(--rule); padding-top: 8px; }
+.research-fields summary { cursor: pointer; min-height: 44px; padding-block: 10px; font-weight: 600; }
+.research-fields dl > div { padding-block: 12px; border-top: 1px solid var(--rule); }
+.research-fields dt { font-weight: 600; overflow-wrap: anywhere; }
+.research-fields dd { margin: 6px 0 0; line-height: 1.75; }
+.research-methods-nav { display: flex; flex-wrap: wrap; gap: 4px 24px; margin-block: 16px 24px; }
+.research-methods-nav a { display: inline-flex; align-items: center; min-height: 44px; }
+@media print { .research-toolkit .reading-actions { display: none; } }

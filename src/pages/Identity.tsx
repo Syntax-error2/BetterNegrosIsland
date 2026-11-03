@@ -25,6 +25,7 @@ export default function Identity() {
         funds were released, spent, or used to complete a project.
       </p>
       <h2>Open-source foundation</h2>
+      <p>For research use, start with the <Link to="/methodology#research">research toolkit and verification checklist</Link>. It includes a snapshot citation, research notes and a field guide. Research purpose does not replace source verification, privacy safeguards or legal review.</p>
       <p>
         Powered by BetterGov.PH Budget Data. Built on{" "}
         <a href="https://github.com/bettergovph/transparency-portal">

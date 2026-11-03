@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { hasAcknowledgment, saveAcknowledgment } from "../lib/legal";
 import BrandLogo from "./BrandLogo";
 import { PROVINCES } from "../lib/geography";
+const PUBLIC_READING_PAGES = ['/terms', '/privacy', '/methodology'];
 
 export default function LegalEntry({ children }: { children: ReactNode }) {
   const [entered, setEntered] = useState(() => {
@@ -19,10 +20,10 @@ export default function LegalEntry({ children }: { children: ReactNode }) {
     returnTo: location.pathname + location.search + location.hash,
   };
   useEffect(() => {
-    if (!entered && !["/terms", "/privacy"].includes(location.pathname))
+    if (!entered && !PUBLIC_READING_PAGES.includes(location.pathname))
       document.title = "Welcome · BetterNegrosIsland";
   }, [entered, location.pathname]);
-  if (entered || ["/terms", "/privacy"].includes(location.pathname))
+  if (entered || PUBLIC_READING_PAGES.includes(location.pathname))
     return children;
   return (
     <main id="main-content" tabIndex={-1} className="welcome-shell">
@@ -45,6 +46,7 @@ export default function LegalEntry({ children }: { children: ReactNode }) {
               <Link to="/privacy" state={returnState}><strong>Privacy Notice</strong><span>Local storage, requests and your rights</span></Link>
             </div>
             <Link to="/terms#full-data-disclaimer" state={returnState}>Read the full data disclaimer</Link>
+            <p><Link to="/methodology#research">Research & methodology</Link></p>
             <p className="welcome-data-note">Budget proposals and appropriations are not proof of actual spending.</p>
             <label className="acknowledgment">
               <input type="checkbox" checked={checked} onChange={e => { setChecked(e.target.checked); setDeclined(false); }} />

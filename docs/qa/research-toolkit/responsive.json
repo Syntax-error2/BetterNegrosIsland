@@ -1,0 +1,50 @@
+[
+  {
+    "actionHeights": [
+      47,
+      70,
+      44
+    ],
+    "clippedActions": [],
+    "pageWidth": 305,
+    "toolkitWidth": 273,
+    "viewport": 305,
+    "width": 320
+  },
+  {
+    "actionHeights": [
+      47,
+      47,
+      44
+    ],
+    "clippedActions": [],
+    "pageWidth": 360,
+    "toolkitWidth": 328,
+    "viewport": 360,
+    "width": 375
+  },
+  {
+    "actionHeights": [
+      47,
+      47,
+      44
+    ],
+    "clippedActions": [],
+    "pageWidth": 753,
+    "toolkitWidth": 718,
+    "viewport": 753,
+    "width": 768
+  },
+  {
+    "actionHeights": [
+      47,
+      47,
+      44
+    ],
+    "clippedActions": [],
+    "pageWidth": 1425,
+    "toolkitWidth": 816,
+    "viewport": 1425,
+    "width": 1440
+  }
+]

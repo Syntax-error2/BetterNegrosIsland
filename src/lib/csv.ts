@@ -27,6 +27,8 @@ const COLUMNS: [string, (p: ScopedProject) => string | number | null][] = [
   ['url', (p) => p.url],
 ];
 
+export const PROJECT_CSV_FIELDS = COLUMNS.map(([name]) => name);
+
 export function csvCell(v: string | number | null): string {
   if (v == null) return '';
   // Spreadsheet programs may interpret formula prefixes after whitespace.

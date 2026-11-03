@@ -35,6 +35,8 @@ export interface Manifest {
   project_count: number;
   history_count: number;
   limitations: string[];
+  checksums?: Record<string, string>;
+  scope_sha256?: string;
 }
 const cache = new Map<string, Promise<unknown>>();
 export function snapshotJson<T>(url: string): Promise<T> {
