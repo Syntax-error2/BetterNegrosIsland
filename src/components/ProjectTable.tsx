@@ -1,4 +1,5 @@
 import { evidencePath, comparisonPath } from "../lib/evidence";
+import { SaveRecord } from './ReadingTools';
 import { Link } from "react-router-dom";
 import type { ScopedProject } from "../lib/scope";
 import { phpFull } from "../lib/format";
@@ -150,6 +151,7 @@ export default function ProjectTable({
                 </Link>
                 <Link className="detail-action" aria-label={'Share card for ' + p.title} to={evidencePath(p)}>Share card</Link>
                 <Link className="detail-action" aria-label={'Compare ' + p.title} to={comparisonPath(p)}>Compare</Link>
+                <SaveRecord project={p}/>
               </div>
             </td>
           </tr>

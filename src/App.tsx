@@ -10,6 +10,12 @@ const EvidenceCard = lazy(() => import("./pages/EvidenceCard"));
 const CompareRecords = lazy(() => import("./pages/CompareRecords"));
 const BudgetGuide = lazy(() => import("./pages/BudgetGuide"));
 const RegionalChanges = lazy(() => import("./pages/RegionalChanges"));
+const Saved = lazy(()=>import('./pages/CitizenPages').then(m=>({default:m.Saved})));
+const Topics = lazy(()=>import('./pages/CitizenPages').then(m=>({default:m.Topics})));
+const Updates = lazy(()=>import('./pages/CitizenPages').then(m=>({default:m.Updates})));
+const DataQuality = lazy(()=>import('./pages/CitizenPages').then(m=>({default:m.DataQuality})));
+const Glossary = lazy(()=>import('./pages/CitizenPages').then(m=>({default:m.Glossary})));
+const Hearings = lazy(()=>import('./pages/CitizenPages').then(m=>({default:m.Hearings})));
 const Analytics = lazy(() => import("./pages/Analytics"));
 const Coverage = lazy(() => import("./pages/Coverage"));
 const Places = lazy(() => import("./pages/RegionalPlaces"));
@@ -98,6 +104,12 @@ export default function App() {
             <Route path="/compare" element={<CompareRecords />} />
             <Route path="/budget-guide" element={<BudgetGuide />} />
             <Route path="/we-are-not-ignorant" element={<RegionalChanges />} />
+            <Route path="/saved" element={<Saved/>}/>
+            <Route path="/topics" element={<Topics/>}/>
+            <Route path="/updates" element={<Updates/>}/>
+            <Route path="/data-quality" element={<DataQuality/>}/>
+            <Route path="/glossary" element={<Glossary/>}/>
+            <Route path="/hearings" element={<Hearings/>}/>
             <Route path="/analytics" element={<Analytics />} />
             <Route path="/data-coverage" element={<Coverage />} />
             <Route

@@ -39,6 +39,24 @@
       ]
     },
     {
+      "source": "/data/update-history.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/data/hearings.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, must-revalidate"
+        }
+      ]
+    },
+    {
       "source": "/data/refresh-status.json",
       "headers": [
         {
@@ -194,6 +212,30 @@
     },
     {
       "source": "/we-are-not-ignorant",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/saved",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/topics",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/updates",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/data-quality",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/glossary",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/hearings",
       "destination": "/index.html"
     }
   ]

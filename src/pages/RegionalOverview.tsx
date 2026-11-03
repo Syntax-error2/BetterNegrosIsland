@@ -70,6 +70,7 @@ export default function RegionalOverview() {
         </>
       )}
       <CommunitySpotlight />
+      <section className="reading-discovery" aria-labelledby="reading-tools-heading"><div><h2 id="reading-tools-heading">Keep following the evidence.</h2><p>See what changed, save a useful record, or begin with the services your community uses.</p></div><nav aria-label="Citizen reading tools"><Link to="/updates">What changed in the data</Link><Link to="/topics">Browse everyday needs</Link><Link to="/saved">Your saved items</Link><Link to="/hearings">Budget hearing mentions</Link></nav></section>
       <CitizenShortcuts />
       {s.status === "ready" && (
         <>

@@ -1,4 +1,5 @@
 import { evidencePath, comparisonPath } from "../lib/evidence";
+import { SaveRecord,RecordExplanation } from '../components/ReadingTools';
 import { exactDifference } from "../lib/comparison-display";
 import DataTable from "../components/DataTable";
 import { useEffect, useState } from "react";
@@ -78,13 +79,13 @@ export default function Project() {
       <p className="crumbs">
         <Link to="/projects">← Every project</Link>
       </p>
-      {cached && <nav className="citizen-toolbar" aria-label="Tools for the dated snapshot record"><Link className="button" to={evidencePath(cached)}>Create dated evidence card</Link><Link className="button" to={comparisonPath(cached)}>Compare snapshot records</Link></nav>}
+      {cached && <><nav className="citizen-toolbar" aria-label="Tools for the dated snapshot record"><Link className="button" to={evidencePath(cached)}>Create dated evidence card</Link><Link className="button" to={comparisonPath(cached)}>Compare snapshot records</Link><SaveRecord project={cached}/><Link to="/saved">Saved items</Link></nav></>}
       <Await
         state={current}
         what="the project"
         retry={() => setAttempt((n) => n + 1)}
       >
-        {(env) => <ProjectView env={env} />}
+        {(env) => <ProjectView env={env} snapshot={cached} />}
       </Await>
       {current.status === "error" && cached && (
         <section className="chart-panel">
@@ -94,7 +95,7 @@ export default function Project() {
             {cached.retrieved_at ?? "on the date shown in Data coverage"}.
             Current source details may differ.
           </p>
-          <h1>{cached.title}</h1>
+          <h1>{cached.title}</h1><RecordExplanation project={cached}/>
           <p>
             {cached.dataset.toUpperCase()} · {cached.geographicConfidence}
           </p>
@@ -131,7 +132,7 @@ export default function Project() {
   );
 }
 
-function ProjectView({ env }: { env: Envelope<ProjectDetail> }) {
+function ProjectView({ env,snapshot }: { env: Envelope<ProjectDetail>;snapshot?: import('../lib/scope').ScopedProject }) {
   const { config, overview, scope, client } = usePortal();
   const location = useLocation();
   const p = env.data;
@@ -193,6 +194,7 @@ function ProjectView({ env }: { env: Envelope<ProjectDetail> }) {
         )}
       </p>
       <h1 className="project-h">{p.title}</h1>
+      {snapshot&&<RecordExplanation project={snapshot}/>}
       <div className="project-status">
         <StatusChip
           group={p.bridge_group}

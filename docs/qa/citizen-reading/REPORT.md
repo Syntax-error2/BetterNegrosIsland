@@ -1,0 +1,50 @@
+# Citizen reading tools — 3 November 2026
+
+The owner authorized the complete proposed set of citizen-facing improvements. This work extends the existing portal rather than replacing its navigation, data records, evidence cards or poster page.
+
+## Design and behavior
+
+The ordinary portal retains its established navy, white and teal civic identity, Plus Jakarta Sans typography, visible keyboard focus and restrained borders. Primary questions stay in the main reading flow; optional explanations, source rules and management controls use native disclosures. Page introductions use a single main heading, short paragraphs and readable line lengths. Labels describe the action a visitor takes. Dense financial records keep the existing responsive table behavior and exact peso formatting. The separate campaign poster keeps its approved visual direction.
+
+| Feature | Entry point and behavior |
+| --- | --- |
+| Snapshot updates | `/updates`: source/retrieval receipt, refresh-attempt status, retained snapshot downloads and, when a later snapshot exists, added/revised/removed comparisons with previous/current amounts and source links. |
+| Record explanation | Existing project detail page: deterministic statements from the dated snapshot, paired amounts, exact difference, House reading, uncertainty and spending limits. Current live detail remains separately labeled. |
+| Community dashboard | Existing `/locations/:psgcCode`: topic and source-category counts, print-summary control, copy link, current-association update notes and links that preserve locality when filtering. |
+| Saved reading list | `/saved`: up to 100 public record references and 30 searches, stored only after a visitor chooses Save. Reopen searches, remove individual items, clear the notebook separately from legal acknowledgment and export saved records with source notices. |
+| Everyday needs | `/topics`: six mutually exclusive groups selected from source dataset/program labels. Topic links filter the existing explorer and combine with existing filters. No title-based guess about project benefit is used. Generic Local Program records remain Other infrastructure because that source program includes office buildings. |
+| Data reading notes | `/data-quality`: overlapping, explicitly qualified rules for uncertain pairings, missing amounts, regional association, source scope-review classification and named geographic-label review clues. Records are never corrected automatically. |
+| Budget glossary | `/glossary`: seven plain-language terms, search, English plus Filipino/Hiligaynon/Cebuano explanation drafts. English remains visible alongside translations; original data is not translated. |
+| Hearing mentions | `/hearings`: dated source-derived topic/moment index, geographic and text filters, source timestamps and citizen video links. No embedded third-party video or live search request is added. |
+
+The home page and Guide & sources disclosure link to the new tools; footer references and Data coverage also expose them. Saved-search links are copied only on request, with a selectable URL fallback. A search URL can expose its terms to a recipient or host, so the interface asks visitors to use public budget terms only.
+
+## Data and privacy boundaries
+
+- All seven existing snapshot checksums remain valid. The 866 comparison records, 851 source-confirmed NIR records and 5,253 historical families are unchanged. Existing money, missing-value and geographic rules remain in place.
+- Exactly one verified snapshot is currently retained. The update page calls it the baseline and does **not** manufacture historic additions, revisions, cancellations or new funding. A refresh rehearsal is not recorded as a fresh API retrieval.
+- `scripts/build-reading-data.ts` verifies retained scope checksums, compares explicit public record fields, ignores mere retrieval-time changes and preserves previous/current values. Builds require no API requests. The isolated refresh candidate carries retained snapshots forward and builds its receipt before preparing an artifact.
+- `npm run data:hearings` fetched four FY2027 source searches (Negros, Siquijor, Bacolod, Dumaguete), up to 100 topics each. After geographic-moment selection and deduplication, this extraction contains 21 topics and 33 indexed moments. Query counts/cap indicators and retrieval date are retained in `public/data/hearings.json`. This is a keyword index, not certified NIR coverage or a link between a hearing and a particular project. Source-provided machine-derived text is labeled accordingly; verify names, amounts and context in the video before quoting.
+- Reading-note counts overlap: 14 uncertain pairings, 260 records with an unavailable amount, 15 uncertain regional associations, 4 source scope-review records, and 1 named out-of-region review clue in this snapshot. A one-sided comparison amount can be expected; missing is not zero or automatically an error. The Catanduanes title on a source-NIR row is surfaced as a review clue without editing or excluding it.
+- Saved-item storage key: `betternegrosisland:notebook:v1`. Payloads contain record IDs and safe same-origin explorer/location paths plus labels; unknown URL parameters, external navigation and malformed payloads are rejected or discarded. Storage failures retain visit-only state with an explicit message. Cross-tab storage events update the view. No login, GPS, contact form, email alert, account service or server-side user notebook was introduced.
+- Privacy Notice and welcome copy describe the optional storage; document version is now `2026-11-03-privacy.6`, requiring renewed acknowledgment. No new terms were accepted during browser QA. Existing operator/host/rights-handling conditions in `docs/RELEASE.md` remain unresolved; this work is not legal clearance.
+- Filipino, Hiligaynon and Cebuano explanations are review drafts. Independent language review is still needed before describing them as reviewed translations. English explanations and source-document titles remain available.
+
+## Validation evidence
+
+- 67 automated tests passed, including new tests for exact/missing/zero amounts, unconfirmed explanations, non-mutating reading notes, topic partitioning, metadata-only versus substantive snapshot changes, before/after values, malformed or external saved paths, storage failures, hearing source/timestamp validation and checksum failure preserving the previous update index.
+- Full verification passes data checks, pattern triage, tests, lint, TypeScript/production build and generated routing/header consistency. Published JSON pattern scan covers 13 files and 268,957 strings with no pattern flags; this is not an exhaustive personal-data assessment or linked-PDF review.
+- Isolated refresh rehearsal passed with unchanged public snapshot and original retrieval date. The receipt stays a baseline. No full budget API refresh or public deployment was run.
+- Browser checks: six new routes at 320, 375, 768 and 1440 px, plus community view at those widths. No page overflow, clipped heading/button text or broken images. See `responsive.json` and `community-responsive.json`.
+- Saved a real Bago City Hospital record and a health-topic search, reloaded the browser page, reopened the search and observed 55 matching records with the health filter intact. Copied-search feedback and selectable safe URL were observed. The test bookmark/search were removed individually after QA.
+- Actual saved-record CSV download includes the unchanged exact amounts/source record, scope caveats and full provider notices. Export artifact: `saved-records.csv`. Evidence-card export remains separate.
+- Binalbagan dashboard showed 10 title-associated records; topic counts (1 road, 1 flood, 8 other) and source categories (7 unchanged, 3 House-only) reconcile to 10. Following Flood protection retained the locality and returned one record. Baseline update note remained explicit.
+- All three translation options showed seven matching translated explanations and the review-draft notice. Hearing geographic/text filters and no-match state were exercised.
+- Automated WCAG scans: six new views at desktop and 375 px, plus populated community view on mobile, report no violations and no incomplete checks. A visible/accessibility-name mismatch in the initial Save buttons was fixed and the populated-community audit rerun. Enlarged text-spacing preview passed on the hearing and community views. An additional mobile live-project explanation check reported no confirmed violations and eight incomplete contrast checks on the existing status symbol and live amount/source table, requiring manual review. These checks are not full WCAG or screen-reader certification.
+- Screenshots: `community-desktop.png`, `topics-desktop.png`, `saved-desktop.png`, `record-explanation.png`, `updates-desktop.png`, `quality-desktop.png`, `hearings-desktop.png`, `glossary-mobile.png`. Browser evidence uses local Chromium viewport emulation, not physical devices. Native print output and independent cross-browser acceptance remain unverified.
+
+## Deployment and operation
+
+The six new application paths and two mutable data indexes are included in the shared deployment policy. Missing assets remain 404; indexes revalidate instead of using immutable snapshot caching. Local Cloudflare HTTP checks passed for all 21 tested application/data/missing-asset cases, the production JavaScript module and immutable summary caching; all expected security headers were present. HTTP routing checks include these paths and indexes. The scheduled, opt-in refresh job refreshes the small hearing index before scanning/building the site candidate. No hosting credentials or new workflow write permissions were added. Hosting selection, enabling the scheduled job and actual site publication remain separate operational decisions.
+
+Source references: [BetterGov API documentation](https://budget.bettergov.ph/docs), original timestamped hearing URLs retained with each indexed moment. Public source records are presented with their original restrictions and attribution.

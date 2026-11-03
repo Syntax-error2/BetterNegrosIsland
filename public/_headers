@@ -8,6 +8,12 @@
 /data/manifest.json
   Cache-Control: no-cache, must-revalidate
 
+/data/update-history.json
+  Cache-Control: no-cache, must-revalidate
+
+/data/hearings.json
+  Cache-Control: no-cache, must-revalidate
+
 /data/refresh-status.json
   Cache-Control: no-cache, must-revalidate
 

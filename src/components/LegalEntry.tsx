@@ -57,7 +57,7 @@ export default function LegalEntry({ children }: { children: ReactNode }) {
             }}>Enter Transparency Portal</button>
             <button className="link-button decline" onClick={() => { setChecked(false); setDeclined(true); }}>I prefer to stay here</button>
             {declined && <p role="status" className="small">You can remain here and read the notices. No acknowledgment has been saved.</p>}
-            <p className="welcome-access">Free access. No login or registration.<br />Only the notice version is remembered in this browser.</p>
+            <p className="welcome-access">Free access. No login or registration.<br />The notice version is remembered in this browser. Records and searches are saved only when you choose to save them.</p>
           </section>
         </div>
       </div>

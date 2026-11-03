@@ -6,7 +6,7 @@ import { useSnapshot, type Manifest } from "../lib/snapshot";
 import BrandLogo from "./BrandLogo";
 
 const NAV = [["/", "Overview"], ["/projects", "Projects"], ["/provinces", "Places"], ["/analytics", "Analytics"], ["/budget-history", "Budget history"]];
-const RESOURCES = [["/budget-guide","One-minute budget guide"],["/compare","Compare two records"],["/data-coverage","Data coverage & updates"],["/methodology","Methodology & sources"],["/about","About the initiative"]];
+const RESOURCES = [["/updates","What changed in the data"],["/topics","Browse everyday needs"],["/saved","Saved records & searches"],["/data-quality","Data reading notes"],["/glossary","Budget glossary & languages"],["/hearings","Budget hearing mentions"],["/budget-guide","One-minute budget guide"],["/compare","Compare two records"],["/data-coverage","Data coverage & updates"],["/methodology","Methodology & sources"],["/about","About the initiative"]];
 
 export function Masthead() {
   const snapshot = useSnapshot<Manifest>();
@@ -66,7 +66,7 @@ export function Footer() {
         </div>
         <FooterLinks title="Explore">{[["/","Overview"],["/projects","Projects"],["/provinces","Places"],["/analytics","Analytics"],["/budget-history","Budget history"],["/data-coverage","Data coverage"]].map(([to,label]) => <li key={to}><Link to={to}>{label}</Link></li>)}</FooterLinks>
         <FooterLinks title="Information">
-          <li><Link to="/budget-guide">Budget reading guide</Link></li><li><Link to="/compare">Compare two records</Link></li><li><Link to="/methodology">Methodology</Link></li><li><Link to="/methodology#data-sources">Data sources</Link></li><li><Link to="/about">About the initiative</Link></li><li><a href={PORTAL_REPOSITORY_URL} target="_blank" rel="noopener noreferrer">BetterNegrosIsland repository</a></li><li><a href="https://bettergov.ph" target="_blank" rel="noopener noreferrer">BetterGov.PH</a></li><li><a href={SOURCE_CODE_URL} target="_blank" rel="noopener noreferrer">Original open-source repository</a></li>
+          <li><Link to="/updates">Data update history</Link></li><li><Link to="/saved">Saved items</Link></li><li><Link to="/topics">Browse everyday needs</Link></li><li><Link to="/data-quality">Data reading notes</Link></li><li><Link to="/glossary">Budget glossary & languages</Link></li><li><Link to="/hearings">Budget hearing mentions</Link></li><li><Link to="/budget-guide">Budget reading guide</Link></li><li><Link to="/compare">Compare two records</Link></li><li><Link to="/methodology">Methodology</Link></li><li><Link to="/methodology#data-sources">Data sources</Link></li><li><Link to="/about">About the initiative</Link></li><li><a href={PORTAL_REPOSITORY_URL} target="_blank" rel="noopener noreferrer">BetterNegrosIsland repository</a></li><li><a href="https://bettergov.ph" target="_blank" rel="noopener noreferrer">BetterGov.PH</a></li><li><a href={SOURCE_CODE_URL} target="_blank" rel="noopener noreferrer">Original open-source repository</a></li>
         </FooterLinks>
         <FooterLinks title="Legal & accountability">
           <li><Link to="/terms">Terms of Use</Link></li><li><Link to="/privacy">Privacy Notice</Link></li><li><Link to="/methodology#data-disclaimer">Full data disclaimer</Link></li><li><Link to="/methodology#source-attribution">Source attribution</Link></li><li><Link to="/about#operator">Operator information</Link></li>

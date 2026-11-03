@@ -1,4 +1,7 @@
 import { communityProjects } from "../lib/community";
+import { CommunityDashboard } from '../components/CommunityDashboard';
+import { SaveSearch } from '../components/ReadingTools';
+import { TOPICS,topicFor } from '../lib/citizen-insights';
 import KpiCard from "../components/KpiCard";
 import ProjectTable from "../components/ProjectTable";
 import { LOCATIONS, PROVINCES } from "../lib/geography";
@@ -166,6 +169,7 @@ function Projects({
 
   const [params, setParams] = useSearchParams();
   const q = params.get("q") ?? "";
+  const topic = params.get('topic') ?? '';
   const program = (params.get("program") ?? "") as DatasetKey | "";
   const status = (params.get("status") ?? "") as BridgeGroup | "";
   const why = params.get("why") ?? "";
@@ -223,6 +227,7 @@ function Projects({
     if (rangeError) return [];
     const words = q.toLowerCase().split(/\s+/).filter(Boolean);
     const rows = all.filter((p) => {
+      if(topic&&topicFor(p)!==topic)return false;
       const amount = stage === "nep" ? p.nep_php : p.house_php;
       if (province && !p.provinceMatches?.includes(province)) return false;
       if (min && (amount == null || amount < Number(min))) return false;
@@ -252,6 +257,7 @@ function Projects({
   }, [
     all,
     q,
+    topic,
     program,
     status,
     why,
@@ -266,7 +272,7 @@ function Projects({
   ]);
   const filteredSummary = useMemo(() => summarise(filtered), [filtered]);
   const narrowed = Boolean(
-    q ||
+    q || topic ||
       program ||
       status ||
       why ||
@@ -281,6 +287,7 @@ function Projects({
 
   return (
     <>
+      {locality&&<CommunityDashboard rows={all} code={LOCATIONS.find(l=>l.name===locality)?.code??''}/>}
       <PageHead
         titleLevel={locality ? 2 : 1}
         eyebrow={
@@ -365,6 +372,7 @@ function Projects({
           </button>
         </div>
 
+        <SaveSearch community={locality}/>
         <div className="explorer-search">
           {" "}
           <label className="field field-grow">
@@ -393,6 +401,7 @@ function Projects({
             </span>
           </summary>
           <div className="toolbar">
+            <label className="field"><span className="label">Everyday need</span><select value={topic} onChange={e=>setParam('topic',e.target.value)}><option value="">All topics</option>{TOPICS.map(t=><option key={t.id} value={t.id}>{t.name}</option>)}</select></label>
             <label className="field">
               <span className="label">Province title association</span>
               <select

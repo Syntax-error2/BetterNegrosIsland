@@ -1,0 +1,539 @@
+{
+  "retrieved_at": "2026-11-03T09:53:18.095Z",
+  "fiscal_year": 2027,
+  "queries": [
+    {
+      "term": "Negros",
+      "returned": 16,
+      "limit": 100,
+      "possibly_truncated": false
+    },
+    {
+      "term": "Siquijor",
+      "returned": 4,
+      "limit": 100,
+      "possibly_truncated": false
+    },
+    {
+      "term": "Bacolod",
+      "returned": 3,
+      "limit": 100,
+      "possibly_truncated": false
+    },
+    {
+      "term": "Dumaguete",
+      "returned": 1,
+      "limit": 100,
+      "possibly_truncated": false
+    }
+  ],
+  "hits": [
+    {
+      "id": "4wK1OLsr2lw:0",
+      "title": "COMMITTEE ON APPROPRIATIONS BUDGET - BRIEFING/HEARING OF THE FY 2027 PROPOSED BUDGET (DOH)",
+      "agency": "DOH",
+      "date": "2026-09-07",
+      "topic": "HFEP shortfall, utilization, reversions, and FY2027 catch-up funding",
+      "url": "https://budget.bettergov.ph/hearings/4wK1OLsr2lw?t=2072",
+      "terms": [
+        "Negros"
+      ],
+      "moments": [
+        {
+          "seconds": 2072,
+          "timestamp": "34:32",
+          "speaker": "Rep. Jeffrey Ferrer",
+          "said": "He asked how much HFEP allocation was proposed for the 4th District of Negros Occidental and raised the need for hospital expansion in the district.",
+          "url": "https://budget.bettergov.ph/hearings/4wK1OLsr2lw?t=2072"
+        }
+      ]
+    },
+    {
+      "id": "4wK1OLsr2lw:6",
+      "title": "COMMITTEE ON APPROPRIATIONS BUDGET - BRIEFING/HEARING OF THE FY 2027 PROPOSED BUDGET (DOH)",
+      "agency": "DOH",
+      "date": "2026-09-07",
+      "topic": "PhilHealth and private-hospital payment, billing, and reimbursement rules",
+      "url": "https://budget.bettergov.ph/hearings/4wK1OLsr2lw?t=345",
+      "terms": [
+        "Negros"
+      ],
+      "moments": [
+        {
+          "seconds": 2072,
+          "timestamp": "34:32",
+          "speaker": "Jeffrey Ferrer",
+          "said": "Ferrer asked how much HFEP funding was allocated to the 4th District of Negros Occidental and requested consideration of additional hospital-expansion funding.",
+          "url": "https://budget.bettergov.ph/hearings/4wK1OLsr2lw?t=2072"
+        }
+      ]
+    },
+    {
+      "id": "4wK1OLsr2lw:8",
+      "title": "COMMITTEE ON APPROPRIATIONS BUDGET - BRIEFING/HEARING OF THE FY 2027 PROPOSED BUDGET (DOH)",
+      "agency": "DOH",
+      "date": "2026-09-07",
+      "topic": "Hospital capacity, specialty facilities, and regional hospital development",
+      "url": "https://budget.bettergov.ph/hearings/4wK1OLsr2lw?t=2072",
+      "terms": [
+        "Negros"
+      ],
+      "moments": [
+        {
+          "seconds": 2072,
+          "timestamp": "34:32",
+          "speaker": "Jeffrey Ferrer",
+          "said": "Ferrer asked how much DOH had allocated for the fourth district of Negros Occidental.",
+          "url": "https://budget.bettergov.ph/hearings/4wK1OLsr2lw?t=2072"
+        }
+      ]
+    },
+    {
+      "id": "u6ZkgSOfGqc:0",
+      "title": "COMMITTEE ON APPROPRIATIONS - BUDGET BRIEFING/HEARING OF THE FY 2027 PROPOSED BUDGET (DOT)",
+      "agency": "DOT",
+      "date": "2026-09-07",
+      "topic": "Tourism infrastructure, access roads, and interagency project priorities",
+      "url": "https://budget.bettergov.ph/hearings/u6ZkgSOfGqc?t=3554",
+      "terms": [
+        "Siquijor"
+      ],
+      "moments": [
+        {
+          "seconds": 7245,
+          "timestamp": "2:00:45",
+          "speaker": "DOT Secretary",
+          "said": "The secretary said DOT's strategic direction focused on connectivity, domestic tourism, destination readiness, investment, and ease of entry. She identified the New Manila International Airport in Bulacan and proposed railway connectivity between Bulacan and Clark as key transport projects, and said DPWH and DOTR had distinct responsibilities for roads, ports, airports, and transport infrastructure. She also said Siquijor and Siargao had been designated as pilot sites for infrastructure projects under a March 2026-approved MOA.",
+          "url": "https://budget.bettergov.ph/hearings/u6ZkgSOfGqc?t=7245"
+        }
+      ]
+    },
+    {
+      "id": "u6ZkgSOfGqc:10",
+      "title": "COMMITTEE ON APPROPRIATIONS - BUDGET BRIEFING/HEARING OF THE FY 2027 PROPOSED BUDGET (DOT)",
+      "agency": "DOT",
+      "date": "2026-09-07",
+      "topic": "Terra Madre Asia Pacific event funding",
+      "url": "https://budget.bettergov.ph/hearings/u6ZkgSOfGqc?t=6141",
+      "terms": [
+        "Bacolod"
+      ],
+      "moments": [
+        {
+          "seconds": 6141,
+          "timestamp": "1:42:21",
+          "speaker": "Rep. Javi Benitez",
+          "said": "Rep. Benitez explained that the first Terra Madre Asia Pacific event was held in Bacolod the previous November, with participation from 25 countries, around 2500 delegates, and 75000 visitors. He said Slow Food International subsequently decided that Bacolod would be its regional hub.",
+          "url": "https://budget.bettergov.ph/hearings/u6ZkgSOfGqc?t=6141"
+        }
+      ]
+    },
+    {
+      "id": "u6ZkgSOfGqc:5",
+      "title": "COMMITTEE ON APPROPRIATIONS - BUDGET BRIEFING/HEARING OF THE FY 2027 PROPOSED BUDGET (DOT)",
+      "agency": "DOT",
+      "date": "2026-09-07",
+      "topic": "Tourism destination inventory and integrated development planning",
+      "url": "https://budget.bettergov.ph/hearings/u6ZkgSOfGqc?t=4257",
+      "terms": [
+        "Siquijor"
+      ],
+      "moments": [
+        {
+          "seconds": 7299,
+          "timestamp": "2:01:39",
+          "speaker": "the DOT secretary",
+          "said": "She said the secretary had approved a memorandum of agreement designating Siquijor and Siargao as pilot sites for infrastructure projects.",
+          "url": "https://budget.bettergov.ph/hearings/u6ZkgSOfGqc?t=7299"
+        }
+      ]
+    },
+    {
+      "id": "hMbMP6bpnEk:11",
+      "title": "COMMITTEE ON APPROPRIATIONS - BUDGET BRIEFING/HEARING OF THE FY 2027 PROPOSED BUDGET:  (CHR)",
+      "agency": "CHR",
+      "date": "2026-09-03",
+      "topic": "Protection of human-rights defenders and rapid-response legal deployment",
+      "url": "https://budget.bettergov.ph/hearings/hMbMP6bpnEk?t=1608",
+      "terms": [
+        "Negros"
+      ],
+      "moments": [
+        {
+          "seconds": 4784,
+          "timestamp": "1:19:44",
+          "speaker": "Representative Reneko",
+          "said": "Representative Reneko identified Southern Tagalog, Bicol, Negros, and Northern Mindanao as high-risk regions and urged consideration of an internal allocation formula, stronger human-rights capacity, and support for civil-society and people's organizations.",
+          "url": "https://budget.bettergov.ph/hearings/hMbMP6bpnEk?t=4784"
+        }
+      ]
+    },
+    {
+      "id": "hMbMP6bpnEk:3",
+      "title": "COMMITTEE ON APPROPRIATIONS - BUDGET BRIEFING/HEARING OF THE FY 2027 PROPOSED BUDGET:  (CHR)",
+      "agency": "CHR",
+      "date": "2026-09-03",
+      "topic": "CHR personnel, job-order funding, and regional vacancies",
+      "url": "https://budget.bettergov.ph/hearings/hMbMP6bpnEk?t=1608",
+      "terms": [
+        "Negros"
+      ],
+      "moments": [
+        {
+          "seconds": 8492,
+          "timestamp": "2:21:32",
+          "speaker": "CHR Richard Palpalato",
+          "said": "He said the Commission had significantly reduced its backlog in 2026, but regional offices still had considerable backlogs because of insufficient manpower. He identified Region 4 B, Region 7, and the Negros Island Region as areas of concern.",
+          "url": "https://budget.bettergov.ph/hearings/hMbMP6bpnEk?t=8492"
+        }
+      ]
+    },
+    {
+      "id": "hMbMP6bpnEk:4",
+      "title": "COMMITTEE ON APPROPRIATIONS - BUDGET BRIEFING/HEARING OF THE FY 2027 PROPOSED BUDGET:  (CHR)",
+      "agency": "CHR",
+      "date": "2026-09-03",
+      "topic": "Case backlog and capacity to resolve investigations",
+      "url": "https://budget.bettergov.ph/hearings/hMbMP6bpnEk?t=3378",
+      "terms": [
+        "Negros"
+      ],
+      "moments": [
+        {
+          "seconds": 8446,
+          "timestamp": "2:20:46",
+          "speaker": "Richard Palpalato, CHR chairperson",
+          "said": "Palpalato said insufficient staffing directly affected complaint intake, investigations, legal assessment, monitoring, visits, education, reporting, and follow-up. He identified Region 4-B, Region 7, and the Negros Island Region as falling behind with considerable backlogs, citing manpower shortages and geographic barriers.",
+          "url": "https://budget.bettergov.ph/hearings/hMbMP6bpnEk?t=8446"
+        }
+      ]
+    },
+    {
+      "id": "hMbMP6bpnEk:6",
+      "title": "COMMITTEE ON APPROPRIATIONS - BUDGET BRIEFING/HEARING OF THE FY 2027 PROPOSED BUDGET:  (CHR)",
+      "agency": "CHR",
+      "date": "2026-09-03",
+      "topic": "Jail visitation and monitoring of places of deprivation of liberty",
+      "url": "https://budget.bettergov.ph/hearings/hMbMP6bpnEk?t=845",
+      "terms": [
+        "Negros"
+      ],
+      "moments": [
+        {
+          "seconds": 4784,
+          "timestamp": "1:19:44",
+          "speaker": "Representative Reneko",
+          "said": "Representative Reneko urged consideration of an internal allocation formula that would account for high-risk regions, including Southern Tagalog, Bicol, Negros, and Northern Mindanao, and support human-rights capacity and civil-society organizations.",
+          "url": "https://budget.bettergov.ph/hearings/hMbMP6bpnEk?t=4784"
+        }
+      ]
+    },
+    {
+      "id": "hMbMP6bpnEk:7",
+      "title": "COMMITTEE ON APPROPRIATIONS - BUDGET BRIEFING/HEARING OF THE FY 2027 PROPOSED BUDGET:  (CHR)",
+      "agency": "CHR",
+      "date": "2026-09-03",
+      "topic": "Digital privacy, cyber threats, and digital evidence capacity",
+      "url": "https://budget.bettergov.ph/hearings/hMbMP6bpnEk?t=3394",
+      "terms": [
+        "Negros"
+      ],
+      "moments": [
+        {
+          "seconds": 4784,
+          "timestamp": "1:19:44",
+          "speaker": "Representative Reneko",
+          "said": "Reneko urged consideration of an internal allocation formula for high-risk regions, citing Southern Tagalog, Bicol, Negros, and Northern Mindanao, and called for stronger human-rights capacity and support for civil-society and people's organizations.",
+          "url": "https://budget.bettergov.ph/hearings/hMbMP6bpnEk?t=4784"
+        }
+      ]
+    },
+    {
+      "id": "DNWbvL3caqI:13",
+      "title": "COMMITTEE ON APPROPRIATIONS - BUDGET BRIEFING/HEARINGS OF THE FY 2027 PROPOSED BUDGET (DOE & ERC)",
+      "agency": "DOE & ERC",
+      "date": "2026-09-02",
+      "topic": "Ancillary services, stranded costs, and excess renewable capacity",
+      "url": "https://budget.bettergov.ph/hearings/DNWbvL3caqI?t=21204",
+      "terms": [
+        "Negros"
+      ],
+      "moments": [
+        {
+          "seconds": 22030,
+          "timestamp": "6:07:10",
+          "speaker": "Javi Benitez",
+          "said": "Javi Benitez said the Negros-Panay backbone had been completed but the second line remained unapproved, while the Amlan-Magete line had reportedly been moved to March 2027. He asked for the timeline, funding, and final approval of the relevant NGCP lines.",
+          "url": "https://budget.bettergov.ph/hearings/DNWbvL3caqI?t=22030"
+        },
+        {
+          "seconds": 22114,
+          "timestamp": "6:08:34",
+          "speaker": "Javi Benitez",
+          "said": "Javi Benitez warned that roughly 1,300 megawatts of projects could enter Negros by 2030 and raised potential renewable-energy curtailment risks, described in the transcript as about 10% and possibly 20% to 30%. He asked the DOE to respond.",
+          "url": "https://budget.bettergov.ph/hearings/DNWbvL3caqI?t=22114"
+        },
+        {
+          "seconds": 22246,
+          "timestamp": "6:10:46",
+          "speaker": "DOE Secretary Sharon",
+          "said": "The Secretary said DOE was also pushing for 50 megawatts of batteries in Negros to store power and provide an alternative response to the island's transmission and renewable-integration constraints.",
+          "url": "https://budget.bettergov.ph/hearings/DNWbvL3caqI?t=22246"
+        }
+      ]
+    },
+    {
+      "id": "DNWbvL3caqI:3",
+      "title": "COMMITTEE ON APPROPRIATIONS - BUDGET BRIEFING/HEARINGS OF THE FY 2027 PROPOSED BUDGET (DOE & ERC)",
+      "agency": "DOE & ERC",
+      "date": "2026-09-02",
+      "topic": "Electricity supply security, alerts, outages, and reserve capacity",
+      "url": "https://budget.bettergov.ph/hearings/DNWbvL3caqI?t=384",
+      "terms": [
+        "Siquijor"
+      ],
+      "moments": [
+        {
+          "seconds": 983,
+          "timestamp": "16:23",
+          "speaker": "Youssef Bacordo, DOE undersecretary",
+          "said": "DOE reported that the country maintained an average available fuel supply of fifty days and had restored 24/7 electricity in Siquijor while addressing prolonged interruptions in Catanduanes.",
+          "url": "https://budget.bettergov.ph/hearings/DNWbvL3caqI?t=983"
+        }
+      ]
+    },
+    {
+      "id": "DNWbvL3caqI:6",
+      "title": "COMMITTEE ON APPROPRIATIONS - BUDGET BRIEFING/HEARINGS OF THE FY 2027 PROPOSED BUDGET (DOE & ERC)",
+      "agency": "DOE & ERC",
+      "date": "2026-09-02",
+      "topic": "Transmission upgrades, congestion charges, and NGCP reliability",
+      "url": "https://budget.bettergov.ph/hearings/DNWbvL3caqI?t=3260",
+      "terms": [
+        "Negros"
+      ],
+      "moments": [
+        {
+          "seconds": 13654,
+          "timestamp": "3:47:34",
+          "speaker": "DOE Secretary Sharon",
+          "said": "The Secretary said DOE was developing a Visayas master plan that would examine whether major islands should become more independent in meeting their energy needs rather than relying continuously on Luzon-Visayas-Mindanao interconnections. The initial major islands identified were Panay, Negros, Cebu, Bohol, Leyte, and Samar.",
+          "url": "https://budget.bettergov.ph/hearings/DNWbvL3caqI?t=13654"
+        },
+        {
+          "seconds": 22030,
+          "timestamp": "6:07:10",
+          "speaker": "Javi Benitez",
+          "said": "He asked about the status and funding of Negros-Panay transmission Line 2 and the final approval of the CNP line. He said the backbone had cost 68,000,000,000, carried only 90 megawatts, and faced renewable-energy curtailment risks.",
+          "url": "https://budget.bettergov.ph/hearings/DNWbvL3caqI?t=22030"
+        },
+        {
+          "seconds": 22246,
+          "timestamp": "6:10:46",
+          "speaker": "DOE Secretary Sharon",
+          "said": "The Secretary said DOE was also pushing for 50 megawatts of batteries in Negros as an alternative means of storing power. She said NGCP reportedly had average annual dividends of 20,000,000,000, although she could not state its exact profit.",
+          "url": "https://budget.bettergov.ph/hearings/DNWbvL3caqI?t=22246"
+        }
+      ]
+    },
+    {
+      "id": "2Lva8nUWvOg:9",
+      "title": "COMMITTEE ON APPROPRIATIONS - BUDGET BRIEFING/HEARING OF THE FY 2027 PROPOSED BUDGET (DA and NIA)",
+      "agency": "DA and NIA",
+      "date": "2026-09-01",
+      "topic": "RSSI sugarcane infestation control and the 35,000,000 LGU allocation",
+      "url": "https://budget.bettergov.ph/hearings/2Lva8nUWvOg?t=6998",
+      "terms": [
+        "Negros"
+      ],
+      "moments": [
+        {
+          "seconds": 7492,
+          "timestamp": "2:04:52",
+          "speaker": "DA administrator",
+          "said": "He said the DA had met LGUs, especially in Negros, which would submit proposals for LGU-based laboratories to expand biocontrol-agent production.",
+          "url": "https://budget.bettergov.ph/hearings/2Lva8nUWvOg?t=7492"
+        },
+        {
+          "seconds": 7623,
+          "timestamp": "2:07:03",
+          "speaker": "DA administrator",
+          "said": "He clarified that the 35,000,000 was for the Negros Island region only. Additional budgets would be needed for Luzon and Bukidnon, where infestation rates were described as lower than in Negros.",
+          "url": "https://budget.bettergov.ph/hearings/2Lva8nUWvOg?t=7623"
+        }
+      ]
+    },
+    {
+      "id": "UfEbxg3OBOs:5",
+      "title": "COMMITTEE ON APPROPRIATIONS - BUDGET BRIEFING/HEARING OF THE FY 2027 PROPOSED BUDGET: (OVP)",
+      "agency": "OVP",
+      "date": "2026-09-01",
+      "topic": "Libreng Sakay routes, contracting, and passenger capacity",
+      "url": "https://budget.bettergov.ph/hearings/UfEbxg3OBOs?t=2106",
+      "terms": [
+        "Bacolod"
+      ],
+      "moments": [
+        {
+          "seconds": 2146,
+          "timestamp": "35:46",
+          "speaker": "an OVP official",
+          "said": "The official said the Libreng Sakay program currently had nine buses nationwide, including routes in Metro Manila and buses serving Cavite, Quiapo to Commonwealth, the EDSA Carousel, Tacloban, Bacolod City, Davao City, and Cebu.",
+          "url": "https://budget.bettergov.ph/hearings/UfEbxg3OBOs?t=2146"
+        }
+      ]
+    },
+    {
+      "id": "UfEbxg3OBOs:8",
+      "title": "COMMITTEE ON APPROPRIATIONS - BUDGET BRIEFING/HEARING OF THE FY 2027 PROPOSED BUDGET: (OVP)",
+      "agency": "OVP",
+      "date": "2026-09-01",
+      "topic": "OVP maintenance and other operating expenses and program manuals",
+      "url": "https://budget.bettergov.ph/hearings/UfEbxg3OBOs?t=1769",
+      "terms": [
+        "Bacolod"
+      ],
+      "moments": [
+        {
+          "seconds": 2146,
+          "timestamp": "35:46",
+          "speaker": "an OVP official",
+          "said": "The official said Libreng Sakay operated nine buses nationwide, including routes in Metro Manila and buses serving Tacloban, Bacolod, Davao City, and Cebu.",
+          "url": "https://budget.bettergov.ph/hearings/UfEbxg3OBOs?t=2146"
+        }
+      ]
+    },
+    {
+      "id": "b-dpNiLA3oI:13",
+      "title": "COMMITTEE ON APPROPRIATIONS - BUDGET BRIEFING/HEARINGS OF THE FY 2027 PROPOSED BUDGET (DHSUD)",
+      "agency": "DHSUD",
+      "date": "2026-08-25",
+      "topic": "Fire, flood, and calamity impacts on housing projects and settlements",
+      "url": "https://budget.bettergov.ph/hearings/b-dpNiLA3oI?t=5845",
+      "terms": [
+        "Negros"
+      ],
+      "moments": [
+        {
+          "seconds": 8577,
+          "timestamp": "2:22:57",
+          "speaker": "Rep. Maria Isabel Gavaria",
+          "said": "She said the Negros Island Region had the lowest budget, with an amount of only 9,400,000, which she believed might not even cover personnel staffing. She urged greater consideration for the region, particularly Negros Oriental's second district.",
+          "url": "https://budget.bettergov.ph/hearings/b-dpNiLA3oI?t=8577"
+        }
+      ]
+    },
+    {
+      "id": "I0gZIuO4DNI:11",
+      "title": "COMMITTEE ON APPROPRIATIONS - BUDGET BRIEFING/HEARINGS OF THE FY 2027 PROPOSED BUDGET (DND)",
+      "agency": "DND",
+      "date": "2026-08-25",
+      "topic": "Disaster-response assets, OCD capacity, and evacuation centers",
+      "url": "https://budget.bettergov.ph/hearings/I0gZIuO4DNI?t=1460",
+      "terms": [
+        "Negros"
+      ],
+      "moments": [
+        {
+          "seconds": 17021,
+          "timestamp": "4:43:41",
+          "speaker": "Jeffrey Ferrer, member",
+          "said": "Representative Ferrer asked about ongoing rehabilitation after flooding and Mount Kanlaon activity in Negros, including damage in the fourth and fifth districts. He emphasized the need to restore bridges and access routes serving communities.",
+          "url": "https://budget.bettergov.ph/hearings/I0gZIuO4DNI?t=17021"
+        },
+        {
+          "seconds": 17052,
+          "timestamp": "4:44:12",
+          "speaker": "Gilbert Teodoro, Secretary of National Defense",
+          "said": "Secretary Teodoro said the rehabilitation plan lacked sufficient detail, particularly on acquiring land for relocation in unaffected areas. He said OCD Negros would continue coordinating with OCD Central and pressing other agencies, including DBM, for action.",
+          "url": "https://budget.bettergov.ph/hearings/I0gZIuO4DNI?t=17052"
+        }
+      ]
+    },
+    {
+      "id": "-YAwilEO4sQ:5",
+      "title": "COMMITTEE ON APPROPRIATIONS",
+      "agency": "",
+      "date": "2026-08-24",
+      "topic": "MSME market access, financing, and bottom-up priorities",
+      "url": "https://budget.bettergov.ph/hearings/-YAwilEO4sQ?t=537",
+      "terms": [
+        "Negros"
+      ],
+      "moments": [
+        {
+          "seconds": 6446,
+          "timestamp": "1:47:26",
+          "speaker": "Rep. Maisa Sagarbarria",
+          "said": "Sagarbarria said the Negros Island Region had only 66,000,000 in the proposed regional budget and asked for a larger allocation because it was the newest and lowest-funded region.",
+          "url": "https://budget.bettergov.ph/hearings/-YAwilEO4sQ?t=6446"
+        }
+      ]
+    },
+    {
+      "id": "1s8_hW7pHbw:19",
+      "title": "COMMITTEE ON APPROPRIATIONS (AUGUST 17, 2026)",
+      "agency": "",
+      "date": "2026-08-17",
+      "topic": "Negros Island regional offices, plantilla positions, and funding",
+      "url": "https://budget.bettergov.ph/hearings/1s8_hW7pHbw?t=14885",
+      "terms": [
+        "Negros",
+        "Siquijor",
+        "Dumaguete"
+      ],
+      "moments": [
+        {
+          "seconds": 14885,
+          "timestamp": "4:08:05",
+          "speaker": "Deputy Speaker Chedeng Alvarez",
+          "said": "Alvarez said he was one of the principal authors of Republic Act 12,000, which created the Negros Island region and was signed in June 2024. More than two years later, residents of Negros Occidental, Negros Oriental, and Siquijor were awaiting a fully functional and funded regional structure.",
+          "url": "https://budget.bettergov.ph/hearings/1s8_hW7pHbw?t=14885"
+        },
+        {
+          "seconds": 14928,
+          "timestamp": "4:08:48",
+          "speaker": "Deputy Speaker Chedeng Alvarez",
+          "said": "He asked whether the agencies already had offices in the Negros Island region or were still relying on LGU facilities, and whether they had vehicles and complete staffs. He asked why regional offices and plantilla positions remained at varying stages of evaluation, finalization, and approval, and why some proposed 2027 budgets had reportedly been reduced.",
+          "url": "https://budget.bettergov.ph/hearings/1s8_hW7pHbw?t=14928"
+        },
+        {
+          "seconds": 14991,
+          "timestamp": "4:09:51",
+          "speaker": "DBM Secretary Kim De Leon",
+          "said": "De Leon said DBM had given higher priority to agency proposals supporting the establishment of Negros Island regional offices. DBM prioritized basic operating needs such as office setup or rent, vehicles, and necessary office equipment, and said the 2027 regional allocation for Negros Island was higher than allocations for other regions.",
+          "url": "https://budget.bettergov.ph/hearings/1s8_hW7pHbw?t=14991"
+        },
+        {
+          "seconds": 15083,
+          "timestamp": "4:11:23",
+          "speaker": "DBM Secretary Kim De Leon",
+          "said": "De Leon reported that, as of 07/28/2026, 30 national government agencies had approved plantilla positions and offices for their Negros Island regional offices. DBM had also received requests from an additional eight agencies that it was evaluating.",
+          "url": "https://budget.bettergov.ph/hearings/1s8_hW7pHbw?t=15083"
+        },
+        {
+          "seconds": 15417,
+          "timestamp": "4:16:57",
+          "speaker": "BLGF executive director",
+          "said": "The BLGF official said the agency was considering a satellite office in Dumaguete City because of the distance between the proposed main office in Negros Occidental and Negros Oriental and Siquijor.",
+          "url": "https://budget.bettergov.ph/hearings/1s8_hW7pHbw?t=15417"
+        },
+        {
+          "seconds": 15440,
+          "timestamp": "4:17:20",
+          "speaker": "Deputy Speaker Chedeng Alvarez",
+          "said": "Alvarez corrected the description of the geography, saying Negros Island was one main island and that Siquijor was about twenty minutes away. He welcomed the possible satellite office and invited departments to visit the region and consult their staff about operational needs.",
+          "url": "https://budget.bettergov.ph/hearings/1s8_hW7pHbw?t=15440"
+        },
+        {
+          "seconds": 15502,
+          "timestamp": "4:18:22",
+          "speaker": "BLGF executive director",
+          "said": "The BLGF official said the agency had recently visited the Negros Island region and had discussed the issue with the mayor of Dumaguete City. The mayor was willing to provide free space for a BLGF satellite office, and the agency was considering that option.",
+          "url": "https://budget.bettergov.ph/hearings/1s8_hW7pHbw?t=15502"
+        }
+      ]
+    }
+  ],
+  "notice": "Source-provided machine-derived hearing index, not a verbatim transcript or verified quotation. Geographic keyword matches do not certify NIR scope or link a hearing to a specific project. Verify names, figures and context in the original timestamped video before quoting. Four configured searches only; this is not a complete index of NIR discussions."
+}

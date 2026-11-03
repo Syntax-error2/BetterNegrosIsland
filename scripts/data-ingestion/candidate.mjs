@@ -24,6 +24,15 @@ export async function prepareCandidate({rehearse=false,execute=run}={}) {
     const after=await json(path.join(stage,'public/data/manifest.json'));
     const oldRows=(await json(path.join(repo,'public'+before.scope))).projects;
     const newRows=(await json(path.join(stage,'public'+after.scope))).projects;
+    // Carry retained verified snapshots into the candidate so the public reading
+    // history survives publication. Never overwrite a freshly extracted shard.
+    for(const entry of await fs.readdir(path.join(repo,'public/data/snapshots'),{withFileTypes:true})){
+      if(!entry.isDirectory())continue;
+      const destination=path.join(stage,'public/data/snapshots',entry.name);
+      try{await fs.access(destination);}catch{await fs.cp(path.join(repo,'public/data/snapshots',entry.name),destination,{recursive:true});}
+    }
+    try{await fs.copyFile(path.join(repo,'public/data/hearings.json'),path.join(stage,'public/data/hearings.json'));}catch(error){if(error.code!=='ENOENT')throw error;}
+    await execute('scripts/build-reading-data.ts',stage);
     const oldMap=new Map(oldRows.map(p=>[p.key,p]));
     const newMap=new Map(newRows.map(p=>[p.key,p]));
     const report={prepared_at:new Date().toISOString(),mode:rehearse?'EXISTING SNAPSHOT REHEARSAL — NO API REQUESTS':'FRESH API CANDIDATE',published:false,

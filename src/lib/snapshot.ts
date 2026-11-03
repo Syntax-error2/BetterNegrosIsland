@@ -41,7 +41,7 @@ export function snapshotJson<T>(url: string): Promise<T> {
   if(!/^\/data\/[a-zA-Z0-9/_.-]+\.json$/.test(url)||url.split('/').some(part=>part==='.'||part==='..'))return Promise.reject(new Error('Invalid snapshot path'));
   let p = cache.get(url);
   if (!p) {
-    p = fetch(url, { signal: AbortSignal.timeout(20000), credentials:'omit', referrerPolicy:'no-referrer', cache:/\/(manifest|refresh-status)\.json$/.test(url)?'no-cache':'default' }).then(async (r) => {
+    p = fetch(url, { signal: AbortSignal.timeout(20000), credentials:'omit', referrerPolicy:'no-referrer', cache:/\/(manifest|refresh-status|update-history|hearings)\.json$/.test(url)?'no-cache':'default' }).then(async (r) => {
       if (!r.ok || !/\bapplication\/(?:[a-z0-9.-]+\+)?json\b/i.test(r.headers.get('content-type')??'')) throw Error("Snapshot unavailable or not JSON");
       return r.json();
     });

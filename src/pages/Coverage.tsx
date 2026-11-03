@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { coverageSource, sourceHref } from "../lib/safe-url";
 import { External } from "../components/Bits";
 import { useEffect, useState } from "react";
@@ -54,7 +55,7 @@ export default function Coverage() {
   return (
     <main id="main-content" tabIndex={-1} className="page main">
       <p className="eyebrow">COLLECTION LEDGER</p>
-      <h1>Know what the data covers.</h1>
+      <h1>Know what the data covers.</h1><p><Link to="/updates">Read snapshot update receipts and changes</Link> · <Link to="/data-quality">Inspect record reading notes</Link></p>
       <p>
         Pagination completeness is a property of a query, not proof that every
         public budget record has been collected.

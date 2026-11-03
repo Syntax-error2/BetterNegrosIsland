@@ -9,7 +9,7 @@
     "dev": "vite",
     "setup": "tsx scripts/setup.ts",
     "check": "npm run data:validate",
-    "build": "node scripts/generate-deployment.mjs && tsc -b && vite build",
+    "build": "npm run data:reading && node scripts/generate-deployment.mjs && tsc -b && vite build",
     "preview": "vite preview",
     "lint": "eslint .",
     "deploy:cloudflare": "npm run verify && wrangler deploy",
@@ -25,7 +25,9 @@
     "data:privacy-review": "tsx scripts/privacy-review.ts",
     "audit:published": "tsx scripts/audit-published.ts",
     "deployment:check": "node scripts/generate-deployment.mjs --check",
-    "verify": "npm run data:validate && npm run data:privacy-review && npm run audit:published && npm test && npm run lint && npm run build && npm run deployment:check"
+    "verify": "npm run data:validate && npm run data:privacy-review && npm run audit:published && npm test && npm run lint && npm run build && npm run deployment:check",
+    "data:reading": "tsx scripts/build-reading-data.ts",
+    "data:hearings": "tsx scripts/refresh-hearings.ts"
   },
   "dependencies": {
     "@fontsource/anton": "^5.3.0",

@@ -58,11 +58,13 @@ export default function Legal() {
           <dl className="privacy-inventory">
             <dt>Local notice acknowledgment</dt>
             <dd>
-              Your browser stores only the current legal document version under{" "}
+              Your browser stores the current legal document version under{" "}
               <code>{ACK_KEY}</code>. It is not sent to a portal backend and
               does not identify you. You can remove it below. If storage is
               blocked, entry works in memory for the current page session.
             </dd>
+            <dt>Optional saved records and searches</dt>
+            <dd>When you choose Save record or Save this search, this browser stores public record identifiers and the selected search path and terms under <code>betternegrosisland:notebook:v1</code>. There is no account or automatic cross-device synchronization. Use public budget terms only; do not save personal information in searches. Other people using this browser profile can see these items. They remain until removed in <Link to="/saved">Saved items</Link> or browser data is cleared. Clearing saved items leaves the notice acknowledgment in place. If storage fails, the reading list is held in memory for the current visit and is labeled accordingly.</dd>
             <dt>Technical delivery</dt>
             <dd>
               Serving pages and data can reveal IP addresses, browser/request
@@ -130,7 +132,7 @@ export default function Legal() {
           <h2>4. Purposes, lawful criteria and retention</h2>
           <p>
             The defined purposes are delivering public budget information,
-            explaining source limitations and remembering that the current
+            explaining source limitations, keeping a reading list when requested and remembering that the current
             notices were provided. The operator must document the applicable
             lawful criteria, processor arrangements, technical safeguards, log
             retention and any international processing before public launch.
@@ -150,7 +152,7 @@ export default function Legal() {
             advertising, tracking, arbitrary personal data processing, or
             disclosure. If a future activity requires consent, it must have its
             own specific explanation, choice and appropriate withdrawal
-            mechanism. No such optional processing is enabled here.
+            mechanism. Saved items use optional local browser storage only when selected; no account, advertising or report-submission service is enabled.
           </p>
           <h2 id="privacy-rights">6. Rights and complaints</h2>
           <p>
@@ -281,7 +283,7 @@ export default function Legal() {
       )}
       </div>
       <p className="fine">
-        Review draft revised 3 November 2026. Updated source navigation and full disclaimer access; this version requires renewed acknowledgment.{" "}
+        Review draft revised 3 November 2026. Updated optional saved-item storage, reading tools and source access; this version requires renewed acknowledgment.{" "}
         <Link state={{ returnTo }} to={privacy ? "/terms" : "/privacy"}>
           {privacy ? "Read the Terms of Use" : "Read the Privacy Notice"}
         </Link>

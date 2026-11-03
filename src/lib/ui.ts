@@ -7,7 +7,7 @@ export function observePromise<T>(promise: Promise<T>): Promise<T> {
 export function fragmentId(hash: string): string {
   try { return decodeURIComponent(hash.replace(/^#/, '')); } catch { return ''; }
 }
-export const PROJECT_FILTERS = ['q','program','status','why','office','min','max','lgu','sort','province','stage'] as const;
+export const PROJECT_FILTERS = ['q','program','status','why','office','min','max','lgu','sort','province','stage','topic'] as const;
 export function clearProjectFilters(params: URLSearchParams): URLSearchParams {
   const next = new URLSearchParams(params);
   PROJECT_FILTERS.forEach(key => next.delete(key));

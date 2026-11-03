@@ -15,6 +15,12 @@
 /about /index.html 200
 /districts /index.html 200
 /we-are-not-ignorant /index.html 200
+/saved /index.html 200
+/topics /index.html 200
+/updates /index.html 200
+/data-quality /index.html 200
+/glossary /index.html 200
+/hearings /index.html 200
 /projects/:dataset/:id /index.html 200
 /evidence/:dataset/:id /index.html 200
 /provinces/:slug /index.html 200

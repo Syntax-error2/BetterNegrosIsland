@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-03T05:41:35.860Z",
+  "checked_at": "2026-11-03T10:18:34.682Z",
   "origin": "http://127.0.0.1:5134",
   "cases": [
     {
@@ -14,6 +14,62 @@
       "status": 200,
       "type": "text/html; charset=utf-8",
       "cache": "public, max-age=0, must-revalidate",
+      "result": "PASS"
+    },
+    {
+      "path": "/topics",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "cache": "public, max-age=0, must-revalidate",
+      "result": "PASS"
+    },
+    {
+      "path": "/updates",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "cache": "public, max-age=0, must-revalidate",
+      "result": "PASS"
+    },
+    {
+      "path": "/saved",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "cache": "public, max-age=0, must-revalidate",
+      "result": "PASS"
+    },
+    {
+      "path": "/data-quality",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "cache": "public, max-age=0, must-revalidate",
+      "result": "PASS"
+    },
+    {
+      "path": "/glossary",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "cache": "public, max-age=0, must-revalidate",
+      "result": "PASS"
+    },
+    {
+      "path": "/hearings",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "cache": "public, max-age=0, must-revalidate",
+      "result": "PASS"
+    },
+    {
+      "path": "/data/update-history.json",
+      "status": 200,
+      "type": "application/json",
+      "cache": "no-cache, must-revalidate",
+      "result": "PASS"
+    },
+    {
+      "path": "/data/hearings.json",
+      "status": 200,
+      "type": "application/json",
+      "cache": "no-cache, must-revalidate",
       "result": "PASS"
     },
     {
@@ -95,7 +151,7 @@
     }
   ],
   "module": {
-    "path": "/assets/index-BLpLaovS.js",
+    "path": "/assets/index-Cj5BkVmn.js",
     "status": 200,
     "result": "PASS"
   },

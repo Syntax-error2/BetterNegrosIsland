@@ -40,6 +40,7 @@ jobs:
           const c=JSON.parse(fs.readFileSync('release/nir-refresh/latest.json'));
           fs.cpSync(c.directory+'/public/data','public/data',{recursive:true});
           JS
+      - run: npm run data:hearings
       - run: npm run data:validate
       - run: npm run audit:published
       - name: Verify current-candidate integrity, cards and community summaries

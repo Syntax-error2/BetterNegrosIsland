@@ -37,3 +37,11 @@ npm run data:refresh:candidate
 Successful packages are saved under ignored `release/nir-refresh/`; `latest.json` points only to the last successful candidate. The candidate command never promotes local public data or deploys. Its rehearsal report explicitly retains the original retrieval date and is not represented as a fresh API fetch. Privacy pattern triage is not exhaustive personal-information/PDF review.
 
 References: [GitHub scheduled workflows](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule), [BetterGov.PH API specification](https://budget.bettergov.ph/api/v1/openapi.json).
+
+## Citizen reading receipts and hearing index
+
+Every production build now runs `npm run data:reading`. This performs no network requests: it verifies retained scope checksums and builds `public/data/update-history.json`. One retained snapshot is explicitly a baseline, with null change counts. Later retained snapshots produce added/revised/removed records and previous/current amounts. Retrieval timestamps alone do not create record changes. The isolated candidate carries previous verified snapshot directories forward so the history survives publishing a candidate.
+
+`npm run data:hearings` separately refreshes four capped FY2027 geographic keyword searches and atomically replaces the small source-derived hearing index only after validation and pattern triage. It is not a complete NIR hearing crawl. The opt-in GitHub refresh workflow refreshes this index before its published-data scan and build. An extraction/schema failure stops site-artifact preparation; it does not publish a partial index. Routine builds do not contact the API.
+
+See [citizen reading tools and QA](qa/citizen-reading/REPORT.md) for feature boundaries, optional local saved-item storage and translation-review limitations. These additions do not enable the scheduled workflow or configure a hosting deployment.

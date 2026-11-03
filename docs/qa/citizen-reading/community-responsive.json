@@ -1,0 +1,158 @@
+[
+  {
+    "brokenImages": [],
+    "clipped": [],
+    "heading": "Binalbagan",
+    "kpis": [
+      {
+        "height": 205,
+        "noteBottom": 2383.7251472473145,
+        "top": 2254.324951171875,
+        "valueClient": 199,
+        "valueWidth": 199
+      },
+      {
+        "height": 224.1999969482422,
+        "noteBottom": 2607.925148010254,
+        "top": 2459.324951171875,
+        "valueClient": 195,
+        "valueWidth": 195
+      },
+      {
+        "height": 224.1999969482422,
+        "noteBottom": 2832.125099182129,
+        "top": 2683.525146484375,
+        "valueClient": 195,
+        "valueWidth": 195
+      },
+      {
+        "height": 223.40000915527344,
+        "noteBottom": 3056.325050354004,
+        "top": 2907.72509765625,
+        "valueClient": 195,
+        "valueWidth": 195
+      }
+    ],
+    "pageWidth": 305,
+    "path": "/locations/1804503000",
+    "scrollWidth": 305,
+    "width": 320
+  },
+  {
+    "brokenImages": [],
+    "clipped": [],
+    "heading": "Binalbagan",
+    "kpis": [
+      {
+        "height": 205,
+        "noteBottom": 2252.2000007629395,
+        "top": 2122.800048828125,
+        "valueClient": 254,
+        "valueWidth": 254
+      },
+      {
+        "height": 224.1999969482422,
+        "noteBottom": 2476.400001525879,
+        "top": 2327.800048828125,
+        "valueClient": 250,
+        "valueWidth": 250
+      },
+      {
+        "height": 224.1999969482422,
+        "noteBottom": 2700.599952697754,
+        "top": 2552,
+        "valueClient": 250,
+        "valueWidth": 250
+      },
+      {
+        "height": 223.40000915527344,
+        "noteBottom": 2924.800148010254,
+        "top": 2776.199951171875,
+        "valueClient": 250,
+        "valueWidth": 250
+      }
+    ],
+    "pageWidth": 360,
+    "path": "/locations/1804503000",
+    "scrollWidth": 360,
+    "width": 375
+  },
+  {
+    "brokenImages": [],
+    "clipped": [],
+    "heading": "Binalbagan",
+    "kpis": [
+      {
+        "height": 223.6000061035156,
+        "noteBottom": 1676.0248069763184,
+        "top": 1528.0247802734375,
+        "valueClient": 292,
+        "valueWidth": 292
+      },
+      {
+        "height": 223.6000061035156,
+        "noteBottom": 1678.800075531006,
+        "top": 1530.800048828125,
+        "valueClient": 292,
+        "valueWidth": 292
+      },
+      {
+        "height": 227.6000061035156,
+        "noteBottom": 1907.199977874756,
+        "top": 1754.4000244140625,
+        "valueClient": 292,
+        "valueWidth": 292
+      },
+      {
+        "height": 227.6000061035156,
+        "noteBottom": 1907.200050354004,
+        "top": 1754.4000244140625,
+        "valueClient": 292,
+        "valueWidth": 292
+      }
+    ],
+    "pageWidth": 753,
+    "path": "/locations/1804503000",
+    "scrollWidth": 753,
+    "width": 768
+  },
+  {
+    "brokenImages": [],
+    "clipped": [],
+    "heading": "Binalbagan",
+    "kpis": [
+      {
+        "height": 233.1999969482422,
+        "noteBottom": 1440.5465354919434,
+        "top": 1282.146484375,
+        "valueClient": 282,
+        "valueWidth": 282
+      },
+      {
+        "height": 233.1999969482422,
+        "noteBottom": 1442.7540550231934,
+        "top": 1284.35400390625,
+        "valueClient": 282,
+        "valueWidth": 282
+      },
+      {
+        "height": 233.1999969482422,
+        "noteBottom": 1445.4000511169434,
+        "top": 1287,
+        "valueClient": 282,
+        "valueWidth": 282
+      },
+      {
+        "height": 233.1999969482422,
+        "noteBottom": 1445.400001525879,
+        "top": 1287,
+        "valueClient": 283,
+        "valueWidth": 283
+      }
+    ],
+    "pageWidth": 1425,
+    "path": "/locations/1804503000",
+    "scrollWidth": 1425,
+    "width": 1440
+  }
+]
