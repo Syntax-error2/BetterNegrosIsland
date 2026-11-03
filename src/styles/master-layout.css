@@ -22,7 +22,7 @@
 .eyebrow { text-transform: none; letter-spacing: .01em; }
 .civic-logo { display: block; width: 100%; height: auto; object-fit: contain; }
 .civic-strip { font-family: var(--font-body); font-size: 11px; letter-spacing: 0; }
-.civic-strip .page { min-height: 28px; padding-block: 4px; gap: 16px; font-size: inherit; letter-spacing: inherit; }
+.civic-strip .page { min-height: 40px; padding-block: 8px; gap: 16px; font-size: inherit; letter-spacing: inherit; }
 .civic-header { background: white; border-bottom: 1px solid var(--rule); }
 .civic-header-grid { display: grid; grid-template-columns: 210px minmax(0,1fr) auto; align-items: center; gap: 24px; padding-block: 6px; }
 .civic-header-brand { display: block; width: 100%; min-width: 0; }
