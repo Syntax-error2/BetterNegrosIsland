@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { currentSnapshot, selectedPath } from '../lib/snapshot-selection';
 import { Link } from "react-router-dom";
 import { useSnapshot, snapshotJson, type Manifest } from "../lib/snapshot";
 import { type SnapshotChange, communitySummary } from "../lib/citizen-insights";
@@ -35,7 +36,7 @@ export function CommunityDashboard({
               onClick={async () => {
                 try {
                   await navigator.clipboard.writeText(
-                    location.origin + "/locations/" + code,
+                    location.origin + selectedPath("/locations/" + code),
                   );
                   setCopied("Community link copied.");
                 } catch {
@@ -84,8 +85,8 @@ export function CommunityDashboard({
         Physical locations and exclusive LGU allocations remain unverified.{" "}
         <Link to="/data-quality">Read uncertainty notes</Link>.
       </p>
-      <CommunityRecent rows={rows} />
-      <Link to="/updates">See changes between retained snapshots</Link>
+      {!currentSnapshot().version && <CommunityRecent rows={rows} />}
+      <a href="/updates">See the latest changes between retained snapshots</a>
     </section>
   );
 }

@@ -8,8 +8,8 @@ test('host fallbacks cover real application routes without swallowing missing da
   const files=deploymentFiles();
   const vercel=JSON.parse(files['vercel.json']);
   const matches=(url:string)=>clientRoutes.some((route:string)=>new RegExp('^'+route.replace(/:[a-zA-Z]+/g,'[^/]+')+'/?$').test(url));
-  for(const url of ['/analytics','/privacy','/we-are-not-ignorant','/projects/dpwh/house-reading%3A1918','/evidence/hfep/ib%3Ap885%3Ar51%7Cinfrastructure'])assert.ok(matches(url),url);
-  for(const url of ['/data/missing.json','/assets/missing.js','/brand/missing.png','/favicon.ico','/.env','/__qa/charts'])assert.equal(matches(url),false,url);
+  for(const url of ['/analytics','/privacy','/corrections','/snapshots/2026-11-02-37334582ca74/projects','/snapshots/2026-11-02-37334582ca74/projects/dpwh/house-reading%3A1918','/we-are-not-ignorant','/projects/dpwh/house-reading%3A1918','/evidence/hfep/ib%3Ap885%3Ar51%7Cinfrastructure'])assert.ok(matches(url),url);
+  for(const url of ['/data/missing.json','/assets/missing.js','/snapshots/2026-11-02-37334582ca74/assets/missing.js','/brand/missing.png','/favicon.ico','/.env','/__qa/charts'])assert.equal(matches(url),false,url);
   assert.equal(vercel.rewrites.length,clientRoutes.length);
   const headers=Object.fromEntries(vercel.headers[0].headers.map((h:{key:string;value:string})=>[h.key,h.value]));
   assert.deepEqual(headers,securityHeaders);

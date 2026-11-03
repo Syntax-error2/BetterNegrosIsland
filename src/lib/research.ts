@@ -1,4 +1,5 @@
 import type { Manifest } from './snapshot';
+import { snapshotPath } from './snapshot-selection';
 
 export const RESEARCH_FIELDS: Record<string, string> = {
   program: 'Source dataset: DPWH, FMR, HFEP or NIA. This is not an inferred service category.',
@@ -29,7 +30,7 @@ export function researchCitation(m: Manifest, origin: string): string {
     throw Error('A public HTTPS origin or local preview is required.');
   }
   if (!m.version || !Number.isFinite(Date.parse(m.retrieved_at))) throw Error('Snapshot citation metadata is unavailable.');
-  return `BetterNegrosIsland. Negros Island Region budget document portal [Snapshot ${m.version}; FY2027 NEP/House comparison and FY2020–2026 GAA title-search records]. Budget data: BetterGov.PH. Retrieved by the portal: ${m.retrieved_at}. Source build: ${m.source_build}. ${new URL('/methodology#research', site.origin).href}`;
+  return `BetterNegrosIsland. Negros Island Region budget document portal [Snapshot ${m.version}; FY2027 NEP/House comparison and FY2020–2026 GAA title-search records]. Budget data: BetterGov.PH. Retrieved by the portal: ${m.retrieved_at}. Source build: ${m.source_build}. ${new URL(snapshotPath('/methodology#research',m.version), site.origin).href}`;
 }
 
 export function researchNotes(m: Manifest, origin: string, sourceNotices: readonly string[]): string {
@@ -41,7 +42,7 @@ export function researchNotes(m: Manifest, origin: string, sourceNotices: readon
     'Adapt the citation to your required style. Separately cite the originating agency, document title, fiscal year, budget stage, page/row and URL for each finding. No DOI or archival permanence is claimed.',
     '', 'REPRODUCIBILITY CHECKLIST',
     '1. Record your research question, unit of analysis and exact filters, query terms and exclusions.',
-    '2. Retain the exported rows, this snapshot metadata, source PDFs and their retrieval/access dates where lawful. Shared filter URLs may resolve against a later snapshot.',
+    '2. Use Share this exact snapshot to preserve filters and the budget data version. Retain exported rows, metadata and source documents where lawful; external sources and explanatory notices can change and online retention is not guaranteed.',
     '3. Compare the same budget stage and House reading. Keep nominal PHP, missing values and uncertainty flags distinct. Never add NEP and House versions.',
     '4. Deduplicate by program plus source ID; inspect uncertain pairings. Document a sensitivity analysis with and without uncertain/title-only matches.',
     '5. Verify findings against the original document. Geographic title matches and shared offices do not prove physical location or sponsorship.',

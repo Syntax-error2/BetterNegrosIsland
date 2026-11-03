@@ -1,5 +1,7 @@
-export const clientRoutes=['/','/projects','/projects/:dataset/:id','/evidence/:dataset/:id','/provinces','/provinces/:slug','/locations/:psgcCode','/municipalities','/municipalities/:slug','/analytics','/compare','/budget-guide','/budget-history','/data-coverage','/methodology','/terms','/privacy','/gaa','/about','/districts','/we-are-not-ignorant','/saved','/topics','/updates','/data-quality','/glossary','/hearings'];
+const baseRoutes=['/','/projects','/projects/:dataset/:id','/evidence/:dataset/:id','/provinces','/provinces/:slug','/locations/:psgcCode','/municipalities','/municipalities/:slug','/analytics','/compare','/budget-guide','/budget-history','/data-coverage','/methodology','/terms','/privacy','/corrections','/gaa','/about','/districts','/we-are-not-ignorant','/saved','/topics','/updates','/data-quality','/glossary','/hearings'];
+export const clientRoutes=[...baseRoutes,...baseRoutes.map(p=>'/snapshots/:snapshot'+(p==='/'?'':p))];
 import fs from 'node:fs';
+import { createHash } from 'node:crypto';
 export const securityHeaders={
   'X-Content-Type-Options':'nosniff',
   'X-Frame-Options':'DENY',
@@ -7,12 +9,23 @@ export const securityHeaders={
   'Permissions-Policy':'camera=(), microphone=(), geolocation=(), payment=(), usb=()',
   'Content-Security-Policy':"default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self' https://budget.bettergov.ph; font-src 'self'; manifest-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'",
 };
-const current=JSON.parse(fs.readFileSync('public/data/manifest.json','utf8'));
-const shards=Object.keys(current.checksums).sort();
-for(const shard of shards)if(!shard.startsWith('/data/snapshots/')||!fs.existsSync('public'+shard))throw Error('Cannot configure caching for an absent snapshot shard');
+const shards=[];
+for(const version of fs.readdirSync('public/data/snapshots')){
+  if(!/^\d{4}-\d{2}-\d{2}-[a-f0-9]{12,64}$/.test(version))throw Error('Invalid retained snapshot directory');
+  const prefix='/data/snapshots/'+version;
+  const m=JSON.parse(fs.readFileSync('public'+prefix+'/manifest.json','utf8'));
+  if(m.version!==version)throw Error('Retained snapshot identity mismatch');
+  for(const field of ['scope','overview','districts','history','nep','summary','coverage']){
+    const url=prefix+'/'+field+'.json';
+    if(m[field]!==url || createHash('sha256').update(fs.readFileSync('public'+url)).digest('hex')!==m.checksums?.[url])throw Error('Cannot cache an unverified snapshot shard');
+    shards.push(url);
+  }
+  shards.push(prefix+'/manifest.json');
+}
+shards.sort();
 // Exact existing shards only: a wildcard immutable rule also caches missing
 // JSON/JS responses for a year and can obstruct recovery from a failed request.
-export const cacheRules=[['/data/manifest.json','no-cache, must-revalidate'],['/data/update-history.json','no-cache, must-revalidate'],['/data/hearings.json','no-cache, must-revalidate'],['/data/refresh-status.json','no-cache, must-revalidate'],...shards.map(p=>[p,'public, max-age=31536000, immutable'])];
+export const cacheRules=[...['manifest','update-history','hearings','refresh-status','corrections'].map(n=>['/data/'+n+'.json','no-cache, must-revalidate']),...shards.map(p=>[p,'public, max-age=31536000, immutable'])];
 export function deploymentFiles(){
   const headers='/*\n'+Object.entries(securityHeaders).map(([k,v])=>`  ${k}: ${v}`).join('\n')+'\n\n'+cacheRules.map(([p,v])=>`${p}\n  Cache-Control: ${v}`).join('\n\n')+'\n';
   const orderedRoutes=[...clientRoutes].sort((a,b)=>Number(a.includes(':'))-Number(b.includes(':')));

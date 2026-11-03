@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { hasAcknowledgment, saveAcknowledgment } from "../lib/legal";
 import BrandLogo from "./BrandLogo";
 import { PROVINCES } from "../lib/geography";
-const PUBLIC_READING_PAGES = ['/terms', '/privacy', '/methodology'];
+const PUBLIC_READING_PAGES = ['/terms', '/privacy', '/methodology', '/corrections'];
 
 export default function LegalEntry({ children }: { children: ReactNode }) {
   const [entered, setEntered] = useState(() => {
@@ -47,6 +47,7 @@ export default function LegalEntry({ children }: { children: ReactNode }) {
             </div>
             <Link to="/terms#full-data-disclaimer" state={returnState}>Read the full data disclaimer</Link>
             <p><Link to="/methodology#research">Research & methodology</Link></p>
+            <p><Link to="/corrections">Corrections & privacy requests</Link></p>
             <p className="welcome-data-note">Budget proposals and appropriations are not proof of actual spending.</p>
             <label className="acknowledgment">
               <input type="checkbox" checked={checked} onChange={e => { setChecked(e.target.checked); setDeclined(false); }} />

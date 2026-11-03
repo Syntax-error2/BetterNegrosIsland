@@ -15,7 +15,7 @@ export default function RegionalMethodology() {
       <p>Use this portal for descriptive and exploratory research into published budget documents. Verify findings against the original records and report the limits of this collection.</p>
       <nav className="research-methods-nav" aria-label="Research and methodology contents"><a href="#research">Research toolkit</a><a href="#research-checklist">Verification checklist</a><a href="#budget-methods">Budget methods</a><a href="#data-sources">Source documents</a></nav>
       <section id="research" aria-labelledby="research-heading"><h2 id="research-heading">Research toolkit</h2>
-        <p>Keep a dated citation, your exported data and the source documents together. Shared links can show newer records later. Research use does not override privacy responsibilities or source restrictions.</p>
+        <p>Keep a dated citation, exported data and source documents together. Choose “Share this exact snapshot” to preserve the budget version and filters. Ordinary latest-view links can show newer records later. Research use does not override privacy responsibilities or source restrictions.</p>
         {m.status === 'ready' ? <ResearchToolkit manifest={m.value} origin={config.siteUrl || window.location.origin} sourceNotices={overview.status === 'ready' ? [overview.value.meta.notice, ...overview.value.disclaimers.map(d => [d.title, d.body, d.restrictions_url ?? d.url, d.upstream_restrictions_url].filter(Boolean).join(' '))].filter(Boolean) : []} /> : <p role="status">Snapshot metadata is {m.status === 'loading' ? 'loading' : 'unavailable'}. Citation and research-note downloads require that metadata.</p>}
       </section>
       <section id="research-checklist" aria-labelledby="research-checklist-heading"><h2 id="research-checklist-heading">Before reporting a finding</h2>
@@ -75,11 +75,7 @@ export default function RegionalMethodology() {
       </p>
       <h3>6. Know the snapshot and refresh behavior</h3>
       <p>
-        Pages use dated static snapshots; project details can retrieve a newer
-        live source record. Use the displayed source build dates before
-        comparing them. Automated extraction validates page counts and safe peso
-        integers and preserves raw records. A failed extraction leaves the last
-        successful public pointer intact and writes a failure report.
+        Pages use dated static snapshots. Latest-view project details can request a newer live source record; saved snapshot routes use archived records only and verify file checksums. Missing saved snapshots fail explicitly instead of substituting newer data. Automated extraction prepares a validated review candidate. A reviewed merge publishes through Vercel; failed preparation leaves the live snapshot intact. Check GitHub Actions for refresh attempts and the displayed retrieval date for the last published data.
       </p>
       {m.status === "ready" && (
         <p className="notice">

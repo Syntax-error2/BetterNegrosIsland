@@ -17,7 +17,7 @@ test('source navigation trusts exact HTTPS hosts and preserves PDF fragments', (
 });
 
 test('every published project has a trusted citizen source, never an API default', () => {
-  const manifest = JSON.parse(readFileSync('public/data/manifest.json','utf8'));
+  const manifest = JSON.parse(readFileSync('public/data/snapshots/2026-11-02-37334582ca74/manifest.json','utf8'));
   const {projects} = JSON.parse(readFileSync('public'+manifest.scope,'utf8'));
   assert.equal(projects.length,866);
   for (const p of projects) {

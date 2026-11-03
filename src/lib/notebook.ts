@@ -1,4 +1,5 @@
 import { PROJECT_FILTERS } from "./ui";
+import { snapshotSelection } from './snapshot-selection';
 export const NOTEBOOK_KEY = "betternegrosisland:notebook:v1";
 export interface SavedSearch {
   path: string;
@@ -18,7 +19,7 @@ export function safeSearchPath(value: unknown): string | null {
   if (
     typeof value !== "string" ||
     value.length > 2400 ||
-    !/^\/(projects|locations\/[0-9]{10})(\?|$)/.test(value) ||
+    !/^\/(?:snapshots\/\d{4}-\d{2}-\d{2}-[a-f0-9]{12,64}\/)?(projects|locations\/[0-9]{10})(\?|$)/.test(value) ||
     /[\\\r\n]/.test(value)
   )
     return null;
@@ -26,7 +27,7 @@ export function safeSearchPath(value: unknown): string | null {
   if (
     u.origin !== "https://local.invalid" ||
     u.hash ||
-    !/^\/(projects|locations\/[0-9]{10})$/.test(u.pathname)
+    !/^\/(projects|locations\/[0-9]{10})$/.test(u.pathname.slice(snapshotSelection(u.pathname).base.length))
   )
     return null;
   const params = new URLSearchParams();

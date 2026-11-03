@@ -18,7 +18,7 @@ import { renderToStaticMarkup } from "react-dom/server";
 import { MemoryRouter } from "react-router-dom";
 import { SourceAttribution } from "../src/components/ChartCard";
 
-const manifest = JSON.parse(readFileSync("public/data/manifest.json", "utf8"));
+const manifest = JSON.parse(readFileSync("public/data/snapshots/2026-11-02-37334582ca74/manifest.json", "utf8"));
 const source = JSON.parse(readFileSync("public" + manifest.scope, "utf8"));
 const projects: ScopedProject[] = source.projects;
 test("analytics source union reconciles exact version amounts and all six classifications", () => {

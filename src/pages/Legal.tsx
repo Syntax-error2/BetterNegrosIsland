@@ -4,6 +4,7 @@ import { useTitle } from "../lib/use-title";
 import BrandLogo from "../components/BrandLogo";
 import { usePortal } from "../lib/portal-context";
 import { Disclaimers } from "../components/Bits";
+import { CORRECTIONS_EMAIL, correctionMailto } from '../lib/corrections';
 import { reviewCookieNotice } from "../lib/cookie-notice";
 
 export default function Legal() {
@@ -23,7 +24,7 @@ export default function Legal() {
     <main id="main-content" tabIndex={-1} className="page page--reading main legal-page legal-document">
       <Link to={returnTo}>← Return to the portal</Link>
       <div className="legal-document-brand"><BrandLogo /></div>
-      <p className="legal-revision">Review draft · Revised 3 November 2026 · Version {LEGAL_VERSION}</p>
+      <p className="legal-revision">Review draft · Revised 4 November 2026 · Version {LEGAL_VERSION}</p>
       <h1>{title}</h1>
       <p className="notice">
         <strong>Privacy and legal review remain pending.</strong> This portal is
@@ -44,9 +45,7 @@ export default function Legal() {
           <h2>1. Maintenance and accountability</h2>
           <p>
             Public maintainer label: {config.operator.name}. This is a project
-            display name, not a verified legal entity. Formal identification
-            and contact details of the responsible personal information
-            controller are not published; this notice remains incomplete.
+            display name, not a verified legal entity. Formal identification of the responsible personal information controller is not published; this notice remains incomplete. The project contact is <a href={correctionMailto}>{CORRECTIONS_EMAIL}</a>.
             BetterNegrosIsland is an independent, nonpartisan initiative, not
             a government service or an endorsed BetterGov.PH project.
           </p>
@@ -70,6 +69,7 @@ export default function Legal() {
             </dd>
             <dt>Optional saved records and searches</dt>
             <dd>When you choose Save record or Save this search, this browser stores public record identifiers and the selected search path and terms under <code>betternegrosisland:notebook:v1</code>. There is no account or automatic cross-device synchronization. Use public budget terms only; do not save personal information in searches. Other people using this browser profile can see these items. They remain until removed in <Link to="/saved">Saved items</Link> or browser data is cleared. Clearing saved items leaves the notice acknowledgment in place. If storage fails, the reading list is held in memory for the current visit and is labeled accordingly.</dd>
+            <dt>Private corrections and privacy email</dt><dd>The <Link to="/corrections">contact page</Link> opens your email app. There is no portal submission endpoint. Your email service and the project inbox provider process the message, sender address, metadata and any attachments you choose to send. Send only a page/source reference and a brief description initially. Do not send identity documents or sensitive attachments. Provider arrangements, inbox access controls and retention/deletion procedures still require documented review. Private messages and requester details must not be placed in the public correction log.</dd>
             <dt>Technical delivery</dt>
             <dd>
               Serving pages and data can reveal IP addresses, browser/request
@@ -131,7 +131,7 @@ export default function Legal() {
             connection/request information; the local acknowledgment is not
             included. Opening a source PDF, map or other external link contacts
             its separate provider and is governed by that provider’s practices.
-            Current details may be newer than the dated snapshot. Development
+            Current details may be newer than the dated snapshot. Saved snapshot routes use verified retained budget files and do not request live project details; current notices and the correction log may still change. Development
             preview also uses a local Vite connection; it is not production
             tracking.
           </p>
@@ -172,11 +172,9 @@ export default function Legal() {
             <a href="https://privacy.gov.ph/">
               official complaint/contact channels
             </a>
-            . A portal procedure for receiving and resolving rights requests is
-            not yet operational. No portal privacy contact or submission form
-            has been added.
+            . Send a private request to <a href={correctionMailto}>{CORRECTIONS_EMAIL}</a>. The <Link to="/corrections">contact and public correction-log page</Link> explains what to include. Formal rights-request handling, verification, retention and legal review remain pending; publication of an email address does not prove completion or guarantee a response.
           </p>
-          <p>For an initial privacy or correction request, provide only the affected page or source-record reference and a short description through a verified private operator channel once available. Do not post identity documents, private contact details, health information or other sensitive personal data in public GitHub issues or social-media comments. Request identity verification only when necessary and through an appropriate private process.</p>
+          <p>For an initial privacy or correction request, provide only the affected page or source-record reference and a short description through the private email channel above. Do not post identity documents, private contact details, health information or other sensitive personal data in public GitHub issues or social-media comments. Request identity verification only when necessary and through an appropriate private process.</p>
           <h2>7. Security and accountability</h2>
           <p>
             Data minimization, local fonts, escaped text rendering, restricted
@@ -273,9 +271,7 @@ export default function Legal() {
             Published API records can change. This portal displays available
             source build metadata and inclusion reasons. The public maintainer
             label is {config.operator.name}; it is not a verified legal entity.
-            Formal controller identification, contact details and a corrections
-            and rights-request procedure remain unresolved. No report or
-            contact submission service is currently operated by this portal.
+            Formal controller identification and reviewed rights-request procedures remain unresolved. Use the <Link to="/corrections">private contact and public correction log</Link> for a correction or privacy concern. The portal has no report-submission backend.
           </p>
           <h2>8. Acknowledgment</h2>
           <p>
@@ -289,7 +285,7 @@ export default function Legal() {
       )}
       </div>
       <p className="fine">
-        Review draft revised 3 November 2026. Public maintainer attribution now uses a project display label; formal controller identification and contact details remain unresolved. Cookie, hosting, local storage and source-access disclosures remain in place. This version requires renewed acknowledgment.{" "}
+        Review draft revised 4 November 2026. Public maintainer attribution now uses a project display label; a private project contact and public correction log are now provided. Formal controller identification, provider review and rights-request procedures remain unresolved. Cookie, hosting, local storage and source-access disclosures remain in place. This version requires renewed acknowledgment.{" "}
         <Link state={{ returnTo }} to={privacy ? "/terms" : "/privacy"}>
           {privacy ? "Read the Terms of Use" : "Read the Privacy Notice"}
         </Link>

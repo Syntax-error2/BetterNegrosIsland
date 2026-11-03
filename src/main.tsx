@@ -3,13 +3,14 @@ import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 import PortalProvider from './components/PortalProvider';
+import { currentSnapshot } from './lib/snapshot-selection';
 import './styles/theme.css';
 import './styles/app.css';
 import './styles/district.css';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={currentSnapshot().base || '/'}>
       <PortalProvider>
         <App />
       </PortalProvider>

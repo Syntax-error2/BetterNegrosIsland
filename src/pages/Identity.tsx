@@ -46,8 +46,7 @@ export default function Identity() {
       <h2 id="operator">Maintainer information</h2>
       <p className="notice">
         This project label is not a verified legal entity. Formal controller
-        identification is not published. No privacy
-        contact or submission form is currently published.
+        identification is not published. A project email is available for <Link to="/corrections">private corrections and privacy requests</Link>. There is no website submission form.
         A corrections and rights-request procedure, approved legal notices and
         provider processing review remain pending. The website is hosted by Vercel;
         hosting does not certify completion of those reviews.

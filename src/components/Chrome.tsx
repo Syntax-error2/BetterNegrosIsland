@@ -65,7 +65,7 @@ export function Footer() {
         </div>
         <FooterLinks title="Explore">{[["/projects","Projects"],["/provinces","Places"],["/analytics","Analytics"],["/budget-history","Budget history"]].map(([to,label]) => <li key={to}><Link to={to}>{label}</Link></li>)}</FooterLinks>
         <FooterLinks title="Guide & sources">{[["/budget-guide","Budget guide"],["/updates","Data updates"],["/methodology","Methodology"],["/about","About"]].map(([to,label])=><li key={to}><Link to={to}>{label}</Link></li>)}</FooterLinks>
-        <FooterLinks title="Legal"><li><Link to="/terms">Terms of Use</Link></li><li><Link to="/privacy">Privacy Notice</Link></li><li><Link to="/methodology#data-disclaimer">Data disclaimer</Link></li></FooterLinks>
+        <FooterLinks title="Legal"><li><Link to="/corrections">Corrections & privacy requests</Link></li><li><Link to="/terms">Terms of Use</Link></li><li><Link to="/privacy">Privacy Notice</Link></li><li><Link to="/methodology#data-disclaimer">Data disclaimer</Link></li></FooterLinks>
       </div>
       <div className="footer-evidence">
         <p>Proposals and appropriations are not proof of spending or wrongdoing.</p>

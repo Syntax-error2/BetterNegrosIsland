@@ -1,7 +1,12 @@
-name: Prepare updated NIR snapshot
+name: Prepare reviewed NIR data update
 
 on:
   workflow_dispatch:
+    inputs:
+      rehearse:
+        description: Verify the workflow using existing data (no API extraction or review branch)
+        type: boolean
+        default: true
   schedule:
     # 02:23 Philippine time. Full extraction, not a per-visitor API request.
     - cron: '23 18 * * *'
@@ -15,7 +20,9 @@ concurrency:
 
 jobs:
   candidate:
-    # Opt in after the repository/operator and API fair-use arrangements are ready.
+    permissions:
+      contents: write
+    # Daily extraction is opt-in. Candidates never merge themselves into main.
     if: github.event_name == 'workflow_dispatch' || vars.ENABLE_NIR_REFRESH == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 60
@@ -32,7 +39,14 @@ jobs:
         run: npm test
       - run: npm run lint
       - name: Extract, reconcile and triage an isolated candidate
-        run: npm run data:refresh:candidate
+        env:
+          REHEARSE: ${{ inputs.rehearse }}
+        run: |
+          if [ "$REHEARSE" = "true" ]; then
+            npm run data:refresh:candidate -- --rehearse
+          else
+            npm run data:refresh:candidate
+          fi
       - name: Assemble candidate in this disposable CI checkout
         run: |
           node --input-type=module <<'JS'
@@ -40,12 +54,15 @@ jobs:
           const c=JSON.parse(fs.readFileSync('release/nir-refresh/latest.json'));
           fs.cpSync(c.directory+'/public/data','public/data',{recursive:true});
           JS
-      - run: npm run data:hearings
-      - run: npm run data:validate
-      - run: npm run audit:published
-      - name: Verify current-candidate integrity, cards and community summaries
-        run: npx tsx --tsconfig tsconfig.app.json --test tests/snapshot.test.ts tests/citizen-tools.test.ts tests/community.test.ts
-      - run: npm run build
+      - name: Refresh the supporting hearing index only during a real extraction
+        if: inputs.rehearse != true
+        run: npm run data:hearings
+      - name: Run all release checks on the assembled candidate
+        run: npm run verify
+      - name: Prepare a review branch (never merge or deploy it)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/data-ingestion/review-branch.mjs
       - name: Save validated site candidate for the chosen host
         uses: actions/upload-artifact@v7
         with:

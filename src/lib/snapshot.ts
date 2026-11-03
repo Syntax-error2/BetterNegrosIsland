@@ -1,5 +1,7 @@
 import type { Async } from "./portal-context";
 import { useEffect, useState } from "react";
+import { createSnapshotReader } from './snapshot-reader';
+import { currentSnapshot } from './snapshot-selection';
 export interface Coverage {
   fiscal_years?: number[] | null;
   retrieved_at?: string;
@@ -38,19 +40,9 @@ export interface Manifest {
   checksums?: Record<string, string>;
   scope_sha256?: string;
 }
-const cache = new Map<string, Promise<unknown>>();
+const readSnapshot = createSnapshotReader(currentSnapshot().version);
 export function snapshotJson<T>(url: string): Promise<T> {
-  if(!/^\/data\/[a-zA-Z0-9/_.-]+\.json$/.test(url)||url.split('/').some(part=>part==='.'||part==='..'))return Promise.reject(new Error('Invalid snapshot path'));
-  let p = cache.get(url);
-  if (!p) {
-    p = fetch(url, { signal: AbortSignal.timeout(20000), credentials:'omit', referrerPolicy:'no-referrer', cache:/\/(manifest|refresh-status|update-history|hearings)\.json$/.test(url)?'no-cache':'default' }).then(async (r) => {
-      if (!r.ok || !/\bapplication\/(?:[a-z0-9.-]+\+)?json\b/i.test(r.headers.get('content-type')??'')) throw Error("Snapshot unavailable or not JSON");
-      return r.json();
-    });
-    p.catch(() => cache.delete(url));
-    cache.set(url, p);
-  }
-  return p as Promise<T>;
+  return readSnapshot<T>(url);
 }
 export function useSnapshot<T>(field?: keyof Manifest): Async<T> {
   const [state, setState] = useState<Async<T>>({ status: "loading" });

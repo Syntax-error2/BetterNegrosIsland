@@ -4,6 +4,7 @@ import { Footer, Masthead } from "./components/Chrome";
 import ScrollToTop from "./components/ScrollToTop";
 import BackToTop from "./components/BackToTop";
 import CookieNotice from "./components/CookieNotice";
+import SnapshotMode, { SnapshotGuard } from './components/SnapshotMode';
 import { configProblems } from "./config";
 import { usePortal } from "./lib/portal-context";
 const About = lazy(() => import("./pages/RegionalMethodology"));
@@ -35,6 +36,7 @@ function LegacyLocation() {
   return <Navigate to={l ? "/locations/" + l.code : "/provinces"} replace />;
 }
 const Legal = lazy(() => import("./pages/Legal"));
+const Corrections = lazy(() => import('./pages/Corrections'));
 import LegalEntry from "./components/LegalEntry";
 import PageErrorBoundary from "./components/PageErrorBoundary";
 const Identity = lazy(() => import("./pages/Identity"));
@@ -62,6 +64,8 @@ export default function App() {
       <CookieNotice />
       <LegalEntry>
         {!posterView&&<Masthead />}
+        <SnapshotMode key={location.pathname+location.search+location.hash} />
+        <SnapshotGuard>
         {problems.length > 0 && (
           <div className="page config-warning" role="alert">
             <strong>portal.config.ts needs attention</strong> (shown in
@@ -123,6 +127,7 @@ export default function App() {
             <Route path="/methodology" element={<About />} />
             <Route path="/terms" element={<Legal />} />
             <Route path="/privacy" element={<Legal />} />
+            <Route path="/corrections" element={<Corrections />} />
             {/* Offices and their districts are a section of the main page; old links land there. */}
             <Route
               path="/districts"
@@ -146,6 +151,7 @@ export default function App() {
           </Routes>
         </Suspense></PageErrorBoundary>
         {!posterView&&<Footer />}
+        </SnapshotGuard>
       </LegalEntry>
       <BackToTop />
       {import.meta.env.DEV &&

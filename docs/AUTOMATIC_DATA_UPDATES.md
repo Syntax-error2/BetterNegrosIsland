@@ -1,47 +1,46 @@
-# Automatic data refresh and hosting
+# Reviewed data updates and snapshot research links
 
-This repository includes preparation for automatic refreshes. **The website is deployed on Vercel, with GitHub code deployments connected. Scheduled API refresh and candidate publication are not enabled.** Ordinary frontend builds use the included validated snapshot; uploading the site alone does not turn on API refreshes.
+The live site uses the existing GitHub-to-Vercel integration. Ordinary builds use checked-in validated data and make no budget API extraction. The refresh workflow prepares reviewed candidates; it never merges its own data into main.
 
-## Prepared workflow
+## Daily preparation, followed by human review
 
-`.github/workflows/nir-refresh.yml` can run manually in GitHub Actions. Setting the repository variable `ENABLE_NIR_REFRESH=true` opts into a daily run at 18:23 UTC (02:23 Philippine time). The workflow must exist on the default branch. GitHub schedules can be delayed and can be disabled after prolonged repository inactivity; this is a polling schedule, not an immediate API webhook.
+`.github/workflows/nir-refresh.yml` supports manual dispatch and an opt-in daily schedule at 18:23 UTC (02:23 Philippine time). Set repository variable `ENABLE_NIR_REFRESH=true` to enable scheduling. GitHub can delay schedules or disable them after prolonged inactivity; this is polling, not an immediate API webhook.
 
-The job verifies the checked-in application, extracts into an isolated temporary directory, validates complete pagination, identities, exact peso values, source metadata, region/query membership, financial reconciliation and shard checksums, and runs display-field privacy triage. It then tests candidate integrity, community summaries and evidence cards and builds a static site artifact. No repository write token or hosting credential is needed for preparation. Candidate validation failure stops the job before a site artifact is uploaded.
+Manual dispatch defaults to `rehearse=true`: existing data is validated and packaged without API extraction or a review branch. A real run uses `rehearse=false`. The job extracts into an isolated temporary directory, validates pagination, source metadata, identities, exact amounts, geographic evidence, reconciliation and seven shard checksums. It performs display-field privacy triage, a full published-JSON scan, all tests, lint and production build checks. Failure stops branch preparation and leaves main and the live site untouched.
 
-Some existing analytics regression tests intentionally pin the reference snapshot's exact amounts and record counts. The full reference suite runs before extraction; current-candidate tests run after extraction. Do not update expected reference totals merely to conceal a candidate error.
+All seven budget collections are fingerprinted, ignoring collection timestamps only. Source metadata, notices, geography, coverage and financial changes remain significant. An unchanged collection creates no review branch. A changed candidate creates `codex/nir-data-review-<collection-fingerprint>` with data, generated hosting policies and `docs/data-refresh/candidate.json` only. The Actions run summary contains a compare link to create a pull request. If an identical candidate branch already exists, it is preserved rather than overwritten; remove a rejected candidate branch if a new review of the same data is needed. The job uses a scoped repository contents-write token through the GitHub credential helper, not a stored Vercel credential or personal access token. It does not need permission to create or approve pull requests.
 
-`nir-site-candidate-<run-id>` contains the built site; `nir-refresh-report-<run-id>` records old/new snapshot versions, source dates, counts, additions/removals/changed raw comparison records and privacy triage. Artifacts are retained for seven days. These are review/build artifacts, not a deployment or legal clearance. Hosting/provider and rights-request decisions remain necessary before public release.
+Review the candidate report, full data diff, privacy triage and source documents. Comparison additions/removals/counts do not summarize all historical, NEP, source-notice or coverage changes. Open and review the pull request, wait for its verification checks and merge it into main only after review. The existing Vercel Git integration builds that merged commit. Check the production deployment and HTTP behavior before treating it as published. Remove obsolete candidate branches after review. No workflow auto-merge is configured.
 
-## Complete candidate publication to Vercel
+A failed extraction does not create a failure status in the live data: use GitHub Actions for run status. The portal dates describe its last published snapshot, not the latest attempted collection. Candidate reports and built site artifacts are retained in Actions for seven days. No failed job deploys a partial artifact.
 
-The final deploy step must upload the **validated artifact**, after the checks succeed, using the selected host's scoped credential stored in its secret manager. Use an atomic site deployment, preserve a rollback release and previously referenced snapshot files, and leave the previous live release in place on extraction, validation or deploy failure. Never trigger publication from a failed job or rebuild from an unrelated checkout. The public repository is Syntax-error2/BetterNegrosIsland. No refresh deployment hook or credential has been configured.
+## Coverage and API use
 
-The generated host configuration gives mutable manifest/status files revalidation and exact, existing checksummed shards long-lived immutable caching. Missing paths do not receive a blanket immutable rule. Verify actual HTTP responses after deployment. New page loads read the deployed manifest. An already-open page keeps its loaded snapshot until reloaded, preventing mixed-version figures.
+The configured extraction covers FY2027 DPWH, FMR, HFEP and NIA comparison programs; source-region, office and qualified place-name queries; the separate FY2027 NEP regional rollup; and FY2020–FY2026 GAA searches. It does not discover every NIR expense or add new fiscal years, programs, endpoints or geographic directories automatically. Schema changes should fail validation and require review.
 
-## Coverage and freshness
+A complete extraction makes roughly 2,600 requests and may take several minutes. Transport uses bounded retries, cooldowns and timeouts. A single comparison source-build timestamp cannot prove that GAA or NEP endpoints are unchanged. The job therefore collects the configured scope rather than assuming one timestamp covers all data. The small hearing index is separately refreshed during real CI runs and checked before candidate packaging.
 
-This refresh follows the existing FY2027 NEP/House comparison programs (DPWH, FMR, HFEP, NIA), NIR source-region/office and qualified place-name queries, the separate FY2027 NEP regional rollup, and FY2020–FY2026 GAA history. New records returned by those queries can be included on the next successful refresh and publication. It does **not** discover every possible NIR expense or automatically add new fiscal years, programs, endpoints or geographic directories. A changed API schema should fail validation and require a code review.
+Fixed regression assertions use the retained 2026-11-02 snapshot. Current-data integrity and reconciliation tests continue to read the current manifest. Do not change fixed reference totals to conceal a candidate failure.
 
-The full extraction makes roughly 2,600 requests and can take several minutes. Respect provider fair-use limits; retries honor cooldowns and bounded timeouts. A single comparison build timestamp is insufficient to skip checks of GAA/NEP data because their endpoints do not all provide equivalent revision markers. This job therefore performs the complete configured refresh, rather than promising detection from one marker.
+## Saved research links
+
+Choose **Share this exact snapshot** or **Open saved snapshot** on a budget view. A route such as `/snapshots/2026-11-02-37334582ca74/projects?...` preserves the budget version and filters. Internal portal navigation retains this prefix. **View latest** deliberately starts a new page load outside the prefix.
+
+The reader verifies the selected manifest identity, seven exact file references and SHA-256 checksums. A missing, corrupt or unretained snapshot fails explicitly; newer data is never substituted. Saved project details use archived rows and do not request live API detail. NEP, historical appropriations, comparisons, charts and evidence cards use the selected retained files. Research citations include a version-specific link.
+
+Explanatory text, legal notices, the contact page and public correction log may evolve. External source pages are not frozen. Hearing and update indexes are not archived within a budget snapshot; pinned routes explain this and link to their latest view. Saved-item record IDs are interpreted within the selected view. Saved search paths retain their snapshot prefix when present. Keep local exports and source documents where lawful; indefinite online retention is not promised.
+
+Historical shard bytes and manifests must not be overwritten under an existing version. When a privacy restriction requires withdrawal, remove the affected retained version, remove immutable cache policy entries, consider host/cache/deployment/Git-history exposure, and leave old links explicitly unavailable. Do not silently replace a withdrawn record with newer data. See [private request handling](CORRECTIONS.md).
 
 ## Local preparation
 
 ```sh
-# Rehearse isolation/validation/packaging using existing data; no API extraction:
 npm run data:refresh:candidate -- --rehearse
-
-# Perform a real full extraction into a candidate, preserving current public/data:
 npm run data:refresh:candidate
 ```
 
-Successful packages are saved under ignored `release/nir-refresh/`; `latest.json` points only to the last successful candidate. The candidate command never promotes local public data or deploys. Its rehearsal report explicitly retains the original retrieval date and is not represented as a fresh API fetch. Privacy pattern triage is not exhaustive personal-information/PDF review.
+Successful packages are stored in ignored `release/nir-refresh/`; `latest.json` advances only after successful preparation. The command never replaces local current data or deploys. Rehearsals retain the original retrieval date. Production builds verify retained shards and produce the public data-update receipts without contacting the API.
 
-References: [GitHub scheduled workflows](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule), [BetterGov.PH API specification](https://budget.bettergov.ph/api/v1/openapi.json).
+The hosting policy uses revalidation for current manifests/status/corrections and immutable caching only for exact verified retained files. Missing assets or JSON remain 404. Legal/privacy review, inbox operations and provider arrangements are separate from technical checks.
 
-## Citizen reading receipts and hearing index
-
-Every production build now runs `npm run data:reading`. This performs no network requests: it verifies retained scope checksums and builds `public/data/update-history.json`. One retained snapshot is explicitly a baseline, with null change counts. Later retained snapshots produce added/revised/removed records and previous/current amounts. Retrieval timestamps alone do not create record changes. The isolated candidate carries previous verified snapshot directories forward so the history survives publishing a candidate.
-
-`npm run data:hearings` separately refreshes four capped FY2027 geographic keyword searches and atomically replaces the small source-derived hearing index only after validation and pattern triage. It is not a complete NIR hearing crawl. The opt-in GitHub refresh workflow refreshes this index before its published-data scan and build. An extraction/schema failure stops site-artifact preparation; it does not publish a partial index. Routine builds do not contact the API.
-
-See [citizen reading tools and QA](qa/citizen-reading/REPORT.md) for feature boundaries, optional local saved-item storage and translation-review limitations. These additions do not enable the scheduled workflow or configure a hosting deployment.
+References: [GitHub scheduled workflows](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule), [GitHub token permissions](https://docs.github.com/en/actions/tutorials/authenticate-with-github_token), [BetterGov.PH API specification](https://budget.bettergov.ph/api/v1/openapi.json).

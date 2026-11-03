@@ -3,6 +3,7 @@ import path from 'node:path';
 import os from 'node:os';
 import { spawn } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
+import { dataFingerprint } from './fingerprint.mjs';
 
 const run = (file, cwd) => new Promise((resolve,reject)=>{
   const child=spawn(process.execPath,[path.resolve('node_modules/tsx/dist/cli.mjs'),path.resolve(file)],{cwd,stdio:'inherit',shell:false});
@@ -28,14 +29,27 @@ export async function prepareCandidate({rehearse=false,execute=run}={}) {
     // history survives publication. Never overwrite a freshly extracted shard.
     for(const entry of await fs.readdir(path.join(repo,'public/data/snapshots'),{withFileTypes:true})){
       if(!entry.isDirectory())continue;
+      if(!/^\d{4}-\d{2}-\d{2}-[a-f0-9]{12,64}$/.test(entry.name))throw Error('Invalid retained snapshot directory');
       const destination=path.join(stage,'public/data/snapshots',entry.name);
-      try{await fs.access(destination);}catch{await fs.cp(path.join(repo,'public/data/snapshots',entry.name),destination,{recursive:true});}
+      const previous=path.join(repo,'public/data/snapshots',entry.name);
+      const retained=await json(path.join(previous,'manifest.json'));
+      // Fingerprint verifies all seven retained shards before they are carried.
+      const { createHash }=await import('node:crypto');
+      for(const field of ['scope','overview','districts','history','nep','summary','coverage']){
+        const url=`/data/snapshots/${entry.name}/${field}.json`;
+        if(retained.version!==entry.name||retained[field]!==url||createHash('sha256').update(await fs.readFile(path.join(previous,field+'.json'))).digest('hex')!==retained.checksums?.[url])throw Error('Unverified retained snapshot');
+      }
+      let exists=true;try{await fs.access(destination);}catch(error){if(error.code==='ENOENT')exists=false;else throw error;}
+      if(exists){
+        for(const file of ['manifest','scope','overview','districts','history','nep','summary','coverage'])if(!(await fs.readFile(path.join(previous,file+'.json'))).equals(await fs.readFile(path.join(destination,file+'.json'))))throw Error('A retained snapshot version cannot be overwritten');
+      }else await fs.cp(previous,destination,{recursive:true});
     }
     try{await fs.copyFile(path.join(repo,'public/data/hearings.json'),path.join(stage,'public/data/hearings.json'));}catch(error){if(error.code!=='ENOENT')throw error;}
     await execute('scripts/build-reading-data.ts',stage);
     const oldMap=new Map(oldRows.map(p=>[p.key,p]));
     const newMap=new Map(newRows.map(p=>[p.key,p]));
     const report={prepared_at:new Date().toISOString(),mode:rehearse?'EXISTING SNAPSHOT REHEARSAL — NO API REQUESTS':'FRESH API CANDIDATE',published:false,
+      data_changed:dataFingerprint(repo)!==dataFingerprint(stage),
       previous_version:before.version,candidate_version:after.version,retrieved_at:after.retrieved_at,
       previous_records:oldRows.length,candidate_records:newRows.length,
       added:newRows.filter(p=>!oldMap.has(p.key)).length,removed:oldRows.filter(p=>!newMap.has(p.key)).length,

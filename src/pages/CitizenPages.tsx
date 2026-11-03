@@ -91,7 +91,7 @@ export function Saved() {
           <ul className="reading-list">
             {value.searches.map((s) => (
               <li key={s.path}>
-                <Link to={s.path}>{s.label}</Link>
+                <a href={s.path}>{s.label}</a>
                 <button
                   className="link-button"
                   aria-label={"Remove search " + s.label}

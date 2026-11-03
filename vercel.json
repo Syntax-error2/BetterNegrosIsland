@@ -66,6 +66,15 @@
       ]
     },
     {
+      "source": "/data/corrections.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, must-revalidate"
+        }
+      ]
+    },
+    {
       "source": "/data/snapshots/2026-11-02-37334582ca74/coverage.json",
       "headers": [
         {
@@ -85,6 +94,15 @@
     },
     {
       "source": "/data/snapshots/2026-11-02-37334582ca74/history.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/data/snapshots/2026-11-02-37334582ca74/manifest.json",
       "headers": [
         {
           "key": "Cache-Control",
@@ -199,6 +217,10 @@
       "destination": "/index.html"
     },
     {
+      "source": "/corrections",
+      "destination": "/index.html"
+    },
+    {
       "source": "/gaa",
       "destination": "/index.html"
     },
@@ -236,6 +258,118 @@
     },
     {
       "source": "/hearings",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/projects",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/projects/:dataset/:id",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/evidence/:dataset/:id",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/provinces",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/provinces/:slug",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/locations/:psgcCode",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/municipalities",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/municipalities/:slug",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/analytics",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/compare",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/budget-guide",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/budget-history",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/data-coverage",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/methodology",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/terms",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/privacy",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/corrections",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/gaa",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/about",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/districts",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/we-are-not-ignorant",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/saved",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/topics",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/updates",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/data-quality",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/glossary",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/hearings",
       "destination": "/index.html"
     }
   ]

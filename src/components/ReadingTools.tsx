@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { useNotebook } from "../lib/use-notebook";
 import { safeSearchPath } from "../lib/notebook";
+import { selectedPath } from '../lib/snapshot-selection';
 import {
   explainRecord,
   qualityFlags,
@@ -61,7 +62,7 @@ export function SaveSearch({ community }: { community?: string }) {
   const [sharing, setSharing] = useState(false);
   const location = useLocation(),
     { value, update } = useNotebook();
-  const path = safeSearchPath(location.pathname + location.search);
+  const path = safeSearchPath(selectedPath(location.pathname + location.search));
   const saved = value.searches.some((s) => s.path === path);
   const [message, setMessage] = useState("");
   if (!path) return null;

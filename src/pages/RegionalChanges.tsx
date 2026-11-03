@@ -79,7 +79,7 @@ export default function RegionalChanges(){
         </section>
         <footer className="campaign-footer">
           <div className="campaign-footer-top"><div className="campaign-footer-brand"><Link className="campaign-footer-logo" to="/" aria-label="BetterNegrosIsland — overview"><BrandLogo theme="dark" lazy/></Link><div><p className="campaign-footer-title">Negros Island · FY2027 reading list</p><p>Budget data by BetterGov.PH.{manifest.status==='ready'?<> Retrieved {date(manifest.value.retrieved_at)}.</>:' Snapshot date unavailable.'}</p></div></div>
-            <nav aria-label="Regional reading references"><Link to="/projects">Explorer</Link><Link to="/methodology">Sources</Link><Link to="/terms">Terms</Link><Link to="/privacy">Privacy</Link></nav>
+            <nav aria-label="Regional reading references"><Link to="/projects">Explorer</Link><Link to="/methodology">Sources</Link><Link to="/terms">Terms</Link><Link to="/privacy">Privacy</Link><Link to="/corrections">Corrections</Link></nav>
           </div>
           <p>Proposals are not proof of spending or wrongdoing.</p>
           <details className="campaign-notices"><summary>Scope, sources & credits</summary>
