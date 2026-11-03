@@ -1,0 +1,13 @@
+.cookie-notice { background: #fff; color: var(--ink); border-bottom: 2px solid var(--accent); }
+.cookie-notice .cookie-notice-layout { display: flex; align-items: center; justify-content: space-between; gap: 16px 32px; padding-block: 16px; }
+.cookie-notice-copy { max-width: 76ch; min-width: 0; }
+.cookie-notice h2 { margin: 0 0 4px; font-size: 15px; line-height: 1.5; letter-spacing: 0; }
+.cookie-notice p { margin: 0; font-size: 13px; line-height: 1.65; }
+.cookie-notice-actions { display: flex; align-items: center; gap: 12px 24px; flex-shrink: 0; }
+.cookie-notice-actions a { display: inline-flex; align-items: center; min-height: 44px; font-size: 13px; text-underline-offset: 4px; }
+.cookie-notice-actions .button { min-height: 44px; min-width: 96px; margin: 0; }
+@media (max-width: 640px) {
+  .cookie-notice .cookie-notice-layout { align-items: flex-start; flex-direction: column; gap: 10px; }
+  .cookie-notice-actions { width: 100%; justify-content: space-between; }
+}
+@media print { .cookie-notice { display: none; } }

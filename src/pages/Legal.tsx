@@ -4,6 +4,7 @@ import { useTitle } from "../lib/use-title";
 import BrandLogo from "../components/BrandLogo";
 import { usePortal } from "../lib/portal-context";
 import { Disclaimers } from "../components/Bits";
+import { reviewCookieNotice } from "../lib/cookie-notice";
 
 export default function Legal() {
   const { scope } = usePortal();
@@ -56,6 +57,8 @@ export default function Legal() {
             trackers, fingerprinting, behavioral analytics, or tracking cookies.
           </p>
           <dl className="privacy-inventory">
+            <dt id="cookie-notice">Cookie notice</dt>
+            <dd>Choosing “Got it” stores the first-party <code>bni_notice</code> cookie for up to 180 days to remember dismissal of the cookie notice. Its value is the same notice version for every visitor, not a unique identifier. It is limited to this host, uses Secure and SameSite=Lax, and is included in requests to this host. It does not enable advertising, analytics or consent to other processing. If cookies are blocked, the notice can still be dismissed for the current page visit. Clear this cookie in your browser to see the notice again on your next visit.</dd>
             <dt>Local notice acknowledgment</dt>
             <dd>
               Your browser stores the current legal document version under{" "}
@@ -97,6 +100,7 @@ export default function Legal() {
               details or sensitive personal information.
             </dd>
           </dl>
+          <p><button type="button" className="button" onClick={reviewCookieNotice}>Review cookie notice</button></p>
           <button
             className="button"
             onClick={() => {
@@ -283,7 +287,7 @@ export default function Legal() {
       )}
       </div>
       <p className="fine">
-        Review draft revised 3 November 2026. Identified Vercel as the hosting provider; optional local storage and source-access disclosures remain in place. This version requires renewed acknowledgment.{" "}
+        Review draft revised 3 November 2026. Added the first-party cookie that remembers the cookie notice. Vercel hosting, optional local storage and source-access disclosures remain in place. This version requires renewed acknowledgment.{" "}
         <Link state={{ returnTo }} to={privacy ? "/terms" : "/privacy"}>
           {privacy ? "Read the Terms of Use" : "Read the Privacy Notice"}
         </Link>

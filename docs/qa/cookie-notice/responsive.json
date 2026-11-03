@@ -1,0 +1,78 @@
+[
+  {
+    "actions": [
+      {
+        "height": 44,
+        "text": "Privacy details",
+        "width": 88.203125
+      },
+      {
+        "height": 47.09375,
+        "text": "Got it",
+        "width": 96
+      }
+    ],
+    "noticeHeight": 182,
+    "overlapsMain": false,
+    "pageWidth": 305,
+    "viewport": 305,
+    "width": 320
+  },
+  {
+    "actions": [
+      {
+        "height": 44,
+        "text": "Privacy details",
+        "width": 88.203125
+      },
+      {
+        "height": 47.09375,
+        "text": "Got it",
+        "width": 96
+      }
+    ],
+    "noticeHeight": 182,
+    "overlapsMain": false,
+    "pageWidth": 360,
+    "viewport": 360,
+    "width": 375
+  },
+  {
+    "actions": [
+      {
+        "height": 44,
+        "text": "Privacy details",
+        "width": 88.203125
+      },
+      {
+        "height": 47.09375,
+        "text": "Got it",
+        "width": 96
+      }
+    ],
+    "noticeHeight": 103,
+    "overlapsMain": false,
+    "pageWidth": 753,
+    "viewport": 753,
+    "width": 768
+  },
+  {
+    "actions": [
+      {
+        "height": 44,
+        "text": "Privacy details",
+        "width": 88.203125
+      },
+      {
+        "height": 47.09375,
+        "text": "Got it",
+        "width": 96
+      }
+    ],
+    "noticeHeight": 82,
+    "overlapsMain": false,
+    "pageWidth": 1425,
+    "viewport": 1425,
+    "width": 1440
+  }
+]

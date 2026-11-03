@@ -3,6 +3,7 @@ import { Link, Navigate, Route, Routes, useLocation } from "react-router-dom";
 import { Footer, Masthead } from "./components/Chrome";
 import ScrollToTop from "./components/ScrollToTop";
 import BackToTop from "./components/BackToTop";
+import CookieNotice from "./components/CookieNotice";
 import { configProblems } from "./config";
 import { usePortal } from "./lib/portal-context";
 const About = lazy(() => import("./pages/RegionalMethodology"));
@@ -58,6 +59,7 @@ export default function App() {
   return (
     <>
       <ScrollToTop />
+      <CookieNotice />
       <LegalEntry>
         {!posterView&&<Masthead />}
         {problems.length > 0 && (
