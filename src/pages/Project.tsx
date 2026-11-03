@@ -21,6 +21,7 @@ import { useTitle } from "../lib/use-title";
 import { currentSnapshot } from '../lib/snapshot-selection';
 import { useSnapshot, type Manifest } from '../lib/snapshot';
 import { houseReading } from '../lib/evidence';
+import { resolveSourceLink } from '../lib/safe-url';
 
 const VERSIONS: Version[] = ["nep", "hgab2", "hgab3", "api"];
 const FALLBACK_VERSION_LABELS: Record<Version, string> = {
@@ -43,10 +44,11 @@ function ArchivedProject(){
     <Await state={scope} what="the archived record">{s=>{
       const p=s.projects.find(p=>p.dataset===dataset&&p.id===id);
       if(!p)return <><h1>Record absent from this snapshot</h1><p>No live record has been substituted. Choose another record from the saved explorer.</p></>;
+      const source=resolveSourceLink(p);
       return <><p className="eyebrow">Archived source record · {dataset.toUpperCase()}</p><h1>{p.title}</h1><p className="notice">This page uses the retained budget snapshot only. It does not request live project detail. Proposals are not proof of spending, completion or wrongdoing.</p>
         <nav className="citizen-toolbar" aria-label="Archived record tools"><Link className="button" to={evidencePath(p)}>Create dated evidence card</Link><Link className="button" to={comparisonPath(p)}>Compare snapshot records</Link><SaveRecord project={p}/><Link to="/corrections">Report a correction privately</Link></nav>
         <dl><dt>NEP proposal · FY2027</dt><dd>{p.nep_php==null?'Not available':phpFull(p.nep_php)}</dd><dt>House proposal · {houseReading(p.dataset)}</dt><dd>{p.house_php==null?'Not available':phpFull(p.house_php)}</dd><dt>Source classification</dt><dd>{p.status_label}</dd><dt>Record reference</dt><dd>{p.key}</dd><dt>Snapshot</dt><dd>{manifest.status==='ready'?manifest.value.version:'Unavailable'}</dd><dt>Retrieved</dt><dd>{p.retrieved_at??'Unavailable'}</dd></dl><ReasonTags reasons={p.reasons}/><RecordExplanation project={p}/>
-        <h2>Published source references</h2><ul>{Object.entries(p.pdf_url).filter(([,url])=>url).map(([stage,url])=><li key={stage}><External href={url!}>{FALLBACK_VERSION_LABELS[stage as Version]??stage} document</External></li>)}</ul><p>External documents can change or become unavailable. Keep the budget stage and source page with any citation.</p><Disclaimers items={s.disclaimers}/></>;
+        <h2>Published source references</h2>{source&&<p><External href={source}>View the originating source record or document</External></p>}<p>Comparison source build: {manifest.status==='ready'?manifest.value.source_build:'Unavailable'}.</p><ul>{Object.entries(p.pdf_url).filter(([,url])=>url).map(([stage,url])=><li key={stage}><External href={url!}>{FALLBACK_VERSION_LABELS[stage as Version]??stage} document</External></li>)}</ul><p>External documents can change or become unavailable. Keep the budget stage and source page with any citation.</p><Disclaimers items={s.disclaimers}/></>;
     }}</Await></main>;
 }
 

@@ -19,14 +19,16 @@ export default function SnapshotMode() {
   const location = useLocation();
   const [message,setMessage] = useState('');
   const pinned = currentSnapshot().version;
+  const liveDetail = !pinned && /^\/projects\/[^/]+\/[^/]+$/.test(location.pathname);
   const path = location.pathname+location.search+location.hash;
   if (m.status !== 'ready' || (!pinned && ['/privacy','/terms','/corrections','/about','/updates','/hearings','/saved'].includes(location.pathname))) return null;
   const exact = snapshotPath(path,m.value.version);
   return <aside className={'snapshot-mode'+(pinned?' is-pinned':'')} aria-label="Snapshot sharing">
     <div className="page snapshot-mode-inner"><p><strong>{pinned?'Saved budget snapshot':'Dated budget snapshot'}</strong><span>Retrieved {m.value.retrieved_at.slice(0,10)}{pinned?' · '+m.value.version:''}</span></p>
-      <div className="snapshot-mode-actions"><button type="button" className="link-button" onClick={async()=>{try{await navigator.clipboard.writeText(window.location.origin+exact);setMessage('Exact snapshot link copied. Search terms in the URL are visible to recipients.');}catch{setMessage('Copy is unavailable. Use the exact snapshot link below.');}}}>Share this exact snapshot</button>{pinned?<a href={path}>View latest</a>:<a href={exact}>Open saved snapshot</a>}</div>
+      <div className="snapshot-mode-actions"><button type="button" className="link-button" onClick={async()=>{try{await navigator.clipboard.writeText(window.location.origin+exact);setMessage('Exact snapshot link copied. Search terms in the URL are visible to recipients.');}catch{setMessage('Copy is unavailable. Use the exact snapshot link below.');}}}>{liveDetail?'Share archived snapshot':'Share this exact snapshot'}</button>{pinned?<a href={path}>View latest</a>:<a href={exact}>{liveDetail?'Open archived record':'Open saved snapshot'}</a>}</div>
       {message&&<p role="status" className="snapshot-copy-status">{message} <a href={exact}>Exact snapshot link</a></p>}
     </div>
     {pinned&&<p className="page snapshot-mode-note">Budget data is locked to this snapshot. Explanations and notices can evolve; external source websites may change. Historical retention is not guaranteed indefinitely.</p>}
+    {liveDetail&&<p className="page snapshot-mode-note">Project details below can be newer than this dated portal snapshot. The archived link uses retained figures and may differ from the live source.</p>}
   </aside>;
 }

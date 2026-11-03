@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-03T13:50:25.332Z",
+  "checked_at": "2026-11-03T19:33:27.879Z",
   "origin": "https://betternegrosisland.vercel.app",
   "cases": [
     {
@@ -148,10 +148,45 @@
       "type": "text/html; charset=utf-8",
       "cache": "public, max-age=0, must-revalidate",
       "result": "PASS"
+    },
+    {
+      "path": "/corrections",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "cache": "public, max-age=0, must-revalidate",
+      "result": "PASS"
+    },
+    {
+      "path": "/data/corrections.json",
+      "status": 200,
+      "type": "application/json; charset=utf-8",
+      "cache": "no-cache, must-revalidate",
+      "result": "PASS"
+    },
+    {
+      "path": "/snapshots/2026-11-02-37334582ca74/methodology",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "cache": "public, max-age=0, must-revalidate",
+      "result": "PASS"
+    },
+    {
+      "path": "/snapshots/2026-11-02-37334582ca74/projects/dpwh/house-reading%3A1918",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "cache": "public, max-age=0, must-revalidate",
+      "result": "PASS"
+    },
+    {
+      "path": "/snapshots/2026-11-02-37334582ca74/assets/missing.js",
+      "status": 404,
+      "type": "text/html; charset=utf-8",
+      "cache": "public, max-age=0, must-revalidate",
+      "result": "PASS"
     }
   ],
   "module": {
-    "path": "/assets/index-5N9S_e6K.js",
+    "path": "/assets/index-qT56qddA.js",
     "status": 200,
     "result": "PASS"
   },

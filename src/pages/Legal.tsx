@@ -264,7 +264,7 @@ export default function Legal() {
           <section id="full-data-disclaimer" aria-labelledby="full-disclaimer-heading">
             <h2 id="full-disclaimer-heading">Full data disclaimer</h2>
             <p>This portal compares published records for public information. Candidate matches and one-sided lines need independent verification. Missing records do not establish concealment or absent funding. Shared-office totals remain undivided. Title associations do not certify a project’s physical location. Different budget versions and fiscal years must not be added as one annual appropriation.</p>
-            {scope.status === "ready" ? <Disclaimers items={scope.value.disclaimers} /> : <p>Loading the preserved source notices. <a href="https://budget.bettergov.ph/docs#disclaimers">Read the provider’s source disclaimers</a>.</p>}
+            {scope.status === "ready" ? <Disclaimers items={scope.value.disclaimers} /> : <p>{scope.status === 'error' ? 'The preserved source notices could not be loaded.' : 'Loading the preserved source notices.'} <a href="https://budget.bettergov.ph/docs#disclaimers">Read the provider’s source disclaimers</a>.</p>}
           </section>
           <h2>7. Updates, corrections, and operator details</h2>
           <p>

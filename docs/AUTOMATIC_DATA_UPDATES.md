@@ -44,3 +44,7 @@ Successful packages are stored in ignored `release/nir-refresh/`; `latest.json` 
 The hosting policy uses revalidation for current manifests/status/corrections and immutable caching only for exact verified retained files. Missing assets or JSON remain 404. Legal/privacy review, inbox operations and provider arrangements are separate from technical checks.
 
 References: [GitHub scheduled workflows](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule), [GitHub token permissions](https://docs.github.com/en/actions/tutorials/authenticate-with-github_token), [BetterGov.PH API specification](https://budget.bettergov.ph/api/v1/openapi.json).
+
+## Repository activation record
+
+On 4 November 2026 Philippine time, `ENABLE_NIR_REFRESH=true` was set and read back after the successful CI rehearsal and real extraction. Fresh run 41704347161 produced the review branch for draft pull request #1; no data was merged or published automatically. The daily schedule prepares candidates at 02:23 Philippine time, subject to GitHub scheduling delays. See [executed upgrade evidence](qa/research-upgrades/REPORT.md).
