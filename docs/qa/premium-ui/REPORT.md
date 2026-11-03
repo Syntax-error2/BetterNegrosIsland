@@ -1,3 +1,5 @@
+Public-copy redaction: personal operator attribution was removed at the owner’s request. Existing historical findings are unchanged; older commits and screenshots may retain earlier attribution.
+
 # Premium UI/UX and privacy remediation — implementation report
 
 Local review candidate, 2 November 2026. The supplied replacement logo and the remediation brief were implemented in the existing portal. Budget records, geographic scope and source calculation logic were retained. This report distinguishes engineering results from legal compliance, native browser/device verification and deployment approval.
@@ -100,7 +102,7 @@ Reviewed against official NPC sources: [RA 10173](https://privacy.gov.ph/data-pr
 
 The engineering approach minimizes collection and explains real technical processing. The notice separates agreement to Terms/receipt of information from consent to personal-data processing. No optional consent-based processing was added. If introduced later, it needs its own defined purpose, appropriate lawful criterion and, when applicable, specific consent/withdrawal controls. No arbitrary retention period or automatic deletion was invented.
 
-**Operator supplied by owner:** Aqura Information Technology Solutions / Dave Hermoso, Binalbagan, Negros Occidental. **No privacy contact is published, as explicitly requested.** No contact address, DPO identity, legal registration or hosting provider was invented.
+**Operator supplied by owner:** [personal operator attribution removed from this public copy]. **No privacy contact is published, as explicitly requested.** No contact address, DPO identity, legal registration or hosting provider was invented.
 
 Public-release decisions still needed: operational rights-request/correction procedure, appropriate lawful criteria, hosting/processor arrangements, technical-log retention, international processing assessment where applicable, publication safeguards and legal review. The absence of a published portal privacy contact/procedure is disclosed; it is not silently marked compliant. This is an engineering review, not a legal certification.
 

@@ -1,3 +1,5 @@
+Public-copy redaction: personal operator attribution was removed at the owner’s request. Existing historical findings are unchanged; older commits and screenshots may retain earlier attribution.
+
 # BetterNegrosIsland critical hardening — 3 November 2026
 
 Local engineering candidate for owner review. **Public release is not approved.** The existing React/TypeScript/Vite portal, BetterGov.PH integration and published snapshot are retained. No ingestion or refresh ran. This report supersedes the preceding analytics report's conclusion about chart visibility: path geometry alone did not prove that an SVG had a visible viewport.
@@ -56,7 +58,7 @@ The supplied CSP/security headers remain in `public/_headers`: same-origin scrip
 
 ## Legal, privacy and brand
 
-Owner-supplied operator identity is **Aqura Information Technology Solutions / Dave Hermoso, Binalbagan, Negros Occidental**. Footer civic, proposal/appropriation and wrongdoing wording follows the supplied reply. Required source notices and original MIT attribution remain. The repository link is explicitly the **original upstream repository** because no regional remote repository has been supplied or created.
+Owner-supplied operator identity is **[personal operator attribution removed from this public copy]**. Footer civic, proposal/appropriation and wrongdoing wording follows the supplied reply. Required source notices and original MIT attribution remain. The repository link is explicitly the **original upstream repository** because no regional remote repository has been supplied or created.
 
 Terms remain applicable to this independent, free, accountless service and cover informational use, source/geography/version limitations, responsible use, external sources, licensing and unavailable reporting procedures. Full preserved source disclaimers are now readable through Terms before entry. Privacy retains the actual local acknowledgment, same-origin assets, direct API delivery, potential provider IP/log processing, rights, unverified retention and missing operational contact disclosures. Material source/legal navigation changes bump the acknowledgment version; the checkbox remains agreement to Terms and acknowledgment of receipt, not blanket processing consent or identity verification.
 

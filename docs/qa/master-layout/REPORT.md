@@ -1,3 +1,5 @@
+Public-copy redaction: personal operator attribution was removed at the owner’s request. Existing historical findings are unchanged; older commits and screenshots may retain earlier attribution.
+
 # BetterNegrosIsland — master layout, footer, brand and motion review
 
 Review date: **3 November 2026 (Asia/Singapore)**. Existing checkout: `C:\Users\daveh\Downloads\BetterQuintoDistrito`. Local preview: `http://localhost:5132/`. This is implementation and local verification, not public deployment or legal acceptance.
@@ -76,7 +78,7 @@ Combined primary/light runtime files total 297,602 bytes, compared with the prio
 
 `src/pages/Legal.tsx` adds a transparent document logo, readable revision/version line, grouped document navigation, rights anchor and return links. Long legal paragraphs are not animated. Interface revision is 3 November; legal-content version remains `2026-11-02-privacy.2` because this pass changes presentation rather than claiming newly approved terms.
 
-Operator details remain **Aqura Information Technology Solutions / Dave Hermoso, Binalbagan, Negros Occidental**, as supplied by the owner. They are not independently verified legal registration information. No privacy contact or submission form was invented. About previously contradicted those supplied details with an “identity missing” TODO; it now accurately distinguishes supplied identity from outstanding procedures.
+Operator details remain **[personal operator attribution removed from this public copy]**, as supplied by the owner. They are not independently verified legal registration information. No privacy contact or submission form was invented. About previously contradicted those supplied details with an “identity missing” TODO; it now accurately distinguishes supplied identity from outstanding procedures.
 
 Processing remains the previously documented minimal local acknowledgment, host-delivered static assets/snapshots, possible host request logs, live detail API requests, and user-opened external sources. No new third-party tracking, font, animation CDN or storage was added. Hosting/provider, lawful criteria, log retention, processor arrangements and a working rights-request procedure remain unresolved. The Privacy Notice explicitly distinguishes notice acknowledgment from blanket processing consent. Review basis includes the [NPC IRR principles of transparency, legitimate purpose, proportionality and retention](https://privacy.gov.ph/implementing-rules-regulations-data-privacy-act-2012/); this is not a legal compliance certification.
 

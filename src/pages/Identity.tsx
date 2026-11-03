@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { useTitle } from "../lib/use-title";
+import { usePortal } from "../lib/portal-context";
 export default function Identity() {
+  const { config } = usePortal();
   useTitle("About BetterNegrosIsland");
   return (
     <main id="main-content" tabIndex={-1} className="page main legal-page">
@@ -16,8 +18,7 @@ export default function Identity() {
       </p>
       <h2>Public evidence, open to everyone.</h2>
       <p>
-        Operated by Aqura Information Technology Solutions / Dave Hermoso,
-        Binalbagan, Negros Occidental.
+        Maintained under the public label {config.operator.name}.
       </p>
       <p>
         No login, registration, payment, residency proof, or GPS access is
@@ -42,10 +43,10 @@ export default function Identity() {
         <Link to="/data-coverage">Read the collection ledger</Link> before
         drawing regional or local conclusions.
       </p>
-      <h2 id="operator">Operator information</h2>
+      <h2 id="operator">Maintainer information</h2>
       <p className="notice">
-        The operator details above were supplied by the project owner and have
-        not been independently verified as a legal registration. No privacy
+        This project label is not a verified legal entity. Formal controller
+        identification is not published. No privacy
         contact or submission form is currently published.
         A corrections and rights-request procedure, approved legal notices and
         provider processing review remain pending. The website is hosted by Vercel;

@@ -53,7 +53,7 @@ function FooterLinks({ title, children }: { title: string; children: ReactNode }
 }
 
 export function Footer() {
-  const { scope, overview } = usePortal();
+  const { scope, overview, config } = usePortal();
   const meta = scope.status === "ready" ? scope.value.meta : overview.status === "ready" ? overview.value.meta : null;
   return <footer className="civic-footer">
     <div className="page page--wide">
@@ -71,7 +71,7 @@ export function Footer() {
         <p>Proposals and appropriations are not proof of spending or wrongdoing.</p>
         <details className="footer-full-notice"><summary>Sources, operator & notices</summary>
           <p>Independent and nonpartisan. No government affiliation, BetterGov.PH endorsement or partnership is implied.</p>
-          <p>Operated by Aqura Information Technology Solutions / Dave Hermoso, Binalbagan, Negros Occidental. <Link to="/about#operator">Operator information</Link>.</p>
+          <p>Maintained by {config.operator.name}. <Link to="/about#operator">Maintainer information</Link>.</p>
           <p>Built on <a href={SOURCE_CODE_URL}>BetterGov.PH’s Transparency Portal</a>. Original MIT license preserved. <a href="/LICENSE.txt">Read the license</a> · <a href={PORTAL_REPOSITORY_URL}>Portal repository</a>.</p>
           {meta&&<p>{meta.notice}</p>}
           <p><Link to="/methodology#data-disclaimer">Full source caveats and restrictions</Link> · <Link to="/methodology#source-attribution">Source attribution</Link> · <Link to="/data-coverage">Data coverage</Link></p>

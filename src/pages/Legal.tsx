@@ -7,7 +7,7 @@ import { Disclaimers } from "../components/Bits";
 import { reviewCookieNotice } from "../lib/cookie-notice";
 
 export default function Legal() {
-  const { scope } = usePortal();
+  const { scope, config } = usePortal();
   const { pathname, state } = useLocation();
   const candidate = state?.returnTo;
   const returnTo =
@@ -41,12 +41,14 @@ export default function Legal() {
       <div id="legal-content">
       {privacy ? (
         <>
-          <h2>1. Responsible operator</h2>
+          <h2>1. Maintenance and accountability</h2>
           <p>
-            BetterNegrosIsland is operated by Aqura Information Technology
-            Solutions / Dave Hermoso, Binalbagan, Negros Occidental. It is an
-            independent, nonpartisan initiative, not a government service or an
-            endorsed BetterGov.PH project.
+            Public maintainer label: {config.operator.name}. This is a project
+            display name, not a verified legal entity. Formal identification
+            and contact details of the responsible personal information
+            controller are not published; this notice remains incomplete.
+            BetterNegrosIsland is an independent, nonpartisan initiative, not
+            a government service or an endorsed BetterGov.PH project.
           </p>
           <p>BetterGov.PH supplies budget data. BetterNegrosIsland independently selects and presents it. The data provider is not presented as this portal’s privacy officer or rights-request handler; no such arrangement has been verified.</p>
           <h2>2. What this portal processes</h2>
@@ -269,10 +271,10 @@ export default function Legal() {
           <h2>7. Updates, corrections, and operator details</h2>
           <p>
             Published API records can change. This portal displays available
-            source build metadata and inclusion reasons. The responsible
-            operator is Aqura Information Technology Solutions / Dave Hermoso,
-            Binalbagan, Negros Occidental. A corrections and rights-request
-            procedure remains to be finalized before public launch. No report or
+            source build metadata and inclusion reasons. The public maintainer
+            label is {config.operator.name}; it is not a verified legal entity.
+            Formal controller identification, contact details and a corrections
+            and rights-request procedure remain unresolved. No report or
             contact submission service is currently operated by this portal.
           </p>
           <h2>8. Acknowledgment</h2>
@@ -287,7 +289,7 @@ export default function Legal() {
       )}
       </div>
       <p className="fine">
-        Review draft revised 3 November 2026. Added the first-party cookie that remembers the cookie notice. Vercel hosting, optional local storage and source-access disclosures remain in place. This version requires renewed acknowledgment.{" "}
+        Review draft revised 3 November 2026. Public maintainer attribution now uses a project display label; formal controller identification and contact details remain unresolved. Cookie, hosting, local storage and source-access disclosures remain in place. This version requires renewed acknowledgment.{" "}
         <Link state={{ returnTo }} to={privacy ? "/terms" : "/privacy"}>
           {privacy ? "Read the Terms of Use" : "Read the Privacy Notice"}
         </Link>

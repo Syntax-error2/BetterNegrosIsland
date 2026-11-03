@@ -1,3 +1,5 @@
+Public-copy redaction: personal operator attribution was removed at the owner’s request. Existing historical findings are unchanged; older commits and screenshots may retain earlier attribution.
+
 # Release assessment — BetterNegrosIsland
 
 **Deployment update, 3 November 2026: the owner authorized Vercel deployment at https://betternegrosisland.vercel.app. The earlier NO-GO assessment below records unresolved privacy/legal and independent QA items; deployment does not resolve or certify them.**
@@ -8,7 +10,7 @@ Current evidence and unresolved work: [implementation report](regional/IMPLEMENT
 
 Public-release blockers:
 
-1. Operator identified by owner: Aqura Information Technology Solutions / Dave Hermoso, Binalbagan, Negros Occidental. A monitored portal privacy contact has not been supplied. BetterGov.PH is the budget data provider; no agreement appointing it as this portal’s privacy/rights handler has been verified. Finalize rights-request procedures, hosting/logging/retention, applicable lawful criteria and legal review before launch.
+1. Operator identified by owner: [personal operator attribution removed from this public copy]. A monitored portal privacy contact has not been supplied. BetterGov.PH is the budget data provider; no agreement appointing it as this portal’s privacy/rights handler has been verified. Finalize rights-request procedures, hosting/logging/retention, applicable lawful criteria and legal review before launch.
 2. Reconcile the 63-code directory against the latest PSA workbook. The available July 2025 listing is explicitly dated; the September 2026 download was blocked.
 3. Obtain owner acceptance for the regional design, data boundaries and historical title crosswalk. No independent geographic certification or exhaustive source-recall audit has occurred.
 4. Configure an approved host/domain/siteUrl; verify public access, deep-link fallback, security/cache/compression headers and external social preview metadata.

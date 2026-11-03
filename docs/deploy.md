@@ -1,3 +1,5 @@
+Public-copy redaction: personal operator attribution was removed at the owner’s request. Existing historical findings are unchanged; older commits and screenshots may retain earlier attribution.
+
 # Static deployment
 
 **BetterNegrosIsland is hosted at https://betternegrosisland.vercel.app through the AQURA ITS Vercel project, connected to Syntax-error2/BetterNegrosIsland. The owner authorized deployment on 3 November 2026. Hosting does not resolve the outstanding privacy/legal and independent QA items.** See [release gates](RELEASE.md) and [current implementation report](regional/IMPLEMENTATION_REPORT.md).
@@ -36,4 +38,4 @@ The project and whole historical shards are deferred, not initial-bundle imports
 
 After an approved deployment, verify unauthenticated first and returning visits, regional acknowledgment, deep-route reloads, shared filters, all three provinces and representative locality profiles including Bacolod/Siquijor, source PDFs, outage recovery, CSV, mobile menu, favicon, social metadata, HTTP security/cache/compression headers, actual hosting log retention, and privacy contacts.
 
-Operator supplied by owner: Aqura Information Technology Solutions / Dave Hermoso, Binalbagan, Negros Occidental. A monitored portal privacy contact has not been supplied; BetterGov.PH is the data source, not an appointed portal privacy handler. Operational rights-request handling, lawful criteria, host logging/retention, legal/privacy review, latest PSGC reconciliation, provider processing review and independent device/accessibility acceptance remain outstanding. No optional analytics, account system or citizen report submission has been enabled.
+Operator supplied by owner: [personal operator attribution removed from this public copy]. A monitored portal privacy contact has not been supplied; BetterGov.PH is the data source, not an appointed portal privacy handler. Operational rights-request handling, lawful criteria, host logging/retention, legal/privacy review, latest PSGC reconciliation, provider processing review and independent device/accessibility acceptance remain outstanding. No optional analytics, account system or citizen report submission has been enabled.

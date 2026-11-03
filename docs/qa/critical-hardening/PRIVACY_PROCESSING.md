@@ -1,6 +1,8 @@
+Public-copy redaction: personal operator attribution was removed at the owner’s request. Existing historical findings are unchanged; older commits and screenshots may retain earlier attribution.
+
 # Processing inventory and operator decisions
 
-Reviewed 3 November 2026 against the actual local implementation. Responsible operator supplied by the owner: Aqura Information Technology Solutions / Dave Hermoso, Binalbagan, Negros Occidental. This inventory supports review; it is not an approved privacy impact assessment or legal opinion.
+Reviewed 3 November 2026 against the actual local implementation. Responsible operator supplied by the owner: [personal operator attribution removed from this public copy]. This inventory supports review; it is not an approved privacy impact assessment or legal opinion.
 
 | Activity | Data / purpose | Recipient and persistence | Verified state / decision |
 | --- | --- | --- | --- |
