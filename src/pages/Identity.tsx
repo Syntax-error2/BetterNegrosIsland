@@ -45,9 +45,10 @@ export default function Identity() {
       <p className="notice">
         The operator details above were supplied by the project owner and have
         not been independently verified as a legal registration. No privacy
-        contact or submission form is published, as requested by the owner.
+        contact or submission form is currently published.
         A corrections and rights-request procedure, approved legal notices and
-        hosting acceptance remain pending before public launch.
+        provider processing review remain pending. The website is hosted by Vercel;
+        hosting does not certify completion of those reviews.
       </p>
     </main>
   );

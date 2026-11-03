@@ -342,8 +342,8 @@ function ProjectView({ env,snapshot }: { env: Envelope<ProjectDetail>;snapshot?:
               </a>
             ) : (
               <p className="small">
-                Citizen reports will go to one place for every portal,
-                budget.bettergov.ph. Reporting is not open yet.
+                Citizen reporting is not available on this portal. Use the
+                source links below to verify the published record.
               </p>
             )}
           </div>
