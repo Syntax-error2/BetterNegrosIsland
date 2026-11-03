@@ -1,0 +1,49 @@
+{
+  "page": {
+    "brokenImages": [],
+    "clipped": [],
+    "heading": "A one-minute budget guide.",
+    "kpis": [],
+    "pageWidth": 360,
+    "path": "/budget-guide",
+    "scrollWidth": 360,
+    "width": 375
+  },
+  "controls": {
+    "guide": {
+      "heading": "A proposal asks for funding.",
+      "height": 535.4000244140625,
+      "inactive": [
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        }
+      ],
+      "nav": 1125.6500244140625,
+      "step": "Step 1 of 5",
+      "y": 0
+    },
+    "headings": [
+      "A proposal asks for funding."
+    ],
+    "lists": [],
+    "toolbar": []
+  },
+  "result": "PASS"
+}

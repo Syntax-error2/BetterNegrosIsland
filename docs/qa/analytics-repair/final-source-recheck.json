@@ -1,0 +1,28 @@
+{
+  "guard": {
+    "width": 1440,
+    "charts": 6,
+    "status": "PASS"
+  },
+  "fullCaptures": [
+    {
+      "width": 1440,
+      "encoded": {
+        "height": 6920,
+        "width": 1425
+      }
+    },
+    {
+      "width": 390,
+      "encoded": {
+        "height": 12358,
+        "width": 375
+      }
+    }
+  ],
+  "hiddenAfterInitialFallbackRemoval": {
+    "actual": 309,
+    "bars": 2,
+    "width": 309
+  }
+}

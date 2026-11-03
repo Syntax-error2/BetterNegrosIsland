@@ -1,0 +1,187 @@
+[
+  {
+    "name": "Focused comparison renders selected HFEP grouping",
+    "passed": true
+  },
+  {
+    "name": "Himamaylan selection returned five source records",
+    "passed": true,
+    "note": "Verified by visible selection notice during preceding workflow."
+  },
+  {
+    "name": "Province change clears incompatible locality",
+    "passed": true
+  },
+  {
+    "name": "Combined Siquijor/HFEP filters preserve positive bar geometry",
+    "passed": true
+  },
+  {
+    "name": "Selected NEP HFEP union is exactly 36 million",
+    "passed": true
+  },
+  {
+    "name": "Browser back restores House stage",
+    "passed": true,
+    "note": "Verified by actual House heading after back navigation."
+  },
+  {
+    "name": "Browser forward restores NEP stage",
+    "passed": true
+  },
+  {
+    "name": "Filtered explorer search produces an honest empty result",
+    "passed": true
+  },
+  {
+    "name": "Explorer link and browser back preserve analytics selection",
+    "passed": true
+  },
+  {
+    "name": "NIA query has no fabricated amounts or ghost plots",
+    "passed": true,
+    "detail": [
+      {
+        "title": "A / NEP versus House bill",
+        "hasValues": false,
+        "rows": [
+          {
+            "House": null,
+            "NEP": null,
+            "axisLabel": "HFEP",
+            "label": "HFEP"
+          }
+        ]
+      },
+      {
+        "title": "B / Proposed amounts by program · NEP",
+        "hasValues": false,
+        "rows": [
+          {
+            "Amount": null,
+            "axisLabel": "DPWH",
+            "label": "DPWH"
+          },
+          {
+            "Amount": null,
+            "axisLabel": "FMR",
+            "label": "FMR"
+          },
+          {
+            "Amount": null,
+            "axisLabel": "HFEP",
+            "label": "HFEP"
+          },
+          {
+            "Amount": null,
+            "axisLabel": "NIA",
+            "label": "NIA"
+          }
+        ]
+      },
+      {
+        "title": "C / Province title associations",
+        "hasValues": true,
+        "rows": [
+          {
+            "Records": 0,
+            "axisLabel": "Negros Occidental",
+            "label": "Negros Occidental"
+          },
+          {
+            "Records": 0,
+            "axisLabel": "Negros Oriental",
+            "label": "Negros Oriental"
+          },
+          {
+            "Records": 0,
+            "axisLabel": "Siquijor",
+            "label": "Siquijor"
+          }
+        ]
+      },
+      {
+        "title": "D / Document comparison classifications",
+        "hasValues": true,
+        "rows": [
+          {
+            "Records": 0,
+            "axisLabel": "Increased",
+            "label": "Increased"
+          },
+          {
+            "Records": 0,
+            "axisLabel": "Decreased",
+            "label": "Decreased"
+          },
+          {
+            "Records": 0,
+            "axisLabel": "Unchanged",
+            "label": "Unchanged"
+          },
+          {
+            "Records": 0,
+            "axisLabel": "House bill only",
+            "label": "House bill only"
+          },
+          {
+            "Records": 0,
+            "axisLabel": "NEP only",
+            "label": "NEP only"
+          },
+          {
+            "Records": 0,
+            "axisLabel": "Scope review",
+            "label": "Scope review"
+          }
+        ]
+      },
+      {
+        "title": "F / Largest published projects · NEP",
+        "hasValues": false,
+        "rows": []
+      },
+      {
+        "title": "E / Historical GAA title-search trend",
+        "hasValues": true,
+        "rows": [
+          {
+            "GAA": 943588000,
+            "axisLabel": "2020",
+            "label": "2020"
+          },
+          {
+            "GAA": 1661578000,
+            "axisLabel": "2021",
+            "label": "2021"
+          },
+          {
+            "GAA": 1034073000,
+            "axisLabel": "2022",
+            "label": "2022"
+          },
+          {
+            "GAA": 1272981000,
+            "axisLabel": "2023",
+            "label": "2023"
+          },
+          {
+            "GAA": 2488914000,
+            "axisLabel": "2024",
+            "label": "2024"
+          },
+          {
+            "GAA": 1573810000,
+            "axisLabel": "2025",
+            "label": "2025"
+          },
+          {
+            "GAA": 837699000,
+            "axisLabel": "2026",
+            "label": "2026"
+          }
+        ]
+      }
+    ]
+  }
+]

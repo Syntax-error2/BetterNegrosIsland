@@ -1,0 +1,40 @@
+{
+  "page": {
+    "brokenImages": [],
+    "clipped": [],
+    "heading": "Evidence you can share.",
+    "kpis": [],
+    "pageWidth": 360,
+    "path": "/evidence/dpwh/house-reading%3A1918",
+    "scrollWidth": 360,
+    "width": 375
+  },
+  "controls": {
+    "guide": null,
+    "headings": [
+      "Bacolod Negros Occidental Economic Highway (BANOCEH), Sta. 20+680 - Sta. 20+950, Sta. 23+028 - Sta. 23+375, Sta. 23+745 - Sta. 24+245.33, Talisay City, Negros Occidental"
+    ],
+    "lists": [],
+    "toolbar": [
+      {
+        "bottom": 488.0500183105469,
+        "height": 48,
+        "top": 440.0500183105469,
+        "width": 328
+      },
+      {
+        "bottom": 550.0500183105469,
+        "height": 48,
+        "top": 502.0500183105469,
+        "width": 328
+      },
+      {
+        "bottom": 612.0499877929688,
+        "height": 48,
+        "top": 564.0499877929688,
+        "width": 328
+      }
+    ]
+  },
+  "result": "PASS"
+}

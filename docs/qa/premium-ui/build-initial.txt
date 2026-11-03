@@ -1,0 +1,36 @@
+
+> betternegrosisland@0.1.0 build
+> tsc -b && vite build
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 648 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                                  2.37 kB │ gzip:   0.84 kB
+dist/assets/plus-jakarta-sans-latin-400-normal-Dhut76fR.woff2   11.81 kB
+dist/assets/plus-jakarta-sans-latin-600-normal-DLTa1BUW.woff2   12.18 kB
+dist/assets/plus-jakarta-sans-latin-700-normal-CfpNZvy6.woff2   12.24 kB
+dist/assets/plus-jakarta-sans-latin-500-normal-Bf-nb4oT.woff2   12.31 kB
+dist/assets/plus-jakarta-sans-latin-400-normal-BDKaGhyp.woff    15.72 kB
+dist/assets/plus-jakarta-sans-latin-600-normal-BR_Ojra4.woff    16.08 kB
+dist/assets/plus-jakarta-sans-latin-500-normal-DYtqi0QS.woff    16.12 kB
+dist/assets/plus-jakarta-sans-latin-700-normal-DqEcQeE5.woff    16.13 kB
+dist/assets/index-B8Udr4CF.css                                  59.11 kB │ gzip:  12.41 kB
+dist/assets/config-5lDIaJgb.js                                   0.22 kB │ gzip:   0.16 kB
+dist/assets/snapshot-BKijvgVy.js                                 0.58 kB │ gzip:   0.39 kB
+dist/assets/Identity-Ns-EtgD4.js                                 2.05 kB │ gzip:   1.05 kB
+dist/assets/types-Dh2I32Ob.js                                    2.47 kB │ gzip:   1.22 kB
+dist/assets/RegionalPlaces-Bb4yO17o.js                           2.66 kB │ gzip:   1.32 kB
+dist/assets/Bits-C9D8yKo4.js                                     3.53 kB │ gzip:   1.63 kB
+dist/assets/RegionalMethodology-wyFKWLjQ.js                      4.67 kB │ gzip:   2.14 kB
+dist/assets/Coverage-oXunuq9i.js                                 4.87 kB │ gzip:   1.96 kB
+dist/assets/Project-DOpXVVJL.js                                  8.48 kB │ gzip:   3.22 kB
+dist/assets/use-title-CFgsYR7g.js                                9.05 kB │ gzip:   3.46 kB
+dist/assets/Legal-7UXqqJKZ.js                                   10.68 kB │ gzip:   4.15 kB
+dist/assets/Enacted-B4S9O4vW.js                                 14.78 kB │ gzip:   5.49 kB
+dist/assets/chunk-6KYCQHYJ-D4emBCSE.js                          38.87 kB │ gzip:  13.91 kB
+dist/assets/index-D1QQlL3W.js                                  268.49 kB │ gzip:  82.86 kB
+dist/assets/Analytics-BURUx11T.js                              402.23 kB │ gzip: 115.16 kB
+
+✓ built in 348ms

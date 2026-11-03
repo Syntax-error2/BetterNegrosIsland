@@ -1,0 +1,1690 @@
+[
+  {
+    "page": {
+      "brokenImages": [],
+      "clipped": [],
+      "heading": "A one-minute budget guide.",
+      "kpis": [],
+      "pageWidth": 1425,
+      "path": "/budget-guide",
+      "scrollWidth": 1425,
+      "width": 1440
+    },
+    "controls": {
+      "guide": {
+        "heading": "A proposal asks for funding.",
+        "height": 353.70001220703125,
+        "inactive": [
+          {
+            "hidden": true,
+            "inert": true,
+            "visibility": "hidden"
+          },
+          {
+            "hidden": true,
+            "inert": true,
+            "visibility": "hidden"
+          },
+          {
+            "hidden": true,
+            "inert": true,
+            "visibility": "hidden"
+          },
+          {
+            "hidden": true,
+            "inert": true,
+            "visibility": "hidden"
+          }
+        ],
+        "nav": 775.4500122070312,
+        "step": "Step 1 of 5",
+        "y": 0
+      },
+      "headings": [
+        "A proposal asks for funding."
+      ],
+      "lists": [],
+      "toolbar": []
+    },
+    "result": "PASS"
+  },
+  {
+    "page": {
+      "brokenImages": [],
+      "clipped": [],
+      "heading": "Two records. The same questions.",
+      "kpis": [],
+      "pageWidth": 1425,
+      "path": "/compare",
+      "scrollWidth": 1425,
+      "width": 1440
+    },
+    "controls": {
+      "guide": null,
+      "headings": [],
+      "lists": [
+        {
+          "height": 328,
+          "overflow": "auto",
+          "scrollHeight": 2966,
+          "scrollWidth": 610,
+          "titles": [
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 434,
+              "width": 434
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 488,
+              "width": 488
+            },
+            {
+              "scroll": 505,
+              "width": 505
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 378,
+              "width": 378
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 448,
+              "width": 448
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            }
+          ],
+          "width": 610
+        },
+        {
+          "height": 328,
+          "overflow": "auto",
+          "scrollHeight": 2966,
+          "scrollWidth": 610,
+          "titles": [
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 434,
+              "width": 434
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 488,
+              "width": 488
+            },
+            {
+              "scroll": 505,
+              "width": 505
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 378,
+              "width": 378
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 448,
+              "width": 448
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            },
+            {
+              "scroll": 554,
+              "width": 554
+            }
+          ],
+          "width": 610
+        }
+      ],
+      "toolbar": []
+    },
+    "result": "PASS"
+  },
+  {
+    "page": {
+      "brokenImages": [],
+      "clipped": [],
+      "heading": "Evidence you can share.",
+      "kpis": [],
+      "pageWidth": 1425,
+      "path": "/evidence/dpwh/house-reading%3A1918",
+      "scrollWidth": 1425,
+      "width": 1440
+    },
+    "controls": {
+      "guide": null,
+      "headings": [
+        "Bacolod Negros Occidental Economic Highway (BANOCEH), Sta. 20+680 - Sta. 20+950, Sta. 23+028 - Sta. 23+375, Sta. 23+745 - Sta. 24+245.33, Talisay City, Negros Occidental"
+      ],
+      "lists": [],
+      "toolbar": [
+        {
+          "bottom": 412.75,
+          "height": 48,
+          "top": 364.75,
+          "width": 202.8000030517578
+        },
+        {
+          "bottom": 412.75,
+          "height": 48,
+          "top": 364.75,
+          "width": 248.9125061035156
+        },
+        {
+          "bottom": 412.75,
+          "height": 48,
+          "top": 364.75,
+          "width": 149.2375030517578
+        }
+      ]
+    },
+    "result": "PASS"
+  },
+  {
+    "page": {
+      "brokenImages": [],
+      "clipped": [],
+      "heading": "Public budgets.Clearer decisions.",
+      "kpis": [
+        {
+          "height": 228.40000915527344,
+          "noteBottom": 815.3257102966309,
+          "top": 661.7257080078125,
+          "valueClient": 291,
+          "valueWidth": 291
+        },
+        {
+          "height": 228.3999481201172,
+          "noteBottom": 815.4205589294434,
+          "top": 661.820556640625,
+          "valueClient": 291,
+          "valueWidth": 291
+        },
+        {
+          "height": 228.3999481201172,
+          "noteBottom": 815.6119651794434,
+          "top": 662.011962890625,
+          "valueClient": 291,
+          "valueWidth": 291
+        },
+        {
+          "height": 228.40005493164065,
+          "noteBottom": 815.9447288513184,
+          "top": 662.3446655273438,
+          "valueClient": 292,
+          "valueWidth": 292
+        }
+      ],
+      "pageWidth": 1425,
+      "path": "/",
+      "scrollWidth": 1425,
+      "width": 1440
+    },
+    "controls": {
+      "guide": null,
+      "headings": [
+        "The regional budget review",
+        "The published comparison, at a glance.",
+        "Start with your community.",
+        "What would you like to know?",
+        "One region. Every community.",
+        "Read the documents.Understand the differences."
+      ],
+      "lists": [],
+      "toolbar": []
+    },
+    "result": "PASS"
+  },
+  {
+    "page": {
+      "brokenImages": [],
+      "clipped": [],
+      "heading": "A one-minute budget guide.",
+      "kpis": [],
+      "pageWidth": 305,
+      "path": "/budget-guide",
+      "scrollWidth": 305,
+      "width": 320
+    },
+    "controls": {
+      "guide": {
+        "heading": "A proposal asks for funding.",
+        "height": 627.5,
+        "inactive": [
+          {
+            "hidden": true,
+            "inert": true,
+            "visibility": "hidden"
+          },
+          {
+            "hidden": true,
+            "inert": true,
+            "visibility": "hidden"
+          },
+          {
+            "hidden": true,
+            "inert": true,
+            "visibility": "hidden"
+          },
+          {
+            "hidden": true,
+            "inert": true,
+            "visibility": "hidden"
+          }
+        ],
+        "nav": 1285.8875732421875,
+        "step": "Step 1 of 5",
+        "y": 0
+      },
+      "headings": [
+        "A proposal asks for funding."
+      ],
+      "lists": [],
+      "toolbar": []
+    },
+    "result": "PASS"
+  },
+  {
+    "page": {
+      "brokenImages": [],
+      "clipped": [],
+      "heading": "Two records. The same questions.",
+      "kpis": [],
+      "pageWidth": 305,
+      "path": "/compare",
+      "scrollWidth": 305,
+      "width": 320
+    },
+    "controls": {
+      "guide": null,
+      "headings": [],
+      "lists": [
+        {
+          "height": 328,
+          "overflow": "auto",
+          "scrollHeight": 5599,
+          "scrollWidth": 222,
+          "titles": [
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            }
+          ],
+          "width": 222
+        },
+        {
+          "height": 328,
+          "overflow": "auto",
+          "scrollHeight": 5599,
+          "scrollWidth": 222,
+          "titles": [
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            },
+            {
+              "scroll": 166,
+              "width": 166
+            }
+          ],
+          "width": 222
+        }
+      ],
+      "toolbar": []
+    },
+    "result": "PASS"
+  },
+  {
+    "page": {
+      "brokenImages": [],
+      "clipped": [],
+      "heading": "Evidence you can share.",
+      "kpis": [],
+      "pageWidth": 305,
+      "path": "/evidence/dpwh/house-reading%3A1918",
+      "scrollWidth": 305,
+      "width": 320
+    },
+    "controls": {
+      "guide": null,
+      "headings": [
+        "Bacolod Negros Occidental Economic Highway (BANOCEH), Sta. 20+680 - Sta. 20+950, Sta. 23+028 - Sta. 23+375, Sta. 23+745 - Sta. 24+245.33, Talisay City, Negros Occidental"
+      ],
+      "lists": [],
+      "toolbar": [
+        {
+          "bottom": 500.1875,
+          "height": 48,
+          "top": 452.1875,
+          "width": 272.8000183105469
+        },
+        {
+          "bottom": 562.1875,
+          "height": 48,
+          "top": 514.1875,
+          "width": 272.8000183105469
+        },
+        {
+          "bottom": 624.1875,
+          "height": 48,
+          "top": 576.1875,
+          "width": 272.8000183105469
+        }
+      ]
+    },
+    "result": "PASS"
+  },
+  {
+    "page": {
+      "brokenImages": [],
+      "clipped": [],
+      "heading": "Public budgets.Clearer decisions.",
+      "kpis": [
+        {
+          "height": 204.9999084472656,
+          "noteBottom": 1328.334888458252,
+          "top": 1198.9349365234375,
+          "valueClient": 235,
+          "valueWidth": 235
+        },
+        {
+          "height": 205,
+          "noteBottom": 1535.5427742004397,
+          "top": 1406.142822265625,
+          "valueClient": 231,
+          "valueWidth": 231
+        },
+        {
+          "height": 205,
+          "noteBottom": 1743.1875495910645,
+          "top": 1613.7874755859375,
+          "valueClient": 231,
+          "valueWidth": 231
+        },
+        {
+          "height": 204.1999969482422,
+          "noteBottom": 1948.1875495910645,
+          "top": 1818.7874755859375,
+          "valueClient": 231,
+          "valueWidth": 231
+        }
+      ],
+      "pageWidth": 305,
+      "path": "/",
+      "scrollWidth": 305,
+      "width": 320
+    },
+    "controls": {
+      "guide": null,
+      "headings": [
+        "The regional budget review",
+        "The published comparison, at a glance.",
+        "Start with your community.",
+        "What would you like to know?",
+        "One region. Every community.",
+        "Read the documents.Understand the differences."
+      ],
+      "lists": [],
+      "toolbar": []
+    },
+    "result": "PASS"
+  },
+  {
+    "page": {
+      "brokenImages": [],
+      "clipped": [],
+      "heading": "A one-minute budget guide.",
+      "kpis": [],
+      "pageWidth": 360,
+      "path": "/budget-guide",
+      "scrollWidth": 360,
+      "width": 375
+    },
+    "controls": {
+      "guide": {
+        "heading": "A proposal asks for funding.",
+        "height": 535.4000244140625,
+        "inactive": [
+          {
+            "hidden": true,
+            "inert": true,
+            "visibility": "hidden"
+          },
+          {
+            "hidden": true,
+            "inert": true,
+            "visibility": "hidden"
+          },
+          {
+            "hidden": true,
+            "inert": true,
+            "visibility": "hidden"
+          },
+          {
+            "hidden": true,
+            "inert": true,
+            "visibility": "hidden"
+          }
+        ],
+        "nav": 1125.6500244140625,
+        "step": "Step 1 of 5",
+        "y": 0
+      },
+      "headings": [
+        "A proposal asks for funding."
+      ],
+      "lists": [],
+      "toolbar": []
+    },
+    "result": "PASS"
+  },
+  {
+    "page": {
+      "brokenImages": [],
+      "clipped": [],
+      "heading": "Two records. The same questions.",
+      "kpis": [],
+      "pageWidth": 360,
+      "path": "/compare",
+      "scrollWidth": 360,
+      "width": 375
+    },
+    "controls": {
+      "guide": null,
+      "headings": [],
+      "lists": [
+        {
+          "height": 328,
+          "overflow": "auto",
+          "scrollHeight": 4490,
+          "scrollWidth": 278,
+          "titles": [
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            }
+          ],
+          "width": 278
+        },
+        {
+          "height": 328,
+          "overflow": "auto",
+          "scrollHeight": 4490,
+          "scrollWidth": 278,
+          "titles": [
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            },
+            {
+              "scroll": 222,
+              "width": 222
+            }
+          ],
+          "width": 278
+        }
+      ],
+      "toolbar": []
+    },
+    "result": "PASS"
+  },
+  {
+    "page": {
+      "brokenImages": [],
+      "clipped": [],
+      "heading": "Evidence you can share.",
+      "kpis": [],
+      "pageWidth": 360,
+      "path": "/evidence/dpwh/house-reading%3A1918",
+      "scrollWidth": 360,
+      "width": 375
+    },
+    "controls": {
+      "guide": null,
+      "headings": [
+        "Bacolod Negros Occidental Economic Highway (BANOCEH), Sta. 20+680 - Sta. 20+950, Sta. 23+028 - Sta. 23+375, Sta. 23+745 - Sta. 24+245.33, Talisay City, Negros Occidental"
+      ],
+      "lists": [],
+      "toolbar": [
+        {
+          "bottom": 488.0500183105469,
+          "height": 48,
+          "top": 440.0500183105469,
+          "width": 328
+        },
+        {
+          "bottom": 550.0500183105469,
+          "height": 48,
+          "top": 502.0500183105469,
+          "width": 328
+        },
+        {
+          "bottom": 612.0499877929688,
+          "height": 48,
+          "top": 564.0499877929688,
+          "width": 328
+        }
+      ]
+    },
+    "result": "PASS"
+  },
+  {
+    "page": {
+      "brokenImages": [],
+      "clipped": [],
+      "heading": "Public budgets.Clearer decisions.",
+      "kpis": [
+        {
+          "height": 205,
+          "noteBottom": 1209.650074005127,
+          "top": 1080.25,
+          "valueClient": 290,
+          "valueWidth": 290
+        },
+        {
+          "height": 205,
+          "noteBottom": 1414.678394317627,
+          "top": 1285.2783203125,
+          "valueClient": 286,
+          "valueWidth": 286
+        },
+        {
+          "height": 205,
+          "noteBottom": 1619.777027130127,
+          "top": 1490.376953125,
+          "valueClient": 286,
+          "valueWidth": 286
+        },
+        {
+          "height": 204.1999969482422,
+          "noteBottom": 1824.973804473877,
+          "top": 1695.5738525390625,
+          "valueClient": 286,
+          "valueWidth": 286
+        }
+      ],
+      "pageWidth": 360,
+      "path": "/",
+      "scrollWidth": 360,
+      "width": 375
+    },
+    "controls": {
+      "guide": null,
+      "headings": [
+        "The regional budget review",
+        "The published comparison, at a glance.",
+        "Start with your community.",
+        "What would you like to know?",
+        "One region. Every community.",
+        "Read the documents.Understand the differences."
+      ],
+      "lists": [],
+      "toolbar": []
+    },
+    "result": "PASS"
+  },
+  {
+    "page": {
+      "brokenImages": [],
+      "clipped": [],
+      "heading": "A one-minute budget guide.",
+      "kpis": [],
+      "pageWidth": 753,
+      "path": "/budget-guide",
+      "scrollWidth": 753,
+      "width": 768
+    },
+    "controls": {
+      "guide": {
+        "heading": "A proposal asks for funding.",
+        "height": 353.70001220703125,
+        "inactive": [
+          {
+            "hidden": true,
+            "inert": true,
+            "visibility": "hidden"
+          },
+          {
+            "hidden": true,
+            "inert": true,
+            "visibility": "hidden"
+          },
+          {
+            "hidden": true,
+            "inert": true,
+            "visibility": "hidden"
+          },
+          {
+            "hidden": true,
+            "inert": true,
+            "visibility": "hidden"
+          }
+        ],
+        "nav": 775.5,
+        "step": "Step 1 of 5",
+        "y": 0
+      },
+      "headings": [
+        "A proposal asks for funding."
+      ],
+      "lists": [],
+      "toolbar": []
+    },
+    "result": "PASS"
+  },
+  {
+    "page": {
+      "brokenImages": [],
+      "clipped": [],
+      "heading": "Two records. The same questions.",
+      "kpis": [],
+      "pageWidth": 753,
+      "path": "/compare",
+      "scrollWidth": 753,
+      "width": 768
+    },
+    "controls": {
+      "guide": null,
+      "headings": [],
+      "lists": [
+        {
+          "height": 328,
+          "overflow": "auto",
+          "scrollHeight": 4352,
+          "scrollWidth": 289,
+          "titles": [
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            }
+          ],
+          "width": 289
+        },
+        {
+          "height": 328,
+          "overflow": "auto",
+          "scrollHeight": 4352,
+          "scrollWidth": 289,
+          "titles": [
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            },
+            {
+              "scroll": 233,
+              "width": 233
+            }
+          ],
+          "width": 289
+        }
+      ],
+      "toolbar": []
+    },
+    "result": "PASS"
+  },
+  {
+    "page": {
+      "brokenImages": [],
+      "clipped": [],
+      "heading": "Evidence you can share.",
+      "kpis": [],
+      "pageWidth": 753,
+      "path": "/evidence/dpwh/house-reading%3A1918",
+      "scrollWidth": 753,
+      "width": 768
+    },
+    "controls": {
+      "guide": null,
+      "headings": [
+        "Bacolod Negros Occidental Economic Highway (BANOCEH), Sta. 20+680 - Sta. 20+950, Sta. 23+028 - Sta. 23+375, Sta. 23+745 - Sta. 24+245.33, Talisay City, Negros Occidental"
+      ],
+      "lists": [],
+      "toolbar": [
+        {
+          "bottom": 430,
+          "height": 48,
+          "top": 382,
+          "width": 202.8000030517578
+        },
+        {
+          "bottom": 430,
+          "height": 48,
+          "top": 382,
+          "width": 248.9125061035156
+        },
+        {
+          "bottom": 430,
+          "height": 48,
+          "top": 382,
+          "width": 149.2375030517578
+        }
+      ]
+    },
+    "result": "PASS"
+  },
+  {
+    "page": {
+      "brokenImages": [],
+      "clipped": [],
+      "heading": "Public budgets.Clearer decisions.",
+      "kpis": [
+        {
+          "height": 223.6000518798828,
+          "noteBottom": 912.743495941162,
+          "top": 764.743408203125,
+          "valueClient": 310,
+          "valueWidth": 310
+        },
+        {
+          "height": 223.59996032714844,
+          "noteBottom": 914.9493064880372,
+          "top": 766.9492797851562,
+          "valueClient": 310,
+          "valueWidth": 310
+        },
+        {
+          "height": 222.8000030517578,
+          "noteBottom": 1141.199977874756,
+          "top": 993.2000122070312,
+          "valueClient": 310,
+          "valueWidth": 310
+        },
+        {
+          "height": 222.8000030517578,
+          "noteBottom": 1141.199977874756,
+          "top": 993.2000122070312,
+          "valueClient": 310,
+          "valueWidth": 310
+        }
+      ],
+      "pageWidth": 753,
+      "path": "/",
+      "scrollWidth": 753,
+      "width": 768
+    },
+    "controls": {
+      "guide": null,
+      "headings": [
+        "The regional budget review",
+        "The published comparison, at a glance.",
+        "Start with your community.",
+        "What would you like to know?",
+        "One region. Every community.",
+        "Read the documents.Understand the differences."
+      ],
+      "lists": [],
+      "toolbar": []
+    },
+    "result": "PASS"
+  }
+]

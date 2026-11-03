@@ -1,0 +1,449 @@
+{
+  "source": "https://psa.gov.ph/classification/psgc",
+  "listingDate": "2025-07-31",
+  "retrieved": "2026-11-02",
+  "latestRelease": "2026-09-30 (workbook download blocked; accessible lists dated July 2025)",
+  "locations": [
+    {
+      "name": "Binalbagan",
+      "code": "1804503000",
+      "legacy": "064503000",
+      "type": "Municipality",
+      "province": "negros-occidental"
+    },
+    {
+      "name": "Calatrava",
+      "code": "1804505000",
+      "legacy": "064505000",
+      "type": "Municipality",
+      "province": "negros-occidental"
+    },
+    {
+      "name": "Candoni",
+      "code": "1804506000",
+      "legacy": "064506000",
+      "type": "Municipality",
+      "province": "negros-occidental"
+    },
+    {
+      "name": "Cauayan",
+      "code": "1804507000",
+      "legacy": "064507000",
+      "type": "Municipality",
+      "province": "negros-occidental"
+    },
+    {
+      "name": "Enrique B. Magalona",
+      "code": "1804508000",
+      "legacy": "064508000",
+      "type": "Municipality",
+      "province": "negros-occidental"
+    },
+    {
+      "name": "Hinigaran",
+      "code": "1804511000",
+      "legacy": "064511000",
+      "type": "Municipality",
+      "province": "negros-occidental"
+    },
+    {
+      "name": "Hinoba-an",
+      "code": "1804512000",
+      "legacy": "064512000",
+      "type": "Municipality",
+      "province": "negros-occidental"
+    },
+    {
+      "name": "Ilog",
+      "code": "1804513000",
+      "legacy": "064513000",
+      "type": "Municipality",
+      "province": "negros-occidental"
+    },
+    {
+      "name": "Isabela",
+      "code": "1804514000",
+      "legacy": "064514000",
+      "type": "Municipality",
+      "province": "negros-occidental"
+    },
+    {
+      "name": "La Castellana",
+      "code": "1804517000",
+      "legacy": "064517000",
+      "type": "Municipality",
+      "province": "negros-occidental"
+    },
+    {
+      "name": "Manapla",
+      "code": "1804518000",
+      "legacy": "064518000",
+      "type": "Municipality",
+      "province": "negros-occidental"
+    },
+    {
+      "name": "Moises Padilla",
+      "code": "1804519000",
+      "legacy": "064519000",
+      "type": "Municipality",
+      "province": "negros-occidental"
+    },
+    {
+      "name": "Murcia",
+      "code": "1804520000",
+      "legacy": "064520000",
+      "type": "Municipality",
+      "province": "negros-occidental"
+    },
+    {
+      "name": "Pontevedra",
+      "code": "1804521000",
+      "legacy": "064521000",
+      "type": "Municipality",
+      "province": "negros-occidental"
+    },
+    {
+      "name": "Pulupandan",
+      "code": "1804522000",
+      "legacy": "064522000",
+      "type": "Municipality",
+      "province": "negros-occidental"
+    },
+    {
+      "name": "San Enrique",
+      "code": "1804525000",
+      "legacy": "064525000",
+      "type": "Municipality",
+      "province": "negros-occidental"
+    },
+    {
+      "name": "Toboso",
+      "code": "1804529000",
+      "legacy": "064529000",
+      "type": "Municipality",
+      "province": "negros-occidental"
+    },
+    {
+      "name": "Valladolid",
+      "code": "1804530000",
+      "legacy": "064530000",
+      "type": "Municipality",
+      "province": "negros-occidental"
+    },
+    {
+      "name": "Salvador Benedicto",
+      "code": "1804532000",
+      "legacy": "064532000",
+      "type": "Municipality",
+      "province": "negros-occidental"
+    },
+    {
+      "name": "Amlan",
+      "code": "1804601000",
+      "legacy": "074601000",
+      "type": "Municipality",
+      "province": "negros-oriental"
+    },
+    {
+      "name": "Ayungon",
+      "code": "1804602000",
+      "legacy": "074602000",
+      "type": "Municipality",
+      "province": "negros-oriental"
+    },
+    {
+      "name": "Bacong",
+      "code": "1804603000",
+      "legacy": "074603000",
+      "type": "Municipality",
+      "province": "negros-oriental"
+    },
+    {
+      "name": "Basay",
+      "code": "1804605000",
+      "legacy": "074605000",
+      "type": "Municipality",
+      "province": "negros-oriental"
+    },
+    {
+      "name": "Bindoy",
+      "code": "1804607000",
+      "legacy": "074607000",
+      "type": "Municipality",
+      "province": "negros-oriental"
+    },
+    {
+      "name": "Dauin",
+      "code": "1804609000",
+      "legacy": "074609000",
+      "type": "Municipality",
+      "province": "negros-oriental"
+    },
+    {
+      "name": "Jimalalud",
+      "code": "1804612000",
+      "legacy": "074612000",
+      "type": "Municipality",
+      "province": "negros-oriental"
+    },
+    {
+      "name": "La Libertad",
+      "code": "1804613000",
+      "legacy": "074613000",
+      "type": "Municipality",
+      "province": "negros-oriental"
+    },
+    {
+      "name": "Mabinay",
+      "code": "1804614000",
+      "legacy": "074614000",
+      "type": "Municipality",
+      "province": "negros-oriental"
+    },
+    {
+      "name": "Manjuyod",
+      "code": "1804615000",
+      "legacy": "074615000",
+      "type": "Municipality",
+      "province": "negros-oriental"
+    },
+    {
+      "name": "Pamplona",
+      "code": "1804616000",
+      "legacy": "074616000",
+      "type": "Municipality",
+      "province": "negros-oriental"
+    },
+    {
+      "name": "San Jose",
+      "code": "1804617000",
+      "legacy": "074617000",
+      "type": "Municipality",
+      "province": "negros-oriental"
+    },
+    {
+      "name": "Santa Catalina",
+      "code": "1804618000",
+      "legacy": "074618000",
+      "type": "Municipality",
+      "province": "negros-oriental"
+    },
+    {
+      "name": "Siaton",
+      "code": "1804619000",
+      "legacy": "074619000",
+      "type": "Municipality",
+      "province": "negros-oriental"
+    },
+    {
+      "name": "Sibulan",
+      "code": "1804620000",
+      "legacy": "074620000",
+      "type": "Municipality",
+      "province": "negros-oriental"
+    },
+    {
+      "name": "Tayasan",
+      "code": "1804622000",
+      "legacy": "074622000",
+      "type": "Municipality",
+      "province": "negros-oriental"
+    },
+    {
+      "name": "Valencia",
+      "code": "1804623000",
+      "legacy": "074623000",
+      "type": "Municipality",
+      "province": "negros-oriental"
+    },
+    {
+      "name": "Vallehermoso",
+      "code": "1804624000",
+      "legacy": "074624000",
+      "type": "Municipality",
+      "province": "negros-oriental"
+    },
+    {
+      "name": "Zamboanguita",
+      "code": "1804625000",
+      "legacy": "074625000",
+      "type": "Municipality",
+      "province": "negros-oriental"
+    },
+    {
+      "name": "Enrique Villanueva",
+      "code": "1806101000",
+      "legacy": "076101000",
+      "type": "Municipality",
+      "province": "siquijor"
+    },
+    {
+      "name": "Larena",
+      "code": "1806102000",
+      "legacy": "076102000",
+      "type": "Municipality",
+      "province": "siquijor"
+    },
+    {
+      "name": "Lazi",
+      "code": "1806103000",
+      "legacy": "076103000",
+      "type": "Municipality",
+      "province": "siquijor"
+    },
+    {
+      "name": "Maria",
+      "code": "1806104000",
+      "legacy": "076104000",
+      "type": "Municipality",
+      "province": "siquijor"
+    },
+    {
+      "name": "San Juan",
+      "code": "1806105000",
+      "legacy": "076105000",
+      "type": "Municipality",
+      "province": "siquijor"
+    },
+    {
+      "name": "Siquijor",
+      "code": "1806106000",
+      "legacy": "076106000",
+      "type": "Municipality",
+      "province": "siquijor"
+    },
+    {
+      "name": "City of Bago",
+      "code": "1804502000",
+      "legacy": "064502000",
+      "type": "City",
+      "province": "negros-occidental"
+    },
+    {
+      "name": "City of Cadiz",
+      "code": "1804504000",
+      "legacy": "064504000",
+      "type": "City",
+      "province": "negros-occidental"
+    },
+    {
+      "name": "City of Escalante",
+      "code": "1804509000",
+      "legacy": "064509000",
+      "type": "City",
+      "province": "negros-occidental"
+    },
+    {
+      "name": "City of Himamaylan",
+      "code": "1804510000",
+      "legacy": "064510000",
+      "type": "City",
+      "province": "negros-occidental"
+    },
+    {
+      "name": "City of Kabankalan",
+      "code": "1804515000",
+      "legacy": "064515000",
+      "type": "City",
+      "province": "negros-occidental"
+    },
+    {
+      "name": "City of La Carlota",
+      "code": "1804516000",
+      "legacy": "064516000",
+      "type": "City",
+      "province": "negros-occidental"
+    },
+    {
+      "name": "City of Sagay",
+      "code": "1804523000",
+      "legacy": "064523000",
+      "type": "City",
+      "province": "negros-occidental"
+    },
+    {
+      "name": "City of San Carlos",
+      "code": "1804524000",
+      "legacy": "064524000",
+      "type": "City",
+      "province": "negros-occidental"
+    },
+    {
+      "name": "City of Silay",
+      "code": "1804526000",
+      "legacy": "064526000",
+      "type": "City",
+      "province": "negros-occidental"
+    },
+    {
+      "name": "City of Sipalay",
+      "code": "1804527000",
+      "legacy": "064527000",
+      "type": "City",
+      "province": "negros-occidental"
+    },
+    {
+      "name": "City of Talisay",
+      "code": "1804528000",
+      "legacy": "064528000",
+      "type": "City",
+      "province": "negros-occidental"
+    },
+    {
+      "name": "City of Victorias",
+      "code": "1804531000",
+      "legacy": "064531000",
+      "type": "City",
+      "province": "negros-occidental"
+    },
+    {
+      "name": "City of Bais",
+      "code": "1804604000",
+      "legacy": "074604000",
+      "type": "City",
+      "province": "negros-oriental"
+    },
+    {
+      "name": "City of Bayawan",
+      "code": "1804606000",
+      "legacy": "074606000",
+      "type": "City",
+      "province": "negros-oriental"
+    },
+    {
+      "name": "City of Canlaon",
+      "code": "1804608000",
+      "legacy": "074608000",
+      "type": "City",
+      "province": "negros-oriental"
+    },
+    {
+      "name": "City of Dumaguete",
+      "code": "1804610000",
+      "legacy": "074610000",
+      "type": "City",
+      "province": "negros-oriental"
+    },
+    {
+      "name": "City of Guihulngan",
+      "code": "1804611000",
+      "legacy": "074611000",
+      "type": "City",
+      "province": "negros-oriental"
+    },
+    {
+      "name": "City of Tanjay",
+      "code": "1804621000",
+      "legacy": "074621000",
+      "type": "City",
+      "province": "negros-oriental"
+    },
+    {
+      "name": "City of Bacolod",
+      "code": "1830200000",
+      "legacy": "064501000",
+      "type": "City",
+      "province": "negros-occidental"
+    }
+  ]
+}

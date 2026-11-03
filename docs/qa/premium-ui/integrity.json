@@ -1,0 +1,64 @@
+{
+  "snapshot_version_unchanged": true,
+  "manifest_unchanged": true,
+  "shards": [
+    {
+      "url": "/data/snapshots/2026-11-02-37334582ca74/scope.json",
+      "sha256": "839076a55a055b08cd62de46df83036ecac87c160ca710b596f621c0ae72729a",
+      "unchanged": true,
+      "dist_matches": true
+    },
+    {
+      "url": "/data/snapshots/2026-11-02-37334582ca74/history.json",
+      "sha256": "2a2967f7157b7ab5cb8bec3ee77afbb2e91be7e72e433fdf7466f1fec12a0408",
+      "unchanged": true,
+      "dist_matches": true
+    },
+    {
+      "url": "/data/snapshots/2026-11-02-37334582ca74/overview.json",
+      "sha256": "f47cc042ae08efb6883854b23b230dda25cba073765edfe7aeb84ce509b32177",
+      "unchanged": true,
+      "dist_matches": true
+    },
+    {
+      "url": "/data/snapshots/2026-11-02-37334582ca74/districts.json",
+      "sha256": "2a91c4669afe44fedbb7c8eb4211e50f72481a49747b090a0cf445dfc34079d7",
+      "unchanged": true,
+      "dist_matches": true
+    },
+    {
+      "url": "/data/snapshots/2026-11-02-37334582ca74/nep.json",
+      "sha256": "9428a27fccd38e47ebf5d6806d0f03d5d0c9d25cbfb32f55dc8dfcd1f12c0706",
+      "unchanged": true,
+      "dist_matches": true
+    },
+    {
+      "url": "/data/snapshots/2026-11-02-37334582ca74/summary.json",
+      "sha256": "d67be16ad6b56edd0dd66e6688e1f515aa0cb5ac11304807e751d3c10561caa4",
+      "unchanged": true,
+      "dist_matches": true
+    },
+    {
+      "url": "/data/snapshots/2026-11-02-37334582ca74/coverage.json",
+      "sha256": "c958c083908af808d5ea0a9971419df9bf5675c7c87bf34a7472f6d051c1453f",
+      "unchanged": true,
+      "dist_matches": true
+    }
+  ],
+  "development_markers_absent": true,
+  "new_logo_matches_original": true,
+  "png_chunks": [
+    "IHDR",
+    "IDAT",
+    "IEND"
+  ],
+  "has_metadata_chunks": false,
+  "audit_vulnerabilities": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  }
+}

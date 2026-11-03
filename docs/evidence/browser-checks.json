@@ -1,0 +1,26 @@
+{
+  "review_date": "2026-11-02",
+  "environment": "Local Vite preview and live BetterGov.PH API; in-app browser",
+  "passed": [
+    "Welcome disabled until checkbox; decline leaves visitor on welcome",
+    "Terms reachable before entry; return preserves /projects?lgu=Hinigaran#projects",
+    "Unchanged acknowledgment survives refresh; clear acknowledgment returns to welcome",
+    "Mobile navigation opens and closes on route selection",
+    "Program filter narrows to two FMR rows; funding minimum produces explicit empty state; reset restores list",
+    "Load-more increases visible projects from 25 to 50",
+    "CSV downloaded through browser download event",
+    "Project copy-link reports success; source PDF page references visible",
+    "Six locality pages load; final DOM has one h1 and one main each",
+    "Historical page loads 538 families; year 2026 narrows to 66",
+    "Invalid source project returns 404 in an alert with working request-specific retry",
+    "Keyboard activation of skip link focuses main-content",
+    "30 main-route responsive geometry cases plus welcome and detail breakpoints; no final horizontal overflow",
+    "105 overview text contrast samples pass after footer attribution correction"
+  ],
+  "limitations": [
+    "Full screen-reader/physical-device/cross-browser acceptance not performed",
+    "Print/save-PDF browser dialog not completed",
+    "No production deployment/load/security certification",
+    "Browser interaction checks are tool-driven observations, not a committed standalone end-to-end browser test suite"
+  ]
+}

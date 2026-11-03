@@ -20,19 +20,23 @@ const COLUMNS: [string, (p: ScopedProject) => string | number | null][] = [
   ['change_php', (p) => p.delta_php],
   ['nep_pdf', (p) => p.pdf_url.nep ?? null],
   ['house_bill_pdf', (p) => p.pdf_url.hgab3 ?? p.pdf_url.hgab2 ?? null],
-  ['why_listed_here', (p) => p.reasons.map((r) => (r.kind === 'office' ? `office: ${r.label}` : `title names: ${r.label}`)).join('; ')],
+  ['why_listed_here', (p) => p.reasons.map((r) => (r.kind === 'office' ? `office: ${r.label}` : r.kind === 'region' ? `source region: NIR` : `title names: ${r.label}`)).join('; ')],
+  ['geographic_confidence', (p) => p.geographicConfidence ?? null],
+  ['title_associated_psgc_codes', (p) => p.locationMatches?.join('; ') ?? null],
+  ['retrieved_at', (p) => p.retrieved_at ?? null],
   ['url', (p) => p.url],
 ];
 
-function cell(v: string | number | null): string {
+export function csvCell(v: string | number | null): string {
   if (v == null) return '';
-  const s = String(v);
+  // Spreadsheet programs may interpret formula prefixes after whitespace.
+  const s = typeof v === 'string' && /^[\s]*[=+@-]/.test(v) ? "'" + v : String(v);
   return /[",\n\r]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
 }
 
 export function projectsCsv(projects: readonly ScopedProject[]): string {
   const lines = [COLUMNS.map(([h]) => h).join(',')];
-  for (const p of projects) lines.push(COLUMNS.map(([, f]) => cell(f(p))).join(','));
+  for (const p of projects) lines.push(COLUMNS.map(([, f]) => csvCell(f(p))).join(','));
   return lines.join('\r\n') + '\r\n';
 }
 

@@ -1,0 +1,242 @@
+[
+  {
+    "path": "/projects",
+    "width": 1440,
+    "expected": 1425,
+    "size": {
+      "height": 990,
+      "width": 1425
+    },
+    "tries": 1
+  },
+  {
+    "path": "/projects",
+    "width": 1920,
+    "expected": 1905,
+    "size": {
+      "height": 992,
+      "width": 1905
+    },
+    "tries": 1
+  },
+  {
+    "path": "/projects",
+    "width": 390,
+    "expected": 375,
+    "size": {
+      "height": 962,
+      "width": 375
+    },
+    "tries": 1
+  },
+  {
+    "path": "/projects",
+    "width": 768,
+    "expected": 753,
+    "size": {
+      "height": 980,
+      "width": 753
+    },
+    "tries": 1
+  },
+  {
+    "path": "/locations/1804510000",
+    "width": 1440,
+    "expected": 1425,
+    "size": {
+      "height": 990,
+      "width": 1425
+    },
+    "tries": 1
+  },
+  {
+    "path": "/locations/1804510000",
+    "width": 1920,
+    "expected": 1905,
+    "size": {
+      "height": 992,
+      "width": 1905
+    },
+    "tries": 1
+  },
+  {
+    "path": "/locations/1804510000",
+    "width": 390,
+    "expected": 375,
+    "size": {
+      "height": 962,
+      "width": 375
+    },
+    "tries": 1
+  },
+  {
+    "path": "/locations/1804510000",
+    "width": 768,
+    "expected": 753,
+    "size": {
+      "height": 980,
+      "width": 753
+    },
+    "tries": 1
+  },
+  {
+    "path": "/analytics",
+    "width": 1440,
+    "expected": 1425,
+    "size": {
+      "height": 990,
+      "width": 1425
+    },
+    "tries": 1
+  },
+  {
+    "path": "/analytics",
+    "width": 1920,
+    "expected": 1905,
+    "size": {
+      "height": 992,
+      "width": 1905
+    },
+    "tries": 1
+  },
+  {
+    "path": "/analytics",
+    "width": 390,
+    "expected": 375,
+    "size": {
+      "height": 962,
+      "width": 375
+    },
+    "tries": 1
+  },
+  {
+    "path": "/analytics",
+    "width": 768,
+    "expected": 753,
+    "size": {
+      "height": 980,
+      "width": 753
+    },
+    "tries": 1
+  },
+  {
+    "path": "/budget-history",
+    "width": 1440,
+    "expected": 1425,
+    "size": {
+      "height": 990,
+      "width": 1425
+    },
+    "tries": 1
+  },
+  {
+    "path": "/budget-history",
+    "width": 1920,
+    "expected": 1905,
+    "size": {
+      "height": 992,
+      "width": 1905
+    },
+    "tries": 1
+  },
+  {
+    "path": "/budget-history",
+    "width": 390,
+    "expected": 375,
+    "size": {
+      "height": 962,
+      "width": 375
+    },
+    "tries": 1
+  },
+  {
+    "path": "/budget-history",
+    "width": 768,
+    "expected": 753,
+    "size": {
+      "height": 980,
+      "width": 753
+    },
+    "tries": 1
+  },
+  {
+    "path": "/methodology",
+    "width": 1440,
+    "expected": 1425,
+    "size": {
+      "height": 990,
+      "width": 1425
+    },
+    "tries": 1
+  },
+  {
+    "path": "/methodology",
+    "width": 1920,
+    "expected": 1905,
+    "size": {
+      "height": 992,
+      "width": 1905
+    },
+    "tries": 1
+  },
+  {
+    "path": "/methodology",
+    "width": 390,
+    "expected": 375,
+    "size": {
+      "height": 962,
+      "width": 375
+    },
+    "tries": 1
+  },
+  {
+    "path": "/methodology",
+    "width": 768,
+    "expected": 753,
+    "size": {
+      "height": 980,
+      "width": 753
+    },
+    "tries": 1
+  },
+  {
+    "path": "/not-a-page",
+    "width": 1440,
+    "expected": 1425,
+    "size": {
+      "height": 990,
+      "width": 1425
+    },
+    "tries": 1
+  },
+  {
+    "path": "/not-a-page",
+    "width": 1920,
+    "expected": 1905,
+    "size": {
+      "height": 992,
+      "width": 1905
+    },
+    "tries": 1
+  },
+  {
+    "path": "/not-a-page",
+    "width": 390,
+    "expected": 375,
+    "size": {
+      "height": 962,
+      "width": 375
+    },
+    "tries": 1
+  },
+  {
+    "path": "/not-a-page",
+    "width": 768,
+    "expected": 753,
+    "size": {
+      "height": 980,
+      "width": 753
+    },
+    "tries": 1
+  }
+]

@@ -1,0 +1,80 @@
+/* Sprint refinements: semantic data surfaces, explicit states and touch targets. */
+.button { height:auto; transition:background var(--transition),border-color var(--transition); }
+.button:active:not(:disabled) { transform:translateY(1px); }
+.district-hero { grid-template-columns:1fr 240px; gap:var(--space-8); padding-bottom:var(--space-6); }
+.district-hero h1 { font-size:clamp(30px,3.1vw,44px); }
+.district-hero>div>p:not(.eyebrow) { margin-top:var(--space-4); }
+.hero-aside { padding:var(--space-6); }
+.hero-year { font-size:60px; }
+.hero-aside p:not(.eyebrow) { margin:12px 0; font-size:19px; }
+.hero-aside small { display:none; }
+.hero-actions { margin:18px 0; }
+.context-bar { margin-bottom:var(--space-6); }
+.explorer-search { background:white; border:1px solid var(--rule); border-radius:var(--radius-panel); padding:var(--space-4); margin:16px 0 12px; }
+.explorer-search .label { font-size:12px; letter-spacing:.06em; }
+.explorer-search input { height:48px; padding:0 12px; font-size:16px; }
+.explorer-search .fine { margin-top:8px; }
+.filter-panel,.coverage-panel { border:1px solid var(--rule); border-radius:var(--radius-panel); background:white; margin-bottom:var(--space-4); }
+.filter-panel>summary,.coverage-panel>summary { padding:14px 18px; min-height:48px; cursor:pointer; font-weight:600; font-size:14px; }
+.filter-count { margin-left:12px; font-weight:400; color:var(--ink-3); }
+.filter-panel .toolbar { border:0; margin:0; border-radius:0; }
+.coverage-panel>section { padding:20px; margin:0; }
+.field .label { font-size:11px; letter-spacing:.05em; }
+.field input:focus-visible,.field select:focus-visible { outline:3px solid var(--focus); outline-offset:2px; }
+.field [aria-invalid=true] { border-color:var(--negative); }
+.field-error { border-left:3px solid var(--negative); background:#fff1ed; padding:14px 18px; color:#822f21; }
+.results-status { font-size:13px; color:var(--ink-3); margin:18px 0 12px; }
+.filter-sums { font-family:var(--font-body); line-height:1.8; }
+.projects-table { border-spacing:0; display:block; width:100%; }
+.projects-table thead,.projects-table tbody { display:block; width:100%; }
+.projects-table th { text-align:left; font-weight:600; }
+.projects-table th.r { text-align:right; }
+.projects-table .tr { grid-template-columns:minmax(0,1fr) 170px repeat(3,minmax(85px,105px)); }
+.projects-table td { min-width:0; }
+.projects-table .tr:focus-within { background:var(--accent-soft); box-shadow:inset 3px 0 var(--accent); }
+.projects-table td>a.small { display:inline-block; padding:8px 0; min-height:32px; }
+.delta.up,.delta.down { color:var(--ink-2); }
+.list-head { align-items:center; flex-wrap:wrap; }
+.footer-nav a { display:inline-flex; min-height:36px; align-items:center; }
+.project-actions { padding:16px 0; border-block:1px solid var(--rule); }
+.project-side { min-width:0; }
+.amounts td,.amounts th { overflow-wrap:anywhere; }
+.state-error { border-left:3px solid var(--negative); }
+.state-error p { max-width:65ch; line-height:1.8; }
+.legal-page>p { max-width:75ch; }
+.page-head .lede { max-width:78ch; }
+@media(max-width:1100px) {
+  .subnav-inner { gap:20px; }
+  .projects-table .tr { grid-template-columns:minmax(0,1fr) 130px repeat(3,85px); gap:12px; }
+}
+@media(max-width:860px) {
+  .projects-table thead { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); }
+  .projects-table thead .th { display:grid; }
+  .projects-table tbody .tr { grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
+  .projects-table .td-project,.projects-table .td-status { grid-column:1/-1; }
+  .projects-table td.r { text-align:left; white-space:normal; overflow-wrap:anywhere; }
+  .projects-table td[data-label]::before { content:attr(data-label); display:block; font:11px var(--font-body); color:var(--ink-3); margin-bottom:6px; }
+}
+@media(max-width:760px) {
+  .district-hero { grid-template-columns:1fr; }
+  .district-hero h1 { font-size:34px; }
+  .masthead-title { flex:1; min-width:0; }
+  .masthead-name { font-size:clamp(15px,4.6vw,18px); overflow-wrap:anywhere; }
+  .masthead-logo { width:38px; height:38px; flex-shrink:0; }
+  .menu-toggle { flex-shrink:0; }
+  .stats .stat { font-size:clamp(20px,6vw,25px); white-space:normal; overflow-wrap:anywhere; }
+  .stats .label { font-size:10px; }
+  .locality-mini { grid-template-columns:1fr; }
+  .group-label { font-size:12px; }
+  .filter-panel .toolbar .field { flex-basis:100%; }
+  .welcome-content { padding:28px 20px; min-width:0; }
+  .welcome-content h1 { font-size:clamp(29px,8vw,35px); }
+  .welcome-content>p:not(.eyebrow),.acknowledgment { font-size:14px; }
+  .welcome-places span { font-size:12px; }
+  .entry-button { height:auto; min-height:48px; }
+  .project-h { font-size:30px; }
+  .project-actions .button { width:100%; }
+  .amounts .num { font-size:12px; }
+}
+@media(prefers-reduced-motion:reduce) { .button { transition:none; transform:none!important; } }
+@media print { details.coverage-panel>section { display:block; } .filter-panel,.explorer-search { display:none; } }

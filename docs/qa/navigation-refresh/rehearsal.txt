@@ -1,0 +1,37 @@
+
+> betternegrosisland@0.1.0 data:refresh:candidate
+> node scripts/data-ingestion/candidate.mjs --rehearse
+
+{
+  "version": "2026-11-02-37334582ca74",
+  "projects": 866,
+  "source_confirmed_nir": 851,
+  "history_families": 5253,
+  "query_reports": 2578,
+  "nep_region_php": 125626170000,
+  "checksums": 7
+}
+{
+  "snapshot": "2026-11-02-37334582ca74",
+  "reviewed_at": "2026-11-03T05:04:34.418Z",
+  "comparison_records": 866,
+  "history_families": 5253,
+  "flag_count": 0,
+  "flags": [],
+  "limitations": "Pattern triage of display fields only. Not a full personal-data assessment or review of linked PDFs. Raw potentially sensitive matches are intentionally not copied to this report."
+}
+{
+  "directory": "release/nir-refresh/1793682274484-2026-11-02-37334582ca74",
+  "prepared_at": "2026-11-03T05:04:34.480Z",
+  "mode": "EXISTING SNAPSHOT REHEARSAL — NO API REQUESTS",
+  "published": false,
+  "previous_version": "2026-11-02-37334582ca74",
+  "candidate_version": "2026-11-02-37334582ca74",
+  "retrieved_at": "2026-11-02T12:01:31.325Z",
+  "previous_records": 866,
+  "candidate_records": 866,
+  "added": 0,
+  "removed": 0,
+  "changed": 0,
+  "note": "Complete only for the configured FY2027 programs, regional/office/title queries and FY2020–FY2026 history. No deployment or legal/privacy clearance."
+}

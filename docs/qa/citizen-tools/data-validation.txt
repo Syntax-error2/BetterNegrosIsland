@@ -1,0 +1,13 @@
+
+> betternegrosisland@0.1.0 data:validate
+> tsx scripts/data-ingestion/pipeline.ts validate
+
+{
+  "version": "2026-11-02-37334582ca74",
+  "projects": 866,
+  "source_confirmed_nir": 851,
+  "history_families": 5253,
+  "query_reports": 2578,
+  "nep_region_php": 125626170000,
+  "checksums": 7
+}

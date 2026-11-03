@@ -1,0 +1,290 @@
+[
+  {
+    "broken": [],
+    "client": 305,
+    "clipped": [],
+    "path": "/",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "broken": [],
+    "client": 753,
+    "clipped": [],
+    "path": "/",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "broken": [],
+    "client": 1425,
+    "clipped": [],
+    "path": "/",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "client": 305,
+    "clipped": [],
+    "path": "/projects",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "broken": [],
+    "client": 753,
+    "clipped": [],
+    "path": "/projects",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "broken": [],
+    "client": 1425,
+    "clipped": [],
+    "path": "/projects",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "client": 305,
+    "clipped": [],
+    "path": "/provinces",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "broken": [],
+    "client": 753,
+    "clipped": [],
+    "path": "/provinces",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "broken": [],
+    "client": 1425,
+    "clipped": [],
+    "path": "/provinces",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "client": 305,
+    "clipped": [],
+    "path": "/provinces/negros-occidental",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "broken": [],
+    "client": 753,
+    "clipped": [],
+    "path": "/provinces/negros-occidental",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "broken": [],
+    "client": 1425,
+    "clipped": [],
+    "path": "/provinces/negros-occidental",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "client": 305,
+    "clipped": [],
+    "path": "/locations/1804510000",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "broken": [],
+    "client": 753,
+    "clipped": [],
+    "path": "/locations/1804510000",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "broken": [],
+    "client": 1425,
+    "clipped": [],
+    "path": "/locations/1804510000",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "client": 305,
+    "clipped": [],
+    "path": "/budget-history",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "broken": [],
+    "client": 753,
+    "clipped": [],
+    "path": "/budget-history",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "broken": [],
+    "client": 1425,
+    "clipped": [],
+    "path": "/budget-history",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "client": 305,
+    "clipped": [],
+    "path": "/data-coverage",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "broken": [],
+    "client": 753,
+    "clipped": [],
+    "path": "/data-coverage",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "broken": [],
+    "client": 1425,
+    "clipped": [],
+    "path": "/data-coverage",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "client": 305,
+    "clipped": [],
+    "path": "/methodology",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "broken": [],
+    "client": 753,
+    "clipped": [],
+    "path": "/methodology",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "broken": [],
+    "client": 1425,
+    "clipped": [],
+    "path": "/methodology",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "client": 305,
+    "clipped": [],
+    "path": "/about",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "broken": [],
+    "client": 753,
+    "clipped": [],
+    "path": "/about",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "broken": [],
+    "client": 1425,
+    "clipped": [],
+    "path": "/about",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "client": 305,
+    "clipped": [],
+    "path": "/terms",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "broken": [],
+    "client": 753,
+    "clipped": [],
+    "path": "/terms",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "broken": [],
+    "client": 1425,
+    "clipped": [],
+    "path": "/terms",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "client": 305,
+    "clipped": [],
+    "path": "/privacy",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "broken": [],
+    "client": 753,
+    "clipped": [],
+    "path": "/privacy",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "broken": [],
+    "client": 1425,
+    "clipped": [],
+    "path": "/privacy",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "client": 305,
+    "clipped": [],
+    "path": "/not-a-page",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "broken": [],
+    "client": 753,
+    "clipped": [],
+    "path": "/not-a-page",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "broken": [],
+    "client": 1425,
+    "clipped": [],
+    "path": "/not-a-page",
+    "scroll": 1425,
+    "width": 1440
+  }
+]

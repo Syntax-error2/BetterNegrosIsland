@@ -1,0 +1,30 @@
+[
+  {
+    "key": "dpwh:house-reading:1918",
+    "id": "house-reading:1918",
+    "dataset": "dpwh",
+    "nep": 360000000,
+    "house": 360000000
+  },
+  {
+    "key": "hfep:ib:p885:r51|infrastructure",
+    "id": "ib:p885:r51|infrastructure",
+    "dataset": "hfep",
+    "nep": 11700000,
+    "house": 50000000
+  },
+  {
+    "key": "dpwh:house-reading:6378",
+    "id": "house-reading:6378",
+    "dataset": "dpwh",
+    "nep": null,
+    "house": 81000000
+  },
+  {
+    "key": "dpwh:house-reading:3781",
+    "id": "house-reading:3781",
+    "dataset": "dpwh",
+    "nep": null,
+    "house": 302100000
+  }
+]

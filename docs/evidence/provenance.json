@@ -1,0 +1,9 @@
+{
+  "review_date": "2026-11-02",
+  "upstream_repository": "https://github.com/bettergovph/transparency-portal",
+  "upstream_commit": "cc65e379e0dfd14ed3020ea2d322cab0403b86c3",
+  "district_api": "https://budget.bettergov.ph/api/v1/hgab/2027/districts/leg%3Anegros-occidental%3A5th",
+  "scope_config": "portal.config.ts",
+  "snapshots_are": "Review evidence only; not bundled as production fallback",
+  "deployment": "None; local review only"
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "test": "mobile Escape",
+    "expanded": "false",
+    "focused": "menu-toggle button"
+  },
+  {
+    "test": "settled combined program/status filters",
+    "url": "http://localhost:5132/projects?ref=community&program=fmr&status=house_only",
+    "heading": "1 of 50 projects"
+  },
+  {
+    "test": "reversed range",
+    "alert": "Minimum pesos must not exceed maximum pesos.",
+    "exportDisabled": true
+  },
+  {
+    "test": "reset retains ref",
+    "url": "http://localhost:5132/projects?ref=community"
+  },
+  {
+    "test": "empty search",
+    "rows": 0
+  },
+  {
+    "test": "pagination",
+    "rows": 50
+  },
+  {
+    "test": "filtered CSV",
+    "lines": 2,
+    "bom": true
+  },
+  {
+    "test": "detail copy",
+    "message": "Project link copied."
+  },
+  {
+    "test": "source supplied PDF page",
+    "href": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ib.pdf#page=711"
+  },
+  {
+    "test": "detail deep refresh and back/forward",
+    "url": "http://localhost:5132/projects/fmr/house_only%3Aib%3Ap711%3Ar15"
+  },
+  {
+    "test": "API 404 recovery state",
+    "text": "Could not load the project. This record is unavailable in the current source. Return to the project list to find another record.\n\nTry again"
+  },
+  {
+    "test": "first visit disabled",
+    "disabled": true
+  },
+  {
+    "test": "terms return deep link",
+    "url": "http://localhost:5132/projects?lgu=Hinigaran#projects"
+  },
+  {
+    "test": "returning entry retains filtered deep link",
+    "url": "http://localhost:5132/projects?lgu=Hinigaran#projects",
+    "heading": "9 of 50 projects"
+  },
+  {
+    "test": "malformed fragment after fix",
+    "main": 1,
+    "rows": 25
+  },
+  {
+    "test": "unknown route",
+    "h1": "Page not found"
+  }
+]

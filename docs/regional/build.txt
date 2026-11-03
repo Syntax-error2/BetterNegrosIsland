@@ -1,0 +1,35 @@
+
+> betternegrosisland@0.1.0 build
+> tsc -b && vite build
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 644 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                                  2.30 kB │ gzip:   0.83 kB
+dist/assets/plus-jakarta-sans-latin-400-normal-Dhut76fR.woff2   11.81 kB
+dist/assets/plus-jakarta-sans-latin-600-normal-DLTa1BUW.woff2   12.18 kB
+dist/assets/plus-jakarta-sans-latin-700-normal-CfpNZvy6.woff2   12.24 kB
+dist/assets/plus-jakarta-sans-latin-500-normal-Bf-nb4oT.woff2   12.31 kB
+dist/assets/plus-jakarta-sans-latin-400-normal-BDKaGhyp.woff    15.72 kB
+dist/assets/plus-jakarta-sans-latin-600-normal-BR_Ojra4.woff    16.08 kB
+dist/assets/plus-jakarta-sans-latin-500-normal-DYtqi0QS.woff    16.12 kB
+dist/assets/plus-jakarta-sans-latin-700-normal-DqEcQeE5.woff    16.13 kB
+dist/assets/index-C6sol0Q9.css                                  48.10 kB │ gzip:  10.33 kB
+dist/assets/snapshot-BKijvgVy.js                                 0.58 kB │ gzip:   0.39 kB
+dist/assets/types-Cro6jldO.js                                    1.00 kB │ gzip:   0.54 kB
+dist/assets/Identity-DOUrw96j.js                                 1.93 kB │ gzip:   1.00 kB
+dist/assets/RegionalPlaces-B7NEupSv.js                           2.66 kB │ gzip:   1.32 kB
+dist/assets/Bits-1ToPDjmx.js                                     3.18 kB │ gzip:   1.46 kB
+dist/assets/RegionalMethodology-BnffALzO.js                      4.67 kB │ gzip:   2.14 kB
+dist/assets/Coverage-B9vqS18K.js                                 4.69 kB │ gzip:   1.92 kB
+dist/assets/Legal-Cd3f06GK.js                                    8.20 kB │ gzip:   3.33 kB
+dist/assets/Project-D79BynPR.js                                  8.30 kB │ gzip:   3.12 kB
+dist/assets/use-title-CFgsYR7g.js                                9.05 kB │ gzip:   3.46 kB
+dist/assets/Enacted-B8x0tl6B.js                                 14.62 kB │ gzip:   5.34 kB
+dist/assets/chunk-6KYCQHYJ-D4emBCSE.js                          38.87 kB │ gzip:  13.91 kB
+dist/assets/index-Bs-D2Kwv.js                                  265.56 kB │ gzip:  82.01 kB
+dist/assets/Analytics-ah6zeIn7.js                              402.00 kB │ gzip: 114.93 kB
+
+✓ built in 262ms

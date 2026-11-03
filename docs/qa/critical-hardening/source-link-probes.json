@@ -1,0 +1,27 @@
+[
+  {
+    "url": "https://budget.bettergov.ph/hgab/2027/overview",
+    "status": 200,
+    "final": "https://budget.bettergov.ph/hgab/2027/overview"
+  },
+  {
+    "url": "https://budget.bettergov.ph/",
+    "status": 200,
+    "final": "https://budget.bettergov.ph/"
+  },
+  {
+    "url": "https://budget.bettergov.ph/nep/2027",
+    "status": 200,
+    "final": "https://budget.bettergov.ph/nep/2027"
+  },
+  {
+    "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A1918",
+    "status": 200,
+    "final": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A1918"
+  },
+  {
+    "url": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf",
+    "status": 200,
+    "final": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf"
+  }
+]

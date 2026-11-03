@@ -1,0 +1,142 @@
+[
+  {
+    "client": 1425,
+    "footer": {
+      "height": 592.171875,
+      "left": 0,
+      "top": 1721.34375,
+      "width": 1425
+    },
+    "header": {
+      "height": 189.203125,
+      "left": 0,
+      "top": 32,
+      "width": 1425
+    },
+    "hero": {
+      "height": 339.328125,
+      "left": 92.5,
+      "top": 322,
+      "width": 1240
+    },
+    "main": {
+      "height": 1500.140625,
+      "left": 52.5,
+      "top": 221.203125,
+      "width": 1320
+    },
+    "review": {
+      "height": 313.328125,
+      "left": 1082.5,
+      "top": 322,
+      "width": 250
+    },
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "client": 1905,
+    "footer": {
+      "height": 592.171875,
+      "left": 0,
+      "top": 1721.34375,
+      "width": 1905
+    },
+    "header": {
+      "height": 189.203125,
+      "left": 0,
+      "top": 32,
+      "width": 1905
+    },
+    "hero": {
+      "height": 339.328125,
+      "left": 332.5,
+      "top": 322,
+      "width": 1240
+    },
+    "main": {
+      "height": 1500.140625,
+      "left": 292.5,
+      "top": 221.203125,
+      "width": 1320
+    },
+    "review": {
+      "height": 313.328125,
+      "left": 1322.5,
+      "top": 322,
+      "width": 250
+    },
+    "scroll": 1905,
+    "width": 1920
+  },
+  {
+    "client": 375,
+    "footer": {
+      "height": 1156.84375,
+      "left": 0,
+      "top": 2732.609375,
+      "width": 375
+    },
+    "header": {
+      "height": 108.75,
+      "left": 0,
+      "top": 30,
+      "width": 375
+    },
+    "hero": {
+      "height": 390.96875,
+      "left": 20,
+      "top": 242.03125,
+      "width": 335
+    },
+    "main": {
+      "height": 2593.859375,
+      "left": 0,
+      "top": 138.75,
+      "width": 375
+    },
+    "review": {
+      "height": 0,
+      "left": 0,
+      "top": 0,
+      "width": 0
+    },
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "client": 753,
+    "footer": {
+      "height": 667.734375,
+      "left": 0,
+      "top": 1947.96875,
+      "width": 753
+    },
+    "header": {
+      "height": 189.203125,
+      "left": 0,
+      "top": 32,
+      "width": 753
+    },
+    "hero": {
+      "height": 351.15625,
+      "left": 26,
+      "top": 322,
+      "width": 701
+    },
+    "main": {
+      "height": 1726.765625,
+      "left": 0,
+      "top": 221.203125,
+      "width": 753
+    },
+    "review": {
+      "height": 325.15625,
+      "left": 477,
+      "top": 322,
+      "width": 250
+    },
+    "scroll": 753,
+    "width": 768
+  }
+]

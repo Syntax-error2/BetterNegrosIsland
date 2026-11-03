@@ -1,0 +1,22 @@
+[
+  {
+    "path": "/",
+    "checked": 104,
+    "failures": []
+  },
+  {
+    "path": "/projects",
+    "checked": 393,
+    "failures": []
+  },
+  {
+    "path": "/terms",
+    "checked": 51,
+    "failures": []
+  },
+  {
+    "path": "/privacy",
+    "checked": 53,
+    "failures": []
+  }
+]

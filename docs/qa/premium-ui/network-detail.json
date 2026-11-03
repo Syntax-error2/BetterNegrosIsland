@@ -1,0 +1,278 @@
+{
+  "path": "/projects/hfep/ib%3Ap886%3Ar4%7Cinfrastructure",
+  "width": 1440,
+  "version": "4.14.0",
+  "resources": [
+    {
+      "url": "http://localhost:5132/@vite/client",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/main.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/@react-refresh",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/.vite/deps/react.js",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/.vite/deps/react-dom_client.js",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/.vite/deps/react-router-dom.js",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/App.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/components/PortalProvider.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/styles/theme.css",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/styles/app.css",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/.vite/deps/react_jsx-dev-runtime.js",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/styles/district.css",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-400.css",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/styles/refinement.css",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-500.css",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-600.css",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-700.css",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/styles/regional.css",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/styles/premium.css",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/.vite/deps/react-4hkZzRew.js",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/.vite/deps/rolldown-runtime-SbdDWaPq.js",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/.vite/deps/react-dom-CRx58tZq.js",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/vite/dist/client/env.mjs",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/components/ScrollToTop.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/config.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/lib/portal-context.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/components/Chrome.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/lib/geography.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/pages/RegionalOverview.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/components/LegalEntry.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/pages/Home.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/lib/snapshot.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/api/client.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/portal.config.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/lib/ui.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/lib/scope.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/data/geography.json",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/lib/format.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/lib/use-title.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/lib/legal.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/api/types.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/components/Bits.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/lib/csv.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/components/ProjectTable.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/components/OfficesSection.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/lib/links.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/lib/safe-url.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/lib/comparison-display.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/components/DataTable.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/lib/regional-data.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/data/manifest.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://localhost:5132/brand/bni-regional-wordmark.png",
+      "type": "img"
+    },
+    {
+      "url": "http://localhost:5132/src/pages/Project.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/qa/AccessibilityAudit.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-400-normal.woff2",
+      "type": "css"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-600-normal.woff2",
+      "type": "css"
+    },
+    {
+      "url": "http://localhost:5132/src/lib/report.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/.vite/deps/axe-core.js",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/data/snapshots/2026-11-02-37334582ca74/scope.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://localhost:5132/data/snapshots/2026-11-02-37334582ca74/overview.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://localhost:5132/data/snapshots/2026-11-02-37334582ca74/districts.json",
+      "type": "fetch"
+    },
+    {
+      "url": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/hfep/projects/ib%3Ap886%3Ar4%7Cinfrastructure",
+      "type": "fetch"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-500-normal.woff2",
+      "type": "css"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-700-normal.woff2",
+      "type": "css"
+    }
+  ],
+  "violations": [],
+  "incomplete": [
+    {
+      "id": "color-contrast",
+      "nodes": [
+        {
+          "target": [
+            ".status-symbol"
+          ],
+          "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+        }
+      ]
+    }
+  ],
+  "passes": 29
+}

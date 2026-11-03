@@ -1,143 +1,89 @@
-import { useMemo, type ReactNode } from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import { KIND_LABELS, shortNameOf } from '../config';
-import { usePortal } from '../lib/portal-context';
-import { date } from '../lib/format';
-import { NATIONAL_URL, SOURCE_CODE_URL } from '../lib/links';
+import { useEffect, useRef, useState, type ReactNode } from "react";
+import { Link, NavLink, useLocation } from "react-router-dom";
+import { usePortal } from "../lib/portal-context";
+import { SOURCE_CODE_URL } from "../lib/links";
+import { useSnapshot, type Manifest } from "../lib/snapshot";
+import BrandLogo from "./BrandLogo";
 
-const BETTERGOV_LOGO = '/brand/bettergov-horizontal-primary.png';
-
-const NAV = [
-  { to: '/', hash: '', label: '2027 projects' },
-  { to: '/', hash: '#offices', label: 'Offices and districts' },
-  { to: '/gaa', hash: '', label: 'Budgets 2020–2026' },
-  { to: '/about', hash: '', label: 'About the data' },
-];
+const NAV = [["/", "Overview"], ["/projects", "Projects"], ["/provinces", "Places"], ["/analytics", "Analytics"], ["/budget-history", "Budget history"]];
+const RESOURCES = [["/budget-guide","One-minute budget guide"],["/compare","Compare two records"],["/data-coverage","Data coverage & updates"],["/methodology","Methodology & sources"],["/about","About the initiative"]];
 
 export function Masthead() {
-  const { config, client } = usePortal();
-  const { pathname, hash } = useLocation();
-  const today = useMemo(
-    () => new Date().toLocaleDateString('en-PH', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' }),
-    [],
-  );
-  return (
-    <>
-    {config.buildYourOwnStrip !== false && (
-      // Above the masthead, so it scrolls away; a plain link to the source.
-      <a className="build-strip" href={SOURCE_CODE_URL} target="_blank" rel="noopener">
-        <span className="build-strip-title">Create your own transparency portal</span>
-        <span className="build-strip-url">
-          {SOURCE_CODE_URL.replace(/^https:\/\//, '')} <span aria-hidden="true">→</span>
-        </span>
-      </a>
-    )}
-    <header className="masthead">
-      <div className="masthead-top">
-        <div className="page masthead-top-inner">
-          <span className="muted">{today}</span>
-          <span className="masthead-links">
-            <a href={NATIONAL_URL} target="_blank" rel="noopener">
-              National picture <span aria-hidden="true">↗</span>
-            </a>
-            <a href={`${client.base}/docs`} target="_blank" rel="noopener">
-              API <span aria-hidden="true">↗</span>
-            </a>
-            <a href={SOURCE_CODE_URL} target="_blank" rel="noopener">
-              Build your own <span aria-hidden="true">↗</span>
-            </a>
-          </span>
-        </div>
-      </div>
-      <div className="page masthead-main">
-        <Link to="/" className="masthead-title">
-          {config.logo && <img src={config.logo} alt="" className="masthead-logo" />}
-          <span>
-            <span className="masthead-kicker">
-              {KIND_LABELS[config.kind]} <span aria-hidden="true">·</span> Budgets 2020–2027
-            </span>
-            <span className="masthead-name">{config.name}</span>
-          </span>
+  const snapshot = useSnapshot<Manifest>();
+  const [open, setOpen] = useState(false);
+  const [resources, setResources] = useState(false);
+  const resourceButton = useRef<HTMLButtonElement>(null);
+  const resourceGroup = useRef<HTMLDivElement>(null);
+  const {pathname}=useLocation();
+  const resourcesActive=RESOURCES.some(([to])=>pathname===to);
+  const close=()=>{setOpen(false);setResources(false);};
+  useEffect(()=>{
+    if(!resources)return;
+    const dismiss=(event:PointerEvent)=>{if(!resourceGroup.current?.contains(event.target as Node))setResources(false);};
+    document.addEventListener('pointerdown',dismiss);
+    return ()=>document.removeEventListener('pointerdown',dismiss);
+  },[resources]);
+  const menuButton = useRef<HTMLButtonElement>(null);
+  return <>
+    <a className="skip-link" href="#main-content">Skip to content</a>
+    <div className="civic-strip"><div className="page page--wide"><span>Independent civic transparency initiative</span><span>Free to explore · Open to everyone</span></div></div>
+    <header className="civic-header" onKeyDown={e => { if(e.key==='Escape'&&resources){setResources(false);resourceButton.current?.focus();e.stopPropagation();} else if (e.key === "Escape" && open) { setOpen(false); menuButton.current?.focus(); } }}>
+      <div className="page page--wide civic-header-grid">
+        <Link to="/" className="civic-header-brand" aria-label="BetterNegrosIsland — overview" onClick={close}><BrandLogo /></Link>
+        <button ref={menuButton} className="menu-toggle button" aria-expanded={open} aria-controls="main-nav" onClick={() => {setOpen(!open);setResources(false);}}>{open ? "Close menu" : "Menu"}<svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" strokeWidth="2"><path d={open?'M6 6l12 12M6 18L18 6':'M4 6h16M4 12h16M4 18h16'}/></svg></button>
+        <nav id="main-nav" className={"civic-navigation" + (open ? " is-open" : "")} aria-label="Main navigation">
+          {NAV.map(([to,label]) => <NavLink key={to} to={to} end={to === "/"} onClick={close}>{label}</NavLink>)}
+          <div ref={resourceGroup} className="nav-resources" onBlur={e=>{if(!e.currentTarget.contains(e.relatedTarget as Node|null))setResources(false);}}>
+            <button ref={resourceButton} type="button" className={'nav-resources-toggle'+(resourcesActive?' is-active':'')} aria-expanded={resources} aria-controls="nav-resource-links" onClick={()=>setResources(!resources)}>Guide & sources <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" strokeWidth="2"><path d={resources?'m6 15 6-6 6 6':'m6 9 6 6 6-6'}/></svg></button>
+            <div id="nav-resource-links" className="nav-resource-links" hidden={!resources}>{RESOURCES.map(([to,label])=><NavLink key={to} to={to} onClick={close}>{label}</NavLink>)}</div>
+          </div>
+        </nav>
+        <Link className="header-source" to="/data-coverage">
+          <span className="header-source-label"><span aria-hidden="true" className="snapshot-indicator" />{snapshot.status === "ready" ? "Dated snapshot" : snapshot.status === "error" ? "Snapshot unavailable" : "Reading snapshot…"}</span>
+          <span>{snapshot.status === "ready" ? <>Retrieved {snapshot.value.retrieved_at.slice(0,10)}</> : "Inspect data coverage"}</span>
         </Link>
-        <a className="masthead-with" href="https://bettergov.ph" target="_blank" rel="noopener">
-          <span className="label">Data from</span>
-          <img src={BETTERGOV_LOGO} alt="BetterGov.ph" width="128" height="28" />
-        </a>
       </div>
-      <nav className="subnav" aria-label="Sections">
-        <div className="page subnav-inner">
-          {NAV.map((n) => {
-            const active = pathname === n.to && (n.hash ? hash === n.hash : hash !== '#offices');
-            return (
-              <Link
-                key={n.label}
-                to={{ pathname: n.to, hash: n.hash }}
-                className={active ? 'active' : undefined}
-                aria-current={active ? 'page' : undefined}
-                // "Projects" from further down the same page goes back to the top.
-                onClick={() => !n.hash && pathname === n.to && window.scrollTo(0, 0)}
-              >
-                {n.label}
-              </Link>
-            );
-          })}
-        </div>
-      </nav>
     </header>
-    </>
-  );
+  </>;
+}
+
+function FooterLinks({ title, children }: { title: string; children: ReactNode }) {
+  return <nav className="footer-column" aria-label={title}><h2>{title}</h2><ul>{children}</ul></nav>;
 }
 
 export function Footer() {
-  const { config, scope, client } = usePortal();
-  const meta = scope.status === 'ready' ? scope.value.meta : null;
-  return (
-    <footer className="footer">
-      <div className="page footer-inner">
-        <p className="footer-source">
-          Source: NEP FY 2027 and House Bill 10858 · via the BetterGov.ph Budget API
-          {meta && <> · data built {date(meta.built_at)}</>}
-        </p>
-        {meta && <p className="footer-notice">{meta.notice}</p>}
-        <ul className="footer-links">
-          <li>
-            <span className="label">This portal</span>
-            <span>
-              {shortNameOf(config)}, run by{' '}
-              {config.operator.url ? (
-                <a href={config.operator.url} target="_blank" rel="noopener">{config.operator.name}</a>
-              ) : (
-                config.operator.name
-              )}
-              {config.operator.email && (
-                <> · <a href={`mailto:${config.operator.email}`}>{config.operator.email}</a></>
-              )}
-            </span>
-          </li>
-          <li>
-            <span className="label">Every project, nationwide</span>
-            <a href={NATIONAL_URL} target="_blank" rel="noopener">budget.bettergov.ph ↗</a>
-          </li>
-          <li>
-            <span className="label">Data</span>
-            <a href={`${client.base}/docs`} target="_blank" rel="noopener">Budget API and MCP ↗</a>
-          </li>
-          <li>
-            <span className="label">Open source</span>
-            <a href={SOURCE_CODE_URL} target="_blank" rel="noopener">Fork this portal for your LGU or DPWH office ↗</a>
-          </li>
-        </ul>
+  const { scope, overview } = usePortal();
+  const meta = scope.status === "ready" ? scope.value.meta : overview.status === "ready" ? overview.value.meta : null;
+  return <footer className="civic-footer">
+    <div className="page page--wide">
+      <div className="civic-footer-grid">
+        <div className="civic-footer-brand">
+          <Link to="/" aria-label="BetterNegrosIsland — overview"><BrandLogo theme="dark" lazy /></Link>
+          <p className="footer-tagline">Open Data. A Stronger Negros Island.</p>
+          <p>An independent, nonpartisan civic transparency initiative making published government budget information more accessible across the Negros Island Region.</p>
+          <p className="footer-independent">Independent and nonpartisan. No government affiliation, BetterGov.PH endorsement or partnership is implied.</p>
+        </div>
+        <FooterLinks title="Explore">{[["/","Overview"],["/projects","Projects"],["/provinces","Places"],["/analytics","Analytics"],["/budget-history","Budget history"],["/data-coverage","Data coverage"]].map(([to,label]) => <li key={to}><Link to={to}>{label}</Link></li>)}</FooterLinks>
+        <FooterLinks title="Information">
+          <li><Link to="/budget-guide">Budget reading guide</Link></li><li><Link to="/compare">Compare two records</Link></li><li><Link to="/methodology">Methodology</Link></li><li><Link to="/methodology#data-sources">Data sources</Link></li><li><Link to="/about">About the initiative</Link></li><li><a href="https://bettergov.ph" target="_blank" rel="noopener noreferrer">BetterGov.PH</a></li><li><a href={SOURCE_CODE_URL} target="_blank" rel="noopener noreferrer">Original open-source repository</a></li>
+        </FooterLinks>
+        <FooterLinks title="Legal & accountability">
+          <li><Link to="/terms">Terms of Use</Link></li><li><Link to="/privacy">Privacy Notice</Link></li><li><Link to="/methodology#data-disclaimer">Full data disclaimer</Link></li><li><Link to="/methodology#source-attribution">Source attribution</Link></li><li><Link to="/about#operator">Operator information</Link></li>
+        </FooterLinks>
       </div>
-    </footer>
-  );
+      <div className="footer-evidence">
+        <p>Budget figures represent published proposals or appropriations, not necessarily actual spending. Document comparison classifications do not establish irregularity or wrongdoing.</p>
+        {meta ? <details className="footer-full-notice"><summary>Read the full source data disclaimer</summary><p>{meta.notice}</p><Link to="/methodology#data-disclaimer">All source caveats and restrictions</Link></details> : <Link to="/methodology#data-disclaimer">Read the full data disclaimer</Link>}
+      </div>
+      <div className="footer-bottom">
+        <p>© {new Date().getFullYear()} BetterNegrosIsland<span>Independent civic transparency initiative</span></p>
+        <div className="footer-attribution"><p>Built on <a href={SOURCE_CODE_URL}>BetterGov.PH’s Transparency Portal</a>.<br />Budget data powered by BetterGov.PH. Original MIT license preserved.</p><nav aria-label="Footer legal links"><Link to="/methodology#source-attribution">Attribution</Link><a href="/LICENSE.txt">MIT license</a><Link to="/terms">Terms</Link><Link to="/privacy">Privacy</Link></nav></div>
+      </div>
+      <p className="footer-operator">Operated by Aqura Information Technology Solutions / Dave Hermoso, Binalbagan, Negros Occidental.</p>
+    </div>
+  </footer>;
 }
 
-export function PageHead({ eyebrow, title, children }: { eyebrow: ReactNode; title: ReactNode; children?: ReactNode }) {
-  return (
-    <div className="page-head">
-      <p className="eyebrow">{eyebrow}</p>
-      <h1>{title}</h1>
-      {children && <div className="lede">{children}</div>}
-    </div>
-  );
+export function PageHead({ eyebrow, title, children, titleLevel = 1 }: { eyebrow: ReactNode; title: ReactNode; children?: ReactNode; titleLevel?: 1 | 2 }) {
+  return <div className="page-head"><p className="eyebrow">{eyebrow}</p>{titleLevel === 1 ? <h1>{title}</h1> : <h2>{title}</h2>}{children && <div className="lede">{children}</div>}</div>;
 }

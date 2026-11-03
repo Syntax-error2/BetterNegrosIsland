@@ -1,40 +1,9 @@
-/* =============================================================
-   Theme: the budget.bettergov.ph tokens, so every portal reads as
-   part of the same family. Change the accent here if a fork must,
-   but keep the type roles.
+/* BetterNegrosIsland design tokens. Original upstream MIT attribution retained in LICENSE. */
 
-   Republic of the Philippines brand guidelines, section 04:
-   "Figtree speaks. Inter works. Mono labels."
-   ============================================================= */
-
-:root {
-  /* Paper and ink */
-  --paper: #ffffff;
-  --paper-2: #f4f7fc;
-  --paper-3: #eceef2;
-  --rule: #d4d8e0;
-  --rule-soft: #e7eaef;
-  --ink: #11151c;
-  --ink-2: #2b3340;
-  --ink-3: #5b6373;
-  --ink-mute: #8a92a1;
-
-  /* Accents */
-  --accent: #0b4fd9;        /* BetterGov blue */
-  --accent-deep: #0a44bd;
-  --accent-soft: #e8efff;
-  --positive: #3a6b3a;
-  --negative: #b8341f;
-  --neutral: #8a7c5a;
-
-  /* Type roles */
-  --font-hero: "Figtree", "Manrope", -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
-  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
-
-  /* Layout */
-  --page: 1280px;
-  --gutter: 32px;
+:root {--paper:#f8f7f3;--paper-2:#f0f2f5;--paper-3:#e9edf2;--ink:#102a43;--ink-2:#364152;--ink-3:#56616e;--ink-mute:#65717e;--accent:#123e99;--accent-deep:#092363;--accent-soft:#eaf0fc;--rule:#d5dce3;--rule-soft:#e3e7eb;--positive:#18794e;--font-hero:Inter,'Segoe UI',Arial,sans-serif;--font-body:Inter,'Segoe UI',Arial,sans-serif;--font-mono:'Cascadia Mono',Consolas,monospace;--page:1320px;--gutter:40px;
+--space-1:4px;--space-2:8px;--space-3:12px;--space-4:16px;--space-6:24px;--space-8:32px;
+--radius-control:4px;--radius-panel:5px;--brand-royal:#071d70;--warning:#85641e;--focus:#986d20;--transition:150ms ease;
+--shadow-panel:0 2px 8px rgb(16 42 67 / 5%);--z-skip:99;
 }
 
 * { box-sizing: border-box; }

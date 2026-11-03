@@ -1,0 +1,46 @@
+{
+  "page": {
+    "brokenImages": [],
+    "clipped": [],
+    "heading": "Two records. The same questions.",
+    "kpis": [],
+    "pageWidth": 1425,
+    "path": "/compare?left=dpwh%3Ahouse-reading%3A1918&right=hfep%3Aib%3Ap885%3Ar51%7Cinfrastructure",
+    "scrollWidth": 1425,
+    "width": 1440
+  },
+  "controls": {
+    "guide": null,
+    "headings": [],
+    "lists": [
+      {
+        "height": 122,
+        "overflow": "auto",
+        "scrollHeight": 122,
+        "scrollWidth": 610,
+        "titles": [
+          {
+            "scroll": 554,
+            "width": 554
+          }
+        ],
+        "width": 610
+      },
+      {
+        "height": 76,
+        "overflow": "auto",
+        "scrollHeight": 76,
+        "scrollWidth": 610,
+        "titles": [
+          {
+            "scroll": 180,
+            "width": 180
+          }
+        ],
+        "width": 610
+      }
+    ],
+    "toolbar": []
+  },
+  "result": "PASS"
+}

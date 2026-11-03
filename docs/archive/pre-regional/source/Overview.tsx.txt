@@ -1,0 +1,31 @@
+import { Link } from 'react-router-dom';
+import { Await, Disclaimers } from '../components/Bits';
+import { usePortal } from '../lib/portal-context';
+import { summarise } from '../lib/scope';
+import { count, date, php, phpFull, phpDelta } from '../lib/format';
+import { LOCALITIES } from '../lib/localities';
+import { useTitle } from '../lib/use-title';
+
+export default function Overview() {
+  const { scope } = usePortal();
+  useTitle('BetterNegrosIsland · Your district. Your budget.');
+  return <main id="main-content" tabIndex={-1} className="page main overview">
+    <section className="district-hero">
+      <div><p className="eyebrow">NEGROS OCCIDENTAL · FIFTH CONGRESSIONAL DISTRICT</p><h1>Understand the budget.<br /><em>Know your district.</em></h1><p>Public funds deserve public understanding. Explore proposed 2027 projects, compare budget versions, and follow every figure to its source.</p><div className="hero-actions"><Link className="button button-primary" to="/projects">Explore the projects <span aria-hidden="true">↗</span></Link><Link className="text-action" to="/methodology">How the data works →</Link></div><div className="hero-footnote"><span className="source-dot ready" />Public data. No account required.</div></div>
+      <aside className="hero-aside"><p className="eyebrow">THE CITIZEN’S BUDGET DESK</p><div className="hero-year">2027<span>NEP ↔ HOUSE BILL 10858</span></div><p>Two versions.<br />One public conversation.</p><div className="hero-rule" /><small>Compare proposals.<br />Read the evidence.<br />Ask better questions.</small></aside>
+    </section>
+    <div className="context-bar"><strong>Read the figures in context</strong><span>Proposed budgets and enacted appropriations are not money spent. Comparisons are leads for checking, not evidence of wrongdoing.</span><Link to="/methodology">How to read this portal ↗</Link></div>
+    <Await state={scope} what="the district’s published project records">{s => {
+      const summary = summarise(s.projects);
+      const max = Math.max(summary.nep.php, summary.house.php, 1);
+      const labels = { dpwh: 'Public works', fmr: 'Farm-to-market roads', hfep: 'Health facilities', nia: 'Irrigation' };
+      return <>
+        <div className="section-heading"><div><p className="eyebrow">AT A GLANCE</p><h2>A clearer view of the proposals.</h2></div><span className="small muted">Source built {date(s.meta.built_at)}</span></div>
+        <dl className="stats overview-stats"><div><dt className="label">NEP 2027 · proposed</dt><dd className="stat num" title={phpFull(summary.nep.php)}>{php(summary.nep.php)}</dd><dd className="stat-sub">{count(summary.nep.rows)} published project lines</dd></div><div><dt className="label">House bill · proposal</dt><dd className="stat num stat-accent" title={phpFull(summary.house.php)}>{php(summary.house.php)}</dd><dd className="stat-sub">{count(summary.house.rows)} published project lines</dd></div><div><dt className="label">Net document difference</dt><dd className="stat num">{phpDelta(summary.house.php - summary.nep.php)}</dd><dd className="stat-sub">Across scoped rows, including one-sided lines</dd></div><div><dt className="label">Unique source records</dt><dd className="stat num">{count(summary.rows)}</dd><dd className="stat-sub">Deduplicated across office & name searches</dd></div></dl>
+        <div className="insight-grid"><section className="insight-panel"><p className="eyebrow">BUDGET VERSIONS</p><h2>Compare, never combine.</h2><p className="small muted">Same scope of records; missing document lines remain missing.</p><div className="comparison-bars">{[['NEP proposal', summary.nep.php], ['House bill', summary.house.php]].map(([label, amount]) => <div key={label}><div><strong>{label}</strong><span className="num">{phpFull(Number(amount))}</span></div><div className="bar-track"><span style={{ width: `${Number(amount) / max * 100}%` }} /></div></div>)}</div><p className="fine">These are scoped source records, including place-name matches, rather than a complete district allocation. Whole-office history is shown separately.</p></section><section className="insight-panel"><p className="eyebrow">COVERED PROGRAMS</p><h2>What’s in the source?</h2><ul className="program-list">{Object.entries(summary.byDataset).map(([key, cell]) => <li key={key}><Link to={`/projects?program=${key}`}>{labels[key as keyof typeof labels]} <span aria-hidden="true">↗</span></Link><span>{count(cell.rows)} records</span></li>)}</ul><p className="fine">Four source program groups. This is not every government project or department. {count(summary.unconfirmed)} unconfirmed matches in the current scope.</p></section></div>
+        <section className="district-section"><div className="section-heading"><div><p className="eyebrow">SIX LGUs. ONE DISTRICT.</p><h2>Start with your community.</h2></div><Link to="/municipalities">View coverage notes ↗</Link></div><div className="locality-mini">{LOCALITIES.map((l, i) => <Link key={l.slug} to={`/municipalities/${l.slug}`}><span className="label">0{i + 1} / {l.type}</span><strong>{l.name}</strong><span>Explore title matches →</span></Link>)}</div></section>
+        <Disclaimers items={s.disclaimers} compact />
+      </>;
+    }}</Await>
+  </main>;
+}

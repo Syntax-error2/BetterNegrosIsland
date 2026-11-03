@@ -1,0 +1,92 @@
+[
+  {
+    "selection": "",
+    "width": 320,
+    "charts": 6,
+    "status": "PASS"
+  },
+  {
+    "selection": "",
+    "width": 390,
+    "charts": 6,
+    "status": "PASS"
+  },
+  {
+    "selection": "",
+    "width": 768,
+    "charts": 6,
+    "status": "PASS"
+  },
+  {
+    "selection": "",
+    "width": 1440,
+    "charts": 6,
+    "status": "PASS"
+  },
+  {
+    "selection": "",
+    "width": 1920,
+    "charts": 6,
+    "status": "PASS"
+  },
+  {
+    "selection": "?province=siquijor&program=hfep",
+    "width": 320,
+    "charts": 6,
+    "status": "PASS"
+  },
+  {
+    "selection": "?province=siquijor&program=hfep",
+    "width": 390,
+    "charts": 6,
+    "status": "PASS"
+  },
+  {
+    "selection": "?province=siquijor&program=hfep",
+    "width": 768,
+    "charts": 6,
+    "status": "PASS"
+  },
+  {
+    "selection": "?province=siquijor&program=hfep",
+    "width": 1440,
+    "charts": 6,
+    "status": "PASS"
+  },
+  {
+    "selection": "?province=siquijor&program=hfep",
+    "width": 1920,
+    "charts": 6,
+    "status": "PASS"
+  },
+  {
+    "selection": "?program=nia",
+    "width": 320,
+    "charts": 6,
+    "status": "PASS"
+  },
+  {
+    "selection": "?program=nia",
+    "width": 390,
+    "charts": 6,
+    "status": "PASS"
+  },
+  {
+    "selection": "?program=nia",
+    "width": 768,
+    "charts": 6,
+    "status": "PASS"
+  },
+  {
+    "selection": "?program=nia",
+    "width": 1440,
+    "charts": 6,
+    "status": "PASS"
+  },
+  {
+    "selection": "?program=nia",
+    "width": 1920,
+    "charts": 6,
+    "status": "PASS"
+  }
+]

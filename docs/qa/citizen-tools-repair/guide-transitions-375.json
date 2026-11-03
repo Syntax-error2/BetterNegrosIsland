@@ -1,0 +1,366 @@
+[
+  {
+    "before": {
+      "heading": "A proposal asks for funding.",
+      "height": 535.4000244140625,
+      "inactive": [
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        }
+      ],
+      "nav": 476.8500061035156,
+      "step": "Step 1 of 5",
+      "y": 648.7999877929688
+    },
+    "after": {
+      "heading": "The House has its own version.",
+      "height": 535.4000244140625,
+      "inactive": [
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        }
+      ],
+      "nav": 476.8500061035156,
+      "step": "Step 2 of 5",
+      "y": 648.7999877929688
+    }
+  },
+  {
+    "before": {
+      "heading": "The House has its own version.",
+      "height": 535.4000244140625,
+      "inactive": [
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        }
+      ],
+      "nav": 476.8500061035156,
+      "step": "Step 2 of 5",
+      "y": 648.7999877929688
+    },
+    "after": {
+      "heading": "An appropriation authorizes spending.",
+      "height": 535.4000244140625,
+      "inactive": [
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        }
+      ],
+      "nav": 476.8500061035156,
+      "step": "Step 3 of 5",
+      "y": 648.7999877929688
+    }
+  },
+  {
+    "before": {
+      "heading": "An appropriation authorizes spending.",
+      "height": 535.4000244140625,
+      "inactive": [
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        }
+      ],
+      "nav": 476.8500061035156,
+      "step": "Step 3 of 5",
+      "y": 648.7999877929688
+    },
+    "after": {
+      "heading": "Actual spending needs separate evidence.",
+      "height": 535.4000244140625,
+      "inactive": [
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        }
+      ],
+      "nav": 476.8500061035156,
+      "step": "Step 4 of 5",
+      "y": 648.7999877929688
+    }
+  },
+  {
+    "before": {
+      "heading": "Actual spending needs separate evidence.",
+      "height": 535.4000244140625,
+      "inactive": [
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        }
+      ],
+      "nav": 476.8500061035156,
+      "step": "Step 4 of 5",
+      "y": 648.7999877929688
+    },
+    "after": {
+      "heading": "Now read a real record.",
+      "height": 535.4000244140625,
+      "inactive": [
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        }
+      ],
+      "nav": 476.8500061035156,
+      "step": "Step 5 of 5",
+      "y": 648.7999877929688
+    }
+  },
+  {
+    "after": {
+      "heading": "Actual spending needs separate evidence.",
+      "height": 535.4000244140625,
+      "inactive": [
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        }
+      ],
+      "nav": 476.8500061035156,
+      "step": "Step 4 of 5",
+      "y": 648.7999877929688
+    }
+  },
+  {
+    "after": {
+      "heading": "An appropriation authorizes spending.",
+      "height": 535.4000244140625,
+      "inactive": [
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        }
+      ],
+      "nav": 476.8500061035156,
+      "step": "Step 3 of 5",
+      "y": 648.7999877929688
+    }
+  },
+  {
+    "after": {
+      "heading": "The House has its own version.",
+      "height": 535.4000244140625,
+      "inactive": [
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        }
+      ],
+      "nav": 476.8500061035156,
+      "step": "Step 2 of 5",
+      "y": 648.7999877929688
+    }
+  },
+  {
+    "after": {
+      "heading": "A proposal asks for funding.",
+      "height": 535.4000244140625,
+      "inactive": [
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        }
+      ],
+      "nav": 476.8500061035156,
+      "step": "Step 1 of 5",
+      "y": 648.7999877929688
+    }
+  }
+]

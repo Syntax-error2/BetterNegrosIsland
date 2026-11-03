@@ -1,0 +1,278 @@
+{
+  "page": {
+    "brokenImages": [],
+    "clipped": [],
+    "heading": "Two records. The same questions.",
+    "kpis": [],
+    "pageWidth": 360,
+    "path": "/compare",
+    "scrollWidth": 360,
+    "width": 375
+  },
+  "controls": {
+    "guide": null,
+    "headings": [],
+    "lists": [
+      {
+        "height": 328,
+        "overflow": "auto",
+        "scrollHeight": 4490,
+        "scrollWidth": 278,
+        "titles": [
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          }
+        ],
+        "width": 278
+      },
+      {
+        "height": 328,
+        "overflow": "auto",
+        "scrollHeight": 4490,
+        "scrollWidth": 278,
+        "titles": [
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          },
+          {
+            "scroll": 222,
+            "width": 222
+          }
+        ],
+        "width": 278
+      }
+    ],
+    "toolbar": []
+  },
+  "result": "PASS"
+}

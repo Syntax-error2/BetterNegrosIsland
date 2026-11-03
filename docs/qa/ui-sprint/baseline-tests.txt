@@ -1,0 +1,26 @@
+
+> betterquintodistrito@0.1.0 test
+> tsx --test tests/*.test.ts
+
+✔ missing values remain distinct from zero, and budget versions stay separate (11.7394ms)
+✔ all six comparison classifications and uncertain matches are retained (0.1629ms)
+✔ all pages are fetched and missing pages fail closed (18.1641ms)
+✔ API failures are removed from request cache and can be retried (0.5171ms)
+✔ historical pagination rejects repeated cursors instead of repeating rows (0.6713ms)
+✔ historical pagination rejects incomplete final pages (0.331ms)
+✔ overlapping office and place queries deduplicate while preserving reasons and shared-office metadata (0.4211ms)
+✔ region filtering preserves unknowns and excludes other regions without rewriting labels (0.7388ms)
+✔ CSV exports neutralize spreadsheet formulas while preserving numeric negatives and nulls (0.5242ms)
+✔ unsafe document schemes are rejected (0.183ms)
+✔ legal acknowledgment stores only a version and older versions require renewal (0.1444ms)
+✔ blocked browser storage does not throw or claim persisted acknowledgment (0.146ms)
+✔ historical totals count positive appropriations only and do not merge budget stages (0.1346ms)
+✔ configuration names all six LGUs, uses a live-verified office, and excludes explicit namesakes (0.0595ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 156.8176

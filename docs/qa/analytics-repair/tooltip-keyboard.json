@@ -1,0 +1,338 @@
+[
+  {
+    "bounds": {
+      "bottom": 608.21875,
+      "left": 33,
+      "right": 272,
+      "top": 338.75
+    },
+    "chart": "#chart-a",
+    "client": 305,
+    "shown": true,
+    "text": "DPWHNEP: ₱18,199,685,000House: ₱19,923,585,000Difference: ₱1,723,900,000 · 9.47%Percentage uses the NEP amount; unavailable for missing or zero baselines.Published amounts, not spending. Exact values are also in the table below.",
+    "width": 320,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": {
+      "bottom": 536.46875,
+      "left": 33,
+      "right": 272,
+      "top": 382.8125
+    },
+    "chart": "#chart-b",
+    "client": 305,
+    "shown": true,
+    "text": "DPWHAmount: ₱19,923,585,000Published amounts, not spending. Exact values are also in the table below.",
+    "width": 320,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": {
+      "bottom": 543.734375,
+      "left": 33,
+      "right": 272,
+      "top": 390.078125
+    },
+    "chart": "#chart-c",
+    "client": 305,
+    "shown": true,
+    "text": "Negros OccidentalRecords: 432Counts of selected source records. Exact values are also in the table below.",
+    "width": 320,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": {
+      "bottom": 492.390625,
+      "left": 33,
+      "right": 272,
+      "top": 338.734375
+    },
+    "chart": "#chart-d",
+    "client": 305,
+    "shown": true,
+    "text": "IncreasedRecords: 11Counts of selected source records. Exact values are also in the table below.",
+    "width": 320,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": {
+      "bottom": 512.5625,
+      "left": 33,
+      "right": 272,
+      "top": 294.59375
+    },
+    "chart": "#chart-f",
+    "client": 305,
+    "shown": true,
+    "text": "Construction of DPWH Negros Island Region (NIR) Regional Office Building, Amlan, Negros Oriental (9.47117, 123.193393)Amount: ₱400,000,000Published amounts, not spending. Exact values are also in the table below.",
+    "width": 320,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": {
+      "bottom": 503.453125,
+      "left": 33,
+      "right": 272,
+      "top": 349.796875
+    },
+    "chart": "#chart-e",
+    "client": 305,
+    "shown": true,
+    "text": "2021GAA: ₱18,156,655,000Published amounts, not spending. Exact values are also in the table below.",
+    "width": 320,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": {
+      "bottom": 565.015625,
+      "left": 33,
+      "right": 342,
+      "top": 338.734375
+    },
+    "chart": "#chart-a",
+    "client": 375,
+    "shown": true,
+    "text": "DPWHNEP: ₱18,199,685,000House: ₱19,923,585,000Difference: ₱1,723,900,000 · 9.47%Percentage uses the NEP amount; unavailable for missing or zero baselines.Published amounts, not spending. Exact values are also in the table below.",
+    "width": 390,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": {
+      "bottom": 515.0625,
+      "left": 33,
+      "right": 342,
+      "top": 383
+    },
+    "chart": "#chart-b",
+    "client": 375,
+    "shown": true,
+    "text": "DPWHAmount: ₱19,923,585,000Published amounts, not spending. Exact values are also in the table below.",
+    "width": 390,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": {
+      "bottom": 521.78125,
+      "left": 33,
+      "right": 342,
+      "top": 389.71875
+    },
+    "chart": "#chart-c",
+    "client": 375,
+    "shown": true,
+    "text": "Negros OccidentalRecords: 432Counts of selected source records. Exact values are also in the table below.",
+    "width": 390,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": {
+      "bottom": 470.640625,
+      "left": 33,
+      "right": 342,
+      "top": 338.578125
+    },
+    "chart": "#chart-d",
+    "client": 375,
+    "shown": true,
+    "text": "IncreasedRecords: 11Counts of selected source records. Exact values are also in the table below.",
+    "width": 390,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": {
+      "bottom": 469.578125,
+      "left": 33,
+      "right": 342,
+      "top": 294.640625
+    },
+    "chart": "#chart-f",
+    "client": 375,
+    "shown": true,
+    "text": "Construction of DPWH Negros Island Region (NIR) Regional Office Building, Amlan, Negros Oriental (9.47117, 123.193393)Amount: ₱400,000,000Published amounts, not spending. Exact values are also in the table below.",
+    "width": 390,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": {
+      "bottom": 482.234375,
+      "left": 33,
+      "right": 342,
+      "top": 350.171875
+    },
+    "chart": "#chart-e",
+    "client": 375,
+    "shown": true,
+    "text": "2021GAA: ₱18,156,655,000Published amounts, not spending. Exact values are also in the table below.",
+    "width": 390,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": {
+      "bottom": 588.4375,
+      "left": 342.015625,
+      "right": 682.015625,
+      "top": 362.15625
+    },
+    "chart": "#chart-a",
+    "client": 753,
+    "shown": true,
+    "text": "FMRNEP: ₱475,000,000House: ₱695,000,000Difference: ₱220,000,000 · 46.32%Percentage uses the NEP amount; unavailable for missing or zero baselines.Published amounts, not spending. Exact values are also in the table below.",
+    "width": 768,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": {
+      "bottom": 559.25,
+      "left": 174.265625,
+      "right": 514.265625,
+      "top": 427.1875
+    },
+    "chart": "#chart-b",
+    "client": 753,
+    "shown": true,
+    "text": "DPWHAmount: ₱19,923,585,000Published amounts, not spending. Exact values are also in the table below.",
+    "width": 768,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": {
+      "bottom": 533.984375,
+      "left": 174.265625,
+      "right": 514.265625,
+      "top": 401.921875
+    },
+    "chart": "#chart-c",
+    "client": 753,
+    "shown": true,
+    "text": "Negros OccidentalRecords: 432Counts of selected source records. Exact values are also in the table below.",
+    "width": 768,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": {
+      "bottom": 514.9323120117188,
+      "left": 174.265625,
+      "right": 514.265625,
+      "top": 382.8697814941406
+    },
+    "chart": "#chart-d",
+    "client": 753,
+    "shown": true,
+    "text": "IncreasedRecords: 11Counts of selected source records. Exact values are also in the table below.",
+    "width": 768,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": {
+      "bottom": 514.546875,
+      "left": 82.265625,
+      "right": 422.265625,
+      "top": 339.609375
+    },
+    "chart": "#chart-f",
+    "client": 753,
+    "shown": true,
+    "text": "Construction of DPWH Negros Island Region (NIR) Regional Office Building, Amlan, Negros Oriental (9.47117, 123.193393)Amount: ₱400,000,000Published amounts, not spending. Exact values are also in the table below.",
+    "width": 768,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": {
+      "bottom": 496.234375,
+      "left": 219.265625,
+      "right": 559.265625,
+      "top": 364.171875
+    },
+    "chart": "#chart-e",
+    "client": 753,
+    "shown": true,
+    "text": "2021GAA: ₱18,156,655,000Published amounts, not spending. Exact values are also in the table below.",
+    "width": 768,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": {
+      "bottom": 587.84375,
+      "left": 127,
+      "right": 467,
+      "top": 361.5625
+    },
+    "chart": "#chart-a",
+    "client": 1425,
+    "shown": true,
+    "text": "FMRNEP: ₱475,000,000House: ₱695,000,000Difference: ₱220,000,000 · 46.32%Percentage uses the NEP amount; unavailable for missing or zero baselines.Published amounts, not spending. Exact values are also in the table below.",
+    "width": 1440,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": {
+      "bottom": 559.5625,
+      "left": 881.5,
+      "right": 1221.5,
+      "top": 427.5
+    },
+    "chart": "#chart-b",
+    "client": 1425,
+    "shown": true,
+    "text": "DPWHAmount: ₱19,923,585,000Published amounts, not spending. Exact values are also in the table below.",
+    "width": 1440,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": {
+      "bottom": 534.40625,
+      "left": 189,
+      "right": 529,
+      "top": 402.34375
+    },
+    "chart": "#chart-c",
+    "client": 1425,
+    "shown": true,
+    "text": "Negros OccidentalRecords: 432Counts of selected source records. Exact values are also in the table below.",
+    "width": 1440,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": {
+      "bottom": 515.5729370117188,
+      "left": 881.5,
+      "right": 1221.5,
+      "top": 383.5104064941406
+    },
+    "chart": "#chart-d",
+    "client": 1425,
+    "shown": true,
+    "text": "IncreasedRecords: 11Counts of selected source records. Exact values are also in the table below.",
+    "width": 1440,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": {
+      "bottom": 513.796875,
+      "left": 742.5,
+      "right": 1082.5,
+      "top": 338.859375
+    },
+    "chart": "#chart-f",
+    "client": 1425,
+    "shown": true,
+    "text": "Construction of DPWH Negros Island Region (NIR) Regional Office Building, Amlan, Negros Oriental (9.47117, 123.193393)Amount: ₱400,000,000Published amounts, not spending. Exact values are also in the table below.",
+    "width": 1440,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": {
+      "bottom": 496.28125,
+      "left": 225.8333282470703,
+      "right": 565.8333282470703,
+      "top": 364.21875
+    },
+    "chart": "#chart-e",
+    "client": 1425,
+    "shown": true,
+    "text": "2021GAA: ₱18,156,655,000Published amounts, not spending. Exact values are also in the table below.",
+    "width": 1440,
+    "escapeDismissed": true
+  }
+]

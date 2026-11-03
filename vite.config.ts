@@ -1,14 +1,14 @@
 import { defineConfig, loadEnv, type Plugin } from 'vite';
 import react from '@vitejs/plugin-react';
-import portal from './portal.config';
-import { DEFAULT_API, shortNameOf } from './src/config';
+import portal from './portal.config.ts';
+import { DEFAULT_API, shortNameOf } from './src/config.ts';
 
 const escape = (s: string) => s.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
 
 /** The portal's name and description in the HTML itself, for link previews and search engines. */
 function portalHtml(api: string): Plugin {
   const title = `${portal.name} · FY 2027 budget projects`;
-  const description = `Every FY 2027 project for ${shortNameOf(portal)} in the NEP and the House bill (House Bill 10858), with the source page for each, and the enacted budgets 2020–2026. Data from the BetterGov.ph Budget API.`;
+  const description = `Published FY 2027 project records associated with ${shortNameOf(portal)} in the NEP and the House bill (House Bill 10858), with the source page for each, and the enacted budgets 2020–2026. Data from the BetterGov.ph Budget API.`;
   const url = portal.siteUrl
     ? `<link rel="canonical" href="${escape(portal.siteUrl)}" />\n    <meta property="og:url" content="${escape(portal.siteUrl)}" />`
     : '';
@@ -16,6 +16,7 @@ function portalHtml(api: string): Plugin {
     name: 'portal-html',
     transformIndexHtml: (html) =>
       html
+        .replaceAll('%PORTAL_SHARE_IMAGE%', escape(portal.siteUrl ? new URL('/brand/bni-regional-wordmark.png', portal.siteUrl).href : '/brand/bni-regional-wordmark.png'))
         .replaceAll('%PORTAL_TITLE%', escape(title))
         .replaceAll('%PORTAL_NAME%', escape(portal.name))
         .replaceAll('%PORTAL_DESCRIPTION%', escape(description))

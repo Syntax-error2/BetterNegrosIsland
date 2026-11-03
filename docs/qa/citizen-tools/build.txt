@@ -1,0 +1,37 @@
+
+> betternegrosisland@0.1.0 build
+> tsc -b && vite build
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 695 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                                  2.30 kB │ gzip:   0.86 kB
+dist/assets/plus-jakarta-sans-latin-400-normal-Dhut76fR.woff2   11.81 kB
+dist/assets/plus-jakarta-sans-latin-600-normal-DLTa1BUW.woff2   12.18 kB
+dist/assets/plus-jakarta-sans-latin-700-normal-CfpNZvy6.woff2   12.24 kB
+dist/assets/plus-jakarta-sans-latin-500-normal-Bf-nb4oT.woff2   12.31 kB
+dist/assets/plus-jakarta-sans-latin-400-normal-BDKaGhyp.woff    15.72 kB
+dist/assets/plus-jakarta-sans-latin-600-normal-BR_Ojra4.woff    16.08 kB
+dist/assets/plus-jakarta-sans-latin-500-normal-DYtqi0QS.woff    16.12 kB
+dist/assets/plus-jakarta-sans-latin-700-normal-DqEcQeE5.woff    16.13 kB
+dist/assets/index-CX7sLtFC.css                                  88.85 kB │ gzip:  17.58 kB
+dist/assets/config-5lDIaJgb.js                                   0.22 kB │ gzip:   0.16 kB
+dist/assets/Identity-DE26gIpk.js                                 2.21 kB │ gzip:   1.12 kB
+dist/assets/RegionalPlaces-BCC1ZSOX.js                           2.66 kB │ gzip:   1.33 kB
+dist/assets/RegionalMethodology-ComBm4cS.js                      4.93 kB │ gzip:   2.23 kB
+dist/assets/BudgetGuide-BcMcxzSq.js                              5.69 kB │ gzip:   2.37 kB
+dist/assets/Coverage-3Z-cUwC2.js                                 6.28 kB │ gzip:   2.42 kB
+dist/assets/CompareRecords-CmTZN1d9.js                           6.62 kB │ gzip:   2.68 kB
+dist/assets/Project-DX0HnsdL.js                                  8.80 kB │ gzip:   3.32 kB
+dist/assets/use-title-BSS5HhXL.js                                9.07 kB │ gzip:   3.47 kB
+dist/assets/Legal-D2KlrQ-2.js                                   12.69 kB │ gzip:   4.74 kB
+dist/assets/Enacted-C4sTNtvr.js                                 14.79 kB │ gzip:   5.50 kB
+dist/assets/Bits-B_B63zpm.js                                    15.25 kB │ gzip:   4.83 kB
+dist/assets/EvidenceCard-BlisY7KH.js                            30.11 kB │ gzip:  11.63 kB
+dist/assets/chunk-6KYCQHYJ-D6P8-ETv.js                          38.87 kB │ gzip:  13.92 kB
+dist/assets/index-D6lZXti3.js                                  280.75 kB │ gzip:  87.04 kB
+dist/assets/Analytics-B9eX-bQ_.js                              393.21 kB │ gzip: 113.37 kB
+
+✓ built in 695ms

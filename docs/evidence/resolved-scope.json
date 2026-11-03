@@ -1,0 +1,3361 @@
+{
+  "projects": [
+    {
+      "id": "house-reading:2306",
+      "dataset": "dpwh",
+      "title": "Himamaylan City - Negros Oriental Boundary - Tayasan Road, Sta. 0+000 - Sta. 5+175",
+      "program": "Network Development Program",
+      "pap": "Construction of Missing Links/ New Roads",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Central Office",
+      "office_kind": "Central Office",
+      "zone": "local",
+      "trace": "amount_same",
+      "status_label": "Same amount in both",
+      "bridge_group": "unchanged",
+      "group_label": "Same amount in both",
+      "held": false,
+      "house_match": "exact_candidate",
+      "reading_status": "same_amount",
+      "api_presence": "paired",
+      "confidence": 1,
+      "nep_php": 265000000,
+      "hgab2_php": 265000000,
+      "hgab3_php": 265000000,
+      "house_php": 265000000,
+      "api_php": 265000000,
+      "delta_php": 0,
+      "nep_page": 298,
+      "hgab2_page": 238,
+      "hgab3_page": 238,
+      "nep_doc": "nep2027-vol-iib",
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-vol-iib.pdf#page=298",
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=238",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=238"
+      },
+      "length_m": 5175,
+      "flags": [
+        "nep_evidence_review"
+      ],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A2306",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A2306",
+      "key": "dpwh:house-reading:2306",
+      "reasons": [
+        {
+          "kind": "place",
+          "label": "Himamaylan City"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:6369",
+      "dataset": "dpwh",
+      "title": "Construction of Bridge, Barangay 1 and Barangay Inolingan, Moises Padilla, Negros Occidental",
+      "program": "Convergence and Special Support Program",
+      "pap": "BIP - Access Roads and/or Bridges from the National Roads leading to Major/ Strategic Public Buildings/ Facilities",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Central Office",
+      "office_kind": "Central Office",
+      "zone": "local",
+      "trace": "amount_same",
+      "status_label": "Same amount in both",
+      "bridge_group": "unchanged",
+      "group_label": "Same amount in both",
+      "held": false,
+      "house_match": "exact_candidate",
+      "reading_status": "same_amount",
+      "api_presence": "paired",
+      "confidence": 1,
+      "nep_php": 250000000,
+      "hgab2_php": 250000000,
+      "hgab3_php": 250000000,
+      "house_php": 250000000,
+      "api_php": 250000000,
+      "delta_php": 0,
+      "nep_page": 446,
+      "hgab2_page": 433,
+      "hgab3_page": 433,
+      "nep_doc": "nep2027-vol-iib",
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-vol-iib.pdf#page=446",
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=433",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=433"
+      },
+      "length_m": null,
+      "flags": [],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A6369",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A6369",
+      "key": "dpwh:house-reading:6369",
+      "reasons": [
+        {
+          "kind": "place",
+          "label": "Moises Padilla"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:3783",
+      "dataset": "dpwh",
+      "title": "Construction of Flood Control Structure along Buhangin River, Barangay Robles, La Castellana, Negros Occidental",
+      "program": "Flood Management Program",
+      "pap": "Construction/ Maintenance of Flood Mitigation Structures and Drainage Systems",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Central Office",
+      "office_kind": "Central Office",
+      "zone": "local",
+      "trace": "amount_same",
+      "status_label": "Same amount in both",
+      "bridge_group": "unchanged",
+      "group_label": "Same amount in both",
+      "held": false,
+      "house_match": "exact_candidate",
+      "reading_status": "same_amount",
+      "api_presence": "paired",
+      "confidence": 1,
+      "nep_php": 216000000,
+      "hgab2_php": 216000000,
+      "hgab3_php": 216000000,
+      "house_php": 216000000,
+      "api_php": 216000000,
+      "delta_php": 0,
+      "nep_page": 358,
+      "hgab2_page": 312,
+      "hgab3_page": 312,
+      "nep_doc": "nep2027-vol-iib",
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-vol-iib.pdf#page=358",
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=312",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=312"
+      },
+      "length_m": null,
+      "flags": [],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A3783",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A3783",
+      "key": "dpwh:house-reading:3783",
+      "reasons": [
+        {
+          "kind": "place",
+          "label": "La Castellana"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:2308",
+      "dataset": "dpwh",
+      "title": "Himamaylan City - Negros Oriental Boundary - Tayasan Road, Sta. 9 + 415 - Sta. 9 + 485",
+      "program": "Network Development Program",
+      "pap": "Construction of Missing Links/ New Roads",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Central Office",
+      "office_kind": "Central Office",
+      "zone": "local",
+      "trace": "amount_same",
+      "status_label": "Same amount in both",
+      "bridge_group": "unchanged",
+      "group_label": "Same amount in both",
+      "held": false,
+      "house_match": "chainage_candidate",
+      "reading_status": "same_amount",
+      "api_presence": "paired",
+      "confidence": 0.9748,
+      "nep_php": 200000000,
+      "hgab2_php": 200000000,
+      "hgab3_php": 200000000,
+      "house_php": 200000000,
+      "api_php": 200000000,
+      "delta_php": 0,
+      "nep_page": 298,
+      "hgab2_page": 239,
+      "hgab3_page": 239,
+      "nep_doc": "nep2027-vol-iib",
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-vol-iib.pdf#page=298",
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=239",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=239"
+      },
+      "length_m": 70,
+      "flags": [
+        "uncertain_match",
+        "nep_evidence_review"
+      ],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A2308",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A2308",
+      "key": "dpwh:house-reading:2308",
+      "reasons": [
+        {
+          "kind": "place",
+          "label": "Himamaylan City"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:2307",
+      "dataset": "dpwh",
+      "title": "Himamaylan City - Negros Oriental Boundary - Tayasan Road, Sta. 19+510 - Sta. 23+123",
+      "program": "Network Development Program",
+      "pap": "Construction of Missing Links/ New Roads",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Central Office",
+      "office_kind": "Central Office",
+      "zone": "local",
+      "trace": "amount_same",
+      "status_label": "Same amount in both",
+      "bridge_group": "unchanged",
+      "group_label": "Same amount in both",
+      "held": false,
+      "house_match": "exact_candidate",
+      "reading_status": "same_amount",
+      "api_presence": "paired",
+      "confidence": 1,
+      "nep_php": 185000000,
+      "hgab2_php": 185000000,
+      "hgab3_php": 185000000,
+      "house_php": 185000000,
+      "api_php": 185000000,
+      "delta_php": 0,
+      "nep_page": 298,
+      "hgab2_page": 238,
+      "hgab3_page": 238,
+      "nep_doc": "nep2027-vol-iib",
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-vol-iib.pdf#page=298",
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=238",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=238"
+      },
+      "length_m": 3613,
+      "flags": [
+        "nep_evidence_review"
+      ],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A2307",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A2307",
+      "key": "dpwh:house-reading:2307",
+      "reasons": [
+        {
+          "kind": "place",
+          "label": "Himamaylan City"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:6370",
+      "dataset": "dpwh",
+      "title": "Construction of Bridge, Barangay Biao, Binalbagan, Negros Occidental",
+      "program": "Convergence and Special Support Program",
+      "pap": "BIP - Access Roads and/or Bridges from the National Roads leading to Major/ Strategic Public Buildings/ Facilities",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Central Office",
+      "office_kind": "Central Office",
+      "zone": "local",
+      "trace": "amount_same",
+      "status_label": "Same amount in both",
+      "bridge_group": "unchanged",
+      "group_label": "Same amount in both",
+      "held": false,
+      "house_match": "exact_candidate",
+      "reading_status": "same_amount",
+      "api_presence": "paired",
+      "confidence": 1,
+      "nep_php": 100000000,
+      "hgab2_php": 100000000,
+      "hgab3_php": 100000000,
+      "house_php": 100000000,
+      "api_php": 100000000,
+      "delta_php": 0,
+      "nep_page": 446,
+      "hgab2_page": 433,
+      "hgab3_page": 433,
+      "nep_doc": "nep2027-vol-iib",
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-vol-iib.pdf#page=446",
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=433",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=433"
+      },
+      "length_m": null,
+      "flags": [
+        "nep_evidence_review"
+      ],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A6370",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A6370",
+      "key": "dpwh:house-reading:6370",
+      "reasons": [
+        {
+          "kind": "place",
+          "label": "Binalbagan"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:6373",
+      "dataset": "dpwh",
+      "title": "Construction of Bungahin Bridge, Barangay Robles, La Castellana, Negros Occidental",
+      "program": "Convergence and Special Support Program",
+      "pap": "BIP - Access Roads and/or Bridges from the National Roads leading to Major/ Strategic Public Buildings/ Facilities",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Central Office",
+      "office_kind": "Central Office",
+      "zone": "local",
+      "trace": "amount_same",
+      "status_label": "Same amount in both",
+      "bridge_group": "unchanged",
+      "group_label": "Same amount in both",
+      "held": false,
+      "house_match": "exact_candidate",
+      "reading_status": "same_amount",
+      "api_presence": "paired",
+      "confidence": 1,
+      "nep_php": 90000000,
+      "hgab2_php": 90000000,
+      "hgab3_php": 90000000,
+      "house_php": 90000000,
+      "api_php": 90000000,
+      "delta_php": 0,
+      "nep_page": 446,
+      "hgab2_page": 433,
+      "hgab3_page": 433,
+      "nep_doc": "nep2027-vol-iib",
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-vol-iib.pdf#page=446",
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=433",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=433"
+      },
+      "length_m": null,
+      "flags": [
+        "nep_evidence_review"
+      ],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A6373",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A6373",
+      "key": "dpwh:house-reading:6373",
+      "reasons": [
+        {
+          "kind": "place",
+          "label": "La Castellana"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:6371",
+      "dataset": "dpwh",
+      "title": "Construction of Bridge, Barangay Crossing Magallon, Moises Padilla, Negros Occidental, 10.2524, 123.0312",
+      "program": "Convergence and Special Support Program",
+      "pap": "BIP - Access Roads and/or Bridges from the National Roads leading to Major/ Strategic Public Buildings/ Facilities",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Central Office",
+      "office_kind": "Central Office",
+      "zone": "local",
+      "trace": "house_only_candidate",
+      "status_label": "House bill only",
+      "bridge_group": "house_only",
+      "group_label": "In the House bill only",
+      "held": false,
+      "house_match": "house_unmatched",
+      "reading_status": "same_amount",
+      "api_presence": "no_nep_anchor",
+      "confidence": null,
+      "nep_php": null,
+      "hgab2_php": 70000000,
+      "hgab3_php": 70000000,
+      "house_php": 70000000,
+      "api_php": null,
+      "delta_php": null,
+      "nep_page": null,
+      "hgab2_page": 433,
+      "hgab3_page": 433,
+      "nep_doc": null,
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": null,
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=433",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=433"
+      },
+      "length_m": null,
+      "flags": [
+        "house_only",
+        "group_exhausted"
+      ],
+      "suggestions": 0,
+      "lon": 123.0312,
+      "lat": 10.2524,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A6371",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A6371",
+      "key": "dpwh:house-reading:6371",
+      "reasons": [
+        {
+          "kind": "place",
+          "label": "Moises Padilla"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:10845",
+      "dataset": "dpwh",
+      "title": "Construction of Multi-Purpose Building, Isabela, Negros Occidental, 10.206388, 123.004489",
+      "program": "Convergence and Special Support Program",
+      "pap": "BIP - Multi-Purpose Buildings/ Facilities to support Social Services",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Central Office",
+      "office_kind": "Central Office",
+      "zone": "local",
+      "trace": "house_only_candidate",
+      "status_label": "House bill only",
+      "bridge_group": "house_only",
+      "group_label": "In the House bill only",
+      "held": false,
+      "house_match": "house_unmatched",
+      "reading_status": "same_amount",
+      "api_presence": "no_nep_anchor",
+      "confidence": null,
+      "nep_php": null,
+      "hgab2_php": 70000000,
+      "hgab3_php": 70000000,
+      "house_php": 70000000,
+      "api_php": null,
+      "delta_php": null,
+      "nep_page": null,
+      "hgab2_page": 645,
+      "hgab3_page": 645,
+      "nep_doc": null,
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": null,
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=645",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=645"
+      },
+      "length_m": null,
+      "flags": [
+        "house_only",
+        "group_exhausted"
+      ],
+      "suggestions": 0,
+      "lon": 123.00449,
+      "lat": 10.20639,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10845",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A10845",
+      "key": "dpwh:house-reading:10845",
+      "reasons": [
+        {
+          "kind": "place",
+          "label": "Isabela"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:50",
+      "dataset": "dpwh",
+      "title": "Bacolod South Rd - K0065+694 - K0067+200",
+      "program": "Asset Preservation Program",
+      "pap": "Preventive Maintenance - Primary Roads",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "amount_same",
+      "status_label": "Same amount in both",
+      "bridge_group": "unchanged",
+      "group_label": "Same amount in both",
+      "held": false,
+      "house_match": "exact_candidate",
+      "reading_status": "same_amount",
+      "api_presence": "paired",
+      "confidence": 1,
+      "nep_php": 49926000,
+      "hgab2_php": 49926000,
+      "hgab3_php": 49926000,
+      "house_php": 49926000,
+      "api_php": 49926000,
+      "delta_php": 0,
+      "nep_page": 202,
+      "hgab2_page": 121,
+      "hgab3_page": 121,
+      "nep_doc": "nep2027-vol-iib",
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-vol-iib.pdf#page=202",
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=121",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=121"
+      },
+      "length_m": 1506,
+      "flags": [
+        "nep_evidence_review"
+      ],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A50",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A50",
+      "key": "dpwh:house-reading:50",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:52",
+      "dataset": "dpwh",
+      "title": "Bacolod South Rd - K0070+250 - K0071+480",
+      "program": "Asset Preservation Program",
+      "pap": "Preventive Maintenance - Primary Roads",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "amount_same",
+      "status_label": "Same amount in both",
+      "bridge_group": "unchanged",
+      "group_label": "Same amount in both",
+      "held": false,
+      "house_match": "exact_candidate",
+      "reading_status": "same_amount",
+      "api_presence": "paired",
+      "confidence": 1,
+      "nep_php": 43383000,
+      "hgab2_php": 43383000,
+      "hgab3_php": 43383000,
+      "house_php": 43383000,
+      "api_php": 43383000,
+      "delta_php": 0,
+      "nep_page": 203,
+      "hgab2_page": 121,
+      "hgab3_page": 121,
+      "nep_doc": "nep2027-vol-iib",
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-vol-iib.pdf#page=203",
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=121",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=121"
+      },
+      "length_m": 1230,
+      "flags": [],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A52",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A52",
+      "key": "dpwh:house-reading:52",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:3221",
+      "dataset": "dpwh",
+      "title": "Binalbagan (Bagacay) Br. (B00379NR) along Hinigaran-Isabela Rd",
+      "program": "Bridge Program",
+      "pap": "Widening of Permanent Bridges",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Central Office",
+      "office_kind": "Central Office",
+      "zone": "local",
+      "trace": "amount_same",
+      "status_label": "Same amount in both",
+      "bridge_group": "unchanged",
+      "group_label": "Same amount in both",
+      "held": false,
+      "house_match": "exact_candidate",
+      "reading_status": "same_amount",
+      "api_presence": "paired",
+      "confidence": 1,
+      "nep_php": 43000000,
+      "hgab2_php": 43000000,
+      "hgab3_php": 43000000,
+      "house_php": 43000000,
+      "api_php": 43000000,
+      "delta_php": 0,
+      "nep_page": 337,
+      "hgab2_page": 285,
+      "hgab3_page": 285,
+      "nep_doc": "nep2027-vol-iib",
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-vol-iib.pdf#page=337",
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=285",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=285"
+      },
+      "length_m": null,
+      "flags": [],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A3221",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A3221",
+      "key": "dpwh:house-reading:3221",
+      "reasons": [
+        {
+          "kind": "place",
+          "label": "Binalbagan"
+        },
+        {
+          "kind": "place",
+          "label": "Hinigaran"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:16188",
+      "dataset": "dpwh",
+      "title": "Construction of Negros Occidental 2nd DEO (Quality Assurance Building), Binalbagan, Negros Occidental",
+      "program": "Local Program",
+      "pap": "Buildings And Other Structures",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "amount_same",
+      "status_label": "Same amount in both",
+      "bridge_group": "unchanged",
+      "group_label": "Same amount in both",
+      "held": false,
+      "house_match": "exact_candidate",
+      "reading_status": "same_amount",
+      "api_presence": "paired",
+      "confidence": 1,
+      "nep_php": 40000000,
+      "hgab2_php": 40000000,
+      "hgab3_php": 40000000,
+      "house_php": 40000000,
+      "api_php": 40000000,
+      "delta_php": 0,
+      "nep_page": 686,
+      "hgab2_page": 937,
+      "hgab3_page": 937,
+      "nep_doc": "nep2027-vol-iib",
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-vol-iib.pdf#page=686",
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=937",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=937"
+      },
+      "length_m": null,
+      "flags": [],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A16188",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A16188",
+      "key": "dpwh:house-reading:16188",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        },
+        {
+          "kind": "place",
+          "label": "Binalbagan"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:51",
+      "dataset": "dpwh",
+      "title": "Bacolod South Rd - K0069+190 - K0070+250",
+      "program": "Asset Preservation Program",
+      "pap": "Preventive Maintenance - Primary Roads",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "amount_same",
+      "status_label": "Same amount in both",
+      "bridge_group": "unchanged",
+      "group_label": "Same amount in both",
+      "held": false,
+      "house_match": "exact_candidate",
+      "reading_status": "same_amount",
+      "api_presence": "paired",
+      "confidence": 1,
+      "nep_php": 37366000,
+      "hgab2_php": 37366000,
+      "hgab3_php": 37366000,
+      "house_php": 37366000,
+      "api_php": 37366000,
+      "delta_php": 0,
+      "nep_page": 203,
+      "hgab2_page": 121,
+      "hgab3_page": 121,
+      "nep_doc": "nep2027-vol-iib",
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-vol-iib.pdf#page=203",
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=121",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=121"
+      },
+      "length_m": 1060,
+      "flags": [],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A51",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A51",
+      "key": "dpwh:house-reading:51",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:313",
+      "dataset": "dpwh",
+      "title": "Vallehermoso-Canlaon City-La Castellana Rd - K0149 + 136 - K0149 + 805, K0150 + 000 - K0150 + 769",
+      "program": "Asset Preservation Program",
+      "pap": "Preventive Maintenance - Secondary Roads",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "amount_same",
+      "status_label": "Same amount in both",
+      "bridge_group": "unchanged",
+      "group_label": "Same amount in both",
+      "held": false,
+      "house_match": "exact_candidate",
+      "reading_status": "same_amount",
+      "api_presence": "paired",
+      "confidence": 1,
+      "nep_php": 31435000,
+      "hgab2_php": 31435000,
+      "hgab3_php": 31435000,
+      "house_php": 31435000,
+      "api_php": 31435000,
+      "delta_php": 0,
+      "nep_page": 214,
+      "hgab2_page": 136,
+      "hgab3_page": 136,
+      "nep_doc": "nep2027-vol-iib",
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-vol-iib.pdf#page=214",
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=136",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=136"
+      },
+      "length_m": 1438,
+      "flags": [
+        "nep_evidence_review"
+      ],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A313",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A313",
+      "key": "dpwh:house-reading:313",
+      "reasons": [
+        {
+          "kind": "place",
+          "label": "La Castellana"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:3219",
+      "dataset": "dpwh",
+      "title": "Alicante Br. (B00374NR) along Jct Bagonawa-La Castellana-Isabela Rd",
+      "program": "Bridge Program",
+      "pap": "Widening of Permanent Bridges",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Central Office",
+      "office_kind": "Central Office",
+      "zone": "local",
+      "trace": "amount_same",
+      "status_label": "Same amount in both",
+      "bridge_group": "unchanged",
+      "group_label": "Same amount in both",
+      "held": false,
+      "house_match": "exact_candidate",
+      "reading_status": "same_amount",
+      "api_presence": "paired",
+      "confidence": 1,
+      "nep_php": 31000000,
+      "hgab2_php": 31000000,
+      "hgab3_php": 31000000,
+      "house_php": 31000000,
+      "api_php": 31000000,
+      "delta_php": 0,
+      "nep_page": 336,
+      "hgab2_page": 285,
+      "hgab3_page": 285,
+      "nep_doc": "nep2027-vol-iib",
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-vol-iib.pdf#page=336",
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=285",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=285"
+      },
+      "length_m": null,
+      "flags": [],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A3219",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A3219",
+      "key": "dpwh:house-reading:3219",
+      "reasons": [
+        {
+          "kind": "place",
+          "label": "La Castellana"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:10257",
+      "dataset": "dpwh",
+      "title": "Construction of Coastal Diversion Road in Barangay I Poblacion, Hinigaran, Negros Occidental",
+      "program": "Convergence and Special Support Program",
+      "pap": "BIP - Coastal Roads to augment Resiliency of Coastal Communities",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "amount_same",
+      "status_label": "Same amount in both",
+      "bridge_group": "unchanged",
+      "group_label": "Same amount in both",
+      "held": false,
+      "house_match": "exact_candidate",
+      "reading_status": "same_amount",
+      "api_presence": "paired",
+      "confidence": 1,
+      "nep_php": 20000000,
+      "hgab2_php": 20000000,
+      "hgab3_php": 20000000,
+      "house_php": 20000000,
+      "api_php": 20000000,
+      "delta_php": 0,
+      "nep_page": 559,
+      "hgab2_page": 629,
+      "hgab3_page": 629,
+      "nep_doc": "nep2027-vol-iib",
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-vol-iib.pdf#page=559",
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=629",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=629"
+      },
+      "length_m": null,
+      "flags": [],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10257",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A10257",
+      "key": "dpwh:house-reading:10257",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        },
+        {
+          "kind": "place",
+          "label": "Hinigaran"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:6438",
+      "dataset": "dpwh",
+      "title": "Reconstruction of Road in Barangay Aguisan to Barangay Nabali-an to Barangay Cabanbanan to Barangay Libacao, Himamaylan City, Negros Occidental",
+      "program": "Convergence and Special Support Program",
+      "pap": "BIP - Access Roads and/or Bridges from the National Roads leading to Major/ Strategic Public Buildings/ Facilities",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "amount_same",
+      "status_label": "Same amount in both",
+      "bridge_group": "unchanged",
+      "group_label": "Same amount in both",
+      "held": false,
+      "house_match": "exact_candidate",
+      "reading_status": "same_amount",
+      "api_presence": "paired",
+      "confidence": 1,
+      "nep_php": 20000000,
+      "hgab2_php": 20000000,
+      "hgab3_php": 20000000,
+      "house_php": 20000000,
+      "api_php": 20000000,
+      "delta_php": 0,
+      "nep_page": 530,
+      "hgab2_page": 577,
+      "hgab3_page": 577,
+      "nep_doc": "nep2027-vol-iib",
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-vol-iib.pdf#page=530",
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=577",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=577"
+      },
+      "length_m": null,
+      "flags": [],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A6438",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A6438",
+      "key": "dpwh:house-reading:6438",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        },
+        {
+          "kind": "place",
+          "label": "Himamaylan City"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:6434",
+      "dataset": "dpwh",
+      "title": "Construction of Road at Barangay Riverside, Isabela, Negros Occidental, Sta. 08+648 to Sta. 09+648",
+      "program": "Convergence and Special Support Program",
+      "pap": "BIP - Access Roads and/or Bridges from the National Roads leading to Major/ Strategic Public Buildings/ Facilities",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "house_only_candidate",
+      "status_label": "House bill only",
+      "bridge_group": "house_only",
+      "group_label": "In the House bill only",
+      "held": false,
+      "house_match": "house_unmatched",
+      "reading_status": "same_amount",
+      "api_presence": "no_nep_anchor",
+      "confidence": null,
+      "nep_php": null,
+      "hgab2_php": 20000000,
+      "hgab3_php": 20000000,
+      "house_php": 20000000,
+      "api_php": null,
+      "delta_php": null,
+      "nep_page": null,
+      "hgab2_page": 577,
+      "hgab3_page": 577,
+      "nep_doc": null,
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": null,
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=577",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=577"
+      },
+      "length_m": 1000,
+      "flags": [
+        "house_only"
+      ],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A6434",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A6434",
+      "key": "dpwh:house-reading:6434",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        },
+        {
+          "kind": "place",
+          "label": "Isabela"
+        }
+      ]
+    },
+    {
+      "id": "pair:nep_fmr:p35:r4:ib:p710:r9",
+      "dataset": "fmr",
+      "title": "Construction of Sitio Kalubihan, Brgy. Talaptap FMR, Brgy. Talaptap, La Castellana, Negros Occidental",
+      "program": "REPAIR/REHABILITATION AND CONSTRUCTION OF FARM-TO-MARKET ROADS IN DESIGNATED KEY PRODUCTION AREAS",
+      "pap": null,
+      "region": "NEGROS ISLAND REGION (NIR)",
+      "region_key": "NIR",
+      "office": null,
+      "office_kind": null,
+      "zone": null,
+      "trace": "amount_same",
+      "status_label": "Same amount in both",
+      "bridge_group": "unchanged",
+      "group_label": "Same amount in both",
+      "held": false,
+      "house_match": "title_and_coordinates",
+      "reading_status": null,
+      "api_presence": null,
+      "confidence": null,
+      "nep_php": 15000000,
+      "hgab2_php": 15000000,
+      "hgab3_php": 15000000,
+      "house_php": 15000000,
+      "api_php": null,
+      "delta_php": 0,
+      "nep_page": 35,
+      "hgab2_page": 710,
+      "hgab3_page": null,
+      "nep_doc": "nep2027-fmr",
+      "hgab2_doc": "hb10858-2r-vol-ib",
+      "hgab3_doc": null,
+      "pdf_url": {
+        "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-fmr.pdf#page=35",
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ib.pdf#page=710",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ib.pdf#page=710"
+      },
+      "length_m": null,
+      "flags": [
+        "method:title_and_coordinates"
+      ],
+      "suggestions": 0,
+      "lon": 122.98889,
+      "lat": 10.29327,
+      "url": "https://budget.bettergov.ph/hgab/2027/fmr/p/pair%3Anep_fmr%3Ap35%3Ar4%3Aib%3Ap710%3Ar9",
+      "api_url": "/api/v1/hgab/2027/datasets/fmr/projects/pair%3Anep_fmr%3Ap35%3Ar4%3Aib%3Ap710%3Ar9",
+      "key": "fmr:pair:nep_fmr:p35:r4:ib:p710:r9",
+      "reasons": [
+        {
+          "kind": "place",
+          "label": "La Castellana"
+        }
+      ]
+    },
+    {
+      "id": "house_only:ib:p711:r15",
+      "dataset": "fmr",
+      "title": "Concreting of Brgy. Camangcamang FMR, Brgy. Camangcamang, Isabela, Negros Occidental",
+      "program": "REPAIR/REHABILITATION AND CONSTRUCTION OF FARM-TO-MARKET ROADS IN DESIGNATED KEY PRODUCTION AREAS",
+      "pap": null,
+      "region": "NEGROS ISLAND REGION (NIR)",
+      "region_key": "NIR",
+      "office": null,
+      "office_kind": null,
+      "zone": null,
+      "trace": "house_only_candidate",
+      "status_label": "House bill only",
+      "bridge_group": "house_only",
+      "group_label": "In the House bill only",
+      "held": false,
+      "house_match": null,
+      "reading_status": null,
+      "api_presence": null,
+      "confidence": null,
+      "nep_php": null,
+      "hgab2_php": 15000000,
+      "hgab3_php": 15000000,
+      "house_php": 15000000,
+      "api_php": null,
+      "delta_php": null,
+      "nep_page": null,
+      "hgab2_page": 711,
+      "hgab3_page": null,
+      "nep_doc": null,
+      "hgab2_doc": "hb10858-2r-vol-ib",
+      "hgab3_doc": null,
+      "pdf_url": {
+        "nep": null,
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ib.pdf#page=711",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ib.pdf#page=711"
+      },
+      "length_m": null,
+      "flags": [],
+      "suggestions": 0,
+      "lon": 122.97909,
+      "lat": 10.17604,
+      "url": "https://budget.bettergov.ph/hgab/2027/fmr/p/house_only%3Aib%3Ap711%3Ar15",
+      "api_url": "/api/v1/hgab/2027/datasets/fmr/projects/house_only%3Aib%3Ap711%3Ar15",
+      "key": "fmr:house_only:ib:p711:r15",
+      "reasons": [
+        {
+          "kind": "place",
+          "label": "Isabela"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:6429",
+      "dataset": "dpwh",
+      "title": "Concreting of Access Road in Bgy Nanunga,Hinigaran, Negros Occidental, 10.25436076, 122.87237551",
+      "program": "Convergence and Special Support Program",
+      "pap": "BIP - Access Roads and/or Bridges from the National Roads leading to Major/ Strategic Public Buildings/ Facilities",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "house_only_candidate",
+      "status_label": "House bill only",
+      "bridge_group": "house_only",
+      "group_label": "In the House bill only",
+      "held": false,
+      "house_match": "house_unmatched",
+      "reading_status": "same_amount",
+      "api_presence": "no_nep_anchor",
+      "confidence": null,
+      "nep_php": null,
+      "hgab2_php": 10000000,
+      "hgab3_php": 10000000,
+      "house_php": 10000000,
+      "api_php": null,
+      "delta_php": null,
+      "nep_page": null,
+      "hgab2_page": 577,
+      "hgab3_page": 577,
+      "nep_doc": null,
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": null,
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=577",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=577"
+      },
+      "length_m": null,
+      "flags": [
+        "house_only"
+      ],
+      "suggestions": 0,
+      "lon": 122.87238,
+      "lat": 10.25436,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A6429",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A6429",
+      "key": "dpwh:house-reading:6429",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        },
+        {
+          "kind": "place",
+          "label": "Hinigaran"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:10880",
+      "dataset": "dpwh",
+      "title": "Construction of Multi-Purpose Building, Barangay Cabacungan, La Castellana, Negros Occidental",
+      "program": "Convergence and Special Support Program",
+      "pap": "BIP - Multi-Purpose Buildings/ Facilities to support Social Services",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "house_only_candidate",
+      "status_label": "House bill only",
+      "bridge_group": "house_only",
+      "group_label": "In the House bill only",
+      "held": false,
+      "house_match": "house_unmatched",
+      "reading_status": "same_amount",
+      "api_presence": "no_nep_anchor",
+      "confidence": null,
+      "nep_php": null,
+      "hgab2_php": 10000000,
+      "hgab3_php": 10000000,
+      "house_php": 10000000,
+      "api_php": null,
+      "delta_php": null,
+      "nep_page": null,
+      "hgab2_page": 834,
+      "hgab3_page": 834,
+      "nep_doc": null,
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": null,
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=834",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=834"
+      },
+      "length_m": null,
+      "flags": [
+        "house_only",
+        "group_exhausted"
+      ],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10880",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A10880",
+      "key": "dpwh:house-reading:10880",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        },
+        {
+          "kind": "place",
+          "label": "La Castellana"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:10887",
+      "dataset": "dpwh",
+      "title": "Construction of Multi-Purpose Building, Phase II, Barangay San Jose, Binalbagan, Negros Occidental, 10.197508, 122.898621",
+      "program": "Convergence and Special Support Program",
+      "pap": "BIP - Multi-Purpose Buildings/ Facilities to support Social Services",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "house_only_candidate",
+      "status_label": "House bill only",
+      "bridge_group": "house_only",
+      "group_label": "In the House bill only",
+      "held": false,
+      "house_match": "house_unmatched",
+      "reading_status": "same_amount",
+      "api_presence": "no_nep_anchor",
+      "confidence": null,
+      "nep_php": null,
+      "hgab2_php": 10000000,
+      "hgab3_php": 10000000,
+      "house_php": 10000000,
+      "api_php": null,
+      "delta_php": null,
+      "nep_page": null,
+      "hgab2_page": 834,
+      "hgab3_page": 834,
+      "nep_doc": null,
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": null,
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=834",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=834"
+      },
+      "length_m": null,
+      "flags": [
+        "house_only",
+        "group_exhausted"
+      ],
+      "suggestions": 0,
+      "lon": 122.89862,
+      "lat": 10.19751,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10887",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A10887",
+      "key": "dpwh:house-reading:10887",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        },
+        {
+          "kind": "place",
+          "label": "Binalbagan"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:10886",
+      "dataset": "dpwh",
+      "title": "Construction of Multi-Purpose Building, Phase II, Hinigaran Medical Clinic, Barangay 3, Hinigaran, Negros Occidental, 10.270973, 122.853582",
+      "program": "Convergence and Special Support Program",
+      "pap": "BIP - Multi-Purpose Buildings/ Facilities to support Social Services",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "house_only_candidate",
+      "status_label": "House bill only",
+      "bridge_group": "house_only",
+      "group_label": "In the House bill only",
+      "held": false,
+      "house_match": "house_unmatched",
+      "reading_status": "same_amount",
+      "api_presence": "no_nep_anchor",
+      "confidence": null,
+      "nep_php": null,
+      "hgab2_php": 10000000,
+      "hgab3_php": 10000000,
+      "house_php": 10000000,
+      "api_php": null,
+      "delta_php": null,
+      "nep_page": null,
+      "hgab2_page": 834,
+      "hgab3_page": 834,
+      "nep_doc": null,
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": null,
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=834",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=834"
+      },
+      "length_m": null,
+      "flags": [
+        "house_only",
+        "group_exhausted"
+      ],
+      "suggestions": 0,
+      "lon": 122.85358,
+      "lat": 10.27097,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10886",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A10886",
+      "key": "dpwh:house-reading:10886",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        },
+        {
+          "kind": "place",
+          "label": "Hinigaran"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:6432",
+      "dataset": "dpwh",
+      "title": "Construction of Road at Barangay Gargato, Hinigaran, Negros Occidental",
+      "program": "Convergence and Special Support Program",
+      "pap": "BIP - Access Roads and/or Bridges from the National Roads leading to Major/ Strategic Public Buildings/ Facilities",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "house_only_candidate",
+      "status_label": "House bill only",
+      "bridge_group": "house_only",
+      "group_label": "In the House bill only",
+      "held": false,
+      "house_match": "house_unmatched",
+      "reading_status": "same_amount",
+      "api_presence": "no_nep_anchor",
+      "confidence": null,
+      "nep_php": null,
+      "hgab2_php": 10000000,
+      "hgab3_php": 10000000,
+      "house_php": 10000000,
+      "api_php": null,
+      "delta_php": null,
+      "nep_page": null,
+      "hgab2_page": 577,
+      "hgab3_page": 577,
+      "nep_doc": null,
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": null,
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=577",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=577"
+      },
+      "length_m": null,
+      "flags": [
+        "house_only"
+      ],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A6432",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A6432",
+      "key": "dpwh:house-reading:6432",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        },
+        {
+          "kind": "place",
+          "label": "Hinigaran"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:6433",
+      "dataset": "dpwh",
+      "title": "Construction of Road at Barangay Nato, La Castellana, Negros Occidental",
+      "program": "Convergence and Special Support Program",
+      "pap": "BIP - Access Roads and/or Bridges from the National Roads leading to Major/ Strategic Public Buildings/ Facilities",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "house_only_candidate",
+      "status_label": "House bill only",
+      "bridge_group": "house_only",
+      "group_label": "In the House bill only",
+      "held": false,
+      "house_match": "house_unmatched",
+      "reading_status": "same_amount",
+      "api_presence": "no_nep_anchor",
+      "confidence": null,
+      "nep_php": null,
+      "hgab2_php": 10000000,
+      "hgab3_php": 10000000,
+      "house_php": 10000000,
+      "api_php": null,
+      "delta_php": null,
+      "nep_page": null,
+      "hgab2_page": 577,
+      "hgab3_page": 577,
+      "nep_doc": null,
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": null,
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=577",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=577"
+      },
+      "length_m": null,
+      "flags": [
+        "house_only"
+      ],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A6433",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A6433",
+      "key": "dpwh:house-reading:6433",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        },
+        {
+          "kind": "place",
+          "label": "La Castellana"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:6431",
+      "dataset": "dpwh",
+      "title": "Construction of Road, Barangay Aranda, Hinigaran, Negros Occidental",
+      "program": "Convergence and Special Support Program",
+      "pap": "BIP - Access Roads and/or Bridges from the National Roads leading to Major/ Strategic Public Buildings/ Facilities",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "house_only_candidate",
+      "status_label": "House bill only",
+      "bridge_group": "house_only",
+      "group_label": "In the House bill only",
+      "held": false,
+      "house_match": "house_unmatched",
+      "reading_status": "same_amount",
+      "api_presence": "no_nep_anchor",
+      "confidence": null,
+      "nep_php": null,
+      "hgab2_php": 10000000,
+      "hgab3_php": 10000000,
+      "house_php": 10000000,
+      "api_php": null,
+      "delta_php": null,
+      "nep_page": null,
+      "hgab2_page": 577,
+      "hgab3_page": 577,
+      "nep_doc": null,
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": null,
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=577",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=577"
+      },
+      "length_m": null,
+      "flags": [
+        "house_only"
+      ],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A6431",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A6431",
+      "key": "dpwh:house-reading:6431",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        },
+        {
+          "kind": "place",
+          "label": "Hinigaran"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:6435",
+      "dataset": "dpwh",
+      "title": "Construction of Road, Sitio Haplas, Barangay Tinongan, Isabela, Negros Occidental",
+      "program": "Convergence and Special Support Program",
+      "pap": "BIP - Access Roads and/or Bridges from the National Roads leading to Major/ Strategic Public Buildings/ Facilities",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "house_only_candidate",
+      "status_label": "House bill only",
+      "bridge_group": "house_only",
+      "group_label": "In the House bill only",
+      "held": false,
+      "house_match": "house_unmatched",
+      "reading_status": "same_amount",
+      "api_presence": "no_nep_anchor",
+      "confidence": null,
+      "nep_php": null,
+      "hgab2_php": 10000000,
+      "hgab3_php": 10000000,
+      "house_php": 10000000,
+      "api_php": null,
+      "delta_php": null,
+      "nep_page": null,
+      "hgab2_page": 577,
+      "hgab3_page": 577,
+      "nep_doc": null,
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": null,
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=577",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=577"
+      },
+      "length_m": null,
+      "flags": [
+        "house_only",
+        "group_exhausted"
+      ],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A6435",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A6435",
+      "key": "dpwh:house-reading:6435",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        },
+        {
+          "kind": "place",
+          "label": "Isabela"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:6436",
+      "dataset": "dpwh",
+      "title": "Construction of Road, Sitio Josefa, Barangay Camp Clark, Isabela, Negros Occidental",
+      "program": "Convergence and Special Support Program",
+      "pap": "BIP - Access Roads and/or Bridges from the National Roads leading to Major/ Strategic Public Buildings/ Facilities",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "house_only_candidate",
+      "status_label": "House bill only",
+      "bridge_group": "house_only",
+      "group_label": "In the House bill only",
+      "held": false,
+      "house_match": "house_unmatched",
+      "reading_status": "same_amount",
+      "api_presence": "no_nep_anchor",
+      "confidence": null,
+      "nep_php": null,
+      "hgab2_php": 10000000,
+      "hgab3_php": 10000000,
+      "house_php": 10000000,
+      "api_php": null,
+      "delta_php": null,
+      "nep_page": null,
+      "hgab2_page": 577,
+      "hgab3_page": 577,
+      "nep_doc": null,
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": null,
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=577",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=577"
+      },
+      "length_m": null,
+      "flags": [
+        "house_only",
+        "group_exhausted"
+      ],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A6436",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A6436",
+      "key": "dpwh:house-reading:6436",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        },
+        {
+          "kind": "place",
+          "label": "Isabela"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:10881",
+      "dataset": "dpwh",
+      "title": "Construction of Multi-Purpose Building in Barangay 4, Isabela, Negros Occidental",
+      "program": "Convergence and Special Support Program",
+      "pap": "BIP - Multi-Purpose Buildings/ Facilities to support Social Services",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "amount_same",
+      "status_label": "Same amount in both",
+      "bridge_group": "unchanged",
+      "group_label": "Same amount in both",
+      "held": false,
+      "house_match": "exact_candidate",
+      "reading_status": "same_amount",
+      "api_presence": "paired",
+      "confidence": 1,
+      "nep_php": 6000000,
+      "hgab2_php": 6000000,
+      "hgab3_php": 6000000,
+      "house_php": 6000000,
+      "api_php": 6000000,
+      "delta_php": 0,
+      "nep_page": 643,
+      "hgab2_page": 834,
+      "hgab3_page": 834,
+      "nep_doc": "nep2027-vol-iib",
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-vol-iib.pdf#page=643",
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=834",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=834"
+      },
+      "length_m": null,
+      "flags": [
+        "nep_evidence_review"
+      ],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10881",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A10881",
+      "key": "dpwh:house-reading:10881",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        },
+        {
+          "kind": "place",
+          "label": "Isabela"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:10882",
+      "dataset": "dpwh",
+      "title": "Construction of Multi-Purpose Building in Barangay III, Hinigaran, Negros Occidental",
+      "program": "Convergence and Special Support Program",
+      "pap": "BIP - Multi-Purpose Buildings/ Facilities to support Social Services",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "amount_same",
+      "status_label": "Same amount in both",
+      "bridge_group": "unchanged",
+      "group_label": "Same amount in both",
+      "held": false,
+      "house_match": "exact_candidate",
+      "reading_status": "same_amount",
+      "api_presence": "paired",
+      "confidence": 1,
+      "nep_php": 6000000,
+      "hgab2_php": 6000000,
+      "hgab3_php": 6000000,
+      "house_php": 6000000,
+      "api_php": 6000000,
+      "delta_php": 0,
+      "nep_page": 643,
+      "hgab2_page": 834,
+      "hgab3_page": 834,
+      "nep_doc": "nep2027-vol-iib",
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-vol-iib.pdf#page=643",
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=834",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=834"
+      },
+      "length_m": null,
+      "flags": [
+        "nep_evidence_review"
+      ],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10882",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A10882",
+      "key": "dpwh:house-reading:10882",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        },
+        {
+          "kind": "place",
+          "label": "Hinigaran"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:10883",
+      "dataset": "dpwh",
+      "title": "Construction of Multi-Purpose Building in Barangay Robles, La Castellana, Negros Occidental",
+      "program": "Convergence and Special Support Program",
+      "pap": "BIP - Multi-Purpose Buildings/ Facilities to support Social Services",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "amount_same",
+      "status_label": "Same amount in both",
+      "bridge_group": "unchanged",
+      "group_label": "Same amount in both",
+      "held": false,
+      "house_match": "exact_candidate",
+      "reading_status": "same_amount",
+      "api_presence": "paired",
+      "confidence": 1,
+      "nep_php": 6000000,
+      "hgab2_php": 6000000,
+      "hgab3_php": 6000000,
+      "house_php": 6000000,
+      "api_php": 6000000,
+      "delta_php": 0,
+      "nep_page": 643,
+      "hgab2_page": 834,
+      "hgab3_page": 834,
+      "nep_doc": "nep2027-vol-iib",
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-vol-iib.pdf#page=643",
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=834",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=834"
+      },
+      "length_m": null,
+      "flags": [
+        "nep_evidence_review"
+      ],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10883",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A10883",
+      "key": "dpwh:house-reading:10883",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        },
+        {
+          "kind": "place",
+          "label": "La Castellana"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:10884",
+      "dataset": "dpwh",
+      "title": "Construction of Multi-Purpose Building in Barangay San Pedro, Binalbagan, Negros Occidental",
+      "program": "Convergence and Special Support Program",
+      "pap": "BIP - Multi-Purpose Buildings/ Facilities to support Social Services",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "amount_same",
+      "status_label": "Same amount in both",
+      "bridge_group": "unchanged",
+      "group_label": "Same amount in both",
+      "held": false,
+      "house_match": "exact_candidate",
+      "reading_status": "same_amount",
+      "api_presence": "paired",
+      "confidence": 1,
+      "nep_php": 6000000,
+      "hgab2_php": 6000000,
+      "hgab3_php": 6000000,
+      "house_php": 6000000,
+      "api_php": 6000000,
+      "delta_php": 0,
+      "nep_page": 643,
+      "hgab2_page": 834,
+      "hgab3_page": 834,
+      "nep_doc": "nep2027-vol-iib",
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-vol-iib.pdf#page=643",
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=834",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=834"
+      },
+      "length_m": null,
+      "flags": [
+        "nep_evidence_review"
+      ],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10884",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A10884",
+      "key": "dpwh:house-reading:10884",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        },
+        {
+          "kind": "place",
+          "label": "Binalbagan"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:10885",
+      "dataset": "dpwh",
+      "title": "Construction of Multi-Purpose Building in Barangay Talaban, Himamaylan City, Negros Occidental",
+      "program": "Convergence and Special Support Program",
+      "pap": "BIP - Multi-Purpose Buildings/ Facilities to support Social Services",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "amount_same",
+      "status_label": "Same amount in both",
+      "bridge_group": "unchanged",
+      "group_label": "Same amount in both",
+      "held": false,
+      "house_match": "exact_candidate",
+      "reading_status": "same_amount",
+      "api_presence": "paired",
+      "confidence": 1,
+      "nep_php": 6000000,
+      "hgab2_php": 6000000,
+      "hgab3_php": 6000000,
+      "house_php": 6000000,
+      "api_php": 6000000,
+      "delta_php": 0,
+      "nep_page": 643,
+      "hgab2_page": 834,
+      "hgab3_page": 834,
+      "nep_doc": "nep2027-vol-iib",
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-vol-iib.pdf#page=643",
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=834",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=834"
+      },
+      "length_m": null,
+      "flags": [
+        "nep_evidence_review"
+      ],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10885",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A10885",
+      "key": "dpwh:house-reading:10885",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        },
+        {
+          "kind": "place",
+          "label": "Himamaylan City"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:4812",
+      "dataset": "dpwh",
+      "title": "Rehabilitation of Binalbagan River Bank Slope Protection (Upstream of Guintubhan Bridge Right Bank) along Binalbagan - Isabela Rd. (S00419NR), Barangay Bagroy, Binalbagan, Negros Occidental",
+      "program": "Flood Management Program",
+      "pap": "Construction/ Rehabilitation of Flood Mitigation Facilities within Major River Basins and Principal Rivers",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "amount_same",
+      "status_label": "Same amount in both",
+      "bridge_group": "unchanged",
+      "group_label": "Same amount in both",
+      "held": false,
+      "house_match": "exact_candidate",
+      "reading_status": "same_amount",
+      "api_presence": "paired",
+      "confidence": 1,
+      "nep_php": 5812000,
+      "hgab2_php": 5812000,
+      "hgab3_php": 5812000,
+      "house_php": 5812000,
+      "api_php": 5812000,
+      "delta_php": 0,
+      "nep_page": 403,
+      "hgab2_page": 373,
+      "hgab3_page": 373,
+      "nep_doc": "nep2027-vol-iib",
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-vol-iib.pdf#page=403",
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=373",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=373"
+      },
+      "length_m": null,
+      "flags": [],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A4812",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A4812",
+      "key": "dpwh:house-reading:4812",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        },
+        {
+          "kind": "place",
+          "label": "Binalbagan"
+        },
+        {
+          "kind": "place",
+          "label": "Isabela"
+        }
+      ]
+    },
+    {
+      "id": "ib:p885:r56|medical_equipment",
+      "dataset": "hfep",
+      "title": "La Castellana Hospital",
+      "program": "2. LGU Hospitals",
+      "pap": "Medical equipment",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": null,
+      "office_kind": null,
+      "zone": null,
+      "trace": "amount_same",
+      "status_label": "Same amount in both",
+      "bridge_group": "unchanged",
+      "group_label": "Same amount in both",
+      "held": false,
+      "house_match": "title_similarity",
+      "reading_status": null,
+      "api_presence": null,
+      "confidence": 1,
+      "nep_php": 5500000,
+      "hgab2_php": 5500000,
+      "hgab3_php": 5500000,
+      "house_php": 5500000,
+      "api_php": null,
+      "delta_php": 0,
+      "nep_page": 6,
+      "hgab2_page": 885,
+      "hgab3_page": null,
+      "nep_doc": "nep2027-hfep",
+      "hgab2_doc": "hb10858-2r-vol-ib",
+      "hgab3_doc": null,
+      "pdf_url": {
+        "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-hfep.pdf#page=6",
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ib.pdf#page=885",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ib.pdf#page=885"
+      },
+      "length_m": null,
+      "flags": [],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/hfep/p/ib%3Ap885%3Ar56%7Cmedical_equipment",
+      "api_url": "/api/v1/hgab/2027/datasets/hfep/projects/ib%3Ap885%3Ar56%7Cmedical_equipment",
+      "key": "hfep:ib:p885:r56|medical_equipment",
+      "reasons": [
+        {
+          "kind": "place",
+          "label": "La Castellana"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:6430",
+      "dataset": "dpwh",
+      "title": "Construction of Road, Barangay 9, Isabela, Negros Occidental",
+      "program": "Convergence and Special Support Program",
+      "pap": "BIP - Access Roads and/or Bridges from the National Roads leading to Major/ Strategic Public Buildings/ Facilities",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "amount_same",
+      "status_label": "Same amount in both",
+      "bridge_group": "unchanged",
+      "group_label": "Same amount in both",
+      "held": false,
+      "house_match": "exact_candidate",
+      "reading_status": "same_amount",
+      "api_presence": "paired",
+      "confidence": 1,
+      "nep_php": 5000000,
+      "hgab2_php": 5000000,
+      "hgab3_php": 5000000,
+      "house_php": 5000000,
+      "api_php": 5000000,
+      "delta_php": 0,
+      "nep_page": 530,
+      "hgab2_page": 577,
+      "hgab3_page": 577,
+      "nep_doc": "nep2027-vol-iib",
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-vol-iib.pdf#page=530",
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=577",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=577"
+      },
+      "length_m": null,
+      "flags": [],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A6430",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A6430",
+      "key": "dpwh:house-reading:6430",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        },
+        {
+          "kind": "place",
+          "label": "Isabela"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:10878",
+      "dataset": "dpwh",
+      "title": "Construction of 2 units Multi-Purpose Building, Barangay Cabagna-an, La Castellana, Negros Occidental",
+      "program": "Convergence and Special Support Program",
+      "pap": "BIP - Multi-Purpose Buildings/ Facilities to support Social Services",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "house_only_candidate",
+      "status_label": "House bill only",
+      "bridge_group": "house_only",
+      "group_label": "In the House bill only",
+      "held": false,
+      "house_match": "house_unmatched",
+      "reading_status": "same_amount",
+      "api_presence": "no_nep_anchor",
+      "confidence": null,
+      "nep_php": null,
+      "hgab2_php": 5000000,
+      "hgab3_php": 5000000,
+      "house_php": 5000000,
+      "api_php": null,
+      "delta_php": null,
+      "nep_page": null,
+      "hgab2_page": 834,
+      "hgab3_page": 834,
+      "nep_doc": null,
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": null,
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=834",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=834"
+      },
+      "length_m": null,
+      "flags": [
+        "house_only"
+      ],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10878",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A10878",
+      "key": "dpwh:house-reading:10878",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        },
+        {
+          "kind": "place",
+          "label": "La Castellana"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:10888",
+      "dataset": "dpwh",
+      "title": "Construction of Multi-Purpose Building , San Agustin Heights, Barangay Narauis, Hinigaran, Negros Occidental, 10.2541, 122.8731",
+      "program": "Convergence and Special Support Program",
+      "pap": "BIP - Multi-Purpose Buildings/ Facilities to support Social Services",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "house_only_candidate",
+      "status_label": "House bill only",
+      "bridge_group": "house_only",
+      "group_label": "In the House bill only",
+      "held": false,
+      "house_match": "house_unmatched",
+      "reading_status": "same_amount",
+      "api_presence": "no_nep_anchor",
+      "confidence": null,
+      "nep_php": null,
+      "hgab2_php": 5000000,
+      "hgab3_php": 5000000,
+      "house_php": 5000000,
+      "api_php": null,
+      "delta_php": null,
+      "nep_page": null,
+      "hgab2_page": 834,
+      "hgab3_page": 834,
+      "nep_doc": null,
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": null,
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=834",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=834"
+      },
+      "length_m": null,
+      "flags": [
+        "house_only",
+        "group_exhausted"
+      ],
+      "suggestions": 0,
+      "lon": 122.8731,
+      "lat": 10.2541,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10888",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A10888",
+      "key": "dpwh:house-reading:10888",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        },
+        {
+          "kind": "place",
+          "label": "Hinigaran"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:10879",
+      "dataset": "dpwh",
+      "title": "Construction of Multi-Purpose Building, Barangay Biao, Binalbagan, Negros Occidental, 10.120720, 122.981399",
+      "program": "Convergence and Special Support Program",
+      "pap": "BIP - Multi-Purpose Buildings/ Facilities to support Social Services",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "house_only_candidate",
+      "status_label": "House bill only",
+      "bridge_group": "house_only",
+      "group_label": "In the House bill only",
+      "held": false,
+      "house_match": "house_unmatched",
+      "reading_status": "same_amount",
+      "api_presence": "no_nep_anchor",
+      "confidence": null,
+      "nep_php": null,
+      "hgab2_php": 5000000,
+      "hgab3_php": 5000000,
+      "house_php": 5000000,
+      "api_php": null,
+      "delta_php": null,
+      "nep_page": null,
+      "hgab2_page": 834,
+      "hgab3_page": 834,
+      "nep_doc": null,
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": null,
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=834",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=834"
+      },
+      "length_m": null,
+      "flags": [
+        "house_only",
+        "group_exhausted"
+      ],
+      "suggestions": 0,
+      "lon": 122.9814,
+      "lat": 10.12072,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10879",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A10879",
+      "key": "dpwh:house-reading:10879",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        },
+        {
+          "kind": "place",
+          "label": "Binalbagan"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:6437",
+      "dataset": "dpwh",
+      "title": "Construction of Road, Sitio Tiguisan, Barangay Montilla, Moises Padilla, Negros Occidental",
+      "program": "Convergence and Special Support Program",
+      "pap": "BIP - Access Roads and/or Bridges from the National Roads leading to Major/ Strategic Public Buildings/ Facilities",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "house_only_candidate",
+      "status_label": "House bill only",
+      "bridge_group": "house_only",
+      "group_label": "In the House bill only",
+      "held": false,
+      "house_match": "house_unmatched",
+      "reading_status": "same_amount",
+      "api_presence": "no_nep_anchor",
+      "confidence": null,
+      "nep_php": null,
+      "hgab2_php": 5000000,
+      "hgab3_php": 5000000,
+      "house_php": 5000000,
+      "api_php": null,
+      "delta_php": null,
+      "nep_page": null,
+      "hgab2_page": 577,
+      "hgab3_page": 577,
+      "nep_doc": null,
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": null,
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=577",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=577"
+      },
+      "length_m": null,
+      "flags": [
+        "house_only"
+      ],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A6437",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A6437",
+      "key": "dpwh:house-reading:6437",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        },
+        {
+          "kind": "place",
+          "label": "Moises Padilla"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:5493",
+      "dataset": "dpwh",
+      "title": "Negros Occidental 2nd District Engineering Office",
+      "program": "Convergence and Special Support Program",
+      "pap": "Rainwater Collector System",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "amount_same",
+      "status_label": "Same amount in both",
+      "bridge_group": "unchanged",
+      "group_label": "Same amount in both",
+      "held": false,
+      "house_match": "exact_candidate",
+      "reading_status": "same_amount",
+      "api_presence": "paired",
+      "confidence": 1,
+      "nep_php": 4200000,
+      "hgab2_php": 4200000,
+      "hgab3_php": 4200000,
+      "house_php": 4200000,
+      "api_php": 4200000,
+      "delta_php": 0,
+      "nep_page": 427,
+      "hgab2_page": 406,
+      "hgab3_page": 406,
+      "nep_doc": "nep2027-vol-iib",
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-vol-iib.pdf#page=427",
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=406",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=406"
+      },
+      "length_m": null,
+      "flags": [],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A5493",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A5493",
+      "key": "dpwh:house-reading:5493",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:2981",
+      "dataset": "dpwh",
+      "title": "Alimango Br. 2 (B00483NR) along Bacolod South Rd",
+      "program": "Bridge Program",
+      "pap": "Rehabilitation/ Major Repair of Permanent Bridges",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "amount_same",
+      "status_label": "Same amount in both",
+      "bridge_group": "unchanged",
+      "group_label": "Same amount in both",
+      "held": false,
+      "house_match": "exact_candidate",
+      "reading_status": "same_amount",
+      "api_presence": "paired",
+      "confidence": 1,
+      "nep_php": 3890000,
+      "hgab2_php": 3890000,
+      "hgab3_php": 3890000,
+      "house_php": 3890000,
+      "api_php": 3890000,
+      "delta_php": 0,
+      "nep_page": 329,
+      "hgab2_page": 277,
+      "hgab3_page": 277,
+      "nep_doc": "nep2027-vol-iib",
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-vol-iib.pdf#page=329",
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=277",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=277"
+      },
+      "length_m": null,
+      "flags": [],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A2981",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A2981",
+      "key": "dpwh:house-reading:2981",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:2982",
+      "dataset": "dpwh",
+      "title": "Hinigaran Br. (B00351NR) along Bacolod South Rd",
+      "program": "Bridge Program",
+      "pap": "Rehabilitation/ Major Repair of Permanent Bridges",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "amount_same",
+      "status_label": "Same amount in both",
+      "bridge_group": "unchanged",
+      "group_label": "Same amount in both",
+      "held": false,
+      "house_match": "exact_candidate",
+      "reading_status": "same_amount",
+      "api_presence": "paired",
+      "confidence": 1,
+      "nep_php": 1900000,
+      "hgab2_php": 1900000,
+      "hgab3_php": 1900000,
+      "house_php": 1900000,
+      "api_php": 1900000,
+      "delta_php": 0,
+      "nep_page": 329,
+      "hgab2_page": 277,
+      "hgab3_page": 277,
+      "nep_doc": "nep2027-vol-iib",
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-vol-iib.pdf#page=329",
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=277",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=277"
+      },
+      "length_m": null,
+      "flags": [],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A2982",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A2982",
+      "key": "dpwh:house-reading:2982",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        },
+        {
+          "kind": "place",
+          "label": "Hinigaran"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:2985",
+      "dataset": "dpwh",
+      "title": "Tanolo Parallel Br. 1 (B00558NR) along Bacolod South Rd",
+      "program": "Bridge Program",
+      "pap": "Rehabilitation/ Major Repair of Permanent Bridges",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "amount_same",
+      "status_label": "Same amount in both",
+      "bridge_group": "unchanged",
+      "group_label": "Same amount in both",
+      "held": false,
+      "house_match": "exact_candidate",
+      "reading_status": "same_amount",
+      "api_presence": "paired",
+      "confidence": 1,
+      "nep_php": 1820000,
+      "hgab2_php": 1820000,
+      "hgab3_php": 1820000,
+      "house_php": 1820000,
+      "api_php": 1820000,
+      "delta_php": 0,
+      "nep_page": 329,
+      "hgab2_page": 277,
+      "hgab3_page": 277,
+      "nep_doc": "nep2027-vol-iib",
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-vol-iib.pdf#page=329",
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=277",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=277"
+      },
+      "length_m": null,
+      "flags": [],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A2985",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A2985",
+      "key": "dpwh:house-reading:2985",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:2983",
+      "dataset": "dpwh",
+      "title": "Tanolo Br. 1 (B00352NR) along Bacolod South Rd",
+      "program": "Bridge Program",
+      "pap": "Rehabilitation/ Major Repair of Permanent Bridges",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "amount_same",
+      "status_label": "Same amount in both",
+      "bridge_group": "unchanged",
+      "group_label": "Same amount in both",
+      "held": false,
+      "house_match": "exact_candidate",
+      "reading_status": "same_amount",
+      "api_presence": "paired",
+      "confidence": 1,
+      "nep_php": 1670000,
+      "hgab2_php": 1670000,
+      "hgab3_php": 1670000,
+      "house_php": 1670000,
+      "api_php": 1670000,
+      "delta_php": 0,
+      "nep_page": 329,
+      "hgab2_page": 277,
+      "hgab3_page": 277,
+      "nep_doc": "nep2027-vol-iib",
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-vol-iib.pdf#page=329",
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=277",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=277"
+      },
+      "length_m": null,
+      "flags": [
+        "nep_evidence_review"
+      ],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A2983",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A2983",
+      "key": "dpwh:house-reading:2983",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:770",
+      "dataset": "dpwh",
+      "title": "Bacolod South Rd - K0080+788 - K0080 + 858",
+      "program": "Asset Preservation Program",
+      "pap": "Rehabilitation/ Reconstruction/ Upgrading of Damaged Paved Roads - Primary Roads",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "amount_same",
+      "status_label": "Same amount in both",
+      "bridge_group": "unchanged",
+      "group_label": "Same amount in both",
+      "held": false,
+      "house_match": "exact_candidate",
+      "reading_status": "same_amount",
+      "api_presence": "paired",
+      "confidence": 1,
+      "nep_php": 1645000,
+      "hgab2_php": 1645000,
+      "hgab3_php": 1645000,
+      "house_php": 1645000,
+      "api_php": 1645000,
+      "delta_php": 0,
+      "nep_page": 228,
+      "hgab2_page": 154,
+      "hgab3_page": 154,
+      "nep_doc": "nep2027-vol-iib",
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-vol-iib.pdf#page=228",
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=154",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=154"
+      },
+      "length_m": 70,
+      "flags": [
+        "nep_evidence_review"
+      ],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A770",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A770",
+      "key": "dpwh:house-reading:770",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:2984",
+      "dataset": "dpwh",
+      "title": "Tanolo Br. 2 (B00353NR) along Bacolod South Rd",
+      "program": "Bridge Program",
+      "pap": "Rehabilitation/ Major Repair of Permanent Bridges",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "amount_same",
+      "status_label": "Same amount in both",
+      "bridge_group": "unchanged",
+      "group_label": "Same amount in both",
+      "held": false,
+      "house_match": "exact_candidate",
+      "reading_status": "same_amount",
+      "api_presence": "paired",
+      "confidence": 1,
+      "nep_php": 1520000,
+      "hgab2_php": 1520000,
+      "hgab3_php": 1520000,
+      "house_php": 1520000,
+      "api_php": 1520000,
+      "delta_php": 0,
+      "nep_page": 329,
+      "hgab2_page": 277,
+      "hgab3_page": 277,
+      "nep_doc": "nep2027-vol-iib",
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-vol-iib.pdf#page=329",
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=277",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=277"
+      },
+      "length_m": null,
+      "flags": [],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A2984",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A2984",
+      "key": "dpwh:house-reading:2984",
+      "reasons": [
+        {
+          "kind": "office",
+          "label": "Negros Occidental 2nd District Engineering Office"
+        }
+      ]
+    },
+    {
+      "id": "house-reading:2991",
+      "dataset": "dpwh",
+      "title": "Antipolo Br. (B00197NR) along Jct Pontevedra-La Castellana Rd",
+      "program": "Bridge Program",
+      "pap": "Rehabilitation/ Major Repair of Permanent Bridges",
+      "region": "NIR",
+      "region_key": "NIR",
+      "office": "Negros Occidental 4th District Engineering Office",
+      "office_kind": "District engineering offices (DEOs)",
+      "zone": "local",
+      "trace": "amount_same",
+      "status_label": "Same amount in both",
+      "bridge_group": "unchanged",
+      "group_label": "Same amount in both",
+      "held": false,
+      "house_match": "exact_candidate",
+      "reading_status": "same_amount",
+      "api_presence": "paired",
+      "confidence": 1,
+      "nep_php": 1000000,
+      "hgab2_php": 1000000,
+      "hgab3_php": 1000000,
+      "house_php": 1000000,
+      "api_php": 1000000,
+      "delta_php": 0,
+      "nep_page": 330,
+      "hgab2_page": 278,
+      "hgab3_page": 278,
+      "nep_doc": "nep2027-vol-iib",
+      "hgab2_doc": "hb10858-2r-vol-ic",
+      "hgab3_doc": "hb10858-3r-vol-ic",
+      "pdf_url": {
+        "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-vol-iib.pdf#page=330",
+        "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=278",
+        "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=278"
+      },
+      "length_m": null,
+      "flags": [],
+      "suggestions": 0,
+      "lon": null,
+      "lat": null,
+      "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A2991",
+      "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A2991",
+      "key": "dpwh:house-reading:2991",
+      "reasons": [
+        {
+          "kind": "place",
+          "label": "La Castellana"
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "exclusion": {
+        "key": "dpwh:house-reading:10978",
+        "reason": "The source explicitly locates this covered court in Barangay Binalbagan, Canlaon City, Negros Oriental, not the municipality of Binalbagan, Negros Occidental."
+      },
+      "project": {
+        "id": "house-reading:10978",
+        "dataset": "dpwh",
+        "title": "Construction of Multi-Purpose Building (Covered Court), Sitio Bonbon, Barangay Binalbagan, Canlaon City, Negros Oriental",
+        "program": "Convergence and Special Support Program",
+        "pap": "BIP - Multi-Purpose Buildings/ Facilities to support Social Services",
+        "region": "NIR",
+        "region_key": "NIR",
+        "office": "Negros Oriental 1st District Engineering Office",
+        "office_kind": "District engineering offices (DEOs)",
+        "zone": "local",
+        "trace": "amount_same",
+        "status_label": "Same amount in both",
+        "bridge_group": "unchanged",
+        "group_label": "Same amount in both",
+        "held": false,
+        "house_match": "exact_candidate",
+        "reading_status": "same_amount",
+        "api_presence": "paired",
+        "confidence": 1,
+        "nep_php": 5000000,
+        "hgab2_php": 5000000,
+        "hgab3_php": 5000000,
+        "house_php": 5000000,
+        "api_php": 5000000,
+        "delta_php": 0,
+        "nep_page": 644,
+        "hgab2_page": 839,
+        "hgab3_page": 839,
+        "nep_doc": "nep2027-vol-iib",
+        "hgab2_doc": "hb10858-2r-vol-ic",
+        "hgab3_doc": "hb10858-3r-vol-ic",
+        "pdf_url": {
+          "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-vol-iib.pdf#page=644",
+          "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=839",
+          "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=839"
+        },
+        "length_m": null,
+        "flags": [
+          "nep_evidence_review"
+        ],
+        "suggestions": 0,
+        "lon": null,
+        "lat": null,
+        "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10978",
+        "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A10978",
+        "key": "dpwh:house-reading:10978",
+        "reasons": [
+          {
+            "kind": "place",
+            "label": "Binalbagan"
+          }
+        ]
+      }
+    },
+    {
+      "exclusion": {
+        "key": "dpwh:house-reading:10981",
+        "reason": "The source explicitly locates this covered court in Barangay Binalbagan, Canlaon City, Negros Oriental, not the municipality of Binalbagan, Negros Occidental."
+      },
+      "project": {
+        "id": "house-reading:10981",
+        "dataset": "dpwh",
+        "title": "Construction of Multi-Purpose Building (Covered Court), Sitio Palaming, Barangay Binalbagan, Canlaon City, Negros Oriental",
+        "program": "Convergence and Special Support Program",
+        "pap": "BIP - Multi-Purpose Buildings/ Facilities to support Social Services",
+        "region": "NIR",
+        "region_key": "NIR",
+        "office": "Negros Oriental 1st District Engineering Office",
+        "office_kind": "District engineering offices (DEOs)",
+        "zone": "local",
+        "trace": "amount_same",
+        "status_label": "Same amount in both",
+        "bridge_group": "unchanged",
+        "group_label": "Same amount in both",
+        "held": false,
+        "house_match": "exact_candidate",
+        "reading_status": "same_amount",
+        "api_presence": "paired",
+        "confidence": 1,
+        "nep_php": 5000000,
+        "hgab2_php": 5000000,
+        "hgab3_php": 5000000,
+        "house_php": 5000000,
+        "api_php": 5000000,
+        "delta_php": 0,
+        "nep_page": 644,
+        "hgab2_page": 839,
+        "hgab3_page": 839,
+        "nep_doc": "nep2027-vol-iib",
+        "hgab2_doc": "hb10858-2r-vol-ic",
+        "hgab3_doc": "hb10858-3r-vol-ic",
+        "pdf_url": {
+          "nep": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-vol-iib.pdf#page=644",
+          "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=839",
+          "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=839"
+        },
+        "length_m": null,
+        "flags": [
+          "nep_evidence_review"
+        ],
+        "suggestions": 0,
+        "lon": null,
+        "lat": null,
+        "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10981",
+        "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A10981",
+        "key": "dpwh:house-reading:10981",
+        "reasons": [
+          {
+            "kind": "place",
+            "label": "Binalbagan"
+          }
+        ]
+      }
+    },
+    {
+      "exclusion": {
+        "key": "dpwh:house-reading:6465",
+        "reason": "The source explicitly locates this bridge in Barangay Binalbagan, Canlaon City, Negros Oriental, not the municipality of Binalbagan, Negros Occidental."
+      },
+      "project": {
+        "id": "house-reading:6465",
+        "dataset": "dpwh",
+        "title": "Construction of Bridge, Pasto-Canoque, Barangay Binalbagan, Canlaon City, Negros Oriental, 10.399757, 123.251441",
+        "program": "Convergence and Special Support Program",
+        "pap": "BIP - Access Roads and/or Bridges from the National Roads leading to Major/ Strategic Public Buildings/ Facilities",
+        "region": "NIR",
+        "region_key": "NIR",
+        "office": "Negros Oriental 1st District Engineering Office",
+        "office_kind": "District engineering offices (DEOs)",
+        "zone": "local",
+        "trace": "house_only_candidate",
+        "status_label": "House bill only",
+        "bridge_group": "house_only",
+        "group_label": "In the House bill only",
+        "held": false,
+        "house_match": "house_unmatched",
+        "reading_status": "same_amount",
+        "api_presence": "no_nep_anchor",
+        "confidence": null,
+        "nep_php": null,
+        "hgab2_php": 5000000,
+        "hgab3_php": 5000000,
+        "house_php": 5000000,
+        "api_php": null,
+        "delta_php": null,
+        "nep_page": null,
+        "hgab2_page": 579,
+        "hgab3_page": 579,
+        "nep_doc": null,
+        "hgab2_doc": "hb10858-2r-vol-ic",
+        "hgab3_doc": "hb10858-3r-vol-ic",
+        "pdf_url": {
+          "nep": null,
+          "hgab2": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-2r-vol-ic.pdf#page=579",
+          "hgab3": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ic.pdf#page=579"
+        },
+        "length_m": null,
+        "flags": [
+          "house_only"
+        ],
+        "suggestions": 0,
+        "lon": 123.25144,
+        "lat": 10.39976,
+        "url": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A6465",
+        "api_url": "/api/v1/hgab/2027/datasets/dpwh/projects/house-reading%3A6465",
+        "key": "dpwh:house-reading:6465",
+        "reasons": [
+          {
+            "kind": "place",
+            "label": "Binalbagan"
+          }
+        ]
+      }
+    }
+  ],
+  "queries": [
+    {
+      "kind": "office",
+      "label": "Negros Occidental 2nd District Engineering Office",
+      "dataset": "dpwh",
+      "params": {
+        "office": "Negros Occidental 2nd District Engineering Office"
+      },
+      "total": 34,
+      "kept": 34,
+      "truncated": false,
+      "api": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/dpwh/projects?office=Negros+Occidental+2nd+District+Engineering+Office",
+      "officeLens": {
+        "printed_office": "Negros Occidental 2nd District Engineering Office",
+        "offices": [
+          {
+            "id": "office:negros-occidental-2nd-deo",
+            "name": "Negros Occidental 2nd DEO",
+            "kind": "district_engineering_office",
+            "kind_label": "District engineering office (DEO)",
+            "tier": "A",
+            "tier_text": "Tier A · serves one district",
+            "districts": [
+              {
+                "id": "leg:negros-occidental:5th",
+                "label": "Negros Occidental, 5th District",
+                "url": "https://budget.bettergov.ph/hgab/2027/districts/leg%3Anegros-occidental%3A5th",
+                "api_url": "/api/v1/hgab/2027/districts/leg%3Anegros-occidental%3A5th"
+              }
+            ],
+            "office_change": {
+              "rows": 0,
+              "row_ids": [],
+              "note": "Paired lines naming this office on one side and a different office group (or no district office) on the other. They are held out of the office's district-card figures and counted in the FY2027 House bill residual (office_change_php); those printed under this office are still among this list's rows and sums."
+            }
+          }
+        ],
+        "shared_office_total": false,
+        "tier_meaning": "Tier A: the office serves one district, so its figure can be read as that district’s. Tier B: the office serves several districts, so the figure is shared and is not split between them.",
+        "note": "These are the rows the documents print under this office. The office is associated with the districts listed; no row is assigned to any one of them, and a Tier B office's sums are never split between its districts. Lines in office_change (their NEP and House bill sides name different offices) and in no_office are held out of the office's district-card figures. Money on no district card is the residual in the districts list.",
+        "residual_api": "/api/v1/hgab/2027/districts"
+      }
+    },
+    {
+      "kind": "place",
+      "label": "Himamaylan City",
+      "dataset": "dpwh",
+      "params": {
+        "q": "Himamaylan"
+      },
+      "region": "NIR",
+      "total": 5,
+      "kept": 5,
+      "truncated": false,
+      "api": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/dpwh/projects?q=Himamaylan"
+    },
+    {
+      "kind": "place",
+      "label": "Himamaylan City",
+      "dataset": "fmr",
+      "params": {
+        "q": "Himamaylan"
+      },
+      "region": "NIR",
+      "total": 0,
+      "kept": 0,
+      "truncated": false,
+      "api": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/fmr/projects?q=Himamaylan"
+    },
+    {
+      "kind": "place",
+      "label": "Himamaylan City",
+      "dataset": "hfep",
+      "params": {
+        "q": "Himamaylan"
+      },
+      "region": "NIR",
+      "total": 0,
+      "kept": 0,
+      "truncated": false,
+      "api": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/hfep/projects?q=Himamaylan"
+    },
+    {
+      "kind": "place",
+      "label": "Himamaylan City",
+      "dataset": "nia",
+      "params": {
+        "q": "Himamaylan"
+      },
+      "region": "NIR",
+      "total": 0,
+      "kept": 0,
+      "truncated": false,
+      "api": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/nia/projects?q=Himamaylan"
+    },
+    {
+      "kind": "place",
+      "label": "Binalbagan",
+      "dataset": "dpwh",
+      "params": {
+        "q": "Binalbagan"
+      },
+      "region": "NIR",
+      "total": 10,
+      "kept": 10,
+      "truncated": false,
+      "api": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/dpwh/projects?q=Binalbagan"
+    },
+    {
+      "kind": "place",
+      "label": "Binalbagan",
+      "dataset": "fmr",
+      "params": {
+        "q": "Binalbagan"
+      },
+      "region": "NIR",
+      "total": 0,
+      "kept": 0,
+      "truncated": false,
+      "api": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/fmr/projects?q=Binalbagan"
+    },
+    {
+      "kind": "place",
+      "label": "Binalbagan",
+      "dataset": "hfep",
+      "params": {
+        "q": "Binalbagan"
+      },
+      "region": "NIR",
+      "total": 0,
+      "kept": 0,
+      "truncated": false,
+      "api": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/hfep/projects?q=Binalbagan"
+    },
+    {
+      "kind": "place",
+      "label": "Binalbagan",
+      "dataset": "nia",
+      "params": {
+        "q": "Binalbagan"
+      },
+      "region": "NIR",
+      "total": 0,
+      "kept": 0,
+      "truncated": false,
+      "api": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/nia/projects?q=Binalbagan"
+    },
+    {
+      "kind": "place",
+      "label": "Hinigaran",
+      "dataset": "dpwh",
+      "params": {
+        "q": "Hinigaran"
+      },
+      "region": "NIR",
+      "total": 9,
+      "kept": 9,
+      "truncated": false,
+      "api": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/dpwh/projects?q=Hinigaran"
+    },
+    {
+      "kind": "place",
+      "label": "Hinigaran",
+      "dataset": "fmr",
+      "params": {
+        "q": "Hinigaran"
+      },
+      "region": "NIR",
+      "total": 0,
+      "kept": 0,
+      "truncated": false,
+      "api": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/fmr/projects?q=Hinigaran"
+    },
+    {
+      "kind": "place",
+      "label": "Hinigaran",
+      "dataset": "hfep",
+      "params": {
+        "q": "Hinigaran"
+      },
+      "region": "NIR",
+      "total": 0,
+      "kept": 0,
+      "truncated": false,
+      "api": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/hfep/projects?q=Hinigaran"
+    },
+    {
+      "kind": "place",
+      "label": "Hinigaran",
+      "dataset": "nia",
+      "params": {
+        "q": "Hinigaran"
+      },
+      "region": "NIR",
+      "total": 0,
+      "kept": 0,
+      "truncated": false,
+      "api": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/nia/projects?q=Hinigaran"
+    },
+    {
+      "kind": "place",
+      "label": "Isabela",
+      "dataset": "dpwh",
+      "params": {
+        "q": "Isabela Negros Occidental"
+      },
+      "region": "NIR",
+      "total": 7,
+      "kept": 7,
+      "truncated": false,
+      "api": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/dpwh/projects?q=Isabela+Negros+Occidental"
+    },
+    {
+      "kind": "place",
+      "label": "Isabela",
+      "dataset": "fmr",
+      "params": {
+        "q": "Isabela Negros Occidental"
+      },
+      "region": "NIR",
+      "total": 1,
+      "kept": 1,
+      "truncated": false,
+      "api": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/fmr/projects?q=Isabela+Negros+Occidental"
+    },
+    {
+      "kind": "place",
+      "label": "Isabela",
+      "dataset": "hfep",
+      "params": {
+        "q": "Isabela Negros Occidental"
+      },
+      "region": "NIR",
+      "total": 0,
+      "kept": 0,
+      "truncated": false,
+      "api": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/hfep/projects?q=Isabela+Negros+Occidental"
+    },
+    {
+      "kind": "place",
+      "label": "Isabela",
+      "dataset": "nia",
+      "params": {
+        "q": "Isabela Negros Occidental"
+      },
+      "region": "NIR",
+      "total": 0,
+      "kept": 0,
+      "truncated": false,
+      "api": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/nia/projects?q=Isabela+Negros+Occidental"
+    },
+    {
+      "kind": "place",
+      "label": "La Castellana",
+      "dataset": "dpwh",
+      "params": {
+        "q": "La Castellana"
+      },
+      "region": "NIR",
+      "total": 9,
+      "kept": 9,
+      "truncated": false,
+      "api": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/dpwh/projects?q=La+Castellana"
+    },
+    {
+      "kind": "place",
+      "label": "La Castellana",
+      "dataset": "fmr",
+      "params": {
+        "q": "La Castellana"
+      },
+      "region": "NIR",
+      "total": 1,
+      "kept": 1,
+      "truncated": false,
+      "api": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/fmr/projects?q=La+Castellana"
+    },
+    {
+      "kind": "place",
+      "label": "La Castellana",
+      "dataset": "hfep",
+      "params": {
+        "q": "La Castellana"
+      },
+      "region": "NIR",
+      "total": 1,
+      "kept": 1,
+      "truncated": false,
+      "api": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/hfep/projects?q=La+Castellana"
+    },
+    {
+      "kind": "place",
+      "label": "La Castellana",
+      "dataset": "nia",
+      "params": {
+        "q": "La Castellana"
+      },
+      "region": "NIR",
+      "total": 0,
+      "kept": 0,
+      "truncated": false,
+      "api": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/nia/projects?q=La+Castellana"
+    },
+    {
+      "kind": "place",
+      "label": "Moises Padilla",
+      "dataset": "dpwh",
+      "params": {
+        "q": "Moises Padilla"
+      },
+      "region": "NIR",
+      "total": 3,
+      "kept": 3,
+      "truncated": false,
+      "api": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/dpwh/projects?q=Moises+Padilla"
+    },
+    {
+      "kind": "place",
+      "label": "Moises Padilla",
+      "dataset": "fmr",
+      "params": {
+        "q": "Moises Padilla"
+      },
+      "region": "NIR",
+      "total": 0,
+      "kept": 0,
+      "truncated": false,
+      "api": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/fmr/projects?q=Moises+Padilla"
+    },
+    {
+      "kind": "place",
+      "label": "Moises Padilla",
+      "dataset": "hfep",
+      "params": {
+        "q": "Moises Padilla"
+      },
+      "region": "NIR",
+      "total": 0,
+      "kept": 0,
+      "truncated": false,
+      "api": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/hfep/projects?q=Moises+Padilla"
+    },
+    {
+      "kind": "place",
+      "label": "Moises Padilla",
+      "dataset": "nia",
+      "params": {
+        "q": "Moises Padilla"
+      },
+      "region": "NIR",
+      "total": 0,
+      "kept": 0,
+      "truncated": false,
+      "api": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/nia/projects?q=Moises+Padilla"
+    }
+  ],
+  "disclaimers": [
+    {
+      "id": "disclaimer-no-allegations",
+      "title": "No allegations.",
+      "body": "An insertion, deletion, or amount-change candidate describes a provisional comparison between identified sources. That classification alone does not establish irregularity or wrongdoing by any office or official and should not be represented as such. Absence from an API snapshot likewise does not establish absence from the published NEP or concealment.",
+      "url": "https://budget.bettergov.ph/hgab/2027/methodology#disclaimer-no-allegations"
+    },
+    {
+      "id": "disclaimer-offices",
+      "title": "Office and legislative-district associations.",
+      "body": "The DEO mapping associates offices with legislative districts; it does not establish that a representative requested, sponsored, or controlled a project, or that each project lies in every district associated with its office. Shared-office totals remain undivided and must not be split among the districts served. Office-based views must retain attribution tiers, co-served districts, unattributable residuals, and upstream uncertainty annotations. Historical or undated amounts retained as mapping evidence are separate from the FY2027 project ledger and must not be quoted as FY2027 allocations. See the DEO mapping restrictions.",
+      "url": "https://budget.bettergov.ph/hgab/2027/methodology#disclaimer-offices",
+      "restrictions_url": "https://budget.bettergov.ph/hgab/2027/methodology#deo-mapping-restrictions",
+      "upstream_restrictions_url": "https://github.com/csiiiv/DPWH-NEP-HB-2027-ANALYSIS/blob/main/DEO2LEG/README.md#disclaimers"
+    }
+  ],
+  "meta": {
+    "dataset": "hgab",
+    "fiscal_year": 2027,
+    "currency": "PHP",
+    "scale": "pesos",
+    "source_repo": "https://github.com/csiiiv/DPWH-NEP-HB-2027-ANALYSIS",
+    "source_commit": "a0caa778442cdae5583f5a006ea7401dab00e5ac",
+    "built_at": "2026-10-26T08:46:14.383Z",
+    "notice": "Independent and unofficial. This comparison is our own reading of the published documents, not an official record of the budget department, the agencies or the House. Figures are the amounts published in the documents, not spending. No allegations. An insertion, deletion, or amount-change candidate describes a provisional comparison between identified sources. That classification alone does not establish irregularity or wrongdoing by any office or official and should not be represented as such. Absence from an API snapshot likewise does not establish absence from the published NEP or concealment. Read the full notice: https://budget.bettergov.ph/hgab/2027/methodology#disclaimer.",
+    "dataset_key": "dpwh",
+    "house_stage": "hgab3",
+    "filters": {
+      "held": "all",
+      "office": "Negros Occidental 2nd District Engineering Office"
+    },
+    "sort": "house",
+    "order": "desc",
+    "limit": 200,
+    "offset": 0,
+    "returned": 34,
+    "total": 34,
+    "note": "One row per comparison record. status_label is the plain status; trace is the raw code. Pairings are candidates, not confirmed changes; held = true marks an unconfirmed match. sums are per version over every matched row (not just this page). The NEP and the House bill are two versions of one budget: compare them, never add them."
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "views": [
+    {
+      "charts": [
+        {
+          "bars": 6,
+          "dots": 0,
+          "title": "A / NEP versus House bill"
+        },
+        {
+          "bars": 3,
+          "dots": 0,
+          "title": "B / Proposed amounts by program · HOUSE"
+        },
+        {
+          "bars": 3,
+          "dots": 0,
+          "title": "C / Province title associations"
+        },
+        {
+          "bars": 6,
+          "dots": 0,
+          "title": "D / Document comparison classifications"
+        },
+        {
+          "bars": 8,
+          "dots": 0,
+          "title": "F / Largest published projects · HOUSE"
+        },
+        {
+          "bars": 0,
+          "dots": 7,
+          "title": "E / Historical GAA title-search trend"
+        }
+      ],
+      "developmentDiagnostics": 0,
+      "kpis": [
+        "₱19.67B",
+        "₱21.38B",
+        "866",
+        "14"
+      ],
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "charts": [
+        {
+          "bars": 6,
+          "dots": 0,
+          "title": "A / NEP versus House bill"
+        },
+        {
+          "bars": 3,
+          "dots": 0,
+          "title": "B / Proposed amounts by program · HOUSE"
+        },
+        {
+          "bars": 3,
+          "dots": 0,
+          "title": "C / Province title associations"
+        },
+        {
+          "bars": 6,
+          "dots": 0,
+          "title": "D / Document comparison classifications"
+        },
+        {
+          "bars": 8,
+          "dots": 0,
+          "title": "F / Largest published projects · HOUSE"
+        },
+        {
+          "bars": 0,
+          "dots": 7,
+          "title": "E / Historical GAA title-search trend"
+        }
+      ],
+      "developmentDiagnostics": 0,
+      "kpis": [
+        "₱19.67B",
+        "₱21.38B",
+        "866",
+        "14"
+      ],
+      "overflow": true,
+      "width": 390
+    }
+  ],
+  "developmentRouteExcluded": true,
+  "console": []
+}

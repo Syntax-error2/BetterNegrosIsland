@@ -1,0 +1,202 @@
+[
+  {
+    "brokenImages": [],
+    "clipped": [],
+    "heading": "Public budgets.Clearer decisions.",
+    "kpis": [
+      {
+        "height": 492.5,
+        "noteBottom": 1755.1875495910645,
+        "top": 1625.7874755859375,
+        "valueClient": 235,
+        "valueWidth": 235
+      },
+      {
+        "height": 205,
+        "noteBottom": 2247.6875495910645,
+        "top": 2118.28759765625,
+        "valueClient": 231,
+        "valueWidth": 231
+      },
+      {
+        "height": 205,
+        "noteBottom": 2452.6875495910645,
+        "top": 2323.28759765625,
+        "valueClient": 231,
+        "valueWidth": 231
+      },
+      {
+        "height": 204.1999969482422,
+        "noteBottom": 2657.6875495910645,
+        "top": 2528.28759765625,
+        "valueClient": 231,
+        "valueWidth": 231
+      }
+    ],
+    "pageWidth": 305,
+    "path": "/",
+    "scrollWidth": 305,
+    "width": 320,
+    "status": "PASS"
+  },
+  {
+    "brokenImages": [],
+    "clipped": [],
+    "heading": "Public budgets.Clearer decisions.",
+    "kpis": [
+      {
+        "height": 447,
+        "noteBottom": 1609.049976348877,
+        "top": 1479.6500244140625,
+        "valueClient": 306,
+        "valueWidth": 306
+      },
+      {
+        "height": 205,
+        "noteBottom": 2056.049976348877,
+        "top": 1926.6500244140625,
+        "valueClient": 302,
+        "valueWidth": 302
+      },
+      {
+        "height": 205,
+        "noteBottom": 2261.0500984191895,
+        "top": 2131.650146484375,
+        "valueClient": 302,
+        "valueWidth": 302
+      },
+      {
+        "height": 204.1999969482422,
+        "noteBottom": 2466.0500984191895,
+        "top": 2336.650146484375,
+        "valueClient": 302,
+        "valueWidth": 302
+      }
+    ],
+    "pageWidth": 375,
+    "path": "/",
+    "scrollWidth": 375,
+    "width": 390,
+    "status": "PASS"
+  },
+  {
+    "brokenImages": [],
+    "clipped": [],
+    "heading": "Public budgets.Clearer decisions.",
+    "kpis": [
+      {
+        "height": 511.1000061035156,
+        "noteBottom": 1289.2250022888184,
+        "top": 1141.2249755859375,
+        "valueClient": 235,
+        "valueWidth": 235
+      },
+      {
+        "height": 511.1000061035156,
+        "noteBottom": 1289.2250022888184,
+        "top": 1141.2249755859375,
+        "valueClient": 228,
+        "valueWidth": 228
+      },
+      {
+        "height": 222.8000030517578,
+        "noteBottom": 1800.324977874756,
+        "top": 1652.3250732421875,
+        "valueClient": 227,
+        "valueWidth": 227
+      },
+      {
+        "height": 222.8000030517578,
+        "noteBottom": 1800.324977874756,
+        "top": 1652.3250732421875,
+        "valueClient": 228,
+        "valueWidth": 228
+      }
+    ],
+    "pageWidth": 585,
+    "path": "/",
+    "scrollWidth": 585,
+    "width": 600,
+    "status": "PASS"
+  },
+  {
+    "brokenImages": [],
+    "clipped": [],
+    "heading": "Public budgets.Clearer decisions.",
+    "kpis": [
+      {
+        "height": 465.6000061035156,
+        "noteBottom": 918.6000022888184,
+        "top": 770.6000366210938,
+        "valueClient": 310,
+        "valueWidth": 310
+      },
+      {
+        "height": 465.6000061035156,
+        "noteBottom": 918.6000022888184,
+        "top": 770.6000366210938,
+        "valueClient": 310,
+        "valueWidth": 310
+      },
+      {
+        "height": 222.8000030517578,
+        "noteBottom": 1384.199977874756,
+        "top": 1236.2000732421875,
+        "valueClient": 310,
+        "valueWidth": 310
+      },
+      {
+        "height": 222.8000030517578,
+        "noteBottom": 1384.199977874756,
+        "top": 1236.2000732421875,
+        "valueClient": 310,
+        "valueWidth": 310
+      }
+    ],
+    "pageWidth": 753,
+    "path": "/",
+    "scrollWidth": 753,
+    "width": 768,
+    "status": "PASS"
+  },
+  {
+    "brokenImages": [],
+    "clipped": [],
+    "heading": "Public budgets.Clearer decisions.",
+    "kpis": [
+      {
+        "height": 470.3999938964844,
+        "noteBottom": 652.5500144958496,
+        "top": 498.9500122070313,
+        "valueClient": 291,
+        "valueWidth": 291
+      },
+      {
+        "height": 470.3999938964844,
+        "noteBottom": 652.5500144958496,
+        "top": 498.9500122070313,
+        "valueClient": 291,
+        "valueWidth": 291
+      },
+      {
+        "height": 470.3999938964844,
+        "noteBottom": 652.5500144958496,
+        "top": 498.9500122070313,
+        "valueClient": 291,
+        "valueWidth": 291
+      },
+      {
+        "height": 470.3999938964844,
+        "noteBottom": 652.5500144958496,
+        "top": 498.9500122070313,
+        "valueClient": 292,
+        "valueWidth": 292
+      }
+    ],
+    "pageWidth": 1425,
+    "path": "/",
+    "scrollWidth": 1425,
+    "width": 1440,
+    "status": "PASS"
+  }
+]

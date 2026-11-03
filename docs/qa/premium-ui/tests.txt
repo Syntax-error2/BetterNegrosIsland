@@ -1,0 +1,46 @@
+
+> betternegrosisland@0.1.0 test
+> tsx --tsconfig tsconfig.app.json --test tests/*.test.ts
+
+✔ comparison percentages exclude uncertain, mismatched and absent baselines (1.2595ms)
+✔ exact financial display keeps full pesos, zero and missing differences distinct (27.465ms)
+✔ document actions choose a safe published URL and never create a dead hash fallback (0.429ms)
+✔ missing values remain distinct from zero, and budget versions stay separate (45.2946ms)
+✔ all six comparison classifications and uncertain matches are retained (0.3411ms)
+✔ all pages are fetched and missing pages fail closed (55.5566ms)
+✔ API failures are removed from request cache and can be retried (1.5821ms)
+✔ historical pagination rejects repeated cursors instead of repeating rows (1.4118ms)
+✔ historical pagination rejects incomplete final pages (1.7337ms)
+✔ overlapping office and place queries deduplicate while preserving reasons and shared-office metadata (4.0416ms)
+✔ region filtering preserves unknowns and excludes other regions without rewriting labels (8.5976ms)
+✔ CSV exports neutralize spreadsheet formulas while preserving numeric negatives and nulls (1.4806ms)
+✔ unsafe document schemes are rejected (0.553ms)
+✔ legal acknowledgment stores only a version and older versions require renewal (0.9697ms)
+✔ blocked browser storage does not throw or claim persisted acknowledgment (0.4587ms)
+✔ historical totals count positive appropriations only and do not merge budget stages (1.3658ms)
+✔ regional configuration includes all three provinces and Bacolod without auth (0.2891ms)
+✔ privacy triage distinguishes public project coordinates and amounts from identifier contexts (2.778ms)
+✔ project results preserve full titles, exact values, native headers and escaped source text (42.4701ms)
+✔ official accessible PSGC directory has unique codes, three provinces, 19 cities and 44 municipalities (1.9967ms)
+✔ region confirmation and province title association remain separate (5.2746ms)
+✔ locality associations use word boundaries and do not confuse Siquijor province with its namesake town (0.7727ms)
+✔ money guards reject unsafe integers and percentages preserve missing baselines (0.5874ms)
+✔ source comparison validation never silently coerces missing money (2.744ms)
+✔ published regional shards reconcile identities, money and provenance (389.5898ms)
+✔ a corrupted shard checksum fails closed (8.929ms)
+✔ a manifest count disagreement fails closed (177.0694ms)
+✔ source cooldowns honor seconds and HTTP dates; long delays abort without early retries (1.1193ms)
+✔ malformed URL fragments cannot crash project or history rendering (1.9709ms)
+✔ abandoned render requests are observed without swallowing errors from later subscribers (7.3753ms)
+✔ funding bounds reject invalid numbers and reversed ranges; zero is valid (0.5697ms)
+✔ reset removes all explorer filters and retains unrelated share parameters (0.3876ms)
+✔ public errors explain recovery without leaking server messages or stacks (1.3835ms)
+✔ shared historical requests notify later subscribers without duplicate API calls (3.9362ms)
+ℹ tests 34
+ℹ suites 0
+ℹ pass 34
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1771.0833

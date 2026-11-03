@@ -1,0 +1,214 @@
+[
+  {
+    "client": 1425,
+    "footer": {
+      "height": 654.390625,
+      "left": 0,
+      "top": 1449.21875,
+      "width": 1425
+    },
+    "header": {
+      "height": 83.34375,
+      "left": 0,
+      "top": 28,
+      "width": 1425
+    },
+    "hero": {
+      "height": 408.234375,
+      "left": 32,
+      "top": 143.34375,
+      "width": 1361
+    },
+    "kpis": [
+      "₱19.67B",
+      "₱21.38B",
+      "866",
+      "14"
+    ],
+    "main": {
+      "height": 1337.875,
+      "left": 0,
+      "top": 111.34375,
+      "width": 1425
+    },
+    "opacity": [
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "review": {
+      "height": 368.234375,
+      "left": 940.71875,
+      "top": 151.34375,
+      "width": 452.28125
+    },
+    "scroll": 1425,
+    "utility": {
+      "height": 28,
+      "left": 0,
+      "top": 0,
+      "width": 1425
+    },
+    "width": 1440
+  },
+  {
+    "client": 1905,
+    "footer": {
+      "height": 654.390625,
+      "left": 0,
+      "top": 1453.53125,
+      "width": 1905
+    },
+    "header": {
+      "height": 83.34375,
+      "left": 0,
+      "top": 28,
+      "width": 1905
+    },
+    "hero": {
+      "height": 408.234375,
+      "left": 192.5,
+      "top": 143.34375,
+      "width": 1520
+    },
+    "kpis": [
+      "₱19.67B",
+      "₱21.38B",
+      "866",
+      "14"
+    ],
+    "main": {
+      "height": 1342.1875,
+      "left": 160.5,
+      "top": 111.34375,
+      "width": 1584
+    },
+    "opacity": [
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "review": {
+      "height": 368.234375,
+      "left": 1207.234375,
+      "top": 151.34375,
+      "width": 505.265625
+    },
+    "scroll": 1905,
+    "utility": {
+      "height": 28,
+      "left": 0,
+      "top": 0,
+      "width": 1905
+    },
+    "width": 1920
+  },
+  {
+    "client": 375,
+    "footer": {
+      "height": 1321.03125,
+      "left": 0,
+      "top": 2654.328125,
+      "width": 375
+    },
+    "header": {
+      "height": 94.046875,
+      "left": 0,
+      "top": 28,
+      "width": 375
+    },
+    "hero": {
+      "height": 780.203125,
+      "left": 16,
+      "top": 146.046875,
+      "width": 343
+    },
+    "kpis": [
+      "₱19.67B",
+      "₱21.38B",
+      "866",
+      "14"
+    ],
+    "main": {
+      "height": 2532.28125,
+      "left": 0,
+      "top": 122.046875,
+      "width": 375
+    },
+    "opacity": [
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "review": {
+      "height": 411.25,
+      "left": 16,
+      "top": 487,
+      "width": 343
+    },
+    "scroll": 375,
+    "utility": {
+      "height": 28,
+      "left": 0,
+      "top": 0,
+      "width": 375
+    },
+    "width": 390
+  },
+  {
+    "client": 753,
+    "footer": {
+      "height": 943.78125,
+      "left": 0,
+      "top": 1802.21875,
+      "width": 753
+    },
+    "header": {
+      "height": 93.390625,
+      "left": 0,
+      "top": 28,
+      "width": 753
+    },
+    "hero": {
+      "height": 498.0625,
+      "left": 17.265625,
+      "top": 153.390625,
+      "width": 718.46875
+    },
+    "kpis": [
+      "₱19.67B",
+      "₱21.38B",
+      "866",
+      "14"
+    ],
+    "main": {
+      "height": 1680.828125,
+      "left": 0,
+      "top": 121.390625,
+      "width": 753
+    },
+    "opacity": [
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "review": {
+      "height": 458.0625,
+      "left": 435.734375,
+      "top": 161.390625,
+      "width": 300
+    },
+    "scroll": 753,
+    "utility": {
+      "height": 28,
+      "left": 0,
+      "top": 0,
+      "width": 753
+    },
+    "width": 768
+  }
+]

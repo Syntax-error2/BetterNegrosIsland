@@ -1,0 +1,72 @@
+
+> betterquintodistrito@0.1.0 check
+> tsx scripts/check.ts
+
+BetterQuintoDistrito (district) · API https://budget.bettergov.ph
+
+Queries
+  dpwh  office "Negros Occidental 2nd District Engineering Office": 34
+        Tier A · serves one district; districts: Negros Occidental, 5th District
+  dpwh  title names "Himamaylan City" (q=Himamaylan): 5 · 5 kept in region NIR or giving no region
+  fmr   title names "Himamaylan City" (q=Himamaylan): 0 · 0 kept in region NIR or giving no region
+  hfep  title names "Himamaylan City" (q=Himamaylan): 0 · 0 kept in region NIR or giving no region
+  nia   title names "Himamaylan City" (q=Himamaylan): 0 · 0 kept in region NIR or giving no region
+  dpwh  title names "Binalbagan" (q=Binalbagan): 10 · 10 kept in region NIR or giving no region
+  fmr   title names "Binalbagan" (q=Binalbagan): 0 · 0 kept in region NIR or giving no region
+  hfep  title names "Binalbagan" (q=Binalbagan): 0 · 0 kept in region NIR or giving no region
+  nia   title names "Binalbagan" (q=Binalbagan): 0 · 0 kept in region NIR or giving no region
+  dpwh  title names "Hinigaran" (q=Hinigaran): 9 · 9 kept in region NIR or giving no region
+  fmr   title names "Hinigaran" (q=Hinigaran): 0 · 0 kept in region NIR or giving no region
+  hfep  title names "Hinigaran" (q=Hinigaran): 0 · 0 kept in region NIR or giving no region
+  nia   title names "Hinigaran" (q=Hinigaran): 0 · 0 kept in region NIR or giving no region
+  dpwh  title names "Isabela" (q=Isabela Negros Occidental): 7 · 7 kept in region NIR or giving no region
+  fmr   title names "Isabela" (q=Isabela Negros Occidental): 1 · 1 kept in region NIR or giving no region
+  hfep  title names "Isabela" (q=Isabela Negros Occidental): 0 · 0 kept in region NIR or giving no region
+  nia   title names "Isabela" (q=Isabela Negros Occidental): 0 · 0 kept in region NIR or giving no region
+  dpwh  title names "La Castellana" (q=La Castellana): 9 · 9 kept in region NIR or giving no region
+  fmr   title names "La Castellana" (q=La Castellana): 1 · 1 kept in region NIR or giving no region
+  hfep  title names "La Castellana" (q=La Castellana): 1 · 1 kept in region NIR or giving no region
+  nia   title names "La Castellana" (q=La Castellana): 0 · 0 kept in region NIR or giving no region
+  dpwh  title names "Moises Padilla" (q=Moises Padilla): 3 · 3 kept in region NIR or giving no region
+  fmr   title names "Moises Padilla" (q=Moises Padilla): 0 · 0 kept in region NIR or giving no region
+  hfep  title names "Moises Padilla" (q=Moises Padilla): 0 · 0 kept in region NIR or giving no region
+  nia   title names "Moises Padilla" (q=Moises Padilla): 0 · 0 kept in region NIR or giving no region
+
+In the portal: 50 lines (3 excluded by hand)
+  NEP:        ₱1.7B on 33 lines
+  House bill: ₱1.99B on 50 lines
+  Compared, never added.
+  house_only    17
+  unchanged     33
+  program dpwh  47
+  program fmr   2
+  program hfep  1
+  district Negros Occidental, 5th District · Tier A · the office serves only this district
+
+Enacted budgets 2020–2026: 538 programs and projects name the places (38 departments searched)
+  "La Castellana" in DPWH: 177
+  "Binalbagan" in DPWH: 132
+  "Hinigaran" in DPWH: 108
+  "Himamaylan" in DPWH: 77
+  "Moises Padilla" in DPWH: 52
+  "Himamaylan" in DA: 8
+  "Hinigaran" in DA: 4
+  "Moises Padilla" in DA: 4
+  "Himamaylan" in SUCs: 3
+  "Binalbagan" in SUCs: 3
+  "Binalbagan" in DA: 2
+  "La Castellana" in DA: 2
+  "Hinigaran" in SUCs: 1
+  "Isabela Negros Occidental" in DPWH: 1
+  2020: ₱1.34B on 75 programs
+  2021: ₱1.79B on 89 programs
+  2022: ₱2.28B on 77 programs
+  2023: ₱2.33B on 81 programs
+  2024: ₱2.24B on 96 programs
+  2025: ₱2.49B on 96 programs
+  2026: ₱1.36B on 66 programs
+  reconciled 98 department-years against the API's totals
+
+warning: 2 DPWH line(s) are here only because the title names the place, but the documents list them under a district office this portal does not include. Review them (--verbose) and exclude any namesakes.
+
+OK

@@ -1,0 +1,25 @@
+{
+  "checks": [
+    {
+      "name": "Production welcome and genuine logo",
+      "passed": true
+    },
+    {
+      "name": "Production overview values",
+      "passed": true
+    },
+    {
+      "name": "Production project table six columns",
+      "passed": true
+    },
+    {
+      "name": "Development brand fixture excluded from production",
+      "passed": true
+    },
+    {
+      "name": "Production Privacy Notice and legal logo",
+      "passed": true
+    }
+  ],
+  "console": []
+}

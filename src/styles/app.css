@@ -109,7 +109,7 @@
   border-bottom: 1px solid var(--rule);
 }
 .stats > div { padding: 16px 20px 18px; border-right: 1px solid var(--rule); }
-.stats > div:first-child { padding-left: 0; }
+
 .stats > div:last-child { border-right: none; }
 .stats dd { margin: 0; }
 .stat {
@@ -417,7 +417,7 @@ code { font-family: var(--font-mono); font-size: 0.9em; background: var(--paper-
   .masthead-with .label { display: none; }
   .masthead-with img { height: 20px; }
   .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .stats > div { padding-left: 0 !important; padding-right: 12px; border-right: none; }
+  .stats > div { padding-left: 16px; padding-right: 12px; border-right: none; }
   .stats > div:nth-child(-n + 2) { border-bottom: 1px solid var(--rule-soft); }
   .stat { font-size: 26px; }
   .two-col { grid-template-columns: 1fr; gap: 24px; }

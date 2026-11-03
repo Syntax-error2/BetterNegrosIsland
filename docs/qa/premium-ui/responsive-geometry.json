@@ -1,0 +1,2522 @@
+[
+  {
+    "brokenImages": [],
+    "client": 305,
+    "clipped": [],
+    "h1": "Public budgets.Clearer decisions.",
+    "pageScroll": 305,
+    "path": "/",
+    "tables": [],
+    "width": 320
+  },
+  {
+    "brokenImages": [],
+    "client": 305,
+    "clipped": [],
+    "h1": "Follow the projects. Examine the evidence.",
+    "pageScroll": 305,
+    "path": "/projects",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 263,
+        "width": 263
+      }
+    ],
+    "width": 320
+  },
+  {
+    "brokenImages": [],
+    "client": 305,
+    "clipped": [],
+    "h1": "Siquijor Provincial Hospital",
+    "pageScroll": 305,
+    "path": "/projects/hfep/ib%3Ap886%3Ar4%7Cinfrastructure",
+    "tables": [
+      {
+        "keyboard": "0",
+        "scroll": 560,
+        "width": 263
+      }
+    ],
+    "width": 320
+  },
+  {
+    "brokenImages": [],
+    "client": 305,
+    "clipped": [],
+    "h1": "Budget analytics.",
+    "pageScroll": 305,
+    "path": "/analytics",
+    "tables": [
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 229
+      },
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 229
+      },
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 229
+      },
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 229
+      },
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 229
+      },
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 229
+      },
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 229
+      }
+    ],
+    "width": 320
+  },
+  {
+    "brokenImages": [],
+    "client": 305,
+    "clipped": [],
+    "h1": "Enacted budgets, 2020–2026.",
+    "pageScroll": 305,
+    "path": "/budget-history",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 263,
+        "width": 263
+      }
+    ],
+    "width": 320
+  },
+  {
+    "brokenImages": [],
+    "client": 305,
+    "clipped": [],
+    "h1": "Explore the region.",
+    "pageScroll": 305,
+    "path": "/provinces",
+    "tables": [],
+    "width": 320
+  },
+  {
+    "brokenImages": [],
+    "client": 305,
+    "clipped": [],
+    "h1": "Negros Occidental",
+    "pageScroll": 305,
+    "path": "/provinces/negros-occidental",
+    "tables": [],
+    "width": 320
+  },
+  {
+    "brokenImages": [],
+    "client": 305,
+    "clipped": [],
+    "h1": "Negros Oriental",
+    "pageScroll": 305,
+    "path": "/provinces/negros-oriental",
+    "tables": [],
+    "width": 320
+  },
+  {
+    "brokenImages": [],
+    "client": 305,
+    "clipped": [],
+    "h1": "Siquijor",
+    "pageScroll": 305,
+    "path": "/provinces/siquijor",
+    "tables": [],
+    "width": 320
+  },
+  {
+    "brokenImages": [],
+    "client": 305,
+    "clipped": [],
+    "h1": "City of Bacolod",
+    "pageScroll": 305,
+    "path": "/locations/1830200000",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 263,
+        "width": 263
+      }
+    ],
+    "width": 320
+  },
+  {
+    "brokenImages": [],
+    "client": 305,
+    "clipped": [],
+    "h1": "Lazi",
+    "pageScroll": 305,
+    "path": "/locations/1806103000",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 263,
+        "width": 263
+      }
+    ],
+    "width": 320
+  },
+  {
+    "brokenImages": [],
+    "client": 305,
+    "clipped": [],
+    "h1": "Know what the data covers.",
+    "pageScroll": 305,
+    "path": "/data-coverage",
+    "tables": [],
+    "width": 320
+  },
+  {
+    "brokenImages": [],
+    "client": 305,
+    "clipped": [],
+    "h1": "How to read this portal.",
+    "pageScroll": 305,
+    "path": "/methodology",
+    "tables": [],
+    "width": 320
+  },
+  {
+    "brokenImages": [],
+    "client": 305,
+    "clipped": [],
+    "h1": "About BetterNegrosIsland.",
+    "pageScroll": 305,
+    "path": "/about",
+    "tables": [],
+    "width": 320
+  },
+  {
+    "brokenImages": [],
+    "client": 305,
+    "clipped": [],
+    "h1": "Terms of Use",
+    "pageScroll": 305,
+    "path": "/terms",
+    "tables": [],
+    "width": 320
+  },
+  {
+    "brokenImages": [],
+    "client": 305,
+    "clipped": [],
+    "h1": "Privacy Notice",
+    "pageScroll": 305,
+    "path": "/privacy",
+    "tables": [],
+    "width": 320
+  },
+  {
+    "brokenImages": [],
+    "client": 305,
+    "clipped": [],
+    "h1": "Table layout test",
+    "pageScroll": 305,
+    "path": "/__qa/table",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 263,
+        "width": 263
+      }
+    ],
+    "width": 320
+  },
+  {
+    "brokenImages": [],
+    "client": 305,
+    "clipped": [],
+    "h1": "Follow the projects. Examine the evidence.",
+    "pageScroll": 305,
+    "path": "/projects?q=NO_MATCH_PREMIUM_QA_123",
+    "tables": [],
+    "width": 320
+  },
+  {
+    "brokenImages": [],
+    "client": 345,
+    "clipped": [],
+    "h1": "Public budgets.Clearer decisions.",
+    "pageScroll": 345,
+    "path": "/",
+    "tables": [],
+    "width": 360
+  },
+  {
+    "brokenImages": [],
+    "client": 345,
+    "clipped": [],
+    "h1": "Follow the projects. Examine the evidence.",
+    "pageScroll": 345,
+    "path": "/projects",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 303,
+        "width": 303
+      }
+    ],
+    "width": 360
+  },
+  {
+    "brokenImages": [],
+    "client": 345,
+    "clipped": [],
+    "h1": "Siquijor Provincial Hospital",
+    "pageScroll": 345,
+    "path": "/projects/hfep/ib%3Ap886%3Ar4%7Cinfrastructure",
+    "tables": [
+      {
+        "keyboard": "0",
+        "scroll": 560,
+        "width": 303
+      }
+    ],
+    "width": 360
+  },
+  {
+    "brokenImages": [],
+    "client": 345,
+    "clipped": [],
+    "h1": "Budget analytics.",
+    "pageScroll": 345,
+    "path": "/analytics",
+    "tables": [
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 269
+      },
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 269
+      },
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 269
+      },
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 269
+      },
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 269
+      },
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 269
+      },
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 269
+      }
+    ],
+    "width": 360
+  },
+  {
+    "brokenImages": [],
+    "client": 345,
+    "clipped": [],
+    "h1": "Enacted budgets, 2020–2026.",
+    "pageScroll": 345,
+    "path": "/budget-history",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 303,
+        "width": 303
+      }
+    ],
+    "width": 360
+  },
+  {
+    "brokenImages": [],
+    "client": 345,
+    "clipped": [],
+    "h1": "Explore the region.",
+    "pageScroll": 345,
+    "path": "/provinces",
+    "tables": [],
+    "width": 360
+  },
+  {
+    "brokenImages": [],
+    "client": 345,
+    "clipped": [],
+    "h1": "Negros Occidental",
+    "pageScroll": 345,
+    "path": "/provinces/negros-occidental",
+    "tables": [],
+    "width": 360
+  },
+  {
+    "brokenImages": [],
+    "client": 345,
+    "clipped": [],
+    "h1": "Negros Oriental",
+    "pageScroll": 345,
+    "path": "/provinces/negros-oriental",
+    "tables": [],
+    "width": 360
+  },
+  {
+    "brokenImages": [],
+    "client": 345,
+    "clipped": [],
+    "h1": "Siquijor",
+    "pageScroll": 345,
+    "path": "/provinces/siquijor",
+    "tables": [],
+    "width": 360
+  },
+  {
+    "brokenImages": [],
+    "client": 345,
+    "clipped": [],
+    "h1": "City of Bacolod",
+    "pageScroll": 345,
+    "path": "/locations/1830200000",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 303,
+        "width": 303
+      }
+    ],
+    "width": 360
+  },
+  {
+    "brokenImages": [],
+    "client": 345,
+    "clipped": [],
+    "h1": "Lazi",
+    "pageScroll": 345,
+    "path": "/locations/1806103000",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 303,
+        "width": 303
+      }
+    ],
+    "width": 360
+  },
+  {
+    "brokenImages": [],
+    "client": 345,
+    "clipped": [],
+    "h1": "Know what the data covers.",
+    "pageScroll": 345,
+    "path": "/data-coverage",
+    "tables": [],
+    "width": 360
+  },
+  {
+    "brokenImages": [],
+    "client": 345,
+    "clipped": [],
+    "h1": "How to read this portal.",
+    "pageScroll": 345,
+    "path": "/methodology",
+    "tables": [],
+    "width": 360
+  },
+  {
+    "brokenImages": [],
+    "client": 345,
+    "clipped": [],
+    "h1": "About BetterNegrosIsland.",
+    "pageScroll": 345,
+    "path": "/about",
+    "tables": [],
+    "width": 360
+  },
+  {
+    "brokenImages": [],
+    "client": 345,
+    "clipped": [],
+    "h1": "Terms of Use",
+    "pageScroll": 345,
+    "path": "/terms",
+    "tables": [],
+    "width": 360
+  },
+  {
+    "brokenImages": [],
+    "client": 345,
+    "clipped": [],
+    "h1": "Privacy Notice",
+    "pageScroll": 345,
+    "path": "/privacy",
+    "tables": [],
+    "width": 360
+  },
+  {
+    "brokenImages": [],
+    "client": 345,
+    "clipped": [],
+    "h1": "Table layout test",
+    "pageScroll": 345,
+    "path": "/__qa/table",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 303,
+        "width": 303
+      }
+    ],
+    "width": 360
+  },
+  {
+    "brokenImages": [],
+    "client": 345,
+    "clipped": [],
+    "h1": "Follow the projects. Examine the evidence.",
+    "pageScroll": 345,
+    "path": "/projects?q=NO_MATCH_PREMIUM_QA_123",
+    "tables": [],
+    "width": 360
+  },
+  {
+    "brokenImages": [],
+    "client": 360,
+    "clipped": [],
+    "h1": "Public budgets.Clearer decisions.",
+    "pageScroll": 360,
+    "path": "/",
+    "tables": [],
+    "width": 375
+  },
+  {
+    "brokenImages": [],
+    "client": 360,
+    "clipped": [],
+    "h1": "Follow the projects. Examine the evidence.",
+    "pageScroll": 360,
+    "path": "/projects",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 318,
+        "width": 318
+      }
+    ],
+    "width": 375
+  },
+  {
+    "brokenImages": [],
+    "client": 360,
+    "clipped": [],
+    "h1": "Siquijor Provincial Hospital",
+    "pageScroll": 360,
+    "path": "/projects/hfep/ib%3Ap886%3Ar4%7Cinfrastructure",
+    "tables": [
+      {
+        "keyboard": "0",
+        "scroll": 560,
+        "width": 318
+      }
+    ],
+    "width": 375
+  },
+  {
+    "brokenImages": [],
+    "client": 360,
+    "clipped": [],
+    "h1": "Budget analytics.",
+    "pageScroll": 360,
+    "path": "/analytics",
+    "tables": [
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 284
+      },
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 284
+      },
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 284
+      },
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 284
+      },
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 284
+      },
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 284
+      },
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 284
+      }
+    ],
+    "width": 375
+  },
+  {
+    "brokenImages": [],
+    "client": 360,
+    "clipped": [],
+    "h1": "Enacted budgets, 2020–2026.",
+    "pageScroll": 360,
+    "path": "/budget-history",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 318,
+        "width": 318
+      }
+    ],
+    "width": 375
+  },
+  {
+    "brokenImages": [],
+    "client": 360,
+    "clipped": [],
+    "h1": "Explore the region.",
+    "pageScroll": 360,
+    "path": "/provinces",
+    "tables": [],
+    "width": 375
+  },
+  {
+    "brokenImages": [],
+    "client": 360,
+    "clipped": [],
+    "h1": "Negros Occidental",
+    "pageScroll": 360,
+    "path": "/provinces/negros-occidental",
+    "tables": [],
+    "width": 375
+  },
+  {
+    "brokenImages": [],
+    "client": 360,
+    "clipped": [],
+    "h1": "Negros Oriental",
+    "pageScroll": 360,
+    "path": "/provinces/negros-oriental",
+    "tables": [],
+    "width": 375
+  },
+  {
+    "brokenImages": [],
+    "client": 360,
+    "clipped": [],
+    "h1": "Siquijor",
+    "pageScroll": 360,
+    "path": "/provinces/siquijor",
+    "tables": [],
+    "width": 375
+  },
+  {
+    "brokenImages": [],
+    "client": 360,
+    "clipped": [],
+    "h1": "City of Bacolod",
+    "pageScroll": 360,
+    "path": "/locations/1830200000",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 318,
+        "width": 318
+      }
+    ],
+    "width": 375
+  },
+  {
+    "brokenImages": [],
+    "client": 360,
+    "clipped": [],
+    "h1": "Lazi",
+    "pageScroll": 360,
+    "path": "/locations/1806103000",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 318,
+        "width": 318
+      }
+    ],
+    "width": 375
+  },
+  {
+    "brokenImages": [],
+    "client": 360,
+    "clipped": [],
+    "h1": "Know what the data covers.",
+    "pageScroll": 360,
+    "path": "/data-coverage",
+    "tables": [],
+    "width": 375
+  },
+  {
+    "brokenImages": [],
+    "client": 360,
+    "clipped": [],
+    "h1": "How to read this portal.",
+    "pageScroll": 360,
+    "path": "/methodology",
+    "tables": [],
+    "width": 375
+  },
+  {
+    "brokenImages": [],
+    "client": 360,
+    "clipped": [],
+    "h1": "About BetterNegrosIsland.",
+    "pageScroll": 360,
+    "path": "/about",
+    "tables": [],
+    "width": 375
+  },
+  {
+    "brokenImages": [],
+    "client": 360,
+    "clipped": [],
+    "h1": "Terms of Use",
+    "pageScroll": 360,
+    "path": "/terms",
+    "tables": [],
+    "width": 375
+  },
+  {
+    "brokenImages": [],
+    "client": 360,
+    "clipped": [],
+    "h1": "Privacy Notice",
+    "pageScroll": 360,
+    "path": "/privacy",
+    "tables": [],
+    "width": 375
+  },
+  {
+    "brokenImages": [],
+    "client": 360,
+    "clipped": [],
+    "h1": "Table layout test",
+    "pageScroll": 360,
+    "path": "/__qa/table",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 318,
+        "width": 318
+      }
+    ],
+    "width": 375
+  },
+  {
+    "brokenImages": [],
+    "client": 360,
+    "clipped": [],
+    "h1": "Follow the projects. Examine the evidence.",
+    "pageScroll": 360,
+    "path": "/projects?q=NO_MATCH_PREMIUM_QA_123",
+    "tables": [],
+    "width": 375
+  },
+  {
+    "brokenImages": [],
+    "client": 375,
+    "clipped": [],
+    "h1": "Public budgets.Clearer decisions.",
+    "pageScroll": 375,
+    "path": "/",
+    "tables": [],
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "client": 375,
+    "clipped": [],
+    "h1": "Follow the projects. Examine the evidence.",
+    "pageScroll": 375,
+    "path": "/projects",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 333,
+        "width": 333
+      }
+    ],
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "client": 375,
+    "clipped": [],
+    "h1": "Siquijor Provincial Hospital",
+    "pageScroll": 375,
+    "path": "/projects/hfep/ib%3Ap886%3Ar4%7Cinfrastructure",
+    "tables": [
+      {
+        "keyboard": "0",
+        "scroll": 560,
+        "width": 333
+      }
+    ],
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "client": 375,
+    "clipped": [],
+    "h1": "Budget analytics.",
+    "pageScroll": 375,
+    "path": "/analytics",
+    "tables": [
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 299
+      },
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 299
+      },
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 299
+      },
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 299
+      },
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 299
+      },
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 299
+      },
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 299
+      }
+    ],
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "client": 375,
+    "clipped": [],
+    "h1": "Enacted budgets, 2020–2026.",
+    "pageScroll": 375,
+    "path": "/budget-history",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 333,
+        "width": 333
+      }
+    ],
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "client": 375,
+    "clipped": [],
+    "h1": "Explore the region.",
+    "pageScroll": 375,
+    "path": "/provinces",
+    "tables": [],
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "client": 375,
+    "clipped": [],
+    "h1": "Negros Occidental",
+    "pageScroll": 375,
+    "path": "/provinces/negros-occidental",
+    "tables": [],
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "client": 375,
+    "clipped": [],
+    "h1": "Negros Oriental",
+    "pageScroll": 375,
+    "path": "/provinces/negros-oriental",
+    "tables": [],
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "client": 375,
+    "clipped": [],
+    "h1": "Siquijor",
+    "pageScroll": 375,
+    "path": "/provinces/siquijor",
+    "tables": [],
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "client": 375,
+    "clipped": [],
+    "h1": "City of Bacolod",
+    "pageScroll": 375,
+    "path": "/locations/1830200000",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 333,
+        "width": 333
+      }
+    ],
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "client": 375,
+    "clipped": [],
+    "h1": "Lazi",
+    "pageScroll": 375,
+    "path": "/locations/1806103000",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 333,
+        "width": 333
+      }
+    ],
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "client": 375,
+    "clipped": [],
+    "h1": "Know what the data covers.",
+    "pageScroll": 375,
+    "path": "/data-coverage",
+    "tables": [],
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "client": 375,
+    "clipped": [],
+    "h1": "How to read this portal.",
+    "pageScroll": 375,
+    "path": "/methodology",
+    "tables": [],
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "client": 375,
+    "clipped": [],
+    "h1": "About BetterNegrosIsland.",
+    "pageScroll": 375,
+    "path": "/about",
+    "tables": [],
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "client": 375,
+    "clipped": [],
+    "h1": "Terms of Use",
+    "pageScroll": 375,
+    "path": "/terms",
+    "tables": [],
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "client": 375,
+    "clipped": [],
+    "h1": "Privacy Notice",
+    "pageScroll": 375,
+    "path": "/privacy",
+    "tables": [],
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "client": 375,
+    "clipped": [],
+    "h1": "Table layout test",
+    "pageScroll": 375,
+    "path": "/__qa/table",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 333,
+        "width": 333
+      }
+    ],
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "client": 375,
+    "clipped": [],
+    "h1": "Follow the projects. Examine the evidence.",
+    "pageScroll": 375,
+    "path": "/projects?q=NO_MATCH_PREMIUM_QA_123",
+    "tables": [],
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "client": 415,
+    "clipped": [],
+    "h1": "Public budgets.Clearer decisions.",
+    "pageScroll": 415,
+    "path": "/",
+    "tables": [],
+    "width": 430
+  },
+  {
+    "brokenImages": [],
+    "client": 415,
+    "clipped": [],
+    "h1": "Follow the projects. Examine the evidence.",
+    "pageScroll": 415,
+    "path": "/projects",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 373,
+        "width": 373
+      }
+    ],
+    "width": 430
+  },
+  {
+    "brokenImages": [],
+    "client": 415,
+    "clipped": [],
+    "h1": "Siquijor Provincial Hospital",
+    "pageScroll": 415,
+    "path": "/projects/hfep/ib%3Ap886%3Ar4%7Cinfrastructure",
+    "tables": [
+      {
+        "keyboard": "0",
+        "scroll": 560,
+        "width": 373
+      }
+    ],
+    "width": 430
+  },
+  {
+    "brokenImages": [],
+    "client": 415,
+    "clipped": [],
+    "h1": "Budget analytics.",
+    "pageScroll": 415,
+    "path": "/analytics",
+    "tables": [
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 339
+      },
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 339
+      },
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 339
+      },
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 339
+      },
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 339
+      },
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 339
+      },
+      {
+        "keyboard": "0",
+        "scroll": 380,
+        "width": 339
+      }
+    ],
+    "width": 430
+  },
+  {
+    "brokenImages": [],
+    "client": 415,
+    "clipped": [],
+    "h1": "Enacted budgets, 2020–2026.",
+    "pageScroll": 415,
+    "path": "/budget-history",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 373,
+        "width": 373
+      }
+    ],
+    "width": 430
+  },
+  {
+    "brokenImages": [],
+    "client": 415,
+    "clipped": [],
+    "h1": "Explore the region.",
+    "pageScroll": 415,
+    "path": "/provinces",
+    "tables": [],
+    "width": 430
+  },
+  {
+    "brokenImages": [],
+    "client": 415,
+    "clipped": [],
+    "h1": "Negros Occidental",
+    "pageScroll": 415,
+    "path": "/provinces/negros-occidental",
+    "tables": [],
+    "width": 430
+  },
+  {
+    "brokenImages": [],
+    "client": 415,
+    "clipped": [],
+    "h1": "Negros Oriental",
+    "pageScroll": 415,
+    "path": "/provinces/negros-oriental",
+    "tables": [],
+    "width": 430
+  },
+  {
+    "brokenImages": [],
+    "client": 415,
+    "clipped": [],
+    "h1": "Siquijor",
+    "pageScroll": 415,
+    "path": "/provinces/siquijor",
+    "tables": [],
+    "width": 430
+  },
+  {
+    "brokenImages": [],
+    "client": 415,
+    "clipped": [],
+    "h1": "City of Bacolod",
+    "pageScroll": 415,
+    "path": "/locations/1830200000",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 373,
+        "width": 373
+      }
+    ],
+    "width": 430
+  },
+  {
+    "brokenImages": [],
+    "client": 415,
+    "clipped": [],
+    "h1": "Lazi",
+    "pageScroll": 415,
+    "path": "/locations/1806103000",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 373,
+        "width": 373
+      }
+    ],
+    "width": 430
+  },
+  {
+    "brokenImages": [],
+    "client": 415,
+    "clipped": [],
+    "h1": "Know what the data covers.",
+    "pageScroll": 415,
+    "path": "/data-coverage",
+    "tables": [],
+    "width": 430
+  },
+  {
+    "brokenImages": [],
+    "client": 415,
+    "clipped": [],
+    "h1": "How to read this portal.",
+    "pageScroll": 415,
+    "path": "/methodology",
+    "tables": [],
+    "width": 430
+  },
+  {
+    "brokenImages": [],
+    "client": 415,
+    "clipped": [],
+    "h1": "About BetterNegrosIsland.",
+    "pageScroll": 415,
+    "path": "/about",
+    "tables": [],
+    "width": 430
+  },
+  {
+    "brokenImages": [],
+    "client": 415,
+    "clipped": [],
+    "h1": "Terms of Use",
+    "pageScroll": 415,
+    "path": "/terms",
+    "tables": [],
+    "width": 430
+  },
+  {
+    "brokenImages": [],
+    "client": 415,
+    "clipped": [],
+    "h1": "Privacy Notice",
+    "pageScroll": 415,
+    "path": "/privacy",
+    "tables": [],
+    "width": 430
+  },
+  {
+    "brokenImages": [],
+    "client": 415,
+    "clipped": [],
+    "h1": "Table layout test",
+    "pageScroll": 415,
+    "path": "/__qa/table",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 373,
+        "width": 373
+      }
+    ],
+    "width": 430
+  },
+  {
+    "brokenImages": [],
+    "client": 415,
+    "clipped": [],
+    "h1": "Follow the projects. Examine the evidence.",
+    "pageScroll": 415,
+    "path": "/projects?q=NO_MATCH_PREMIUM_QA_123",
+    "tables": [],
+    "width": 430
+  },
+  {
+    "brokenImages": [],
+    "client": 753,
+    "clipped": [],
+    "h1": "Public budgets.Clearer decisions.",
+    "pageScroll": 753,
+    "path": "/",
+    "tables": [],
+    "width": 768
+  },
+  {
+    "brokenImages": [],
+    "client": 753,
+    "clipped": [],
+    "h1": "Follow the projects. Examine the evidence.",
+    "pageScroll": 753,
+    "path": "/projects",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 699,
+        "width": 699
+      }
+    ],
+    "width": 768
+  },
+  {
+    "brokenImages": [],
+    "client": 753,
+    "clipped": [],
+    "h1": "Siquijor Provincial Hospital",
+    "pageScroll": 753,
+    "path": "/projects/hfep/ib%3Ap886%3Ar4%7Cinfrastructure",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 699,
+        "width": 699
+      }
+    ],
+    "width": 768
+  },
+  {
+    "brokenImages": [],
+    "client": 753,
+    "clipped": [],
+    "h1": "Budget analytics.",
+    "pageScroll": 753,
+    "path": "/analytics",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 649,
+        "width": 649
+      },
+      {
+        "keyboard": null,
+        "scroll": 649,
+        "width": 649
+      },
+      {
+        "keyboard": null,
+        "scroll": 649,
+        "width": 649
+      },
+      {
+        "keyboard": null,
+        "scroll": 649,
+        "width": 649
+      },
+      {
+        "keyboard": null,
+        "scroll": 649,
+        "width": 649
+      },
+      {
+        "keyboard": null,
+        "scroll": 649,
+        "width": 649
+      },
+      {
+        "keyboard": null,
+        "scroll": 649,
+        "width": 649
+      }
+    ],
+    "width": 768
+  },
+  {
+    "brokenImages": [],
+    "client": 753,
+    "clipped": [],
+    "h1": "Enacted budgets, 2020–2026.",
+    "pageScroll": 753,
+    "path": "/budget-history",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 699,
+        "width": 699
+      }
+    ],
+    "width": 768
+  },
+  {
+    "brokenImages": [],
+    "client": 753,
+    "clipped": [],
+    "h1": "Explore the region.",
+    "pageScroll": 753,
+    "path": "/provinces",
+    "tables": [],
+    "width": 768
+  },
+  {
+    "brokenImages": [],
+    "client": 753,
+    "clipped": [],
+    "h1": "Negros Occidental",
+    "pageScroll": 753,
+    "path": "/provinces/negros-occidental",
+    "tables": [],
+    "width": 768
+  },
+  {
+    "brokenImages": [],
+    "client": 753,
+    "clipped": [],
+    "h1": "Negros Oriental",
+    "pageScroll": 753,
+    "path": "/provinces/negros-oriental",
+    "tables": [],
+    "width": 768
+  },
+  {
+    "brokenImages": [],
+    "client": 753,
+    "clipped": [],
+    "h1": "Siquijor",
+    "pageScroll": 753,
+    "path": "/provinces/siquijor",
+    "tables": [],
+    "width": 768
+  },
+  {
+    "brokenImages": [],
+    "client": 753,
+    "clipped": [],
+    "h1": "City of Bacolod",
+    "pageScroll": 753,
+    "path": "/locations/1830200000",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 699,
+        "width": 699
+      }
+    ],
+    "width": 768
+  },
+  {
+    "brokenImages": [],
+    "client": 753,
+    "clipped": [],
+    "h1": "Lazi",
+    "pageScroll": 753,
+    "path": "/locations/1806103000",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 699,
+        "width": 699
+      }
+    ],
+    "width": 768
+  },
+  {
+    "brokenImages": [],
+    "client": 753,
+    "clipped": [],
+    "h1": "Know what the data covers.",
+    "pageScroll": 753,
+    "path": "/data-coverage",
+    "tables": [],
+    "width": 768
+  },
+  {
+    "brokenImages": [],
+    "client": 753,
+    "clipped": [],
+    "h1": "How to read this portal.",
+    "pageScroll": 753,
+    "path": "/methodology",
+    "tables": [],
+    "width": 768
+  },
+  {
+    "brokenImages": [],
+    "client": 753,
+    "clipped": [],
+    "h1": "About BetterNegrosIsland.",
+    "pageScroll": 753,
+    "path": "/about",
+    "tables": [],
+    "width": 768
+  },
+  {
+    "brokenImages": [],
+    "client": 753,
+    "clipped": [],
+    "h1": "Terms of Use",
+    "pageScroll": 753,
+    "path": "/terms",
+    "tables": [],
+    "width": 768
+  },
+  {
+    "brokenImages": [],
+    "client": 753,
+    "clipped": [],
+    "h1": "Privacy Notice",
+    "pageScroll": 753,
+    "path": "/privacy",
+    "tables": [],
+    "width": 768
+  },
+  {
+    "brokenImages": [],
+    "client": 753,
+    "clipped": [],
+    "h1": "Table layout test",
+    "pageScroll": 753,
+    "path": "/__qa/table",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 699,
+        "width": 699
+      }
+    ],
+    "width": 768
+  },
+  {
+    "brokenImages": [],
+    "client": 753,
+    "clipped": [],
+    "h1": "Follow the projects. Examine the evidence.",
+    "pageScroll": 753,
+    "path": "/projects?q=NO_MATCH_PREMIUM_QA_123",
+    "tables": [],
+    "width": 768
+  },
+  {
+    "brokenImages": [],
+    "client": 1009,
+    "clipped": [],
+    "h1": "Public budgets.Clearer decisions.",
+    "pageScroll": 1009,
+    "path": "/",
+    "tables": [],
+    "width": 1024
+  },
+  {
+    "brokenImages": [],
+    "client": 1009,
+    "clipped": [],
+    "h1": "Follow the projects. Examine the evidence.",
+    "pageScroll": 1009,
+    "path": "/projects",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 955,
+        "width": 955
+      }
+    ],
+    "width": 1024
+  },
+  {
+    "brokenImages": [],
+    "client": 1009,
+    "clipped": [],
+    "h1": "Siquijor Provincial Hospital",
+    "pageScroll": 1009,
+    "path": "/projects/hfep/ib%3Ap886%3Ar4%7Cinfrastructure",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 955,
+        "width": 955
+      }
+    ],
+    "width": 1024
+  },
+  {
+    "brokenImages": [],
+    "client": 1009,
+    "clipped": [],
+    "h1": "Budget analytics.",
+    "pageScroll": 1009,
+    "path": "/analytics",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 905,
+        "width": 905
+      },
+      {
+        "keyboard": null,
+        "scroll": 905,
+        "width": 905
+      },
+      {
+        "keyboard": null,
+        "scroll": 905,
+        "width": 905
+      },
+      {
+        "keyboard": null,
+        "scroll": 905,
+        "width": 905
+      },
+      {
+        "keyboard": null,
+        "scroll": 905,
+        "width": 905
+      },
+      {
+        "keyboard": null,
+        "scroll": 905,
+        "width": 905
+      },
+      {
+        "keyboard": null,
+        "scroll": 905,
+        "width": 905
+      }
+    ],
+    "width": 1024
+  },
+  {
+    "brokenImages": [],
+    "client": 1009,
+    "clipped": [],
+    "h1": "Enacted budgets, 2020–2026.",
+    "pageScroll": 1009,
+    "path": "/budget-history",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 955,
+        "width": 955
+      }
+    ],
+    "width": 1024
+  },
+  {
+    "brokenImages": [],
+    "client": 1009,
+    "clipped": [],
+    "h1": "Explore the region.",
+    "pageScroll": 1009,
+    "path": "/provinces",
+    "tables": [],
+    "width": 1024
+  },
+  {
+    "brokenImages": [],
+    "client": 1009,
+    "clipped": [],
+    "h1": "Negros Occidental",
+    "pageScroll": 1009,
+    "path": "/provinces/negros-occidental",
+    "tables": [],
+    "width": 1024
+  },
+  {
+    "brokenImages": [],
+    "client": 1009,
+    "clipped": [],
+    "h1": "Negros Oriental",
+    "pageScroll": 1009,
+    "path": "/provinces/negros-oriental",
+    "tables": [],
+    "width": 1024
+  },
+  {
+    "brokenImages": [],
+    "client": 1009,
+    "clipped": [],
+    "h1": "Siquijor",
+    "pageScroll": 1009,
+    "path": "/provinces/siquijor",
+    "tables": [],
+    "width": 1024
+  },
+  {
+    "brokenImages": [],
+    "client": 1009,
+    "clipped": [],
+    "h1": "City of Bacolod",
+    "pageScroll": 1009,
+    "path": "/locations/1830200000",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 955,
+        "width": 955
+      }
+    ],
+    "width": 1024
+  },
+  {
+    "brokenImages": [],
+    "client": 1009,
+    "clipped": [],
+    "h1": "Lazi",
+    "pageScroll": 1009,
+    "path": "/locations/1806103000",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 955,
+        "width": 955
+      }
+    ],
+    "width": 1024
+  },
+  {
+    "brokenImages": [],
+    "client": 1009,
+    "clipped": [],
+    "h1": "Know what the data covers.",
+    "pageScroll": 1009,
+    "path": "/data-coverage",
+    "tables": [],
+    "width": 1024
+  },
+  {
+    "brokenImages": [],
+    "client": 1009,
+    "clipped": [],
+    "h1": "How to read this portal.",
+    "pageScroll": 1009,
+    "path": "/methodology",
+    "tables": [],
+    "width": 1024
+  },
+  {
+    "brokenImages": [],
+    "client": 1009,
+    "clipped": [],
+    "h1": "About BetterNegrosIsland.",
+    "pageScroll": 1009,
+    "path": "/about",
+    "tables": [],
+    "width": 1024
+  },
+  {
+    "brokenImages": [],
+    "client": 1009,
+    "clipped": [],
+    "h1": "Terms of Use",
+    "pageScroll": 1009,
+    "path": "/terms",
+    "tables": [],
+    "width": 1024
+  },
+  {
+    "brokenImages": [],
+    "client": 1009,
+    "clipped": [],
+    "h1": "Privacy Notice",
+    "pageScroll": 1009,
+    "path": "/privacy",
+    "tables": [],
+    "width": 1024
+  },
+  {
+    "brokenImages": [],
+    "client": 1009,
+    "clipped": [],
+    "h1": "Table layout test",
+    "pageScroll": 1009,
+    "path": "/__qa/table",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 955,
+        "width": 955
+      }
+    ],
+    "width": 1024
+  },
+  {
+    "brokenImages": [],
+    "client": 1009,
+    "clipped": [],
+    "h1": "Follow the projects. Examine the evidence.",
+    "pageScroll": 1009,
+    "path": "/projects?q=NO_MATCH_PREMIUM_QA_123",
+    "tables": [],
+    "width": 1024
+  },
+  {
+    "brokenImages": [],
+    "client": 1265,
+    "clipped": [],
+    "h1": "Public budgets.Clearer decisions.",
+    "pageScroll": 1265,
+    "path": "/",
+    "tables": [],
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "client": 1265,
+    "clipped": [],
+    "h1": "Follow the projects. Examine the evidence.",
+    "pageScroll": 1265,
+    "path": "/projects",
+    "tables": [
+      {
+        "keyboard": "0",
+        "scroll": 1220,
+        "width": 1183
+      }
+    ],
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "client": 1265,
+    "clipped": [],
+    "h1": "Siquijor Provincial Hospital",
+    "pageScroll": 1265,
+    "path": "/projects/hfep/ib%3Ap886%3Ar4%7Cinfrastructure",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 803,
+        "width": 803
+      }
+    ],
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "client": 1265,
+    "clipped": [],
+    "h1": "Budget analytics.",
+    "pageScroll": 1265,
+    "path": "/analytics",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 529,
+        "width": 529
+      },
+      {
+        "keyboard": null,
+        "scroll": 529,
+        "width": 529
+      },
+      {
+        "keyboard": null,
+        "scroll": 529,
+        "width": 529
+      },
+      {
+        "keyboard": null,
+        "scroll": 529,
+        "width": 529
+      },
+      {
+        "keyboard": null,
+        "scroll": 529,
+        "width": 529
+      },
+      {
+        "keyboard": null,
+        "scroll": 529,
+        "width": 529
+      },
+      {
+        "keyboard": null,
+        "scroll": 529,
+        "width": 529
+      }
+    ],
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "client": 1265,
+    "clipped": [],
+    "h1": "Enacted budgets, 2020–2026.",
+    "pageScroll": 1265,
+    "path": "/budget-history",
+    "tables": [
+      {
+        "keyboard": "0",
+        "scroll": 1470,
+        "width": 1183
+      }
+    ],
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "client": 1265,
+    "clipped": [],
+    "h1": "Explore the region.",
+    "pageScroll": 1265,
+    "path": "/provinces",
+    "tables": [],
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "client": 1265,
+    "clipped": [],
+    "h1": "Negros Occidental",
+    "pageScroll": 1265,
+    "path": "/provinces/negros-occidental",
+    "tables": [],
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "client": 1265,
+    "clipped": [],
+    "h1": "Negros Oriental",
+    "pageScroll": 1265,
+    "path": "/provinces/negros-oriental",
+    "tables": [],
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "client": 1265,
+    "clipped": [],
+    "h1": "Siquijor",
+    "pageScroll": 1265,
+    "path": "/provinces/siquijor",
+    "tables": [],
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "client": 1265,
+    "clipped": [],
+    "h1": "City of Bacolod",
+    "pageScroll": 1265,
+    "path": "/locations/1830200000",
+    "tables": [
+      {
+        "keyboard": "0",
+        "scroll": 1220,
+        "width": 1183
+      }
+    ],
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "client": 1265,
+    "clipped": [],
+    "h1": "Lazi",
+    "pageScroll": 1265,
+    "path": "/locations/1806103000",
+    "tables": [
+      {
+        "keyboard": "0",
+        "scroll": 1220,
+        "width": 1183
+      }
+    ],
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "client": 1265,
+    "clipped": [],
+    "h1": "Know what the data covers.",
+    "pageScroll": 1265,
+    "path": "/data-coverage",
+    "tables": [],
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "client": 1265,
+    "clipped": [],
+    "h1": "How to read this portal.",
+    "pageScroll": 1265,
+    "path": "/methodology",
+    "tables": [],
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "client": 1265,
+    "clipped": [],
+    "h1": "About BetterNegrosIsland.",
+    "pageScroll": 1265,
+    "path": "/about",
+    "tables": [],
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "client": 1265,
+    "clipped": [],
+    "h1": "Terms of Use",
+    "pageScroll": 1265,
+    "path": "/terms",
+    "tables": [],
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "client": 1265,
+    "clipped": [],
+    "h1": "Privacy Notice",
+    "pageScroll": 1265,
+    "path": "/privacy",
+    "tables": [],
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "client": 1265,
+    "clipped": [],
+    "h1": "Table layout test",
+    "pageScroll": 1265,
+    "path": "/__qa/table",
+    "tables": [
+      {
+        "keyboard": "0",
+        "scroll": 1720,
+        "width": 1183
+      }
+    ],
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "client": 1265,
+    "clipped": [],
+    "h1": "Follow the projects. Examine the evidence.",
+    "pageScroll": 1265,
+    "path": "/projects?q=NO_MATCH_PREMIUM_QA_123",
+    "tables": [],
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "client": 1425,
+    "clipped": [],
+    "h1": "Public budgets.Clearer decisions.",
+    "pageScroll": 1425,
+    "path": "/",
+    "tables": [],
+    "width": 1440
+  },
+  {
+    "brokenImages": [],
+    "client": 1425,
+    "clipped": [],
+    "h1": "Follow the projects. Examine the evidence.",
+    "pageScroll": 1425,
+    "path": "/projects",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 1238,
+        "width": 1238
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "brokenImages": [],
+    "client": 1425,
+    "clipped": [],
+    "h1": "Siquijor Provincial Hospital",
+    "pageScroll": 1425,
+    "path": "/projects/hfep/ib%3Ap886%3Ar4%7Cinfrastructure",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 858,
+        "width": 858
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "brokenImages": [],
+    "client": 1425,
+    "clipped": [],
+    "h1": "Budget analytics.",
+    "pageScroll": 1425,
+    "path": "/analytics",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 556,
+        "width": 556
+      },
+      {
+        "keyboard": null,
+        "scroll": 556,
+        "width": 556
+      },
+      {
+        "keyboard": null,
+        "scroll": 556,
+        "width": 556
+      },
+      {
+        "keyboard": null,
+        "scroll": 556,
+        "width": 556
+      },
+      {
+        "keyboard": null,
+        "scroll": 556,
+        "width": 556
+      },
+      {
+        "keyboard": null,
+        "scroll": 556,
+        "width": 556
+      },
+      {
+        "keyboard": null,
+        "scroll": 556,
+        "width": 556
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "brokenImages": [],
+    "client": 1425,
+    "clipped": [],
+    "h1": "Enacted budgets, 2020–2026.",
+    "pageScroll": 1425,
+    "path": "/budget-history",
+    "tables": [
+      {
+        "keyboard": "0",
+        "scroll": 1470,
+        "width": 1238
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "brokenImages": [],
+    "client": 1425,
+    "clipped": [],
+    "h1": "Explore the region.",
+    "pageScroll": 1425,
+    "path": "/provinces",
+    "tables": [],
+    "width": 1440
+  },
+  {
+    "brokenImages": [],
+    "client": 1425,
+    "clipped": [],
+    "h1": "Negros Occidental",
+    "pageScroll": 1425,
+    "path": "/provinces/negros-occidental",
+    "tables": [],
+    "width": 1440
+  },
+  {
+    "brokenImages": [],
+    "client": 1425,
+    "clipped": [],
+    "h1": "Negros Oriental",
+    "pageScroll": 1425,
+    "path": "/provinces/negros-oriental",
+    "tables": [],
+    "width": 1440
+  },
+  {
+    "brokenImages": [],
+    "client": 1425,
+    "clipped": [],
+    "h1": "Siquijor",
+    "pageScroll": 1425,
+    "path": "/provinces/siquijor",
+    "tables": [],
+    "width": 1440
+  },
+  {
+    "brokenImages": [],
+    "client": 1425,
+    "clipped": [],
+    "h1": "City of Bacolod",
+    "pageScroll": 1425,
+    "path": "/locations/1830200000",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 1238,
+        "width": 1238
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "brokenImages": [],
+    "client": 1425,
+    "clipped": [],
+    "h1": "Lazi",
+    "pageScroll": 1425,
+    "path": "/locations/1806103000",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 1238,
+        "width": 1238
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "brokenImages": [],
+    "client": 1425,
+    "clipped": [],
+    "h1": "Know what the data covers.",
+    "pageScroll": 1425,
+    "path": "/data-coverage",
+    "tables": [],
+    "width": 1440
+  },
+  {
+    "brokenImages": [],
+    "client": 1425,
+    "clipped": [],
+    "h1": "How to read this portal.",
+    "pageScroll": 1425,
+    "path": "/methodology",
+    "tables": [],
+    "width": 1440
+  },
+  {
+    "brokenImages": [],
+    "client": 1425,
+    "clipped": [],
+    "h1": "About BetterNegrosIsland.",
+    "pageScroll": 1425,
+    "path": "/about",
+    "tables": [],
+    "width": 1440
+  },
+  {
+    "brokenImages": [],
+    "client": 1425,
+    "clipped": [],
+    "h1": "Terms of Use",
+    "pageScroll": 1425,
+    "path": "/terms",
+    "tables": [],
+    "width": 1440
+  },
+  {
+    "brokenImages": [],
+    "client": 1425,
+    "clipped": [],
+    "h1": "Privacy Notice",
+    "pageScroll": 1425,
+    "path": "/privacy",
+    "tables": [],
+    "width": 1440
+  },
+  {
+    "brokenImages": [],
+    "client": 1425,
+    "clipped": [],
+    "h1": "Table layout test",
+    "pageScroll": 1425,
+    "path": "/__qa/table",
+    "tables": [
+      {
+        "keyboard": "0",
+        "scroll": 1720,
+        "width": 1238
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "brokenImages": [],
+    "client": 1425,
+    "clipped": [],
+    "h1": "Follow the projects. Examine the evidence.",
+    "pageScroll": 1425,
+    "path": "/projects?q=NO_MATCH_PREMIUM_QA_123",
+    "tables": [],
+    "width": 1440
+  },
+  {
+    "brokenImages": [],
+    "client": 1905,
+    "clipped": [],
+    "h1": "Public budgets.Clearer decisions.",
+    "pageScroll": 1905,
+    "path": "/",
+    "tables": [],
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "client": 1905,
+    "clipped": [],
+    "h1": "Follow the projects. Examine the evidence.",
+    "pageScroll": 1905,
+    "path": "/projects",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 1238,
+        "width": 1238
+      }
+    ],
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "client": 1905,
+    "clipped": [],
+    "h1": "Siquijor Provincial Hospital",
+    "pageScroll": 1905,
+    "path": "/projects/hfep/ib%3Ap886%3Ar4%7Cinfrastructure",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 858,
+        "width": 858
+      }
+    ],
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "client": 1905,
+    "clipped": [],
+    "h1": "Budget analytics.",
+    "pageScroll": 1905,
+    "path": "/analytics",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 556,
+        "width": 556
+      },
+      {
+        "keyboard": null,
+        "scroll": 556,
+        "width": 556
+      },
+      {
+        "keyboard": null,
+        "scroll": 556,
+        "width": 556
+      },
+      {
+        "keyboard": null,
+        "scroll": 556,
+        "width": 556
+      },
+      {
+        "keyboard": null,
+        "scroll": 556,
+        "width": 556
+      },
+      {
+        "keyboard": null,
+        "scroll": 556,
+        "width": 556
+      },
+      {
+        "keyboard": null,
+        "scroll": 556,
+        "width": 556
+      }
+    ],
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "client": 1905,
+    "clipped": [],
+    "h1": "Enacted budgets, 2020–2026.",
+    "pageScroll": 1905,
+    "path": "/budget-history",
+    "tables": [
+      {
+        "keyboard": "0",
+        "scroll": 1470,
+        "width": 1238
+      }
+    ],
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "client": 1905,
+    "clipped": [],
+    "h1": "Explore the region.",
+    "pageScroll": 1905,
+    "path": "/provinces",
+    "tables": [],
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "client": 1905,
+    "clipped": [],
+    "h1": "Negros Occidental",
+    "pageScroll": 1905,
+    "path": "/provinces/negros-occidental",
+    "tables": [],
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "client": 1905,
+    "clipped": [],
+    "h1": "Negros Oriental",
+    "pageScroll": 1905,
+    "path": "/provinces/negros-oriental",
+    "tables": [],
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "client": 1905,
+    "clipped": [],
+    "h1": "Siquijor",
+    "pageScroll": 1905,
+    "path": "/provinces/siquijor",
+    "tables": [],
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "client": 1905,
+    "clipped": [],
+    "h1": "City of Bacolod",
+    "pageScroll": 1905,
+    "path": "/locations/1830200000",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 1238,
+        "width": 1238
+      }
+    ],
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "client": 1905,
+    "clipped": [],
+    "h1": "Lazi",
+    "pageScroll": 1905,
+    "path": "/locations/1806103000",
+    "tables": [
+      {
+        "keyboard": null,
+        "scroll": 1238,
+        "width": 1238
+      }
+    ],
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "client": 1905,
+    "clipped": [],
+    "h1": "Know what the data covers.",
+    "pageScroll": 1905,
+    "path": "/data-coverage",
+    "tables": [],
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "client": 1905,
+    "clipped": [],
+    "h1": "How to read this portal.",
+    "pageScroll": 1905,
+    "path": "/methodology",
+    "tables": [],
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "client": 1905,
+    "clipped": [],
+    "h1": "About BetterNegrosIsland.",
+    "pageScroll": 1905,
+    "path": "/about",
+    "tables": [],
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "client": 1905,
+    "clipped": [],
+    "h1": "Terms of Use",
+    "pageScroll": 1905,
+    "path": "/terms",
+    "tables": [],
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "client": 1905,
+    "clipped": [],
+    "h1": "Privacy Notice",
+    "pageScroll": 1905,
+    "path": "/privacy",
+    "tables": [],
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "client": 1905,
+    "clipped": [],
+    "h1": "Table layout test",
+    "pageScroll": 1905,
+    "path": "/__qa/table",
+    "tables": [
+      {
+        "keyboard": "0",
+        "scroll": 1720,
+        "width": 1238
+      }
+    ],
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "client": 1905,
+    "clipped": [],
+    "h1": "Follow the projects. Examine the evidence.",
+    "pageScroll": 1905,
+    "path": "/projects?q=NO_MATCH_PREMIUM_QA_123",
+    "tables": [],
+    "width": 1920
+  }
+]

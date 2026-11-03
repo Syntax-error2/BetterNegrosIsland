@@ -1,0 +1,70 @@
+{
+  "end": {
+    "client": 1344,
+    "firstLeft": 32.79999923706055,
+    "firstRow": [
+      "₱55,000,000",
+      "₱100,000,000",
+      "₱50,000,000",
+      "₱148,037,000",
+      "₱148,767,000",
+      "₱236,958,000",
+      "₱236,238,000"
+    ],
+    "frameLeft": 32.79999923706055,
+    "frameRight": 1392.000072479248,
+    "headings": [
+      "Program or project",
+      "FY2020",
+      "FY2021",
+      "FY2022",
+      "FY2023",
+      "FY2024",
+      "FY2025",
+      "FY2026"
+    ],
+    "lastPadding": "32px",
+    "lastRight": 1391.5999755859375,
+    "rows": 1,
+    "scroll": 1610,
+    "scrollLeft": 251.1999969482422,
+    "selectedCells": 1,
+    "selectedHeader": "FY2025",
+    "sticky": "sticky",
+    "width": 1440
+  },
+  "home": {
+    "client": 1344,
+    "firstLeft": 32.79999923706055,
+    "firstRow": [
+      "₱55,000,000",
+      "₱100,000,000",
+      "₱50,000,000",
+      "₱148,037,000",
+      "₱148,767,000",
+      "₱236,958,000",
+      "₱236,238,000"
+    ],
+    "frameLeft": 32.79999923706055,
+    "frameRight": 1392.000072479248,
+    "headings": [
+      "Program or project",
+      "FY2020",
+      "FY2021",
+      "FY2022",
+      "FY2023",
+      "FY2024",
+      "FY2025",
+      "FY2026"
+    ],
+    "lastPadding": "32px",
+    "lastRight": 1642.800048828125,
+    "rows": 1,
+    "scroll": 1610,
+    "scrollLeft": 0,
+    "selectedCells": 1,
+    "selectedHeader": "FY2025",
+    "sticky": "sticky",
+    "width": 1440
+  }
+}

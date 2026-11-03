@@ -1,0 +1,722 @@
+[
+  {
+    "path": "/municipalities/himamaylan",
+    "client": 305,
+    "h1": 1,
+    "main": 1,
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "path": "/municipalities/himamaylan",
+    "client": 345,
+    "h1": 1,
+    "main": 1,
+    "scroll": 345,
+    "width": 360
+  },
+  {
+    "path": "/municipalities/himamaylan",
+    "client": 360,
+    "h1": 1,
+    "main": 1,
+    "scroll": 360,
+    "width": 375
+  },
+  {
+    "path": "/municipalities/himamaylan",
+    "client": 375,
+    "h1": 1,
+    "main": 1,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "path": "/municipalities/himamaylan",
+    "client": 415,
+    "h1": 1,
+    "main": 1,
+    "scroll": 415,
+    "width": 430
+  },
+  {
+    "path": "/municipalities/himamaylan",
+    "client": 753,
+    "h1": 1,
+    "main": 1,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "path": "/municipalities/himamaylan",
+    "client": 1009,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1009,
+    "width": 1024
+  },
+  {
+    "path": "/municipalities/himamaylan",
+    "client": 1265,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "path": "/municipalities/himamaylan",
+    "client": 1425,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "path": "/municipalities/himamaylan",
+    "client": 1905,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1905,
+    "width": 1920
+  },
+  {
+    "path": "/municipalities/binalbagan",
+    "client": 305,
+    "h1": 1,
+    "main": 1,
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "path": "/municipalities/binalbagan",
+    "client": 345,
+    "h1": 1,
+    "main": 1,
+    "scroll": 345,
+    "width": 360
+  },
+  {
+    "path": "/municipalities/binalbagan",
+    "client": 360,
+    "h1": 1,
+    "main": 1,
+    "scroll": 360,
+    "width": 375
+  },
+  {
+    "path": "/municipalities/binalbagan",
+    "client": 375,
+    "h1": 1,
+    "main": 1,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "path": "/municipalities/binalbagan",
+    "client": 415,
+    "h1": 1,
+    "main": 1,
+    "scroll": 415,
+    "width": 430
+  },
+  {
+    "path": "/municipalities/binalbagan",
+    "client": 753,
+    "h1": 1,
+    "main": 1,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "path": "/municipalities/binalbagan",
+    "client": 1009,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1009,
+    "width": 1024
+  },
+  {
+    "path": "/municipalities/binalbagan",
+    "client": 1265,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "path": "/municipalities/binalbagan",
+    "client": 1425,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "path": "/municipalities/binalbagan",
+    "client": 1905,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1905,
+    "width": 1920
+  },
+  {
+    "path": "/municipalities/hinigaran",
+    "client": 305,
+    "h1": 1,
+    "main": 1,
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "path": "/municipalities/hinigaran",
+    "client": 345,
+    "h1": 1,
+    "main": 1,
+    "scroll": 345,
+    "width": 360
+  },
+  {
+    "path": "/municipalities/hinigaran",
+    "client": 360,
+    "h1": 1,
+    "main": 1,
+    "scroll": 360,
+    "width": 375
+  },
+  {
+    "path": "/municipalities/hinigaran",
+    "client": 375,
+    "h1": 1,
+    "main": 1,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "path": "/municipalities/hinigaran",
+    "client": 415,
+    "h1": 1,
+    "main": 1,
+    "scroll": 415,
+    "width": 430
+  },
+  {
+    "path": "/municipalities/hinigaran",
+    "client": 753,
+    "h1": 1,
+    "main": 1,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "path": "/municipalities/hinigaran",
+    "client": 1009,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1009,
+    "width": 1024
+  },
+  {
+    "path": "/municipalities/hinigaran",
+    "client": 1265,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "path": "/municipalities/hinigaran",
+    "client": 1425,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "path": "/municipalities/hinigaran",
+    "client": 1905,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1905,
+    "width": 1920
+  },
+  {
+    "path": "/municipalities/isabela",
+    "client": 305,
+    "h1": 1,
+    "main": 1,
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "path": "/municipalities/isabela",
+    "client": 345,
+    "h1": 1,
+    "main": 1,
+    "scroll": 345,
+    "width": 360
+  },
+  {
+    "path": "/municipalities/isabela",
+    "client": 360,
+    "h1": 1,
+    "main": 1,
+    "scroll": 360,
+    "width": 375
+  },
+  {
+    "path": "/municipalities/isabela",
+    "client": 375,
+    "h1": 1,
+    "main": 1,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "path": "/municipalities/isabela",
+    "client": 415,
+    "h1": 1,
+    "main": 1,
+    "scroll": 415,
+    "width": 430
+  },
+  {
+    "path": "/municipalities/isabela",
+    "client": 753,
+    "h1": 1,
+    "main": 1,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "path": "/municipalities/isabela",
+    "client": 1009,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1009,
+    "width": 1024
+  },
+  {
+    "path": "/municipalities/isabela",
+    "client": 1265,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "path": "/municipalities/isabela",
+    "client": 1425,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "path": "/municipalities/isabela",
+    "client": 1905,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1905,
+    "width": 1920
+  },
+  {
+    "path": "/municipalities/la-castellana",
+    "client": 305,
+    "h1": 1,
+    "main": 1,
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "path": "/municipalities/la-castellana",
+    "client": 345,
+    "h1": 1,
+    "main": 1,
+    "scroll": 345,
+    "width": 360
+  },
+  {
+    "path": "/municipalities/la-castellana",
+    "client": 360,
+    "h1": 1,
+    "main": 1,
+    "scroll": 360,
+    "width": 375
+  },
+  {
+    "path": "/municipalities/la-castellana",
+    "client": 375,
+    "h1": 1,
+    "main": 1,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "path": "/municipalities/la-castellana",
+    "client": 415,
+    "h1": 1,
+    "main": 1,
+    "scroll": 415,
+    "width": 430
+  },
+  {
+    "path": "/municipalities/la-castellana",
+    "client": 753,
+    "h1": 1,
+    "main": 1,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "path": "/municipalities/la-castellana",
+    "client": 1009,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1009,
+    "width": 1024
+  },
+  {
+    "path": "/municipalities/la-castellana",
+    "client": 1265,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "path": "/municipalities/la-castellana",
+    "client": 1425,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "path": "/municipalities/la-castellana",
+    "client": 1905,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1905,
+    "width": 1920
+  },
+  {
+    "path": "/municipalities/moises-padilla",
+    "client": 305,
+    "h1": 1,
+    "main": 1,
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "path": "/municipalities/moises-padilla",
+    "client": 345,
+    "h1": 1,
+    "main": 1,
+    "scroll": 345,
+    "width": 360
+  },
+  {
+    "path": "/municipalities/moises-padilla",
+    "client": 360,
+    "h1": 1,
+    "main": 1,
+    "scroll": 360,
+    "width": 375
+  },
+  {
+    "path": "/municipalities/moises-padilla",
+    "client": 375,
+    "h1": 1,
+    "main": 1,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "path": "/municipalities/moises-padilla",
+    "client": 415,
+    "h1": 1,
+    "main": 1,
+    "scroll": 415,
+    "width": 430
+  },
+  {
+    "path": "/municipalities/moises-padilla",
+    "client": 753,
+    "h1": 1,
+    "main": 1,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "path": "/municipalities/moises-padilla",
+    "client": 1009,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1009,
+    "width": 1024
+  },
+  {
+    "path": "/municipalities/moises-padilla",
+    "client": 1265,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "path": "/municipalities/moises-padilla",
+    "client": 1425,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "path": "/municipalities/moises-padilla",
+    "client": 1905,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1905,
+    "width": 1920
+  },
+  {
+    "path": "/terms",
+    "client": 305,
+    "h1": 1,
+    "main": 1,
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "path": "/terms",
+    "client": 345,
+    "h1": 1,
+    "main": 1,
+    "scroll": 345,
+    "width": 360
+  },
+  {
+    "path": "/terms",
+    "client": 360,
+    "h1": 1,
+    "main": 1,
+    "scroll": 360,
+    "width": 375
+  },
+  {
+    "path": "/terms",
+    "client": 375,
+    "h1": 1,
+    "main": 1,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "path": "/terms",
+    "client": 415,
+    "h1": 1,
+    "main": 1,
+    "scroll": 415,
+    "width": 430
+  },
+  {
+    "path": "/terms",
+    "client": 753,
+    "h1": 1,
+    "main": 1,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "path": "/terms",
+    "client": 1009,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1009,
+    "width": 1024
+  },
+  {
+    "path": "/terms",
+    "client": 1265,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "path": "/terms",
+    "client": 1425,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "path": "/terms",
+    "client": 1905,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1905,
+    "width": 1920
+  },
+  {
+    "path": "/privacy",
+    "client": 305,
+    "h1": 1,
+    "main": 1,
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "path": "/privacy",
+    "client": 345,
+    "h1": 1,
+    "main": 1,
+    "scroll": 345,
+    "width": 360
+  },
+  {
+    "path": "/privacy",
+    "client": 360,
+    "h1": 1,
+    "main": 1,
+    "scroll": 360,
+    "width": 375
+  },
+  {
+    "path": "/privacy",
+    "client": 375,
+    "h1": 1,
+    "main": 1,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "path": "/privacy",
+    "client": 415,
+    "h1": 1,
+    "main": 1,
+    "scroll": 415,
+    "width": 430
+  },
+  {
+    "path": "/privacy",
+    "client": 753,
+    "h1": 1,
+    "main": 1,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "path": "/privacy",
+    "client": 1009,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1009,
+    "width": 1024
+  },
+  {
+    "path": "/privacy",
+    "client": 1265,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "path": "/privacy",
+    "client": 1425,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "path": "/privacy",
+    "client": 1905,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1905,
+    "width": 1920
+  },
+  {
+    "path": "/projects/dpwh/house-reading%3A2306",
+    "client": 305,
+    "h1": 1,
+    "main": 1,
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "path": "/projects/dpwh/house-reading%3A2306",
+    "client": 345,
+    "h1": 1,
+    "main": 1,
+    "scroll": 345,
+    "width": 360
+  },
+  {
+    "path": "/projects/dpwh/house-reading%3A2306",
+    "client": 360,
+    "h1": 1,
+    "main": 1,
+    "scroll": 360,
+    "width": 375
+  },
+  {
+    "path": "/projects/dpwh/house-reading%3A2306",
+    "client": 375,
+    "h1": 1,
+    "main": 1,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "path": "/projects/dpwh/house-reading%3A2306",
+    "client": 415,
+    "h1": 1,
+    "main": 1,
+    "scroll": 415,
+    "width": 430
+  },
+  {
+    "path": "/projects/dpwh/house-reading%3A2306",
+    "client": 753,
+    "h1": 1,
+    "main": 1,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "path": "/projects/dpwh/house-reading%3A2306",
+    "client": 1009,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1009,
+    "width": 1024
+  },
+  {
+    "path": "/projects/dpwh/house-reading%3A2306",
+    "client": 1265,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "path": "/projects/dpwh/house-reading%3A2306",
+    "client": 1425,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "path": "/projects/dpwh/house-reading%3A2306",
+    "client": 1905,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1905,
+    "width": 1920
+  }
+]

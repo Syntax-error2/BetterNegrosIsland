@@ -1,0 +1,18 @@
+import { Link, useParams } from 'react-router-dom';
+import { Await, Disclaimers } from '../components/Bits';
+import { PageHead } from '../components/Chrome';
+import { LOCALITIES } from '../lib/localities';
+import { usePortal } from '../lib/portal-context';
+import { count } from '../lib/format';
+import Home from './Home';
+import { useTitle } from '../lib/use-title';
+
+export default function Localities() {
+  const { slug } = useParams();
+  const lgu = LOCALITIES.find(l => l.slug === slug);
+  const { scope } = usePortal();
+  useTitle(`${lgu?.name ?? 'The six LGUs'} · BetterNegrosIsland`);
+  if (slug && !lgu) return <main id="main-content" tabIndex={-1} className="page main"><h1>Locality not found</h1><Link to="/municipalities">View the six LGUs</Link></main>;
+  if (lgu) return <Home locality={lgu.name} />;
+  return <main id="main-content" tabIndex={-1} className="page main"><PageHead eyebrow="GEOGRAPHIC COVERAGE" title="Six communities. A shared right to know."><p>One component city and five municipalities in Negros Occidental’s Fifth Congressional District. Access is open to everyone, wherever you live.</p></PageHead><div className="notice"><strong>A name match is a starting point.</strong> Counts below reflect unique source records whose titles name the locality. Office coverage alone is not assigned to any one LGU. Missing matches do not mean a locality has no projects.</div><Await state={scope} what="locality coverage">{s => <><div className="locality-grid">{LOCALITIES.map((l, i) => { const rows = s.projects.filter(p => p.reasons.some(r => r.kind === 'place' && r.label === l.name)); return <article className="locality-card" key={l.slug}><div className="locality-card-top"><span className="locality-index">0{i+1}</span><span className="label">{l.type}</span></div><h2><Link to={`/municipalities/${l.slug}`}>{l.name} <span aria-hidden="true">↗</span></Link></h2><p className="muted">{count(rows.length)} source records with locality title matches</p><p className="fine">Partial name-based coverage; not an LGU budget total.</p><Link className="text-action" to={`/municipalities/${l.slug}`}>Explore matching projects →</Link></article>; })}</div><Disclaimers items={s.disclaimers} compact /></>}</Await></main>;
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://budget-assets.bettergov.ph/hgab/2027/pdf/nep2027-hfep.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "bytes": "2659774"
+  },
+  {
+    "url": "https://budget-assets.bettergov.ph/hgab/2027/pdf/hb10858-3r-vol-ib.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "bytes": "15663076"
+  }
+]

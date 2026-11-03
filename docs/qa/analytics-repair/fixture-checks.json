@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Zero and missing values remain distinct in the table",
+    "passed": true
+  },
+  {
+    "name": "Signed domain renders two nonzero rectangles",
+    "passed": true
+  },
+  {
+    "name": "Revealing a previously hidden parent measures width and draws bars",
+    "passed": true,
+    "detail": {
+      "actualWidth": 309,
+      "bars": [
+        169,
+        70.41670227050781
+      ],
+      "width": 309
+    }
+  },
+  {
+    "name": "Unmount/remount renders without stale observer state",
+    "passed": true
+  }
+]

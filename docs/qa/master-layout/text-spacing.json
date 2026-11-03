@@ -1,0 +1,58 @@
+[
+  {
+    "client": 305,
+    "clipped": [],
+    "path": "/",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "client": 305,
+    "clipped": [],
+    "path": "/projects",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "client": 305,
+    "clipped": [],
+    "path": "/terms",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "client": 305,
+    "clipped": [],
+    "path": "/privacy",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "client": 1425,
+    "clipped": [],
+    "path": "/",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "client": 1425,
+    "clipped": [],
+    "path": "/projects",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "client": 1425,
+    "clipped": [],
+    "path": "/terms",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "client": 1425,
+    "clipped": [],
+    "path": "/privacy",
+    "scroll": 1425,
+    "width": 1440
+  }
+]

@@ -1,0 +1,194 @@
+[
+  {
+    "chart": "a",
+    "viewport": 1440,
+    "encoded": {
+      "height": 990,
+      "width": 1425
+    }
+  },
+  {
+    "chart": "b",
+    "viewport": 1440,
+    "encoded": {
+      "height": 990,
+      "width": 1425
+    }
+  },
+  {
+    "chart": "c",
+    "viewport": 1440,
+    "encoded": {
+      "height": 990,
+      "width": 1425
+    }
+  },
+  {
+    "chart": "d",
+    "viewport": 1440,
+    "encoded": {
+      "height": 990,
+      "width": 1425
+    }
+  },
+  {
+    "chart": "f",
+    "viewport": 1440,
+    "encoded": {
+      "height": 990,
+      "width": 1425
+    }
+  },
+  {
+    "chart": "e",
+    "viewport": 1440,
+    "encoded": {
+      "height": 990,
+      "width": 1425
+    }
+  },
+  {
+    "chart": "a",
+    "viewport": 1920,
+    "encoded": {
+      "height": 992,
+      "width": 1905
+    }
+  },
+  {
+    "chart": "b",
+    "viewport": 1920,
+    "encoded": {
+      "height": 992,
+      "width": 1905
+    }
+  },
+  {
+    "chart": "c",
+    "viewport": 1920,
+    "encoded": {
+      "height": 992,
+      "width": 1905
+    }
+  },
+  {
+    "chart": "d",
+    "viewport": 1920,
+    "encoded": {
+      "height": 992,
+      "width": 1905
+    }
+  },
+  {
+    "chart": "f",
+    "viewport": 1920,
+    "encoded": {
+      "height": 992,
+      "width": 1905
+    }
+  },
+  {
+    "chart": "e",
+    "viewport": 1920,
+    "encoded": {
+      "height": 992,
+      "width": 1905
+    }
+  },
+  {
+    "chart": "a",
+    "viewport": 390,
+    "encoded": {
+      "height": 962,
+      "width": 375
+    }
+  },
+  {
+    "chart": "b",
+    "viewport": 390,
+    "encoded": {
+      "height": 962,
+      "width": 375
+    }
+  },
+  {
+    "chart": "c",
+    "viewport": 390,
+    "encoded": {
+      "height": 962,
+      "width": 375
+    }
+  },
+  {
+    "chart": "d",
+    "viewport": 390,
+    "encoded": {
+      "height": 962,
+      "width": 375
+    }
+  },
+  {
+    "chart": "f",
+    "viewport": 390,
+    "encoded": {
+      "height": 962,
+      "width": 375
+    }
+  },
+  {
+    "chart": "e",
+    "viewport": 390,
+    "encoded": {
+      "height": 962,
+      "width": 375
+    }
+  },
+  {
+    "chart": "a",
+    "viewport": 768,
+    "encoded": {
+      "height": 980,
+      "width": 753
+    }
+  },
+  {
+    "chart": "b",
+    "viewport": 768,
+    "encoded": {
+      "height": 980,
+      "width": 753
+    }
+  },
+  {
+    "chart": "c",
+    "viewport": 768,
+    "encoded": {
+      "height": 980,
+      "width": 753
+    }
+  },
+  {
+    "chart": "d",
+    "viewport": 768,
+    "encoded": {
+      "height": 980,
+      "width": 753
+    }
+  },
+  {
+    "chart": "f",
+    "viewport": 768,
+    "encoded": {
+      "height": 980,
+      "width": 753
+    }
+  },
+  {
+    "chart": "e",
+    "viewport": 768,
+    "encoded": {
+      "height": 980,
+      "width": 753
+    }
+  }
+]

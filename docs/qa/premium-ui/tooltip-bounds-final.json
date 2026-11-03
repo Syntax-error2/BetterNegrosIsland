@@ -1,0 +1,152 @@
+[
+  {
+    "client": 305,
+    "tooltip": [
+      {
+        "bottom": 559.125,
+        "client": 229,
+        "left": 37,
+        "right": 268,
+        "scroll": 229,
+        "text": "FMRNEP: ₱475,000,000House: ₱695,000,000Change: ₱220,000,000 · 46.32%Same selected source-record union. Proposals, not spending. Snapshot 2026-11-02",
+        "top": 355.25
+      }
+    ],
+    "width": 320
+  },
+  {
+    "client": 345,
+    "tooltip": [
+      {
+        "bottom": 558.75,
+        "client": 269,
+        "left": 37,
+        "right": 308,
+        "scroll": 269,
+        "text": "FMRNEP: ₱475,000,000House: ₱695,000,000Change: ₱220,000,000 · 46.32%Same selected source-record union. Proposals, not spending. Snapshot 2026-11-02",
+        "top": 354.875
+      }
+    ],
+    "width": 360
+  },
+  {
+    "client": 360,
+    "tooltip": [
+      {
+        "bottom": 558.421875,
+        "client": 284,
+        "left": 37,
+        "right": 323,
+        "scroll": 284,
+        "text": "FMRNEP: ₱475,000,000House: ₱695,000,000Change: ₱220,000,000 · 46.32%Same selected source-record union. Proposals, not spending. Snapshot 2026-11-02",
+        "top": 354.546875
+      }
+    ],
+    "width": 375
+  },
+  {
+    "client": 375,
+    "tooltip": [
+      {
+        "bottom": 559.125,
+        "client": 299,
+        "left": 37,
+        "right": 338,
+        "scroll": 299,
+        "text": "FMRNEP: ₱475,000,000House: ₱695,000,000Change: ₱220,000,000 · 46.32%Same selected source-record union. Proposals, not spending. Snapshot 2026-11-02",
+        "top": 355.25
+      }
+    ],
+    "width": 390
+  },
+  {
+    "client": 415,
+    "tooltip": [
+      {
+        "bottom": 535.953125,
+        "client": 339,
+        "left": 37,
+        "right": 378,
+        "scroll": 339,
+        "text": "FMRNEP: ₱475,000,000House: ₱695,000,000Change: ₱220,000,000 · 46.32%Same selected source-record union. Proposals, not spending. Snapshot 2026-11-02",
+        "top": 355.46875
+      }
+    ],
+    "width": 430
+  },
+  {
+    "client": 753,
+    "tooltip": [
+      {
+        "bottom": 535.390625,
+        "client": 328,
+        "left": 348.875,
+        "right": 678.875,
+        "scroll": 328,
+        "text": "FMRNEP: ₱475,000,000House: ₱695,000,000Change: ₱220,000,000 · 46.32%Same selected source-record union. Proposals, not spending. Snapshot 2026-11-02",
+        "top": 354.90625
+      }
+    ],
+    "width": 768
+  },
+  {
+    "client": 1009,
+    "tooltip": [
+      {
+        "bottom": 535.390625,
+        "client": 328,
+        "left": 444.875,
+        "right": 774.875,
+        "scroll": 328,
+        "text": "FMRNEP: ₱475,000,000House: ₱695,000,000Change: ₱220,000,000 · 46.32%Same selected source-record union. Proposals, not spending. Snapshot 2026-11-02",
+        "top": 354.90625
+      }
+    ],
+    "width": 1024
+  },
+  {
+    "client": 1265,
+    "tooltip": [
+      {
+        "bottom": 535.609375,
+        "client": 328,
+        "left": 138,
+        "right": 468,
+        "scroll": 328,
+        "text": "FMRNEP: ₱475,000,000House: ₱695,000,000Change: ₱220,000,000 · 46.32%Same selected source-record union. Proposals, not spending. Snapshot 2026-11-02",
+        "top": 355.125
+      }
+    ],
+    "width": 1280
+  },
+  {
+    "client": 1425,
+    "tooltip": [
+      {
+        "bottom": 535.609375,
+        "client": 328,
+        "left": 190.5,
+        "right": 520.5,
+        "scroll": 328,
+        "text": "FMRNEP: ₱475,000,000House: ₱695,000,000Change: ₱220,000,000 · 46.32%Same selected source-record union. Proposals, not spending. Snapshot 2026-11-02",
+        "top": 355.125
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "client": 1905,
+    "tooltip": [
+      {
+        "bottom": 535.609375,
+        "client": 328,
+        "left": 430.5,
+        "right": 760.5,
+        "scroll": 328,
+        "text": "FMRNEP: ₱475,000,000House: ₱695,000,000Change: ₱220,000,000 · 46.32%Same selected source-record union. Proposals, not spending. Snapshot 2026-11-02",
+        "top": 355.125
+      }
+    ],
+    "width": 1920
+  }
+]

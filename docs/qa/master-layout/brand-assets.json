@@ -1,0 +1,36 @@
+{
+  "source": "bni-regional-wordmark.png",
+  "size": [
+    2167,
+    726
+  ],
+  "mode": "RGBA",
+  "alpha_bbox": [
+    16,
+    14,
+    2153,
+    708
+  ],
+  "corner_alpha": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "runtime_size": [
+    788,
+    264
+  ],
+  "runtime_aspect_ratio_identical": true,
+  "runtime_export_rgba_pixel_equal": true,
+  "primary_is_source_pixel_identical": false,
+  "light_variant": "SVG raster wrapper with region-limited light wordmark fill; not a vector trace",
+  "artifacts": "Original PNG retained unchanged. Proportional Lanczos runtime resampling; no tracing or generative redraw.",
+  "files": {
+    "favicon-180.png": 35646,
+    "favicon-32.png": 2384,
+    "logo-light.svg": 170382,
+    "logo-mark.webp": 286294,
+    "logo-primary.webp": 127220
+  }
+}

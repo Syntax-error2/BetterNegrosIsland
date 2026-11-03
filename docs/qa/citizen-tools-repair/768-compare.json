@@ -1,0 +1,278 @@
+{
+  "page": {
+    "brokenImages": [],
+    "clipped": [],
+    "heading": "Two records. The same questions.",
+    "kpis": [],
+    "pageWidth": 753,
+    "path": "/compare",
+    "scrollWidth": 753,
+    "width": 768
+  },
+  "controls": {
+    "guide": null,
+    "headings": [],
+    "lists": [
+      {
+        "height": 328,
+        "overflow": "auto",
+        "scrollHeight": 4352,
+        "scrollWidth": 289,
+        "titles": [
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          }
+        ],
+        "width": 289
+      },
+      {
+        "height": 328,
+        "overflow": "auto",
+        "scrollHeight": 4352,
+        "scrollWidth": 289,
+        "titles": [
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          },
+          {
+            "scroll": 233,
+            "width": 233
+          }
+        ],
+        "width": 289
+      }
+    ],
+    "toolbar": []
+  },
+  "result": "PASS"
+}

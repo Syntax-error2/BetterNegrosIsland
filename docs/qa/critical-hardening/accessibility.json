@@ -1,0 +1,3658 @@
+[
+  {
+    "path": "/analytics",
+    "width": 390,
+    "environment": {
+      "height": 1000,
+      "devicePixelRatio": 1.0000000149011612,
+      "visualViewportScale": 1
+    },
+    "version": "4.14.0",
+    "resources": [
+      {
+        "url": "http://localhost:5132/@vite/client",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/main.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/@react-refresh",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/vite/dist/client/env.mjs",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react-dom_client.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react-router-dom.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/App.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/PortalProvider.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/theme.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/app.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/district.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react_jsx-dev-runtime.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/refinement.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-400.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-500.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-600.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-700.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/regional.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/premium.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/master-layout.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/hardening.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/analytics.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react-4hkZzRew.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/rolldown-runtime-SbdDWaPq.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react-dom-CRx58tZq.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/Chrome.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/ScrollToTop.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/config.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/portal-context.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/pages/Home.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/pages/RegionalOverview.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/geography.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/LegalEntry.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/snapshot.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/portal.config.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/api/client.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/ui.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/scope.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/links.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/BrandLogo.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/KpiCard.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/format.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/SourceStatus.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/use-title.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/data/geography.json",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/legal.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/ProjectTable.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/api/types.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/Bits.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/OfficesSection.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/csv.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/comparison-display.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/DataTable.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/safe-url.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/analytics-data.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/regional-data.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/data/manifest.json",
+        "type": "fetch"
+      },
+      {
+        "url": "http://localhost:5132/brand/logo-primary.webp",
+        "type": "img"
+      },
+      {
+        "url": "http://localhost:5132/src/pages/Analytics.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/qa/AccessibilityAudit.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/brand/logo-light.svg",
+        "type": "img"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-500-normal.woff2",
+        "type": "css"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-400-normal.woff2",
+        "type": "css"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-600-normal.woff2",
+        "type": "css"
+      },
+      {
+        "url": "http://localhost:5132/data/snapshots/2026-11-02-37334582ca74/scope.json",
+        "type": "fetch"
+      },
+      {
+        "url": "http://localhost:5132/data/snapshots/2026-11-02-37334582ca74/overview.json",
+        "type": "fetch"
+      },
+      {
+        "url": "http://localhost:5132/data/snapshots/2026-11-02-37334582ca74/districts.json",
+        "type": "fetch"
+      },
+      {
+        "url": "http://localhost:5132/src/components/ChartCard.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/DataChart.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/axe-core.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/recharts.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-700-normal.woff2",
+        "type": "css"
+      },
+      {
+        "url": "http://localhost:5132/data/snapshots/2026-11-02-37334582ca74/history.json",
+        "type": "fetch"
+      },
+      {
+        "url": "http://localhost:5132/data/snapshots/2026-11-02-37334582ca74/nep.json",
+        "type": "fetch"
+      }
+    ],
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "target": [
+              "text[y=\"286\"][width=\"174\"][text-anchor=\"middle\"] > tspan[dy=\"0.71em\"][x=\"104\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "tspan[x=\"191\"][dy=\"0.71em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "tspan[x=\"278\"][dy=\"0.71em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"45.25\"] > tspan[x=\"92\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"111.75\"] > tspan[x=\"92\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"178.25\"] > tspan[x=\"92\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"244.75\"] > tspan[x=\"92\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"198\"][width=\"140\"][text-anchor=\"middle\"] > tspan[dy=\"0.71em\"][x=\"104\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "tspan[x=\"174\"][dy=\"0.71em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"198\"][x=\"244\"][width=\"140\"] > tspan[x=\"244\"][dy=\"0.71em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"34.25\"] > tspan[x=\"92\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"78.75\"] > tspan[x=\"92\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"123.25\"] > tspan[x=\"92\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"167.75\"] > tspan[x=\"92\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "tspan[x=\"248.465095\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "tspan[x=\"114.318628\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "tspan[x=\"113.865\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"184\"][width=\"170\"][text-anchor=\"middle\"] > tspan[dy=\"0.71em\"][x=\"104\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+          },
+          {
+            "target": [
+              "text[y=\"184\"][x=\"189\"][width=\"170\"] > tspan[x=\"189\"][dy=\"0.71em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"184\"][x=\"274\"][width=\"170\"] > tspan[x=\"274\"][dy=\"0.71em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"39.33333333333333\"] > tspan[dy=\"-0.14500000000000002em\"][x=\"92\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"39.33333333333333\"] > tspan[dy=\"1em\"][x=\"92\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"93.99999999999999\"] > tspan[dy=\"-0.14500000000000002em\"][x=\"92\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"93.99999999999999\"] > tspan[dy=\"1em\"][x=\"92\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"148.66666666666666\"] > tspan[x=\"92\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "tspan[x=\"255.88\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "tspan[x=\"173.26\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "tspan[x=\"134.16\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"286\"][width=\"170\"][text-anchor=\"middle\"] > tspan[dy=\"0.71em\"][x=\"104\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+          },
+          {
+            "target": [
+              "text[x=\"189\"][y=\"286\"][width=\"170\"] > tspan[x=\"189\"][dy=\"0.71em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[x=\"274\"][y=\"286\"][width=\"170\"] > tspan[x=\"274\"][dy=\"0.71em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"34.16666666666667\"] > tspan[x=\"92\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"78.5\"] > tspan[x=\"92\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"122.83333333333334\"] > tspan[x=\"92\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"167.16666666666666\"] > tspan[dy=\"-0.14500000000000002em\"][x=\"92\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"167.16666666666666\"] > tspan[dy=\"1em\"][x=\"92\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"211.5\"] > tspan[x=\"92\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"255.83333333333334\"] > tspan[dy=\"-0.14500000000000002em\"][x=\"92\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"255.83333333333334\"] > tspan[dy=\"1em\"][x=\"92\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"34.14\"] > tspan[x=\"112.11666666666667\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"78.47333333333333\"] > tspan[x=\"112.11666666666667\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "tspan[x=\"273.6166666666667\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "tspan[x=\"174.73333333333332\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "tspan[x=\"116.64999999999999\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "tspan[x=\"110.13333333333333\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+          },
+          {
+            "target": [
+              "tspan[x=\"40\"][dy=\"0.71em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "tspan[x=\"142\"][dy=\"0.71em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"374\"][x=\"244\"][width=\"204\"] > tspan[x=\"244\"][dy=\"0.71em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"34.125\"] > tspan[x=\"28\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"78.375\"] > tspan[x=\"28\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"122.625\"] > tspan[x=\"28\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"166.875\"] > tspan[x=\"28\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"211.125\"] > tspan[x=\"28\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"255.375\"] > tspan[x=\"28\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"299.625\"] > tspan[x=\"28\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"343.875\"] > tspan[x=\"28\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "tspan[x=\"249\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "tspan[x=\"228.6\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "tspan[x=\"227.9625\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "tspan[x=\"205.65\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "tspan[x=\"199.071\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "tspan[x=\"197.63382\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "tspan[x=\"186.27\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "tspan[x=\"182.1492\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "tspan[x=\"70\"][dy=\"0.71em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "tspan[x=\"107.33333333333334\"][dy=\"0.71em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "tspan[x=\"144.66666666666669\"][dy=\"0.71em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "tspan[x=\"182\"][dy=\"0.71em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "tspan[x=\"219.33333333333334\"][dy=\"0.71em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "tspan[x=\"256.6666666666667\"][dy=\"0.71em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "tspan[x=\"294\"][dy=\"0.71em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"256\"][width=\"70\"][orientation=\"left\"] > tspan[x=\"62\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"195\"] > tspan[x=\"62\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"134\"] > tspan[x=\"62\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "text[y=\"73\"] > tspan[x=\"62\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              ".recharts-cartesian-axis-tick-label.recharts-layer:nth-child(5) > text[width=\"70\"][orientation=\"left\"][x=\"62\"] > tspan[x=\"62\"][dy=\"0.355em\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+          },
+          {
+            "target": [
+              "div[aria-describedby=\"_r_p_-hint\"] > table > tbody > tr:nth-child(1) > td:nth-child(3)"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "div[aria-describedby=\"_r_p_-hint\"] > table > tbody > tr:nth-child(2) > td:nth-child(3)"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "div[aria-describedby=\"_r_p_-hint\"] > table > tbody > tr:nth-child(3) > td:nth-child(3)"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "div[aria-describedby=\"_r_p_-hint\"] > table > tbody > tr:nth-child(4) > td:nth-child(3)"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(5) > td:nth-child(3)"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(6) > td:nth-child(3)"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          }
+        ]
+      }
+    ],
+    "passes": 36
+  },
+  {
+    "path": "/",
+    "width": 390,
+    "environment": {
+      "height": 1000,
+      "devicePixelRatio": 1.0000000149011612,
+      "visualViewportScale": 1
+    },
+    "version": "4.14.0",
+    "resources": [
+      {
+        "url": "http://localhost:5132/@vite/client",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/main.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/@react-refresh",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/vite/dist/client/env.mjs",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react-dom_client.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react-router-dom.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/App.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/PortalProvider.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/theme.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/district.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/app.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react_jsx-dev-runtime.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/refinement.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-400.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-500.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-600.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-700.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/regional.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/premium.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/master-layout.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/analytics.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/hardening.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react-4hkZzRew.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/rolldown-runtime-SbdDWaPq.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react-dom-CRx58tZq.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/Chrome.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/ScrollToTop.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/config.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/portal-context.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/pages/Home.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/pages/RegionalOverview.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/geography.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/LegalEntry.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/snapshot.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/portal.config.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/api/client.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/ui.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/scope.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/links.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/BrandLogo.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/KpiCard.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/SourceStatus.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/format.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/use-title.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/data/geography.json",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/legal.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/ProjectTable.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/api/types.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/Bits.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/OfficesSection.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/csv.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/comparison-display.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/DataTable.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/safe-url.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/analytics-data.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/regional-data.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/data/manifest.json",
+        "type": "fetch"
+      },
+      {
+        "url": "http://localhost:5132/brand/logo-primary.webp",
+        "type": "img"
+      },
+      {
+        "url": "http://localhost:5132/src/qa/AccessibilityAudit.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/brand/logo-light.svg",
+        "type": "img"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-400-normal.woff2",
+        "type": "css"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-500-normal.woff2",
+        "type": "css"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-600-normal.woff2",
+        "type": "css"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/axe-core.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/data/snapshots/2026-11-02-37334582ca74/overview.json",
+        "type": "fetch"
+      },
+      {
+        "url": "http://localhost:5132/data/snapshots/2026-11-02-37334582ca74/summary.json",
+        "type": "fetch"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-700-normal.woff2",
+        "type": "css"
+      }
+    ],
+    "violations": [],
+    "incomplete": [],
+    "passes": 27
+  },
+  {
+    "path": "/projects",
+    "width": 390,
+    "environment": {
+      "height": 1000,
+      "devicePixelRatio": 1.0000000149011612,
+      "visualViewportScale": 1
+    },
+    "version": "4.14.0",
+    "resources": [
+      {
+        "url": "http://localhost:5132/@vite/client",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/main.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/@react-refresh",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/vite/dist/client/env.mjs",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react-dom_client.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react-router-dom.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/App.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/theme.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/PortalProvider.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/app.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/district.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react_jsx-dev-runtime.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/refinement.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-400.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-500.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-600.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-700.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/regional.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/premium.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/master-layout.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/analytics.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/hardening.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react-4hkZzRew.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/rolldown-runtime-SbdDWaPq.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react-dom-CRx58tZq.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/Chrome.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/config.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/ScrollToTop.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/portal-context.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/pages/RegionalOverview.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/pages/Home.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/geography.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/LegalEntry.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/snapshot.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/portal.config.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/api/client.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/ui.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/scope.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/links.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/BrandLogo.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/KpiCard.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/SourceStatus.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/format.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/use-title.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/data/geography.json",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/legal.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/ProjectTable.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/api/types.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/Bits.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/csv.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/OfficesSection.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/comparison-display.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/DataTable.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/safe-url.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/analytics-data.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/regional-data.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/data/manifest.json",
+        "type": "fetch"
+      },
+      {
+        "url": "http://localhost:5132/brand/logo-primary.webp",
+        "type": "img"
+      },
+      {
+        "url": "http://localhost:5132/src/qa/AccessibilityAudit.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/brand/logo-light.svg",
+        "type": "img"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-500-normal.woff2",
+        "type": "css"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-400-normal.woff2",
+        "type": "css"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-600-normal.woff2",
+        "type": "css"
+      },
+      {
+        "url": "http://localhost:5132/data/snapshots/2026-11-02-37334582ca74/scope.json",
+        "type": "fetch"
+      },
+      {
+        "url": "http://localhost:5132/data/snapshots/2026-11-02-37334582ca74/overview.json",
+        "type": "fetch"
+      },
+      {
+        "url": "http://localhost:5132/data/snapshots/2026-11-02-37334582ca74/districts.json",
+        "type": "fetch"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/axe-core.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-700-normal.woff2",
+        "type": "css"
+      }
+    ],
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "target": [
+              "tr:nth-child(2) > .project-details-cell > .scope-evidence > .evidence-mark[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              "tr:nth-child(3) > .project-details-cell > .scope-evidence > .evidence-mark[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              "tr:nth-child(4) > .project-details-cell > .scope-evidence > .evidence-mark[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              "tr:nth-child(5) > .project-details-cell > .scope-evidence > .evidence-mark[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              "tr:nth-child(6) > .project-details-cell > .scope-evidence > .evidence-mark[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              "tr:nth-child(6) > .comparison-cell > .status-decreased.comparison-status > .status-symbol[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              "tr:nth-child(7) > .project-details-cell > .scope-evidence > .evidence-mark[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              "tr:nth-child(8) > .project-details-cell > .scope-evidence > .evidence-mark[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              "tr:nth-child(9) > .project-details-cell > .scope-evidence > .evidence-mark[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              "tr:nth-child(10) > .project-details-cell > .scope-evidence > .evidence-mark[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              "tr:nth-child(11) > .project-details-cell > .scope-evidence > .evidence-mark[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              "tr:nth-child(11) > .comparison-cell > .status-decreased.comparison-status > .status-symbol[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              "tr:nth-child(12) > .project-details-cell > .scope-evidence > .evidence-mark[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              "tr:nth-child(13) > .project-details-cell > .scope-evidence > .evidence-mark[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              "tr:nth-child(14) > .project-details-cell > .scope-evidence > .evidence-mark[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              "tr:nth-child(15) > .project-details-cell > .scope-evidence > .evidence-mark[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              "tr:nth-child(16) > .project-details-cell > .scope-evidence > .evidence-mark[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              "tr:nth-child(17) > .project-details-cell > .scope-evidence > .evidence-mark[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              "tr:nth-child(18) > .project-details-cell > .scope-evidence > .evidence-mark[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              "tr:nth-child(19) > .project-details-cell > .scope-evidence > .evidence-mark[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              "tr:nth-child(20) > .project-details-cell > .scope-evidence > .evidence-mark[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              "tr:nth-child(20) > .comparison-cell > .status-decreased.comparison-status > .status-symbol[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              "tr:nth-child(21) > .project-details-cell > .scope-evidence > .evidence-mark[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              "tr:nth-child(21) > .comparison-cell > .status-decreased.comparison-status > .status-symbol[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              "tr:nth-child(22) > .project-details-cell > .scope-evidence > .evidence-mark[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              "tr:nth-child(22) > .comparison-cell > .status-decreased.comparison-status > .status-symbol[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              "tr:nth-child(23) > .project-details-cell > .scope-evidence > .evidence-mark[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              "tr:nth-child(24) > .project-details-cell > .scope-evidence > .evidence-mark[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              "tr:nth-child(25) > .project-details-cell > .scope-evidence > .evidence-mark[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      }
+    ],
+    "passes": 33
+  },
+  {
+    "path": "/data-coverage",
+    "width": 390,
+    "environment": {
+      "height": 1000,
+      "devicePixelRatio": 1.0000000149011612,
+      "visualViewportScale": 1
+    },
+    "version": "4.14.0",
+    "resources": [
+      {
+        "url": "http://localhost:5132/@vite/client",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/main.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/@react-refresh",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react-dom_client.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react-router-dom.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/App.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/PortalProvider.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/theme.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/app.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/district.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react_jsx-dev-runtime.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/refinement.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-400.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-500.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-600.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-700.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/regional.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/premium.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/master-layout.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/analytics.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/hardening.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react-4hkZzRew.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/rolldown-runtime-SbdDWaPq.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react-dom-CRx58tZq.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/vite/dist/client/env.mjs",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/snapshot.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/portal.config.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/api/client.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/ui.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/config.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/portal-context.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/scope.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/Chrome.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/ScrollToTop.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/pages/Home.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/pages/RegionalOverview.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/geography.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/LegalEntry.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/api/types.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/links.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/BrandLogo.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/KpiCard.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/SourceStatus.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/format.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/use-title.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/data/geography.json",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/legal.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/ProjectTable.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/Bits.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/OfficesSection.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/csv.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/comparison-display.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/DataTable.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/safe-url.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/analytics-data.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/regional-data.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/data/manifest.json",
+        "type": "fetch"
+      },
+      {
+        "url": "http://localhost:5132/brand/logo-primary.webp",
+        "type": "img"
+      },
+      {
+        "url": "http://localhost:5132/src/pages/Coverage.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/qa/AccessibilityAudit.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/brand/logo-light.svg",
+        "type": "img"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-500-normal.woff2",
+        "type": "css"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-400-normal.woff2",
+        "type": "css"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-600-normal.woff2",
+        "type": "css"
+      },
+      {
+        "url": "http://localhost:5132/data/snapshots/2026-11-02-37334582ca74/overview.json",
+        "type": "fetch"
+      },
+      {
+        "url": "http://localhost:5132/data/refresh-status.json",
+        "type": "fetch"
+      },
+      {
+        "url": "http://localhost:5132/data/snapshots/2026-11-02-37334582ca74/coverage.json",
+        "type": "fetch"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/axe-core.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/brand/favicon-32.png",
+        "type": "other"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-700-normal.woff2",
+        "type": "css"
+      }
+    ],
+    "violations": [],
+    "incomplete": [],
+    "passes": 27
+  },
+  {
+    "path": "/terms",
+    "width": 390,
+    "environment": {
+      "height": 1000,
+      "devicePixelRatio": 1.0000000149011612,
+      "visualViewportScale": 1
+    },
+    "version": "4.14.0",
+    "resources": [
+      {
+        "url": "http://localhost:5132/@vite/client",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/main.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/@react-refresh",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/vite/dist/client/env.mjs",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react-dom_client.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react-router-dom.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/App.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/PortalProvider.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/theme.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/app.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/district.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react_jsx-dev-runtime.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/refinement.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-400.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-500.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-600.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-700.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/regional.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/premium.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/master-layout.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/analytics.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/hardening.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react-4hkZzRew.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/rolldown-runtime-SbdDWaPq.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react-dom-CRx58tZq.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/Chrome.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/ScrollToTop.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/config.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/portal-context.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/pages/Home.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/pages/RegionalOverview.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/geography.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/LegalEntry.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/snapshot.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/portal.config.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/api/client.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/ui.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/scope.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/links.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/BrandLogo.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/ProjectTable.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/api/types.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/Bits.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/OfficesSection.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/csv.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/format.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/use-title.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/KpiCard.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/SourceStatus.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/data/geography.json",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/legal.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/comparison-display.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/DataTable.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/safe-url.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/analytics-data.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/regional-data.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/data/manifest.json",
+        "type": "fetch"
+      },
+      {
+        "url": "http://localhost:5132/brand/logo-primary.webp",
+        "type": "img"
+      },
+      {
+        "url": "http://localhost:5132/src/pages/Legal.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/qa/AccessibilityAudit.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/brand/logo-light.svg",
+        "type": "img"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-500-normal.woff2",
+        "type": "css"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-400-normal.woff2",
+        "type": "css"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-600-normal.woff2",
+        "type": "css"
+      },
+      {
+        "url": "http://localhost:5132/data/snapshots/2026-11-02-37334582ca74/overview.json",
+        "type": "fetch"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/axe-core.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-700-normal.woff2",
+        "type": "css"
+      }
+    ],
+    "violations": [],
+    "incomplete": [],
+    "passes": 23
+  },
+  {
+    "path": "/privacy",
+    "width": 390,
+    "environment": {
+      "height": 1000,
+      "devicePixelRatio": 1.0000000149011612,
+      "visualViewportScale": 1
+    },
+    "version": "4.14.0",
+    "resources": [
+      {
+        "url": "http://localhost:5132/@vite/client",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/main.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/@react-refresh",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/vite/dist/client/env.mjs",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react-dom_client.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react-router-dom.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/App.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/PortalProvider.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/theme.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/app.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/district.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react_jsx-dev-runtime.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/refinement.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-400.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-500.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-600.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-700.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/regional.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/premium.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/master-layout.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/analytics.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/hardening.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react-4hkZzRew.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/rolldown-runtime-SbdDWaPq.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react-dom-CRx58tZq.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/Chrome.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/ScrollToTop.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/config.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/portal-context.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/pages/Home.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/pages/RegionalOverview.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/geography.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/LegalEntry.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/ui.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/snapshot.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/scope.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/portal.config.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/api/client.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/links.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/BrandLogo.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/Bits.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/ProjectTable.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/api/types.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/OfficesSection.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/csv.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/format.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/use-title.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/KpiCard.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/SourceStatus.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/data/geography.json",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/legal.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/safe-url.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/analytics-data.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/comparison-display.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/DataTable.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/regional-data.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/data/manifest.json",
+        "type": "fetch"
+      },
+      {
+        "url": "http://localhost:5132/brand/logo-primary.webp",
+        "type": "img"
+      },
+      {
+        "url": "http://localhost:5132/src/pages/Legal.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/qa/AccessibilityAudit.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/brand/logo-light.svg",
+        "type": "img"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-500-normal.woff2",
+        "type": "css"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-400-normal.woff2",
+        "type": "css"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-600-normal.woff2",
+        "type": "css"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/axe-core.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/data/snapshots/2026-11-02-37334582ca74/overview.json",
+        "type": "fetch"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-700-normal.woff2",
+        "type": "css"
+      }
+    ],
+    "violations": [],
+    "incomplete": [],
+    "passes": 25
+  },
+  {
+    "path": "/budget-history",
+    "width": 390,
+    "environment": {
+      "height": 1000,
+      "devicePixelRatio": 1.0000000149011612,
+      "visualViewportScale": 1
+    },
+    "version": "4.14.0",
+    "resources": [
+      {
+        "url": "http://localhost:5132/@vite/client",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/main.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/@react-refresh",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/vite/dist/client/env.mjs",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react-dom_client.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react-router-dom.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/App.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/PortalProvider.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/theme.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/app.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/district.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react_jsx-dev-runtime.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/refinement.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-400.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-500.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-600.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-700.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/regional.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/premium.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/master-layout.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/analytics.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/hardening.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react-4hkZzRew.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/rolldown-runtime-SbdDWaPq.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react-dom-CRx58tZq.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/Chrome.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/ScrollToTop.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/config.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/portal-context.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/pages/Home.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/pages/RegionalOverview.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/geography.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/LegalEntry.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/snapshot.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/portal.config.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/api/client.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/ui.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/scope.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/links.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/BrandLogo.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/ProjectTable.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/api/types.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/Bits.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/OfficesSection.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/csv.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/format.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/use-title.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/SourceStatus.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/KpiCard.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/data/geography.json",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/legal.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/comparison-display.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/DataTable.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/safe-url.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/analytics-data.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/regional-data.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/data/manifest.json",
+        "type": "fetch"
+      },
+      {
+        "url": "http://localhost:5132/brand/logo-primary.webp",
+        "type": "img"
+      },
+      {
+        "url": "http://localhost:5132/src/pages/Enacted.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/qa/AccessibilityAudit.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/brand/logo-light.svg",
+        "type": "img"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-500-normal.woff2",
+        "type": "css"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-400-normal.woff2",
+        "type": "css"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-600-normal.woff2",
+        "type": "css"
+      },
+      {
+        "url": "http://localhost:5132/data/snapshots/2026-11-02-37334582ca74/overview.json",
+        "type": "fetch"
+      },
+      {
+        "url": "http://localhost:5132/data/snapshots/2026-11-02-37334582ca74/districts.json",
+        "type": "fetch"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/gaa.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/axe-core.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/brand/favicon-32.png",
+        "type": "other"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-700-normal.woff2",
+        "type": "css"
+      },
+      {
+        "url": "http://localhost:5132/data/snapshots/2026-11-02-37334582ca74/history.json",
+        "type": "fetch"
+      }
+    ],
+    "violations": [],
+    "incomplete": [],
+    "passes": 32
+  },
+  {
+    "path": "/budget-history",
+    "width": 1440,
+    "environment": {
+      "height": 1000,
+      "devicePixelRatio": 1.0000000149011612,
+      "visualViewportScale": 1
+    },
+    "version": "4.14.0",
+    "resources": [
+      {
+        "url": "http://localhost:5132/@vite/client",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/main.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/@react-refresh",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/vite/dist/client/env.mjs",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react-dom_client.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react-router-dom.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/App.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/PortalProvider.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/theme.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/app.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/district.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react_jsx-dev-runtime.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/refinement.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-400.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-500.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-600.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-700.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/regional.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/premium.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/master-layout.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/analytics.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/styles/hardening.css",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react-4hkZzRew.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/rolldown-runtime-SbdDWaPq.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/react-dom-CRx58tZq.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/Chrome.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/ScrollToTop.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/config.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/portal-context.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/pages/Home.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/pages/RegionalOverview.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/geography.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/LegalEntry.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/snapshot.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/portal.config.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/api/client.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/ui.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/scope.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/links.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/BrandLogo.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/ProjectTable.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/api/types.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/Bits.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/OfficesSection.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/csv.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/format.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/use-title.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/SourceStatus.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/KpiCard.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/data/geography.json",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/legal.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/comparison-display.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/components/DataTable.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/safe-url.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/analytics-data.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/regional-data.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/data/manifest.json",
+        "type": "fetch"
+      },
+      {
+        "url": "http://localhost:5132/brand/logo-primary.webp",
+        "type": "img"
+      },
+      {
+        "url": "http://localhost:5132/src/pages/Enacted.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/src/qa/AccessibilityAudit.tsx",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/brand/logo-light.svg",
+        "type": "img"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-500-normal.woff2",
+        "type": "css"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-400-normal.woff2",
+        "type": "css"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-600-normal.woff2",
+        "type": "css"
+      },
+      {
+        "url": "http://localhost:5132/data/snapshots/2026-11-02-37334582ca74/overview.json",
+        "type": "fetch"
+      },
+      {
+        "url": "http://localhost:5132/data/snapshots/2026-11-02-37334582ca74/districts.json",
+        "type": "fetch"
+      },
+      {
+        "url": "http://localhost:5132/src/lib/gaa.ts",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/.vite/deps/axe-core.js",
+        "type": "script"
+      },
+      {
+        "url": "http://localhost:5132/brand/favicon-32.png",
+        "type": "other"
+      },
+      {
+        "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-700-normal.woff2",
+        "type": "css"
+      },
+      {
+        "url": "http://localhost:5132/data/snapshots/2026-11-02-37334582ca74/history.json",
+        "type": "fetch"
+      }
+    ],
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "target": [
+              "tr:nth-child(1) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(2) > .money-cell.history-value:nth-child(7) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(3) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(4) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(5) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(6) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(7) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(8) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(9) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(10) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(11) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(12) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(13) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(14) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(15) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(16) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(17) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(18) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(19) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(20) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(21) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(22) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(23) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(24) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(25) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(26) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(27) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(28) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(29) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(30) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(31) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(32) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(33) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(34) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(35) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(36) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(37) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(38) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(39) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(40) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(41) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(42) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(43) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(44) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(45) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(46) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(47) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(48) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(49) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(50) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(51) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(52) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(53) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(54) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(55) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(56) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(57) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(58) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(59) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(60) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(61) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(62) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(63) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(64) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(65) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(66) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(67) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(68) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(69) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(70) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(71) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(72) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(73) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(74) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(75) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(76) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(77) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(78) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(79) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(80) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(81) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(82) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(83) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(84) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(85) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(86) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(87) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(88) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(89) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(90) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(91) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(92) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(93) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(94) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(95) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(96) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(97) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(98) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(99) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "target": [
+              "tr:nth-child(100) > .money-cell.history-value:nth-child(8) > .money-value"
+            ],
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          }
+        ]
+      }
+    ],
+    "passes": 33
+  }
+]

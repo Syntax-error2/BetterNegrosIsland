@@ -1,0 +1,19 @@
+{
+  "osRequested": "false",
+  "before": {
+    "button": "0.17s, 0.17s, 0.17s, 0.17s",
+    "card": "civic-kpi-enter"
+  },
+  "after": {
+    "button": "0s",
+    "card": "none",
+    "visible": [
+      "1",
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  "nativeOsSettingChanged": false,
+  "note": "Browser preview exercises the reduced policy; native OS preference was not toggled by this test."
+}

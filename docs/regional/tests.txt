@@ -1,0 +1,41 @@
+
+> betternegrosisland@0.1.0 test
+> tsx --test tests/*.test.ts
+
+✔ missing values remain distinct from zero, and budget versions stay separate (21.4737ms)
+✔ all six comparison classifications and uncertain matches are retained (0.2865ms)
+✔ all pages are fetched and missing pages fail closed (29.4798ms)
+✔ API failures are removed from request cache and can be retried (1.2754ms)
+✔ historical pagination rejects repeated cursors instead of repeating rows (2.204ms)
+✔ historical pagination rejects incomplete final pages (1.1127ms)
+✔ overlapping office and place queries deduplicate while preserving reasons and shared-office metadata (0.8681ms)
+✔ region filtering preserves unknowns and excludes other regions without rewriting labels (1.6636ms)
+✔ CSV exports neutralize spreadsheet formulas while preserving numeric negatives and nulls (1.459ms)
+✔ unsafe document schemes are rejected (0.6381ms)
+✔ legal acknowledgment stores only a version and older versions require renewal (0.4545ms)
+✔ blocked browser storage does not throw or claim persisted acknowledgment (0.3161ms)
+✔ historical totals count positive appropriations only and do not merge budget stages (0.2734ms)
+✔ regional configuration includes all three provinces and Bacolod without auth (0.1451ms)
+✔ official accessible PSGC directory has unique codes, three provinces, 19 cities and 44 municipalities (1.3498ms)
+✔ region confirmation and province title association remain separate (5.7099ms)
+✔ locality associations use word boundaries and do not confuse Siquijor province with its namesake town (0.4314ms)
+✔ money guards reject unsafe integers and percentages preserve missing baselines (0.5961ms)
+✔ source comparison validation never silently coerces missing money (2.4825ms)
+✔ published regional shards reconcile identities, money and provenance (157.378ms)
+✔ a corrupted shard checksum fails closed (5.8089ms)
+✔ a manifest count disagreement fails closed (99.3451ms)
+✔ source cooldowns honor seconds and HTTP dates; long delays abort without early retries (0.252ms)
+✔ malformed URL fragments cannot crash project or history rendering (1.1374ms)
+✔ abandoned render requests are observed without swallowing errors from later subscribers (4.7464ms)
+✔ funding bounds reject invalid numbers and reversed ranges; zero is valid (0.442ms)
+✔ reset removes all explorer filters and retains unrelated share parameters (0.5845ms)
+✔ public errors explain recovery without leaking server messages or stacks (0.5589ms)
+✔ shared historical requests notify later subscribers without duplicate API calls (3.0177ms)
+ℹ tests 29
+ℹ suites 0
+ℹ pass 29
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 543.8572

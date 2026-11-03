@@ -1,0 +1,19 @@
+{
+  "mode": "native fullPage",
+  "finalCaptures": [
+    {
+      "width": 1440,
+      "encoded": {
+        "height": 6950,
+        "width": 1425
+      }
+    },
+    {
+      "width": 390,
+      "encoded": {
+        "height": 12462,
+        "width": 375
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "diff_check": "PASS",
+  "supplied_logo_unchanged": true,
+  "development_preview_http": 200,
+  "production_qa_markers_absent": true,
+  "protected_files": [
+    {
+      "unchanged": true,
+      "path": "C:\\Users\\daveh\\Downloads\\BetterQuintoDistrito\\public\\data\\manifest.json",
+      "sha256": "CAA1DB7843DF7E261879A560B0FC7EAD24434D59818709B1C8A763C1B08EFC87"
+    },
+    {
+      "unchanged": true,
+      "path": "C:\\Users\\daveh\\Downloads\\BetterQuintoDistrito\\LICENSE",
+      "sha256": "8A481DDE52A6B9D946E7EAF9ABED4EF03E8C0BCBD5B04C20F7CCE4182825A74D"
+    },
+    {
+      "unchanged": true,
+      "path": "public\\data\\snapshots\\2026-11-02-37334582ca74\\scope.json",
+      "sha256": "839076a55a055b08cd62de46df83036ecac87c160ca710b596f621c0ae72729a"
+    },
+    {
+      "unchanged": true,
+      "path": "dist\\data\\snapshots\\2026-11-02-37334582ca74\\scope.json",
+      "sha256": "839076a55a055b08cd62de46df83036ecac87c160ca710b596f621c0ae72729a"
+    },
+    {
+      "unchanged": true,
+      "path": "public\\data\\snapshots\\2026-11-02-37334582ca74\\summary.json",
+      "sha256": "d67be16ad6b56edd0dd66e6688e1f515aa0cb5ac11304807e751d3c10561caa4"
+    },
+    {
+      "unchanged": true,
+      "path": "dist\\data\\snapshots\\2026-11-02-37334582ca74\\summary.json",
+      "sha256": "d67be16ad6b56edd0dd66e6688e1f515aa0cb5ac11304807e751d3c10561caa4"
+    },
+    {
+      "unchanged": true,
+      "path": "public\\data\\snapshots\\2026-11-02-37334582ca74\\overview.json",
+      "sha256": "f47cc042ae08efb6883854b23b230dda25cba073765edfe7aeb84ce509b32177"
+    },
+    {
+      "unchanged": true,
+      "path": "dist\\data\\snapshots\\2026-11-02-37334582ca74\\overview.json",
+      "sha256": "f47cc042ae08efb6883854b23b230dda25cba073765edfe7aeb84ce509b32177"
+    },
+    {
+      "unchanged": true,
+      "path": "public\\data\\snapshots\\2026-11-02-37334582ca74\\nep.json",
+      "sha256": "9428a27fccd38e47ebf5d6806d0f03d5d0c9d25cbfb32f55dc8dfcd1f12c0706"
+    },
+    {
+      "unchanged": true,
+      "path": "dist\\data\\snapshots\\2026-11-02-37334582ca74\\nep.json",
+      "sha256": "9428a27fccd38e47ebf5d6806d0f03d5d0c9d25cbfb32f55dc8dfcd1f12c0706"
+    },
+    {
+      "unchanged": true,
+      "path": "public\\data\\snapshots\\2026-11-02-37334582ca74\\coverage.json",
+      "sha256": "c958c083908af808d5ea0a9971419df9bf5675c7c87bf34a7472f6d051c1453f"
+    },
+    {
+      "unchanged": true,
+      "path": "dist\\data\\snapshots\\2026-11-02-37334582ca74\\coverage.json",
+      "sha256": "c958c083908af808d5ea0a9971419df9bf5675c7c87bf34a7472f6d051c1453f"
+    },
+    {
+      "unchanged": true,
+      "path": "public\\data\\snapshots\\2026-11-02-37334582ca74\\history.json",
+      "sha256": "2a2967f7157b7ab5cb8bec3ee77afbb2e91be7e72e433fdf7466f1fec12a0408"
+    },
+    {
+      "unchanged": true,
+      "path": "dist\\data\\snapshots\\2026-11-02-37334582ca74\\history.json",
+      "sha256": "2a2967f7157b7ab5cb8bec3ee77afbb2e91be7e72e433fdf7466f1fec12a0408"
+    },
+    {
+      "unchanged": true,
+      "path": "public\\data\\snapshots\\2026-11-02-37334582ca74\\districts.json",
+      "sha256": "2a91c4669afe44fedbb7c8eb4211e50f72481a49747b090a0cf445dfc34079d7"
+    },
+    {
+      "unchanged": true,
+      "path": "dist\\data\\snapshots\\2026-11-02-37334582ca74\\districts.json",
+      "sha256": "2a91c4669afe44fedbb7c8eb4211e50f72481a49747b090a0cf445dfc34079d7"
+    }
+  ]
+}

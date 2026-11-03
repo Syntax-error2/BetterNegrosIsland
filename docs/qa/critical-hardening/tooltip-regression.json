@@ -1,0 +1,86 @@
+[
+  {
+    "contained": false,
+    "id": "chart-a",
+    "visible": false,
+    "width": 320,
+    "dismissed": true
+  },
+  {
+    "contained": true,
+    "id": "chart-b",
+    "visible": true,
+    "width": 320,
+    "dismissed": true
+  },
+  {
+    "contained": true,
+    "id": "chart-c",
+    "visible": true,
+    "width": 320,
+    "dismissed": true
+  },
+  {
+    "contained": true,
+    "id": "chart-d",
+    "visible": true,
+    "width": 320,
+    "dismissed": true
+  },
+  {
+    "contained": true,
+    "id": "chart-f",
+    "visible": true,
+    "width": 320,
+    "dismissed": true
+  },
+  {
+    "contained": true,
+    "id": "chart-e",
+    "visible": true,
+    "width": 320,
+    "dismissed": true
+  },
+  {
+    "contained": true,
+    "id": "chart-a",
+    "visible": true,
+    "width": 1440,
+    "dismissed": true
+  },
+  {
+    "contained": false,
+    "id": "chart-b",
+    "visible": false,
+    "width": 1440,
+    "dismissed": true
+  },
+  {
+    "contained": false,
+    "id": "chart-c",
+    "visible": false,
+    "width": 1440,
+    "dismissed": true
+  },
+  {
+    "contained": false,
+    "id": "chart-d",
+    "visible": false,
+    "width": 1440,
+    "dismissed": true
+  },
+  {
+    "contained": false,
+    "id": "chart-f",
+    "visible": false,
+    "width": 1440,
+    "dismissed": true
+  },
+  {
+    "contained": true,
+    "id": "chart-e",
+    "visible": true,
+    "width": 1440,
+    "dismissed": true
+  }
+]

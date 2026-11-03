@@ -1,0 +1,25 @@
+{
+  "manifest": {
+    "bytes": 2120
+  },
+  "scope": {
+    "bytes": 6388792,
+    "gzip_bytes": 162489
+  },
+  "history": {
+    "bytes": 10874443,
+    "gzip_bytes": 369469
+  },
+  "summary": {
+    "bytes": 8966,
+    "gzip_bytes": 1588
+  },
+  "coverage": {
+    "bytes": 1211023,
+    "gzip_bytes": 20072
+  },
+  "overview": {
+    "bytes": 38516,
+    "gzip_bytes": 7758
+  }
+}

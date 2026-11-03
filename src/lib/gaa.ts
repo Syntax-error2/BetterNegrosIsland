@@ -1,3 +1,5 @@
+import { snapshotJson, type Manifest } from './snapshot';
+import { csvCell } from './csv';
 /**
  * The enacted budgets (GAA FY2020–2026) for the portal's area.
  *
@@ -62,16 +64,30 @@ export function departmentShort(description: string): string {
 }
 
 const cache = new Map<string, Promise<GaaResult>>();
+const progressListeners = new Map<string, Set<(done:number,total:number)=>void>>();
+const progressValues = new Map<string, [number,number]>();
 
 /** Memoised per API host and places, so leaving and reopening the page does not search again. */
 export function loadGaa(client: Client, config: PortalConfig, onProgress?: (done: number, total: number) => void): Promise<GaaResult> {
+  if (config.id === 'betternegrosisland') return snapshotJson<Manifest>('/data/manifest.json').then(m=>snapshotJson<GaaResult>(m.history));
   const key = JSON.stringify([client.base, config.scope.places ?? [], config.scope.exclude ?? []]);
   let hit = cache.get(key);
+  if (onProgress) {
+    const listeners = progressListeners.get(key) ?? new Set();
+    listeners.add(onProgress);
+    progressListeners.set(key, listeners);
+    const last = progressValues.get(key);
+    if (last) onProgress(...last);
+  }
   if (!hit) {
-    hit = resolveGaa(client, config, onProgress);
+    hit = resolveGaa(client, config, (done,total) => {
+      progressValues.set(key,[done,total]);
+      progressListeners.get(key)?.forEach(notify => notify(done,total));
+    });
     hit.catch(() => cache.delete(key));
     cache.set(key, hit);
   }
+  if (onProgress) hit.then(() => progressListeners.get(key)?.delete(onProgress), () => progressListeners.get(key)?.delete(onProgress));
   return hit;
 }
 
@@ -94,6 +110,7 @@ export async function resolveGaa(client: Client, config: PortalConfig, onProgres
     );
     results.push(...batch);
   }
+  if (results.some(r => r.truncated)) throw new Error('Historical scope exceeds the safety limit. Narrow the search before displaying totals.');
 
   const byKey = new Map<string, GaaRow>();
   const queries: GaaQuery[] = [];
@@ -165,10 +182,6 @@ export function gaaYearTotals(rows: readonly GaaProgram[]): GaaYearTotal[] {
 
 /** Every GAA row as one CSV: a column per year, exact pesos. */
 export function gaaCsv(rows: readonly GaaRow[]): string {
-  const cell = (v: string | number) => {
-    const s = String(v);
-    return /[",\n\r]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
-  };
   const head = ['department', 'agency_id', 'name', ...GAA_YEARS.map((y) => `gaa_${y}_php`), 'names', 'family_key'];
   const lines = [head.join(',')];
   for (const r of rows) {
@@ -180,7 +193,7 @@ export function gaaCsv(rows: readonly GaaRow[]): string {
         ...GAA_YEARS.map((y) => (hasYear(r, y) ? r.years[String(y)].amount : '')),
         r.reasons.join('; '),
         r.fam_key,
-      ].map(cell).join(','),
+      ].map(csvCell).join(','),
     );
   }
   return lines.join('\r\n') + '\r\n';

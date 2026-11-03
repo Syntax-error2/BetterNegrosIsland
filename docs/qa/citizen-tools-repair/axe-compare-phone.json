@@ -1,0 +1,1013 @@
+{
+  "path": "/compare",
+  "width": 375,
+  "environment": {
+    "height": 1000,
+    "devicePixelRatio": 1.0000000149011612,
+    "visualViewportScale": 1
+  },
+  "version": "4.14.0",
+  "resources": [
+    {
+      "url": "http://localhost:5132/@vite/client",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/main.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/@react-refresh",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/.vite/deps/react.js",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/.vite/deps/react-dom_client.js",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/.vite/deps/react-router-dom.js",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/App.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/styles/theme.css",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/components/PortalProvider.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/styles/app.css",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/styles/district.css",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/.vite/deps/react_jsx-dev-runtime.js",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/styles/refinement.css",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-400.css",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-500.css",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-600.css",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/latin-700.css",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/styles/regional.css",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/styles/premium.css",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/styles/master-layout.css",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/styles/analytics.css",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/styles/hardening.css",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/styles/citizen-tools.css",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/.vite/deps/react-4hkZzRew.js",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/.vite/deps/rolldown-runtime-SbdDWaPq.js",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/.vite/deps/react-dom-CRx58tZq.js",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/components/Chrome.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/lib/portal-context.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/components/ScrollToTop.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/config.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/components/BackToTop.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/pages/Home.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/lib/geography.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/components/LegalEntry.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/pages/RegionalOverview.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/lib/snapshot.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/portal.config.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/lib/ui.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/lib/scope.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/api/client.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/vite/dist/client/env.mjs",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/components/BrandLogo.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/lib/links.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/data/geography.json",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/lib/legal.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/components/CitizenShortcuts.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/components/ResponsibleUse.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/components/KpiCard.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/components/SourceStatus.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/components/CommunitySpotlight.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/lib/format.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/lib/use-title.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/lib/community.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/api/types.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/components/ProjectTable.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/components/Bits.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/components/OfficesSection.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/lib/csv.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/components/FigureHelp.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/lib/comparison-display.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/lib/evidence.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/components/DataTable.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/lib/safe-url.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/lib/analytics-data.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/lib/regional-data.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/data/manifest.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://localhost:5132/brand/logo-primary.webp",
+      "type": "img"
+    },
+    {
+      "url": "http://localhost:5132/src/pages/CompareRecords.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/src/qa/AccessibilityAudit.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/brand/logo-light.svg",
+      "type": "img"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-500-normal.woff2",
+      "type": "css"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-400-normal.woff2",
+      "type": "css"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-600-normal.woff2",
+      "type": "css"
+    },
+    {
+      "url": "http://localhost:5132/data/snapshots/2026-11-02-37334582ca74/overview.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://localhost:5132/data/snapshots/2026-11-02-37334582ca74/scope.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/.vite/deps/axe-core.js",
+      "type": "script"
+    },
+    {
+      "url": "http://localhost:5132/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-700-normal.woff2",
+      "type": "css"
+    }
+  ],
+  "violations": [],
+  "incomplete": [
+    {
+      "id": "color-contrast",
+      "nodes": [
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(2) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(3) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(3) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(4) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(4) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(5) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(5) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(6) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(6) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(7) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(7) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(8) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(8) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(9) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(9) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(10) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(10) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(11) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(11) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(12) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(12) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(13) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(13) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(14) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(14) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(15) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(15) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(16) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(16) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(17) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(17) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(18) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(18) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(19) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(19) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(20) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(20) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(21) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(21) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(22) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(22) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(23) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(23) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(24) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(24) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(25) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(25) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(26) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(26) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(27) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(27) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(28) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(28) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(29) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(29) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(30) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose first record\"] > .record-result:nth-child(30) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(2) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(3) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(3) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(4) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(4) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(5) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(5) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(6) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(6) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(7) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(7) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(8) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(8) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(9) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(9) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(10) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(10) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(11) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(11) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(12) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(12) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(13) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(13) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(14) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(14) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(15) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(15) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(16) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(16) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(17) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(17) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(18) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(18) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(19) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(19) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(20) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(20) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(21) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(21) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(22) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(22) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(23) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(23) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(24) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(24) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(25) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(25) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(26) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(26) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(27) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(27) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(28) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(28) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(29) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(29) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(30) > span > strong"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "target": [
+            "div[aria-label=\"Choose second record\"] > .record-result:nth-child(30) > span > small"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        }
+      ]
+    }
+  ],
+  "passes": 28
+}

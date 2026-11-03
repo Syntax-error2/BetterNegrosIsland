@@ -1,0 +1,27 @@
+{
+  "measurements": [
+    {
+      "step": "before",
+      "width": 1280,
+      "height": 1000,
+      "devicePixelRatio": 1,
+      "visualViewportScale": 1
+    },
+    {
+      "step": "shortcut",
+      "width": 1280,
+      "height": 1000,
+      "devicePixelRatio": 1,
+      "visualViewportScale": 1
+    },
+    {
+      "step": "reset",
+      "width": 1280,
+      "height": 1000,
+      "devicePixelRatio": 1,
+      "visualViewportScale": 1
+    }
+  ],
+  "verifiedNativeZoom": false,
+  "note": "The selected IAB shortcut did not produce a changed device-pixel ratio or viewport. Native browser zoom remains unverified; responsive and text-spacing tests are separate evidence."
+}

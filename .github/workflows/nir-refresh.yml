@@ -1,0 +1,63 @@
+name: Prepare updated NIR snapshot
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 02:23 Philippine time. Full extraction, not a per-visitor API request.
+    - cron: '23 18 * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: nir-snapshot-refresh
+  cancel-in-progress: false
+
+jobs:
+  candidate:
+    # Opt in after the repository/operator and API fair-use arrangements are ready.
+    if: github.event_name == 'workflow_dispatch' || vars.ENABLE_NIR_REFRESH == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Verify application against its checked-in reference snapshot
+        run: npm test
+      - run: npm run lint
+      - name: Extract, reconcile and triage an isolated candidate
+        run: npm run data:refresh:candidate
+      - name: Assemble candidate in this disposable CI checkout
+        run: |
+          node --input-type=module <<'JS'
+          import fs from 'node:fs';
+          const c=JSON.parse(fs.readFileSync('release/nir-refresh/latest.json'));
+          fs.cpSync(c.directory+'/public/data','public/data',{recursive:true});
+          JS
+      - run: npm run data:validate
+      - name: Verify current-candidate integrity, cards and community summaries
+        run: npx tsx --tsconfig tsconfig.app.json --test tests/snapshot.test.ts tests/citizen-tools.test.ts tests/community.test.ts
+      - run: npm run build
+      - name: Save validated site candidate for the chosen host
+        uses: actions/upload-artifact@v7
+        with:
+          name: nir-site-candidate-${{ github.run_id }}
+          path: dist/
+          if-no-files-found: error
+          retention-days: 7
+      - name: Save refresh review report
+        uses: actions/upload-artifact@v7
+        with:
+          name: nir-refresh-report-${{ github.run_id }}
+          path: |
+            release/nir-refresh/latest.json
+            release/nir-refresh/*/candidate.json
+            release/nir-refresh/*/docs/qa/premium-ui/privacy-source-triage.json
+          if-no-files-found: error
+          retention-days: 7

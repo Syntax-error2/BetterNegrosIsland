@@ -1,0 +1,5 @@
+src\api\client.ts:115:        const res = await fetch(url, { headers: { accept: 'application/json' }, signal: AbortSignal.timeout(25000), credentials: 'omit', referrerPolicy: 'no-referrer' });
+src\components\LegalEntry.tsx:10:      return hasAcknowledgment(window.localStorage);
+src\components\LegalEntry.tsx:54:              try { saveAcknowledgment(window.localStorage); } catch { /* Memory-only entry. */ }
+src\pages\Legal.tsx:87:                localStorage.removeItem(ACK_KEY);
+src\lib\snapshot.ts:43:    p = fetch(url, { signal: AbortSignal.timeout(20000) }).then(async (r) => {

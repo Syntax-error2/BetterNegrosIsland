@@ -1,0 +1,38 @@
+{
+  "barAnimations": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+  ],
+  "cardAnimations": [
+    "none",
+    "none",
+    "none",
+    "none"
+  ],
+  "nonzeroBars": 26,
+  "osPreference": "false"
+}

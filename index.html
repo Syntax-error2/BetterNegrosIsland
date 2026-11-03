@@ -2,22 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="manifest" href="/manifest.webmanifest" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Figtree speaks (display), Inter works (body), JetBrains Mono labels. -->
-    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@600;700&family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="%PORTAL_API%" crossorigin>
+    <meta name="referrer" content="no-referrer" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/brand/favicon-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/brand/favicon-180.png" />
     <title>%PORTAL_TITLE%</title>
     <meta name="description" content="%PORTAL_DESCRIPTION%" />
-    <meta name="theme-color" content="#0b4fd9" />
+    <meta name="theme-color" content="#071d70" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="%PORTAL_NAME%" />
     <meta property="og:title" content="%PORTAL_TITLE%" />
     <meta property="og:description" content="%PORTAL_DESCRIPTION%" />
+    <meta property="og:image" content="%PORTAL_SHARE_IMAGE%" />
+    <meta property="og:image:alt" content="BetterNegrosIsland — Negros Island Region Transparency Portal" />
+    <meta name="twitter:image" content="%PORTAL_SHARE_IMAGE%" />
     %PORTAL_URL_META%
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image" />
   </head>
   <body>
     <div id="root"></div>

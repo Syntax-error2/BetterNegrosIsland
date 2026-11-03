@@ -1,0 +1,8 @@
+export const LOCALITIES = [
+  { slug: 'himamaylan', name: 'Himamaylan City', type: 'Component city' },
+  { slug: 'binalbagan', name: 'Binalbagan', type: 'Municipality' },
+  { slug: 'hinigaran', name: 'Hinigaran', type: 'Municipality' },
+  { slug: 'isabela', name: 'Isabela', type: 'Municipality' },
+  { slug: 'la-castellana', name: 'La Castellana', type: 'Municipality' },
+  { slug: 'moises-padilla', name: 'Moises Padilla', type: 'Municipality' },
+] as const;

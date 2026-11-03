@@ -1,0 +1,262 @@
+[
+  {
+    "path": "/projects",
+    "width": 1440,
+    "file": "projects-1440.jpg"
+  },
+  {
+    "path": "/projects",
+    "width": 1920,
+    "file": "projects-1920.jpg"
+  },
+  {
+    "path": "/projects",
+    "width": 390,
+    "file": "projects-390.jpg"
+  },
+  {
+    "path": "/projects",
+    "width": 768,
+    "file": "projects-768.jpg"
+  },
+  {
+    "path": "/provinces",
+    "width": 1440,
+    "file": "provinces-1440.jpg"
+  },
+  {
+    "path": "/provinces",
+    "width": 1920,
+    "file": "provinces-1920.jpg"
+  },
+  {
+    "path": "/provinces",
+    "width": 390,
+    "file": "provinces-390.jpg"
+  },
+  {
+    "path": "/provinces",
+    "width": 768,
+    "file": "provinces-768.jpg"
+  },
+  {
+    "path": "/provinces/negros-occidental",
+    "width": 1440,
+    "file": "provinces-negros-occidental-1440.jpg"
+  },
+  {
+    "path": "/provinces/negros-occidental",
+    "width": 1920,
+    "file": "provinces-negros-occidental-1920.jpg"
+  },
+  {
+    "path": "/provinces/negros-occidental",
+    "width": 390,
+    "file": "provinces-negros-occidental-390.jpg"
+  },
+  {
+    "path": "/provinces/negros-occidental",
+    "width": 768,
+    "file": "provinces-negros-occidental-768.jpg"
+  },
+  {
+    "path": "/locations/1804510000",
+    "width": 1440,
+    "file": "locations-1804510000-1440.jpg"
+  },
+  {
+    "path": "/locations/1804510000",
+    "width": 1920,
+    "file": "locations-1804510000-1920.jpg"
+  },
+  {
+    "path": "/locations/1804510000",
+    "width": 390,
+    "file": "locations-1804510000-390.jpg"
+  },
+  {
+    "path": "/locations/1804510000",
+    "width": 768,
+    "file": "locations-1804510000-768.jpg"
+  },
+  {
+    "path": "/analytics",
+    "width": 1440,
+    "file": "analytics-1440.jpg"
+  },
+  {
+    "path": "/analytics",
+    "width": 1920,
+    "file": "analytics-1920.jpg"
+  },
+  {
+    "path": "/analytics",
+    "width": 390,
+    "file": "analytics-390.jpg"
+  },
+  {
+    "path": "/analytics",
+    "width": 768,
+    "file": "analytics-768.jpg"
+  },
+  {
+    "path": "/budget-history",
+    "width": 1440,
+    "file": "budget-history-1440.jpg"
+  },
+  {
+    "path": "/budget-history",
+    "width": 1920,
+    "file": "budget-history-1920.jpg"
+  },
+  {
+    "path": "/budget-history",
+    "width": 390,
+    "file": "budget-history-390.jpg"
+  },
+  {
+    "path": "/budget-history",
+    "width": 768,
+    "file": "budget-history-768.jpg"
+  },
+  {
+    "path": "/data-coverage",
+    "width": 1440,
+    "file": "data-coverage-1440.jpg"
+  },
+  {
+    "path": "/data-coverage",
+    "width": 1920,
+    "file": "data-coverage-1920.jpg"
+  },
+  {
+    "path": "/data-coverage",
+    "width": 390,
+    "file": "data-coverage-390.jpg"
+  },
+  {
+    "path": "/data-coverage",
+    "width": 768,
+    "file": "data-coverage-768.jpg"
+  },
+  {
+    "path": "/methodology",
+    "width": 1440,
+    "file": "methodology-1440.jpg"
+  },
+  {
+    "path": "/methodology",
+    "width": 1920,
+    "file": "methodology-1920.jpg"
+  },
+  {
+    "path": "/methodology",
+    "width": 390,
+    "file": "methodology-390.jpg"
+  },
+  {
+    "path": "/methodology",
+    "width": 768,
+    "file": "methodology-768.jpg"
+  },
+  {
+    "path": "/about",
+    "width": 1440,
+    "file": "about-1440.jpg"
+  },
+  {
+    "path": "/about",
+    "width": 1920,
+    "file": "about-1920.jpg"
+  },
+  {
+    "path": "/about",
+    "width": 390,
+    "file": "about-390.jpg"
+  },
+  {
+    "path": "/about",
+    "width": 768,
+    "file": "about-768.jpg"
+  },
+  {
+    "path": "/terms",
+    "width": 1440,
+    "file": "terms-1440.jpg"
+  },
+  {
+    "path": "/terms",
+    "width": 1920,
+    "file": "terms-1920.jpg"
+  },
+  {
+    "path": "/terms",
+    "width": 390,
+    "file": "terms-390.jpg"
+  },
+  {
+    "path": "/terms",
+    "width": 768,
+    "file": "terms-768.jpg"
+  },
+  {
+    "path": "/privacy",
+    "width": 1440,
+    "file": "privacy-1440.jpg"
+  },
+  {
+    "path": "/privacy",
+    "width": 1920,
+    "file": "privacy-1920.jpg"
+  },
+  {
+    "path": "/privacy",
+    "width": 390,
+    "file": "privacy-390.jpg"
+  },
+  {
+    "path": "/privacy",
+    "width": 768,
+    "file": "privacy-768.jpg"
+  },
+  {
+    "path": "/not-a-page",
+    "width": 1440,
+    "file": "not-a-page-1440.jpg"
+  },
+  {
+    "path": "/not-a-page",
+    "width": 1920,
+    "file": "not-a-page-1920.jpg"
+  },
+  {
+    "path": "/not-a-page",
+    "width": 390,
+    "file": "not-a-page-390.jpg"
+  },
+  {
+    "path": "/not-a-page",
+    "width": 768,
+    "file": "not-a-page-768.jpg"
+  },
+  {
+    "path": "/projects/dpwh/house-reading%3A16101",
+    "width": 1440,
+    "file": "project-detail-1440.jpg"
+  },
+  {
+    "path": "/projects/dpwh/house-reading%3A16101",
+    "width": 1920,
+    "file": "project-detail-1920.jpg"
+  },
+  {
+    "path": "/projects/dpwh/house-reading%3A16101",
+    "width": 390,
+    "file": "project-detail-390.jpg"
+  },
+  {
+    "path": "/projects/dpwh/house-reading%3A16101",
+    "width": 768,
+    "file": "project-detail-768.jpg"
+  }
+]

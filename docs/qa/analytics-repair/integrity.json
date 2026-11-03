@@ -1,0 +1,55 @@
+{
+  "shards": [
+    {
+      "path": "/data/snapshots/2026-11-02-37334582ca74/scope.json",
+      "expected": "839076a55a055b08cd62de46df83036ecac87c160ca710b596f621c0ae72729a",
+      "source": "839076a55a055b08cd62de46df83036ecac87c160ca710b596f621c0ae72729a",
+      "built": "839076a55a055b08cd62de46df83036ecac87c160ca710b596f621c0ae72729a",
+      "unchanged": true
+    },
+    {
+      "path": "/data/snapshots/2026-11-02-37334582ca74/history.json",
+      "expected": "2a2967f7157b7ab5cb8bec3ee77afbb2e91be7e72e433fdf7466f1fec12a0408",
+      "source": "2a2967f7157b7ab5cb8bec3ee77afbb2e91be7e72e433fdf7466f1fec12a0408",
+      "built": "2a2967f7157b7ab5cb8bec3ee77afbb2e91be7e72e433fdf7466f1fec12a0408",
+      "unchanged": true
+    },
+    {
+      "path": "/data/snapshots/2026-11-02-37334582ca74/overview.json",
+      "expected": "f47cc042ae08efb6883854b23b230dda25cba073765edfe7aeb84ce509b32177",
+      "source": "f47cc042ae08efb6883854b23b230dda25cba073765edfe7aeb84ce509b32177",
+      "built": "f47cc042ae08efb6883854b23b230dda25cba073765edfe7aeb84ce509b32177",
+      "unchanged": true
+    },
+    {
+      "path": "/data/snapshots/2026-11-02-37334582ca74/districts.json",
+      "expected": "2a91c4669afe44fedbb7c8eb4211e50f72481a49747b090a0cf445dfc34079d7",
+      "source": "2a91c4669afe44fedbb7c8eb4211e50f72481a49747b090a0cf445dfc34079d7",
+      "built": "2a91c4669afe44fedbb7c8eb4211e50f72481a49747b090a0cf445dfc34079d7",
+      "unchanged": true
+    },
+    {
+      "path": "/data/snapshots/2026-11-02-37334582ca74/nep.json",
+      "expected": "9428a27fccd38e47ebf5d6806d0f03d5d0c9d25cbfb32f55dc8dfcd1f12c0706",
+      "source": "9428a27fccd38e47ebf5d6806d0f03d5d0c9d25cbfb32f55dc8dfcd1f12c0706",
+      "built": "9428a27fccd38e47ebf5d6806d0f03d5d0c9d25cbfb32f55dc8dfcd1f12c0706",
+      "unchanged": true
+    },
+    {
+      "path": "/data/snapshots/2026-11-02-37334582ca74/summary.json",
+      "expected": "d67be16ad6b56edd0dd66e6688e1f515aa0cb5ac11304807e751d3c10561caa4",
+      "source": "d67be16ad6b56edd0dd66e6688e1f515aa0cb5ac11304807e751d3c10561caa4",
+      "built": "d67be16ad6b56edd0dd66e6688e1f515aa0cb5ac11304807e751d3c10561caa4",
+      "unchanged": true
+    },
+    {
+      "path": "/data/snapshots/2026-11-02-37334582ca74/coverage.json",
+      "expected": "c958c083908af808d5ea0a9971419df9bf5675c7c87bf34a7472f6d051c1453f",
+      "source": "c958c083908af808d5ea0a9971419df9bf5675c7c87bf34a7472f6d051c1453f",
+      "built": "c958c083908af808d5ea0a9971419df9bf5675c7c87bf34a7472f6d051c1453f",
+      "unchanged": true
+    }
+  ],
+  "license_unchanged": true,
+  "manifest_unchanged": true
+}

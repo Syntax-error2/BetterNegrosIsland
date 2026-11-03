@@ -1,0 +1,1124 @@
+[
+  {
+    "width": 320,
+    "mobile": true,
+    "page": {
+      "brokenImages": [],
+      "clipped": [],
+      "heading": "Public budgets.Clearer decisions.",
+      "kpis": [
+        {
+          "height": 205,
+          "noteBottom": 1771.0750007629397,
+          "top": 1641.675048828125,
+          "valueClient": 235,
+          "valueWidth": 235
+        },
+        {
+          "height": 205,
+          "noteBottom": 1976.0750007629397,
+          "top": 1846.675048828125,
+          "valueClient": 231,
+          "valueWidth": 231
+        },
+        {
+          "height": 205,
+          "noteBottom": 2181.0750007629395,
+          "top": 2051.675048828125,
+          "valueClient": 231,
+          "valueWidth": 231
+        },
+        {
+          "height": 204.1999969482422,
+          "noteBottom": 2386.0750007629395,
+          "top": 2256.675048828125,
+          "valueClient": 231,
+          "valueWidth": 231
+        }
+      ],
+      "pageWidth": 305,
+      "path": "/",
+      "scrollWidth": 305,
+      "width": 320
+    },
+    "header": [
+      {
+        "clipped": false,
+        "left": 16,
+        "right": 149.3625030517578,
+        "text": ""
+      },
+      {
+        "clipped": false,
+        "left": 161.3625030517578,
+        "right": 288.8000030517578,
+        "text": "Close menu"
+      },
+      {
+        "clipped": false,
+        "left": 16,
+        "right": 146.40000915527344,
+        "text": "Overview"
+      },
+      {
+        "clipped": false,
+        "left": 158.40000915527344,
+        "right": 288.8000183105469,
+        "text": "Projects"
+      },
+      {
+        "clipped": false,
+        "left": 16,
+        "right": 146.40000915527344,
+        "text": "Places"
+      },
+      {
+        "clipped": false,
+        "left": 158.40000915527344,
+        "right": 288.8000183105469,
+        "text": "Analytics"
+      },
+      {
+        "clipped": false,
+        "left": 16,
+        "right": 146.40000915527344,
+        "text": "Budget history"
+      },
+      {
+        "clipped": false,
+        "left": 16,
+        "right": 288.8000183105469,
+        "text": "Guide & sources "
+      },
+      {
+        "clipped": false,
+        "left": 24,
+        "right": 280.8000183105469,
+        "text": "One-minute budget guide"
+      },
+      {
+        "clipped": false,
+        "left": 24,
+        "right": 280.8000183105469,
+        "text": "Compare two records"
+      },
+      {
+        "clipped": false,
+        "left": 24,
+        "right": 280.8000183105469,
+        "text": "Data coverage & updates"
+      },
+      {
+        "clipped": false,
+        "left": 24,
+        "right": 280.8000183105469,
+        "text": "Methodology & sources"
+      },
+      {
+        "clipped": false,
+        "left": 24,
+        "right": 280.8000183105469,
+        "text": "About the initiative"
+      }
+    ],
+    "result": "PASS"
+  },
+  {
+    "width": 375,
+    "mobile": true,
+    "page": {
+      "brokenImages": [],
+      "clipped": [],
+      "heading": "Public budgets.Clearer decisions.",
+      "kpis": [
+        {
+          "height": 205,
+          "noteBottom": 1657.362476348877,
+          "top": 1527.9625244140625,
+          "valueClient": 290,
+          "valueWidth": 290
+        },
+        {
+          "height": 205,
+          "noteBottom": 1862.362476348877,
+          "top": 1732.9625244140625,
+          "valueClient": 286,
+          "valueWidth": 286
+        },
+        {
+          "height": 205,
+          "noteBottom": 2067.362476348877,
+          "top": 1937.9625244140625,
+          "valueClient": 286,
+          "valueWidth": 286
+        },
+        {
+          "height": 204.1999969482422,
+          "noteBottom": 2272.3625984191895,
+          "top": 2142.962646484375,
+          "valueClient": 286,
+          "valueWidth": 286
+        }
+      ],
+      "pageWidth": 360,
+      "path": "/",
+      "scrollWidth": 360,
+      "width": 375
+    },
+    "header": [
+      {
+        "clipped": false,
+        "left": 16,
+        "right": 204.5625,
+        "text": ""
+      },
+      {
+        "clipped": false,
+        "left": 216.5625,
+        "right": 344,
+        "text": "Close menu"
+      },
+      {
+        "clipped": false,
+        "left": 16,
+        "right": 174,
+        "text": "Overview"
+      },
+      {
+        "clipped": false,
+        "left": 186,
+        "right": 344,
+        "text": "Projects"
+      },
+      {
+        "clipped": false,
+        "left": 16,
+        "right": 174,
+        "text": "Places"
+      },
+      {
+        "clipped": false,
+        "left": 186,
+        "right": 344,
+        "text": "Analytics"
+      },
+      {
+        "clipped": false,
+        "left": 16,
+        "right": 174,
+        "text": "Budget history"
+      },
+      {
+        "clipped": false,
+        "left": 16,
+        "right": 344,
+        "text": "Guide & sources "
+      },
+      {
+        "clipped": false,
+        "left": 24,
+        "right": 336,
+        "text": "One-minute budget guide"
+      },
+      {
+        "clipped": false,
+        "left": 24,
+        "right": 336,
+        "text": "Compare two records"
+      },
+      {
+        "clipped": false,
+        "left": 24,
+        "right": 336,
+        "text": "Data coverage & updates"
+      },
+      {
+        "clipped": false,
+        "left": 24,
+        "right": 336,
+        "text": "Methodology & sources"
+      },
+      {
+        "clipped": false,
+        "left": 24,
+        "right": 336,
+        "text": "About the initiative"
+      }
+    ],
+    "result": "PASS"
+  },
+  {
+    "width": 768,
+    "mobile": true,
+    "page": {
+      "brokenImages": [],
+      "clipped": [],
+      "heading": "Public budgets.Clearer decisions.",
+      "kpis": [
+        {
+          "height": 223.6000061035156,
+          "noteBottom": 1314.800075531006,
+          "top": 1166.800048828125,
+          "valueClient": 310,
+          "valueWidth": 310
+        },
+        {
+          "height": 223.6000061035156,
+          "noteBottom": 1314.800075531006,
+          "top": 1166.800048828125,
+          "valueClient": 310,
+          "valueWidth": 310
+        },
+        {
+          "height": 222.8000030517578,
+          "noteBottom": 1538.4000511169434,
+          "top": 1390.4000244140625,
+          "valueClient": 310,
+          "valueWidth": 310
+        },
+        {
+          "height": 222.8000030517578,
+          "noteBottom": 1538.4000511169434,
+          "top": 1390.4000244140625,
+          "valueClient": 310,
+          "valueWidth": 310
+        }
+      ],
+      "pageWidth": 753,
+      "path": "/",
+      "scrollWidth": 753,
+      "width": 768
+    },
+    "header": [
+      {
+        "clipped": false,
+        "left": 17.274999618530273,
+        "right": 237.27499961853027,
+        "text": ""
+      },
+      {
+        "clipped": false,
+        "left": 590.4125366210938,
+        "right": 735.5250396728516,
+        "text": "Close menu"
+      },
+      {
+        "clipped": false,
+        "left": 17.274999618530273,
+        "right": 248.6875057220459,
+        "text": "Overview"
+      },
+      {
+        "clipped": false,
+        "left": 260.6875,
+        "right": 492.1000061035156,
+        "text": "Projects"
+      },
+      {
+        "clipped": false,
+        "left": 504.1000061035156,
+        "right": 735.5250091552734,
+        "text": "Places"
+      },
+      {
+        "clipped": false,
+        "left": 17.274999618530273,
+        "right": 248.6875057220459,
+        "text": "Analytics"
+      },
+      {
+        "clipped": false,
+        "left": 260.6875,
+        "right": 492.1000061035156,
+        "text": "Budget history"
+      },
+      {
+        "clipped": false,
+        "left": 17.274999618530273,
+        "right": 735.5249996185303,
+        "text": "Guide & sources "
+      },
+      {
+        "clipped": false,
+        "left": 25.274999618530273,
+        "right": 727.5249996185303,
+        "text": "One-minute budget guide"
+      },
+      {
+        "clipped": false,
+        "left": 25.274999618530273,
+        "right": 727.5249996185303,
+        "text": "Compare two records"
+      },
+      {
+        "clipped": false,
+        "left": 25.274999618530273,
+        "right": 727.5249996185303,
+        "text": "Data coverage & updates"
+      },
+      {
+        "clipped": false,
+        "left": 25.274999618530273,
+        "right": 727.5249996185303,
+        "text": "Methodology & sources"
+      },
+      {
+        "clipped": false,
+        "left": 25.274999618530273,
+        "right": 727.5249996185303,
+        "text": "About the initiative"
+      },
+      {
+        "clipped": false,
+        "left": 429.6499938964844,
+        "right": 566.4124908447266,
+        "text": "Dated snapshotRetrieved 2026-11-02"
+      }
+    ],
+    "result": "PASS"
+  },
+  {
+    "width": 1119,
+    "mobile": false,
+    "page": {
+      "brokenImages": [],
+      "clipped": [],
+      "heading": "Public budgets.Clearer decisions.",
+      "kpis": [
+        {
+          "height": 223.6000061035156,
+          "noteBottom": 871.1000022888184,
+          "top": 723.1000366210938,
+          "valueClient": 477,
+          "valueWidth": 477
+        },
+        {
+          "height": 223.6000061035156,
+          "noteBottom": 871.1000022888184,
+          "top": 723.1000366210938,
+          "valueClient": 478,
+          "valueWidth": 478
+        },
+        {
+          "height": 222.8000030517578,
+          "noteBottom": 1094.699977874756,
+          "top": 946.7000122070312,
+          "valueClient": 477,
+          "valueWidth": 477
+        },
+        {
+          "height": 222.8000030517578,
+          "noteBottom": 1094.699977874756,
+          "top": 946.7000122070312,
+          "valueClient": 478,
+          "valueWidth": 478
+        }
+      ],
+      "pageWidth": 1104,
+      "path": "/",
+      "scrollWidth": 1104,
+      "width": 1119
+    },
+    "header": [
+      {
+        "clipped": false,
+        "left": 25.17500114440918,
+        "right": 235.1750011444092,
+        "text": ""
+      },
+      {
+        "clipped": false,
+        "left": 322.5,
+        "right": 407.0374984741211,
+        "text": "Overview"
+      },
+      {
+        "clipped": false,
+        "left": 411.0375061035156,
+        "right": 487.58750915527344,
+        "text": "Projects"
+      },
+      {
+        "clipped": false,
+        "left": 491.5874938964844,
+        "right": 557.1874923706055,
+        "text": "Places"
+      },
+      {
+        "clipped": false,
+        "left": 561.1875,
+        "right": 642.8875045776367,
+        "text": "Analytics"
+      },
+      {
+        "clipped": false,
+        "left": 646.8875122070312,
+        "right": 763.4250106811523,
+        "text": "Budget history"
+      },
+      {
+        "clipped": false,
+        "left": 767.4249877929688,
+        "right": 918.0624847412108,
+        "text": "Guide & sources "
+      },
+      {
+        "clipped": false,
+        "left": 654.8624877929688,
+        "right": 909.2624969482422,
+        "text": "One-minute budget guide"
+      },
+      {
+        "clipped": false,
+        "left": 654.8624877929688,
+        "right": 909.2624969482422,
+        "text": "Compare two records"
+      },
+      {
+        "clipped": false,
+        "left": 654.8624877929688,
+        "right": 909.2624969482422,
+        "text": "Data coverage & updates"
+      },
+      {
+        "clipped": false,
+        "left": 654.8624877929688,
+        "right": 909.2624969482422,
+        "text": "Methodology & sources"
+      },
+      {
+        "clipped": false,
+        "left": 654.8624877929688,
+        "right": 909.2624969482422,
+        "text": "About the initiative"
+      },
+      {
+        "clipped": false,
+        "left": 942.0625,
+        "right": 1078.8249969482422,
+        "text": "Dated snapshotRetrieved 2026-11-02"
+      }
+    ],
+    "result": "PASS"
+  },
+  {
+    "width": 1120,
+    "mobile": false,
+    "page": {
+      "brokenImages": [],
+      "clipped": [],
+      "heading": "Public budgets.Clearer decisions.",
+      "kpis": [
+        {
+          "height": 223.6000061035156,
+          "noteBottom": 866.7500267028809,
+          "top": 718.75,
+          "valueClient": 478,
+          "valueWidth": 478
+        },
+        {
+          "height": 223.6000061035156,
+          "noteBottom": 866.7500267028809,
+          "top": 718.75,
+          "valueClient": 478,
+          "valueWidth": 478
+        },
+        {
+          "height": 222.8000030517578,
+          "noteBottom": 1090.3500022888184,
+          "top": 942.3500366210938,
+          "valueClient": 478,
+          "valueWidth": 478
+        },
+        {
+          "height": 222.8000030517578,
+          "noteBottom": 1090.3500022888184,
+          "top": 942.3500366210938,
+          "valueClient": 478,
+          "valueWidth": 478
+        }
+      ],
+      "pageWidth": 1105,
+      "path": "/",
+      "scrollWidth": 1105,
+      "width": 1120
+    },
+    "header": [
+      {
+        "clipped": false,
+        "left": 25.200000762939453,
+        "right": 215.20000076293945,
+        "text": ""
+      },
+      {
+        "clipped": false,
+        "left": 438.6125183105469,
+        "right": 510.4875183105469,
+        "text": "Overview"
+      },
+      {
+        "clipped": false,
+        "left": 510.4875183105469,
+        "right": 575.0000228881836,
+        "text": "Projects"
+      },
+      {
+        "clipped": false,
+        "left": 575,
+        "right": 629.4000015258789,
+        "text": "Places"
+      },
+      {
+        "clipped": false,
+        "left": 629.4000244140625,
+        "right": 698.6625289916992,
+        "text": "Analytics"
+      },
+      {
+        "clipped": false,
+        "left": 698.6625366210938,
+        "right": 800.0875396728516,
+        "text": "Budget history"
+      },
+      {
+        "clipped": false,
+        "left": 800.0875244140625,
+        "right": 934.8375244140624,
+        "text": "Guide & sources "
+      },
+      {
+        "clipped": false,
+        "left": 671.6375122070312,
+        "right": 926.0375213623048,
+        "text": "One-minute budget guide"
+      },
+      {
+        "clipped": false,
+        "left": 671.6375122070312,
+        "right": 926.0375213623048,
+        "text": "Compare two records"
+      },
+      {
+        "clipped": false,
+        "left": 671.6375122070312,
+        "right": 926.0375213623048,
+        "text": "Data coverage & updates"
+      },
+      {
+        "clipped": false,
+        "left": 671.6375122070312,
+        "right": 926.0375213623048,
+        "text": "Methodology & sources"
+      },
+      {
+        "clipped": false,
+        "left": 671.6375122070312,
+        "right": 926.0375213623048,
+        "text": "About the initiative"
+      },
+      {
+        "clipped": false,
+        "left": 950.8375244140624,
+        "right": 1079.6000213623047,
+        "text": "Dated snapshotRetrieved 2026-11-02"
+      }
+    ],
+    "result": "PASS"
+  },
+  {
+    "width": 1280,
+    "mobile": false,
+    "page": {
+      "brokenImages": [],
+      "clipped": [],
+      "heading": "Public budgets.Clearer decisions.",
+      "kpis": [
+        {
+          "height": 224.1875,
+          "noteBottom": 862.1375389099121,
+          "top": 712.75,
+          "valueClient": 253,
+          "valueWidth": 253
+        },
+        {
+          "height": 224.1875,
+          "noteBottom": 862.1375389099121,
+          "top": 712.75,
+          "valueClient": 253,
+          "valueWidth": 253
+        },
+        {
+          "height": 224.1875,
+          "noteBottom": 862.1375389099121,
+          "top": 712.75,
+          "valueClient": 253,
+          "valueWidth": 253
+        },
+        {
+          "height": 224.1875,
+          "noteBottom": 862.1375389099121,
+          "top": 712.75,
+          "valueClient": 253,
+          "valueWidth": 253
+        }
+      ],
+      "pageWidth": 1265,
+      "path": "/",
+      "scrollWidth": 1265,
+      "width": 1280
+    },
+    "header": [
+      {
+        "clipped": false,
+        "left": 28.80000114440918,
+        "right": 218.8000011444092,
+        "text": ""
+      },
+      {
+        "clipped": false,
+        "left": 595.0125122070312,
+        "right": 666.8875122070312,
+        "text": "Overview"
+      },
+      {
+        "clipped": false,
+        "left": 666.8875122070312,
+        "right": 731.400016784668,
+        "text": "Projects"
+      },
+      {
+        "clipped": false,
+        "left": 731.4000244140625,
+        "right": 785.8000259399414,
+        "text": "Places"
+      },
+      {
+        "clipped": false,
+        "left": 785.7999877929688,
+        "right": 855.0624923706055,
+        "text": "Analytics"
+      },
+      {
+        "clipped": false,
+        "left": 855.0625,
+        "right": 956.4875030517578,
+        "text": "Budget history"
+      },
+      {
+        "clipped": false,
+        "left": 956.4874877929688,
+        "right": 1091.2374877929688,
+        "text": "Guide & sources "
+      },
+      {
+        "clipped": false,
+        "left": 828.0375366210938,
+        "right": 1082.4375457763672,
+        "text": "One-minute budget guide"
+      },
+      {
+        "clipped": false,
+        "left": 828.0375366210938,
+        "right": 1082.4375457763672,
+        "text": "Compare two records"
+      },
+      {
+        "clipped": false,
+        "left": 828.0375366210938,
+        "right": 1082.4375457763672,
+        "text": "Data coverage & updates"
+      },
+      {
+        "clipped": false,
+        "left": 828.0375366210938,
+        "right": 1082.4375457763672,
+        "text": "Methodology & sources"
+      },
+      {
+        "clipped": false,
+        "left": 828.0375366210938,
+        "right": 1082.4375457763672,
+        "text": "About the initiative"
+      },
+      {
+        "clipped": false,
+        "left": 1107.237548828125,
+        "right": 1236.0000457763672,
+        "text": "Dated snapshotRetrieved 2026-11-02"
+      }
+    ],
+    "result": "PASS"
+  },
+  {
+    "width": 1400,
+    "mobile": false,
+    "page": {
+      "brokenImages": [],
+      "clipped": [],
+      "heading": "Public budgets.Clearer decisions.",
+      "kpis": [
+        {
+          "height": 227.3500061035156,
+          "noteBottom": 819.5500144958496,
+          "top": 667,
+          "valueClient": 281,
+          "valueWidth": 281
+        },
+        {
+          "height": 227.3500061035156,
+          "noteBottom": 819.5500144958496,
+          "top": 667,
+          "valueClient": 281,
+          "valueWidth": 281
+        },
+        {
+          "height": 227.3500061035156,
+          "noteBottom": 819.5500144958496,
+          "top": 667,
+          "valueClient": 281,
+          "valueWidth": 281
+        },
+        {
+          "height": 227.3500061035156,
+          "noteBottom": 819.5500144958496,
+          "top": 667,
+          "valueClient": 282,
+          "valueWidth": 282
+        }
+      ],
+      "pageWidth": 1385,
+      "path": "/",
+      "scrollWidth": 1385,
+      "width": 1400
+    },
+    "header": [
+      {
+        "clipped": false,
+        "left": 31.5,
+        "right": 221.5,
+        "text": ""
+      },
+      {
+        "clipped": false,
+        "left": 712.3125,
+        "right": 784.1875,
+        "text": "Overview"
+      },
+      {
+        "clipped": false,
+        "left": 784.1875,
+        "right": 848.7000045776367,
+        "text": "Projects"
+      },
+      {
+        "clipped": false,
+        "left": 848.7000122070312,
+        "right": 903.1000137329102,
+        "text": "Places"
+      },
+      {
+        "clipped": false,
+        "left": 903.1000366210938,
+        "right": 972.3625411987304,
+        "text": "Analytics"
+      },
+      {
+        "clipped": false,
+        "left": 972.3624877929688,
+        "right": 1073.7874908447266,
+        "text": "Budget history"
+      },
+      {
+        "clipped": false,
+        "left": 1073.7874755859375,
+        "right": 1208.5374755859375,
+        "text": "Guide & sources "
+      },
+      {
+        "clipped": false,
+        "left": 945.3375244140624,
+        "right": 1199.737533569336,
+        "text": "One-minute budget guide"
+      },
+      {
+        "clipped": false,
+        "left": 945.3375244140624,
+        "right": 1199.737533569336,
+        "text": "Compare two records"
+      },
+      {
+        "clipped": false,
+        "left": 945.3375244140624,
+        "right": 1199.737533569336,
+        "text": "Data coverage & updates"
+      },
+      {
+        "clipped": false,
+        "left": 945.3375244140624,
+        "right": 1199.737533569336,
+        "text": "Methodology & sources"
+      },
+      {
+        "clipped": false,
+        "left": 945.3375244140624,
+        "right": 1199.737533569336,
+        "text": "About the initiative"
+      },
+      {
+        "clipped": false,
+        "left": 1224.5374755859375,
+        "right": 1353.2999725341797,
+        "text": "Dated snapshotRetrieved 2026-11-02"
+      }
+    ],
+    "result": "PASS"
+  },
+  {
+    "width": 1440,
+    "mobile": false,
+    "page": {
+      "brokenImages": [],
+      "clipped": [],
+      "heading": "Public budgets.Clearer decisions.",
+      "kpis": [
+        {
+          "height": 228.40000915527344,
+          "noteBottom": 824.9500389099121,
+          "top": 671.3500366210938,
+          "valueClient": 291,
+          "valueWidth": 291
+        },
+        {
+          "height": 228.40000915527344,
+          "noteBottom": 824.9500389099121,
+          "top": 671.3500366210938,
+          "valueClient": 291,
+          "valueWidth": 291
+        },
+        {
+          "height": 228.40000915527344,
+          "noteBottom": 824.9500389099121,
+          "top": 671.3500366210938,
+          "valueClient": 291,
+          "valueWidth": 291
+        },
+        {
+          "height": 228.40000915527344,
+          "noteBottom": 824.9500389099121,
+          "top": 671.3500366210938,
+          "valueClient": 292,
+          "valueWidth": 292
+        }
+      ],
+      "pageWidth": 1425,
+      "path": "/",
+      "scrollWidth": 1425,
+      "width": 1440
+    },
+    "header": [
+      {
+        "clipped": false,
+        "left": 32,
+        "right": 242,
+        "text": ""
+      },
+      {
+        "clipped": false,
+        "left": 636.4750366210938,
+        "right": 721.0125350952148,
+        "text": "Overview"
+      },
+      {
+        "clipped": false,
+        "left": 725.0125122070312,
+        "right": 801.5625152587891,
+        "text": "Projects"
+      },
+      {
+        "clipped": false,
+        "left": 805.5625,
+        "right": 871.1624984741211,
+        "text": "Places"
+      },
+      {
+        "clipped": false,
+        "left": 875.1625366210938,
+        "right": 956.8625411987304,
+        "text": "Analytics"
+      },
+      {
+        "clipped": false,
+        "left": 960.8624877929688,
+        "right": 1077.3999862670898,
+        "text": "Budget history"
+      },
+      {
+        "clipped": false,
+        "left": 1081.4000244140625,
+        "right": 1232.0375213623047,
+        "text": "Guide & sources "
+      },
+      {
+        "clipped": false,
+        "left": 968.8375244140624,
+        "right": 1223.237533569336,
+        "text": "One-minute budget guide"
+      },
+      {
+        "clipped": false,
+        "left": 968.8375244140624,
+        "right": 1223.237533569336,
+        "text": "Compare two records"
+      },
+      {
+        "clipped": false,
+        "left": 968.8375244140624,
+        "right": 1223.237533569336,
+        "text": "Data coverage & updates"
+      },
+      {
+        "clipped": false,
+        "left": 968.8375244140624,
+        "right": 1223.237533569336,
+        "text": "Methodology & sources"
+      },
+      {
+        "clipped": false,
+        "left": 968.8375244140624,
+        "right": 1223.237533569336,
+        "text": "About the initiative"
+      },
+      {
+        "clipped": false,
+        "left": 1256.0374755859375,
+        "right": 1392.7999725341797,
+        "text": "Dated snapshotRetrieved 2026-11-02"
+      }
+    ],
+    "result": "PASS"
+  },
+  {
+    "width": 1920,
+    "mobile": false,
+    "page": {
+      "brokenImages": [],
+      "clipped": [],
+      "heading": "Public budgets.Clearer decisions.",
+      "kpis": [
+        {
+          "height": 233.6000061035156,
+          "noteBottom": 830.1499900817871,
+          "top": 671.3500366210938,
+          "valueClient": 331,
+          "valueWidth": 331
+        },
+        {
+          "height": 233.6000061035156,
+          "noteBottom": 830.1499900817871,
+          "top": 671.3500366210938,
+          "valueClient": 331,
+          "valueWidth": 331
+        },
+        {
+          "height": 233.6000061035156,
+          "noteBottom": 830.1499900817871,
+          "top": 671.3500366210938,
+          "valueClient": 331,
+          "valueWidth": 331
+        },
+        {
+          "height": 233.6000061035156,
+          "noteBottom": 830.1499900817871,
+          "top": 671.3500366210938,
+          "valueClient": 332,
+          "valueWidth": 332
+        }
+      ],
+      "pageWidth": 1905,
+      "path": "/",
+      "scrollWidth": 1905,
+      "width": 1920
+    },
+    "header": [
+      {
+        "clipped": false,
+        "left": 192.40000915527344,
+        "right": 402.40000915527344,
+        "text": ""
+      },
+      {
+        "clipped": false,
+        "left": 956.0750122070312,
+        "right": 1040.6125106811523,
+        "text": "Overview"
+      },
+      {
+        "clipped": false,
+        "left": 1044.612548828125,
+        "right": 1121.1625518798828,
+        "text": "Projects"
+      },
+      {
+        "clipped": false,
+        "left": 1125.1624755859375,
+        "right": 1190.7624740600586,
+        "text": "Places"
+      },
+      {
+        "clipped": false,
+        "left": 1194.7625732421875,
+        "right": 1276.4625778198242,
+        "text": "Analytics"
+      },
+      {
+        "clipped": false,
+        "left": 1280.4625244140625,
+        "right": 1397.0000228881836,
+        "text": "Budget history"
+      },
+      {
+        "clipped": false,
+        "left": 1401,
+        "right": 1551.6374969482422,
+        "text": "Guide & sources "
+      },
+      {
+        "clipped": false,
+        "left": 1288.4375,
+        "right": 1542.8375091552734,
+        "text": "One-minute budget guide"
+      },
+      {
+        "clipped": false,
+        "left": 1288.4375,
+        "right": 1542.8375091552734,
+        "text": "Compare two records"
+      },
+      {
+        "clipped": false,
+        "left": 1288.4375,
+        "right": 1542.8375091552734,
+        "text": "Data coverage & updates"
+      },
+      {
+        "clipped": false,
+        "left": 1288.4375,
+        "right": 1542.8375091552734,
+        "text": "Methodology & sources"
+      },
+      {
+        "clipped": false,
+        "left": 1288.4375,
+        "right": 1542.8375091552734,
+        "text": "About the initiative"
+      },
+      {
+        "clipped": false,
+        "left": 1575.6375732421875,
+        "right": 1712.4000701904297,
+        "text": "Dated snapshotRetrieved 2026-11-02"
+      }
+    ],
+    "result": "PASS"
+  }
+]

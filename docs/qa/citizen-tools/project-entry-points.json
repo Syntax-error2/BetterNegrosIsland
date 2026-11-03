@@ -1,0 +1,126 @@
+{
+  "sharePath": "http://localhost:5132/evidence/hfep/ib%3Ap885%3Ar51%7Cinfrastructure",
+  "comparePath": "http://localhost:5132/compare?left=hfep%3Aib%3Ap885%3Ar51%7Cinfrastructure",
+  "responsive": [
+    {
+      "brokenImages": [],
+      "clipped": [],
+      "heading": "Follow the projects. Examine the evidence.",
+      "kpis": [
+        {
+          "height": 205,
+          "noteBottom": 824.787525177002,
+          "top": 695.3875122070312,
+          "valueClient": 199,
+          "valueWidth": 199
+        },
+        {
+          "height": 224.1999969482422,
+          "noteBottom": 1048.9875259399414,
+          "top": 900.3875122070312,
+          "valueClient": 195,
+          "valueWidth": 195
+        },
+        {
+          "height": 224.1999969482422,
+          "noteBottom": 1273.1874771118164,
+          "top": 1124.5875244140625,
+          "valueClient": 195,
+          "valueWidth": 195
+        },
+        {
+          "height": 223.40000915527344,
+          "noteBottom": 1497.387550354004,
+          "top": 1348.7874755859375,
+          "valueClient": 195,
+          "valueWidth": 195
+        }
+      ],
+      "pageWidth": 305,
+      "path": "/projects?program=hfep",
+      "scrollWidth": 305,
+      "width": 320,
+      "status": "PASS"
+    },
+    {
+      "brokenImages": [],
+      "clipped": [],
+      "heading": "Follow the projects. Examine the evidence.",
+      "kpis": [
+        {
+          "height": 223.6000061035156,
+          "noteBottom": 613.5000267028809,
+          "top": 465.5,
+          "valueClient": 292,
+          "valueWidth": 292
+        },
+        {
+          "height": 223.6000061035156,
+          "noteBottom": 613.5000267028809,
+          "top": 465.5,
+          "valueClient": 292,
+          "valueWidth": 292
+        },
+        {
+          "height": 227.6000061035156,
+          "noteBottom": 841.8999900817871,
+          "top": 689.1000366210938,
+          "valueClient": 292,
+          "valueWidth": 292
+        },
+        {
+          "height": 227.6000061035156,
+          "noteBottom": 841.9000015258789,
+          "top": 689.1000366210938,
+          "valueClient": 292,
+          "valueWidth": 292
+        }
+      ],
+      "pageWidth": 753,
+      "path": "/projects?program=hfep",
+      "scrollWidth": 753,
+      "width": 768,
+      "status": "PASS"
+    },
+    {
+      "brokenImages": [],
+      "clipped": [],
+      "heading": "Follow the projects. Examine the evidence.",
+      "kpis": [
+        {
+          "height": 233.1999969482422,
+          "noteBottom": 600.7500267028809,
+          "top": 442.3500061035156,
+          "valueClient": 282,
+          "valueWidth": 282
+        },
+        {
+          "height": 233.1999969482422,
+          "noteBottom": 600.7500267028809,
+          "top": 442.3500061035156,
+          "valueClient": 282,
+          "valueWidth": 282
+        },
+        {
+          "height": 233.1999969482422,
+          "noteBottom": 600.7500267028809,
+          "top": 442.3500061035156,
+          "valueClient": 282,
+          "valueWidth": 282
+        },
+        {
+          "height": 233.1999969482422,
+          "noteBottom": 600.7500381469727,
+          "top": 442.3500061035156,
+          "valueClient": 283,
+          "valueWidth": 283
+        }
+      ],
+      "pageWidth": 1425,
+      "path": "/projects?program=hfep",
+      "scrollWidth": 1425,
+      "width": 1440,
+      "status": "PASS"
+    }
+  ]
+}

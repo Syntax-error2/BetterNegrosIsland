@@ -1,0 +1,8 @@
+{
+  "disabledBeforeCheck": true,
+  "termsBeforeEntry": true,
+  "deepLinkBeforeEntry": "http://localhost:5132/projects?province=siquijor&program=hfep",
+  "enabledAfterKeyboardCheck": true,
+  "deepLinkAfterEntry": "http://localhost:5132/projects?province=siquijor&program=hfep",
+  "returningVisit": true
+}

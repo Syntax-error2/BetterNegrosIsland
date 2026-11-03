@@ -1,0 +1,820 @@
+/* Premium civic data surfaces. These styles replace the earlier grid-table workaround. */
+:root {
+  --accent: #085b8b;
+  --accent-deep: #083d66;
+  --ink: #122b43;
+  --ink-2: #334b60;
+  --ink-3: #4e6375;
+  --focus: #0863a9;
+  --surface: #fff;
+  --rule: #d7e0e8;
+  --paper: #f5f7fa;
+}
+body {
+  font-size: 16px;
+  line-height: 1.65;
+}
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+p,
+li,
+dd {
+  overflow-wrap: break-word;
+}
+.fine,
+.small {
+  font-size: 14px;
+}
+.label,
+.eyebrow {
+  font-size: 12px;
+}
+.page-head .lede {
+  max-width: 76ch;
+}
+.main {
+  padding-block: 32px 48px;
+}
+.brand-wordmark {
+  display: block;
+  width: 320px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.masthead-title {
+  display: block;
+  min-width: 0;
+  flex: 0 1 340px;
+}
+.masthead-main {
+  gap: 28px;
+  padding-block: 16px;
+}
+.footer-brand {
+  display: block;
+}
+.footer-brand > .brand-wordmark {
+  width: 300px;
+  margin-bottom: 16px;
+}
+.footer-brand > div > strong {
+  display: none;
+}
+.footer-inner > p,
+.footer-source,
+.footer-notice {
+  font-size: 14px;
+  line-height: 1.8;
+}
+.footer-nav a {
+  min-height: 44px;
+}
+.source-status small {
+  font-size: 12px;
+}
+.subnav-inner {
+  gap: 26px;
+}
+.welcome-brand {
+  background: #edf3f5;
+  color: var(--ink);
+  border-right: 1px solid var(--rule);
+  padding: 56px 40px;
+  justify-content: center;
+  gap: 42px;
+}
+.welcome-wordmark {
+  display: block;
+  width: 100%;
+  max-width: 520px;
+  background: white;
+  border: 1px solid var(--rule);
+  padding: 26px;
+  border-radius: 6px;
+}
+.welcome-wordmark img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.welcome-brand > p {
+  color: var(--ink);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.45;
+}
+.welcome-brand > small {
+  font-size: 12px;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+  color: var(--ink-3);
+}
+.welcome-content {
+  padding: 48px clamp(30px, 5vw, 90px);
+}
+.welcome-content h1 {
+  font-size: clamp(32px, 3.5vw, 48px);
+  line-height: 1.2;
+}
+.welcome-content > p:not(.eyebrow),
+.welcome-content .small {
+  font-size: 15px;
+  line-height: 1.75;
+}
+.welcome-lede {
+  font-size: 20px;
+}
+.acknowledgment {
+  font-size: 15px;
+  line-height: 1.7;
+  gap: 12px;
+}
+.acknowledgment input {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+}
+.privacy-promise {
+  font-size: 14px !important;
+}
+.welcome-content .notice {
+  font-size: 14px;
+  line-height: 1.8;
+}
+.data-table-frame {
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  background: var(--surface);
+  margin: 16px 0 22px;
+  min-width: 0;
+  max-width: 100%;
+}
+.table-help {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--ink-3);
+  margin: 0;
+  padding: 12px 18px;
+  background: #f0f4f7;
+  border-bottom: 1px solid var(--rule);
+}
+.data-table-scroll {
+  overflow-x: auto;
+  max-width: 100%;
+  scrollbar-width: auto;
+  scrollbar-color: #7894a9 #e6edf2;
+  overscroll-behavior-x: contain;
+}
+.data-table-scroll:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+}
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.data-table th,
+.data-table td {
+  padding: 18px 16px;
+  border: 0;
+  border-bottom: 1px solid var(--rule);
+  vertical-align: top;
+  overflow-wrap: anywhere;
+}
+.data-table thead th {
+  font-size: 13px;
+  font-weight: 600;
+  text-align: left;
+  color: var(--ink-2);
+  background: #f5f8fa;
+  letter-spacing: 0;
+}
+.data-table .money-heading {
+  text-align: right;
+}
+.data-table tbody tr:last-child > * {
+  border-bottom: 0;
+}
+.data-table tbody tr:hover {
+  background: #f7fafc;
+}
+.data-table tbody tr:focus-within {
+  background: #edf5fc;
+}
+.variant-project .data-table {
+  min-width: 1220px;
+}
+.variant-history .data-table {
+  min-width: 1470px;
+}
+.project-name {
+  display: block;
+  color: var(--ink);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.6;
+  white-space: normal;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+.project-name:hover {
+  text-decoration: underline;
+  color: var(--accent-deep);
+}
+.project-metadata {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--ink-3);
+  margin-top: 8px;
+}
+.project-metadata a {
+  display: inline-flex;
+  align-self: flex-start;
+  align-items: center;
+  min-height: 28px;
+}
+.scope-evidence,
+.project-place {
+  font-size: 12px;
+  line-height: 1.65;
+  color: var(--ink-3);
+  margin: 9px 0 0;
+}
+.scope-evidence {
+  display: flex;
+  align-items: flex-start;
+  gap: 7px;
+}
+.evidence-mark {
+  color: var(--accent-deep);
+  font-weight: 700;
+}
+.inclusion-evidence {
+  margin-top: 7px;
+  font-size: 12px;
+  color: var(--ink-3);
+}
+.inclusion-evidence > summary {
+  cursor: pointer;
+  min-height: 28px;
+  display: list-item;
+  width: fit-content;
+  padding: 3px 0;
+}
+.inclusion-evidence ul {
+  padding-left: 18px;
+  margin-top: 6px;
+}
+.comparison-status {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 7px;
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #334d64;
+  background: #eef2f5;
+  border: 1px solid #d8e1e8;
+  border-radius: 5px;
+  padding: 7px 9px;
+  max-width: 100%;
+  white-space: normal;
+}
+.comparison-status small {
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+}
+.status-symbol {
+  font-size: 15px;
+  line-height: 1.3;
+  font-weight: 600;
+}
+.status-increased,
+.status-decreased {
+  color: #104c73;
+  background: #edf5fa;
+  border-color: #c7dde9;
+}
+.status-house_only,
+.status-nep_only {
+  color: #364f62;
+  background: #f2f5f7;
+}
+.status-scope_review,
+.comparison-status.is-uncertain {
+  color: #725016;
+  background: #fbf5e8;
+  border-color: #e4d5b5;
+}
+.data-table .comparison-cell,
+.data-table .source-cell {
+  vertical-align: middle;
+}
+.money-cell {
+  text-align: right !important;
+  font-variant-numeric: tabular-nums;
+}
+.money-value {
+  display: block;
+  font-size: 14px;
+  line-height: 1.65;
+  white-space: nowrap;
+  letter-spacing: 0;
+}
+.money-primary {
+  font-weight: 600;
+}
+.percent-value {
+  display: block;
+  font-size: 12px;
+  color: var(--ink-3);
+  margin-top: 6px;
+  white-space: normal;
+}
+.source-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 8px;
+}
+.source-button,
+.detail-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  font-size: 13px;
+  line-height: 1.4;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 8px 9px;
+}
+.source-button {
+  color: var(--accent-deep);
+  border: 1px solid #c2d7e6;
+  background: white;
+}
+.source-button:hover {
+  background: #eaf3fa;
+}
+.detail-action {
+  color: var(--accent-deep);
+}
+.detail-action:hover {
+  text-decoration: underline;
+}
+.source-unavailable {
+  font-size: 13px;
+  color: var(--ink-3);
+}
+.cell-label {
+  display: none;
+}
+.selected-year {
+  background: #edf5fc;
+}
+.variant-financial .data-table {
+  min-width: 520px;
+}
+.chart-panel .data-table {
+  font-size: 14px;
+  table-layout: fixed;
+}
+.chart-panel .data-table th,
+.chart-panel .data-table td {
+  padding: 12px 10px;
+}
+.chart-panel .data-table-frame {
+  margin-bottom: 0;
+}
+.chart-panel .table-help {
+  font-size: 12px;
+  padding: 10px;
+}
+.chart-panel .variant-financial .data-table {
+  min-width: 380px;
+}
+.project-grid .variant-financial .data-table {
+  min-width: 560px;
+}
+.chart-tooltip {
+  width: max-content;
+  max-width: min(330px, calc(100vw - 64px));
+  max-height: 65vh;
+  overflow: auto;
+  overflow-wrap: anywhere;
+}
+.chart-tooltip p {
+  font-size: 13px;
+}
+.chart-table > summary {
+  min-height: 44px;
+}
+.chart-panel .chart-scope {
+  font-size: 13px;
+}
+.tag,
+.project-meta {
+  font-size: 12px;
+  line-height: 1.6;
+}
+.table .tag {
+  font-size: 12px;
+}
+.toolbar .field {
+  min-width: 0;
+}
+.field .label {
+  font-size: 12px;
+}
+.field select,
+.field input {
+  min-height: 46px;
+}
+.project-actions {
+  gap: 10px;
+}
+.project-side .details dd {
+  font-size: 14px;
+}
+.legal-page {
+  max-width: 1000px;
+}
+.legal-page h2 {
+  font-size: 22px;
+  margin-top: 32px;
+}
+.legal-page p {
+  line-height: 1.85;
+}
+.privacy-inventory {
+  margin: 24px 0;
+}
+.privacy-inventory dt {
+  font-weight: 600;
+  margin-top: 16px;
+}
+.privacy-inventory dd {
+  margin: 6px 0;
+  color: var(--ink-2);
+}
+@media (max-width: 1099px) {
+  .variant-project .data-table,
+  .variant-history .data-table {
+    display: block;
+    min-width: 0;
+  }
+  .variant-project colgroup,
+  .variant-history colgroup {
+    display: none;
+  }
+  .variant-project thead,
+  .variant-history thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+  .variant-project tbody,
+  .variant-history tbody {
+    display: block;
+  }
+  .variant-project tbody tr,
+  .variant-history tbody tr {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding: 20px;
+    gap: 16px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .variant-project tbody tr:last-child,
+  .variant-history tbody tr:last-child {
+    border-bottom: 0;
+  }
+  .variant-project tbody td,
+  .variant-history tbody td {
+    display: block;
+    padding: 0;
+    border: 0;
+    min-width: 0;
+  }
+  .variant-project .project-details-cell,
+  .variant-project .comparison-cell,
+  .variant-project .difference-cell,
+  .variant-project .source-cell,
+  .variant-history .project-details-cell {
+    grid-column: 1/-1;
+  }
+  .variant-project .money-cell,
+  .variant-history .money-cell {
+    text-align: left !important;
+  }
+  .variant-project .money-value,
+  .variant-history .money-value {
+    font-size: 16px;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+  .variant-project .wide-money .money-cell {
+    grid-column: 1/-1;
+  }
+  .variant-project .cell-label,
+  .variant-history .cell-label {
+    display: block;
+    font-size: 12px;
+    color: var(--ink-3);
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .source-actions {
+    flex-direction: row;
+    align-items: center;
+  }
+  .source-actions > * {
+    flex: 1;
+  }
+  .variant-history .selected-year {
+    padding: 10px;
+    border-radius: 4px;
+  }
+  .comparison-cell > .cell-label {
+    display: none;
+  }
+  .table-help {
+    padding: 12px 16px;
+  }
+  .source-status {
+    display: none;
+  }
+  .subnav-inner {
+    gap: 20px;
+  }
+  .project-name {
+    font-size: 16px;
+  }
+  .scope-evidence,
+  .project-place,
+  .inclusion-evidence {
+    font-size: 13px;
+  }
+  .project-metadata {
+    font-size: 13px;
+  }
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+  .chart-grid {
+    grid-template-columns: 1fr;
+  }
+  .chart-box {
+    min-width: 0;
+  }
+  .gname {
+    font-size: 15px;
+  }
+}
+@media (max-width: 760px) {
+  .brand-wordmark {
+    width: 250px;
+  }
+  .masthead-title {
+    flex: 1 1 220px;
+  }
+  .masthead-main {
+    gap: 16px;
+    padding-block: 12px;
+  }
+  .masthead-logo {
+    display: none;
+  }
+  .menu-toggle {
+    font-size: 14px;
+    min-width: 58px;
+  }
+  .welcome-brand {
+    padding: 28px 20px;
+    gap: 18px;
+  }
+  .welcome-wordmark {
+    max-width: 400px;
+    padding: 12px;
+  }
+  .welcome-brand > p,
+  .welcome-brand > small {
+    display: none;
+  }
+  .welcome-content {
+    padding: 30px 20px;
+  }
+  .welcome-content h1 {
+    font-size: 32px;
+  }
+  .welcome-content .welcome-lede {
+    font-size: 19px;
+  }
+  .welcome-content > p:not(.eyebrow) {
+    font-size: 15px;
+  }
+  .welcome-content .eyebrow {
+    font-size: 12px;
+  }
+  .welcome {
+    display: block;
+  }
+  .stats dt {
+    font-size: 12px;
+  }
+  .stat-sub {
+    font-size: 13px;
+  }
+  .group-tile .label {
+    font-size: 12px;
+  }
+  .group-label {
+    font-size: 14px;
+  }
+  .filter-panel > summary {
+    font-size: 14px;
+  }
+  .main {
+    padding-top: 26px;
+  }
+  .data-table-frame {
+    border-radius: 5px;
+  }
+  .variant-project tbody tr,
+  .variant-history tbody tr {
+    padding: 18px 16px;
+    gap: 16px 12px;
+  }
+  .variant-financial .data-table {
+    font-size: 14px;
+  }
+  .chart-panel {
+    padding: 20px 16px;
+  }
+  .chart-panel h2 {
+    font-size: 20px;
+  }
+  .chart-scope {
+    font-size: 13px;
+  }
+  .chart-panel .data-table {
+    min-width: 360px;
+  }
+  .footer-inner > p {
+    font-size: 14px;
+  }
+  .footer-brand > .brand-wordmark {
+    width: 280px;
+  }
+  .project-actions > .button {
+    flex: 1;
+    min-width: 140px;
+  }
+  .region-hero h1 {
+    font-size: 36px;
+  }
+  .page-head h1,
+  .project-h {
+    font-size: 30px;
+  }
+  .ystrip {
+    gap: 8px;
+  }
+  .ycell .ysub {
+    font-size: 12px;
+  }
+  .data-table-scroll[tabindex="0"] {
+    border-bottom: 3px solid #b9cddd;
+  }
+}
+@media (max-width: 360px) {
+  .masthead-main {
+    gap: 10px;
+  }
+  .menu-toggle {
+    padding-inline: 10px;
+    min-width: 54px;
+  }
+  .welcome-content h1 {
+    font-size: 30px;
+  }
+  .money-value {
+    font-size: 15px;
+  }
+  .variant-project .money-value,
+  .variant-history .money-value {
+    font-size: 15px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation: none !important;
+    transition: none !important;
+  }
+}
+@media print {
+  .data-table-scroll {
+    overflow: visible;
+  }
+  .data-table {
+    min-width: 0 !important;
+    table-layout: auto;
+  }
+  .data-table .money-value {
+    white-space: normal;
+  }
+  .source-actions .detail-action {
+    display: none;
+  }
+  .brand-wordmark {
+    width: 260px;
+  }
+  .table-help {
+    display: none;
+  }
+}
+
+@media (max-width: 340px) {
+  .variant-project .money-cell {
+    grid-column: 1/-1;
+  }
+}
+
+.project-grid > section,
+.project-grid > aside {
+  min-width: 0;
+}
+
+@media (min-width: 1100px) {
+  .variant-project:has(.wide-money) .data-table {
+    min-width: 1720px;
+  }
+}
+
+.chart-grid {
+  align-items: start;
+}
+.ranked-chart,
+.comparison-reading {
+  grid-column: 1/-1;
+}
+
+.data-table .money-value,
+.data-table .num {
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.explorer-context {
+  margin: 18px 0 24px;
+  border: 1px solid var(--rule);
+  border-radius: 5px;
+  background: white;
+}
+.explorer-context > summary {
+  padding: 14px 18px;
+  min-height: 48px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+}
+.explorer-context > p {
+  padding: 0 18px;
+  margin-bottom: 18px;
+  font-size: 14px;
+}
+.explorer-context > .stats {
+  margin: 18px;
+  border: 0;
+  box-shadow: none;
+}
+.explorer-context > .section {
+  margin: 18px;
+  padding-top: 0;
+}
+.explorer-context > .section h2 {
+  font-size: 20px;
+}
+.explorer-context .groups {
+  margin-bottom: 0;
+}

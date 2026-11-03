@@ -1,0 +1,90 @@
+[
+  {
+    "bad": [],
+    "broken": [],
+    "client": 305,
+    "path": "welcome",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "bad": [],
+    "broken": [],
+    "client": 345,
+    "path": "welcome",
+    "scroll": 345,
+    "width": 360
+  },
+  {
+    "bad": [],
+    "broken": [],
+    "client": 360,
+    "path": "welcome",
+    "scroll": 360,
+    "width": 375
+  },
+  {
+    "bad": [],
+    "broken": [],
+    "client": 375,
+    "path": "welcome",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "bad": [],
+    "broken": [],
+    "client": 415,
+    "path": "welcome",
+    "scroll": 415,
+    "width": 430
+  },
+  {
+    "bad": [],
+    "broken": [],
+    "client": 753,
+    "path": "welcome",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "bad": [],
+    "broken": [],
+    "client": 1024,
+    "path": "welcome",
+    "scroll": 1024,
+    "width": 1024
+  },
+  {
+    "bad": [],
+    "broken": [],
+    "client": 1280,
+    "path": "welcome",
+    "scroll": 1280,
+    "width": 1280
+  },
+  {
+    "bad": [],
+    "broken": [],
+    "client": 1440,
+    "path": "welcome",
+    "scroll": 1440,
+    "width": 1440
+  },
+  {
+    "bad": [],
+    "broken": [],
+    "client": 1728,
+    "path": "welcome",
+    "scroll": 1728,
+    "width": 1728
+  },
+  {
+    "bad": [],
+    "broken": [],
+    "client": 1920,
+    "path": "welcome",
+    "scroll": 1920,
+    "width": 1920
+  }
+]

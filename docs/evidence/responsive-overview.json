@@ -1,0 +1,42 @@
+[
+  {
+    "path": "/",
+    "client": 345,
+    "h1": 1,
+    "main": 1,
+    "scroll": 345,
+    "width": 360
+  },
+  {
+    "path": "/",
+    "client": 375,
+    "h1": 1,
+    "main": 1,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "path": "/",
+    "client": 753,
+    "h1": 1,
+    "main": 1,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "path": "/",
+    "client": 1265,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "path": "/",
+    "client": 1425,
+    "h1": 1,
+    "main": 1,
+    "scroll": 1425,
+    "width": 1440
+  }
+]

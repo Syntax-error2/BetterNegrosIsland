@@ -1,0 +1,62 @@
+
+> betternegrosisland@0.1.0 test
+> tsx --tsconfig tsconfig.app.json --test tests/*.test.ts
+
+✔ analytics source union reconciles exact version amounts and all six classifications (4.1286ms)
+✔ program mapping preserves missing NIA amounts and province counts remain title associations (2.0471ms)
+✔ geographic and program filters preserve exact Siquijor hospital amounts and original identities (1.6273ms)
+✔ duplicate identities cannot inflate the analytics union; conflicting duplicates fail closed (1.5801ms)
+✔ chart normalization supplies every category key for bars and ranks without mutating source (14.6075ms)
+✔ non-numeric and non-finite chart inputs remain missing; genuine zero and negative values survive (0.3557ms)
+✔ ranking keeps zero above missing and budget percentage never uses absent or zero denominators (0.2006ms)
+✔ empty filter results preserve categories without manufacturing amounts or counts (1.0153ms)
+✔ shared chart attribution names the real provider, stage and coverage route without fake freshness (9.697ms)
+✔ community previews reconcile all 63 directory counts with the verified summary (69.3199ms)
+✔ community associations do not invent matches from shared offices or confuse same-name places (72.1066ms)
+✔ comparison percentages exclude uncertain, mismatched and absent baselines (1.6884ms)
+✔ exact financial display keeps full pesos, zero and missing differences distinct (33.5231ms)
+✔ document actions choose a safe published URL and never create a dead hash fallback (1.5985ms)
+✔ missing values remain distinct from zero, and budget versions stay separate (34.5348ms)
+✔ all six comparison classifications and uncertain matches are retained (0.373ms)
+✔ all pages are fetched and missing pages fail closed (51.9493ms)
+✔ API failures are removed from request cache and can be retried (2.0442ms)
+✔ historical pagination rejects repeated cursors instead of repeating rows (19.2627ms)
+✔ historical pagination rejects incomplete final pages (1.2483ms)
+✔ overlapping office and place queries deduplicate while preserving reasons and shared-office metadata (1.2858ms)
+✔ region filtering preserves unknowns and excludes other regions without rewriting labels (3.0162ms)
+✔ CSV exports neutralize spreadsheet formulas while preserving numeric negatives and nulls (1.2535ms)
+✔ unsafe document schemes are rejected (0.6521ms)
+✔ legal acknowledgment stores only a version and older versions require renewal (0.4201ms)
+✔ blocked browser storage does not throw or claim persisted acknowledgment (0.4223ms)
+✔ historical totals count positive appropriations only and do not merge budget stages (0.3823ms)
+✔ regional configuration includes all three provinces and Bacolod without auth (0.191ms)
+✔ privacy triage distinguishes public project coordinates and amounts from identifier contexts (3.6481ms)
+✔ project results preserve full titles, exact values, native headers and escaped source text (37.5581ms)
+✔ official accessible PSGC directory has unique codes, three provinces, 19 cities and 44 municipalities (2.7679ms)
+✔ region confirmation and province title association remain separate (10.1919ms)
+✔ locality associations use word boundaries and do not confuse Siquijor province with its namesake town (0.755ms)
+✔ money guards reject unsafe integers and percentages preserve missing baselines (0.5587ms)
+✔ source comparison validation never silently coerces missing money (2.5917ms)
+✔ source navigation trusts exact HTTPS hosts and preserves PDF fragments (2.2491ms)
+✔ every published project has a trusted citizen source, never an API default (69.9418ms)
+✔ API rejects unsupported paths, malformed IDs, invalid enums and unsafe pagination before fetch (2.8621ms)
+✔ live record IDs are percent encoded and requests omit credentials/referrers (30.0706ms)
+✔ live project responses reject coerced, unsafe and incomplete money instead of displaying it (4.996ms)
+✔ published regional shards reconcile identities, money and provenance (243.3943ms)
+✔ a corrupted shard checksum fails closed (9.2091ms)
+✔ a manifest count disagreement fails closed (166.0226ms)
+✔ source cooldowns honor seconds and HTTP dates; long delays abort without early retries (1.3035ms)
+✔ malformed URL fragments cannot crash project or history rendering (1.7407ms)
+✔ abandoned render requests are observed without swallowing errors from later subscribers (7.7668ms)
+✔ funding bounds reject invalid numbers and reversed ranges; zero is valid (0.8565ms)
+✔ reset removes all explorer filters and retains unrelated share parameters (6.4198ms)
+✔ public errors explain recovery without leaking server messages or stacks (3.5038ms)
+✔ shared historical requests notify later subscribers without duplicate API calls (5.9603ms)
+ℹ tests 50
+ℹ suites 0
+ℹ pass 50
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 878.0669

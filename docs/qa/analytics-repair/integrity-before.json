@@ -1,0 +1,12 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "CAA1DB7843DF7E261879A560B0FC7EAD24434D59818709B1C8A763C1B08EFC87",
+    "Path": "C:\\Users\\daveh\\Downloads\\BetterQuintoDistrito\\public\\data\\manifest.json"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "8A481DDE52A6B9D946E7EAF9ABED4EF03E8C0BCBD5B04C20F7CCE4182825A74D",
+    "Path": "C:\\Users\\daveh\\Downloads\\BetterQuintoDistrito\\LICENSE"
+  }
+]

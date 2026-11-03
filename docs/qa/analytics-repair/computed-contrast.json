@@ -1,0 +1,72 @@
+[
+  {
+    "background": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "foreground": "rgb(18, 43, 67)",
+    "selector": ".chart-card-heading h2",
+    "ratio": 14.459623699556781
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "fontSize": "14px",
+    "foreground": "rgb(78, 99, 117)",
+    "selector": ".chart-scope",
+    "ratio": 6.239698567550102
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "fontSize": "12px",
+    "foreground": "rgb(78, 99, 117)",
+    "selector": ".chart-keyboard-help",
+    "ratio": 6.239698567550102
+  },
+  {
+    "background": "rgb(245, 247, 250)",
+    "fontSize": "13px",
+    "foreground": "rgb(18, 43, 67)",
+    "selector": ".chart-attribution",
+    "ratio": 13.473082620835404
+  },
+  {
+    "background": "rgb(245, 247, 250)",
+    "fontSize": "13px",
+    "foreground": "rgb(8, 91, 139)",
+    "selector": ".chart-attribution a",
+    "ratio": 6.795178696371053
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "fontSize": "13px",
+    "foreground": "rgb(51, 75, 96)",
+    "selector": ".chart-series-key li",
+    "ratio": 9.066974161024323
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "fontSize": "12px",
+    "foreground": "rgb(78, 99, 117)",
+    "selector": "#chart-b svg text",
+    "ratio": 6.239698567550102
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "fontSize": "12px",
+    "foreground": "rgb(78, 99, 117)",
+    "selector": "#chart-c svg text",
+    "ratio": 6.239698567550102
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "fontSize": "12px",
+    "foreground": "rgb(78, 99, 117)",
+    "selector": ".analytics-kpis dt",
+    "ratio": 6.239698567550102
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "fontSize": "31.68px",
+    "foreground": "rgb(18, 43, 67)",
+    "selector": ".analytics-kpis .stat",
+    "ratio": 14.459623699556781
+  }
+]

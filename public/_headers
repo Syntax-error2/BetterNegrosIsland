@@ -1,0 +1,14 @@
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https: data:; connect-src 'self' https://budget.bettergov.ph; font-src 'self'; manifest-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'
+
+/data/manifest.json
+  Cache-Control: no-cache, must-revalidate
+
+/data/refresh-status.json
+  Cache-Control: no-cache, must-revalidate
+
+/data/snapshots/*
+  Cache-Control: public, max-age=31536000, immutable

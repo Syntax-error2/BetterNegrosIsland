@@ -1,0 +1,55 @@
+{
+  "page": {
+    "brokenImages": [],
+    "clipped": [],
+    "heading": "Public budgets.Clearer decisions.",
+    "kpis": [
+      {
+        "height": 223.6000518798828,
+        "noteBottom": 912.743495941162,
+        "top": 764.743408203125,
+        "valueClient": 310,
+        "valueWidth": 310
+      },
+      {
+        "height": 223.59996032714844,
+        "noteBottom": 914.9493064880372,
+        "top": 766.9492797851562,
+        "valueClient": 310,
+        "valueWidth": 310
+      },
+      {
+        "height": 222.8000030517578,
+        "noteBottom": 1141.199977874756,
+        "top": 993.2000122070312,
+        "valueClient": 310,
+        "valueWidth": 310
+      },
+      {
+        "height": 222.8000030517578,
+        "noteBottom": 1141.199977874756,
+        "top": 993.2000122070312,
+        "valueClient": 310,
+        "valueWidth": 310
+      }
+    ],
+    "pageWidth": 753,
+    "path": "/",
+    "scrollWidth": 753,
+    "width": 768
+  },
+  "controls": {
+    "guide": null,
+    "headings": [
+      "The regional budget review",
+      "The published comparison, at a glance.",
+      "Start with your community.",
+      "What would you like to know?",
+      "One region. Every community.",
+      "Read the documents.Understand the differences."
+    ],
+    "lists": [],
+    "toolbar": []
+  },
+  "result": "PASS"
+}

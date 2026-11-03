@@ -1,0 +1,176 @@
+{
+  "native_zoom_probe": {
+    "shortcut": "Control+Equal",
+    "before": {
+      "width": 320,
+      "dpr": 1
+    },
+    "after": {
+      "width": 320,
+      "dpr": 1
+    },
+    "result": "Not exposed; reset Control+0"
+  },
+  "cases": [
+    {
+      "nominal_zoom_percent": 100,
+      "test_type": "viewport reflow equivalent; not native browser zoom",
+      "clipped": 0,
+      "pageScroll": 1265,
+      "path": "/projects",
+      "width": 1280
+    },
+    {
+      "nominal_zoom_percent": 100,
+      "test_type": "viewport reflow equivalent; not native browser zoom",
+      "clipped": 0,
+      "pageScroll": 1265,
+      "path": "/__qa/table",
+      "width": 1280
+    },
+    {
+      "nominal_zoom_percent": 100,
+      "test_type": "viewport reflow equivalent; not native browser zoom",
+      "clipped": 0,
+      "pageScroll": 1265,
+      "path": "/analytics",
+      "width": 1280
+    },
+    {
+      "nominal_zoom_percent": 100,
+      "test_type": "viewport reflow equivalent; not native browser zoom",
+      "clipped": 0,
+      "pageScroll": 1265,
+      "path": "/budget-history",
+      "width": 1280
+    },
+    {
+      "nominal_zoom_percent": 125,
+      "test_type": "viewport reflow equivalent; not native browser zoom",
+      "clipped": 0,
+      "pageScroll": 1009,
+      "path": "/projects",
+      "width": 1024
+    },
+    {
+      "nominal_zoom_percent": 125,
+      "test_type": "viewport reflow equivalent; not native browser zoom",
+      "clipped": 0,
+      "pageScroll": 1009,
+      "path": "/__qa/table",
+      "width": 1024
+    },
+    {
+      "nominal_zoom_percent": 125,
+      "test_type": "viewport reflow equivalent; not native browser zoom",
+      "clipped": 0,
+      "pageScroll": 1009,
+      "path": "/analytics",
+      "width": 1024
+    },
+    {
+      "nominal_zoom_percent": 125,
+      "test_type": "viewport reflow equivalent; not native browser zoom",
+      "clipped": 0,
+      "pageScroll": 1009,
+      "path": "/budget-history",
+      "width": 1024
+    },
+    {
+      "nominal_zoom_percent": 150,
+      "test_type": "viewport reflow equivalent; not native browser zoom",
+      "clipped": 0,
+      "pageScroll": 838,
+      "path": "/projects",
+      "width": 853
+    },
+    {
+      "nominal_zoom_percent": 150,
+      "test_type": "viewport reflow equivalent; not native browser zoom",
+      "clipped": 0,
+      "pageScroll": 838,
+      "path": "/__qa/table",
+      "width": 853
+    },
+    {
+      "nominal_zoom_percent": 150,
+      "test_type": "viewport reflow equivalent; not native browser zoom",
+      "clipped": 0,
+      "pageScroll": 838,
+      "path": "/analytics",
+      "width": 853
+    },
+    {
+      "nominal_zoom_percent": 150,
+      "test_type": "viewport reflow equivalent; not native browser zoom",
+      "clipped": 0,
+      "pageScroll": 838,
+      "path": "/budget-history",
+      "width": 853
+    },
+    {
+      "nominal_zoom_percent": 200,
+      "test_type": "viewport reflow equivalent; not native browser zoom",
+      "clipped": 0,
+      "pageScroll": 625,
+      "path": "/projects",
+      "width": 640
+    },
+    {
+      "nominal_zoom_percent": 200,
+      "test_type": "viewport reflow equivalent; not native browser zoom",
+      "clipped": 0,
+      "pageScroll": 625,
+      "path": "/__qa/table",
+      "width": 640
+    },
+    {
+      "nominal_zoom_percent": 200,
+      "test_type": "viewport reflow equivalent; not native browser zoom",
+      "clipped": 0,
+      "pageScroll": 625,
+      "path": "/analytics",
+      "width": 640
+    },
+    {
+      "nominal_zoom_percent": 200,
+      "test_type": "viewport reflow equivalent; not native browser zoom",
+      "clipped": 0,
+      "pageScroll": 625,
+      "path": "/budget-history",
+      "width": 640
+    },
+    {
+      "nominal_zoom_percent": 400,
+      "test_type": "viewport reflow equivalent; not native browser zoom",
+      "clipped": 0,
+      "pageScroll": 305,
+      "path": "/projects",
+      "width": 320
+    },
+    {
+      "nominal_zoom_percent": 400,
+      "test_type": "viewport reflow equivalent; not native browser zoom",
+      "clipped": 0,
+      "pageScroll": 305,
+      "path": "/__qa/table",
+      "width": 320
+    },
+    {
+      "nominal_zoom_percent": 400,
+      "test_type": "viewport reflow equivalent; not native browser zoom",
+      "clipped": 0,
+      "pageScroll": 305,
+      "path": "/analytics",
+      "width": 320
+    },
+    {
+      "nominal_zoom_percent": 400,
+      "test_type": "viewport reflow equivalent; not native browser zoom",
+      "clipped": 0,
+      "pageScroll": 305,
+      "path": "/budget-history",
+      "width": 320
+    }
+  ]
+}

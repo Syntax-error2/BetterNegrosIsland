@@ -1,0 +1,74 @@
+[
+  {
+    "logos": [
+      {
+        "complete": true,
+        "height": 264,
+        "src": "/brand/logo-primary.webp",
+        "width": 788
+      },
+      {
+        "complete": true,
+        "height": 726,
+        "src": "/brand/logo-light.svg",
+        "width": 2167
+      }
+    ],
+    "overflow": false,
+    "width": 1440
+  },
+  {
+    "logos": [
+      {
+        "complete": true,
+        "height": 264,
+        "src": "/brand/logo-primary.webp",
+        "width": 788
+      },
+      {
+        "complete": true,
+        "height": 726,
+        "src": "/brand/logo-light.svg",
+        "width": 2167
+      }
+    ],
+    "overflow": false,
+    "width": 1920
+  },
+  {
+    "logos": [
+      {
+        "complete": true,
+        "height": 264,
+        "src": "/brand/logo-primary.webp",
+        "width": 788
+      },
+      {
+        "complete": true,
+        "height": 726,
+        "src": "/brand/logo-light.svg",
+        "width": 2167
+      }
+    ],
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "logos": [
+      {
+        "complete": true,
+        "height": 264,
+        "src": "/brand/logo-primary.webp",
+        "width": 788
+      },
+      {
+        "complete": true,
+        "height": 726,
+        "src": "/brand/logo-light.svg",
+        "width": 2167
+      }
+    ],
+    "overflow": false,
+    "width": 768
+  }
+]

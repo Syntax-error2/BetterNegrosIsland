@@ -1,0 +1,5 @@
+{
+  "alert": "Could not load the district’s published project records. We could not retrieve a complete response from the budget source. Please check your connection and try again. No estimated figures are shown.\n\nTry again",
+  "errorLogs": [],
+  "noFigures": true
+}

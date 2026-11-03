@@ -1,0 +1,29 @@
+import { defineConfig } from './src/config.ts';
+/** Live-verified identifiers; see docs/SCOPE.md. */
+export default defineConfig({
+  id: 'betterquintodistrito', kind: 'district', name: 'BetterQuintoDistrito', shortName: 'the Fifth District',
+  operator: { name: 'BetterQuintoDistrito (operator details pending publication)' },
+  logo: '/brand/betterquintodistrito.png', buildYourOwnStrip: false,
+  scope: {
+    offices: ['Negros Occidental 2nd District Engineering Office'],
+    districts: ['leg:negros-occidental:5th'],
+    places: [
+      { label: 'Himamaylan City', q: 'Himamaylan', region: 'NIR' },
+      { label: 'Binalbagan', region: 'NIR' }, { label: 'Hinigaran', region: 'NIR' },
+      { label: 'Isabela', q: 'Isabela Negros Occidental', region: 'NIR' },
+      { label: 'La Castellana', region: 'NIR' }, { label: 'Moises Padilla', region: 'NIR' },
+    ], exclude: [
+      { key: 'dpwh:house-reading:10978', reason: 'The source explicitly locates this covered court in Barangay Binalbagan, Canlaon City, Negros Oriental, not the municipality of Binalbagan, Negros Occidental.' },
+      { key: 'dpwh:house-reading:10981', reason: 'The source explicitly locates this covered court in Barangay Binalbagan, Canlaon City, Negros Oriental, not the municipality of Binalbagan, Negros Occidental.' },
+      { key: 'dpwh:house-reading:6465', reason: 'The source explicitly locates this bridge in Barangay Binalbagan, Canlaon City, Negros Oriental, not the municipality of Binalbagan, Negros Occidental.' },
+      {"key":"gaa:18-001|construction of road aquino  quezon boundary connecting jct vallehermosocanlaon cityla castellana road sta 01935  sta 0526 sta 0820  sta 1118 canlaon city negros oriental","reason":"The published title explicitly locates this project in Canlaon City or Vallehermoso, Negros Oriental; the district locality appears only as a namesake or connecting road name."},
+      {"key":"gaa:18-001|construction of road barangay budlasan  trinidad connecting jct vallehermosocanlaon cityla castellana road sta 1251  sta 1701 canlaon city negros oriental","reason":"The published title explicitly locates this project in Canlaon City or Vallehermoso, Negros Oriental; the district locality appears only as a namesake or connecting road name."},
+      {"key":"gaa:18-001|construction completion of multipurpose building health center sitio palaming barangay binalbagan canlaon city negros oriental","reason":"The published title explicitly locates this project in Canlaon City or Vallehermoso, Negros Oriental; the district locality appears only as a namesake or connecting road name."},
+      {"key":"gaa:18-001|construction of road going to sanitary landfill barangay binalbagan canlaon city negros oriental","reason":"The published title explicitly locates this project in Canlaon City or Vallehermoso, Negros Oriental; the district locality appears only as a namesake or connecting road name."},
+      {"key":"gaa:18-001|construction of box culvert along vallehermoso  canlaon city  la castellana rd canlaon negros oriental","reason":"The published title explicitly locates this project in Canlaon City or Vallehermoso, Negros Oriental; the district locality appears only as a namesake or connecting road name."},
+      {"key":"gaa:18-001|brgy guba to brgy pinocauan road to ulay road connecting vallehermoso  canlaon city to la castellana road in support of cacao bamboo banana and coffee growers vallehermoso negros oriental","reason":"The published title explicitly locates this project in Canlaon City or Vallehermoso, Negros Oriental; the district locality appears only as a namesake or connecting road name."},
+      {"key":"gaa:18-001|brgy guba to brgy pinocauan road to ulay road connecting vallehermoso  canlaon city to la castellana road in support of cacao bamboo banana and coffee growers vallehermoso negros oriental package ii","reason":"The published title explicitly locates this project in Canlaon City or Vallehermoso, Negros Oriental; the district locality appears only as a namesake or connecting road name."},
+      {"key":"gaa:18-001|construction of multipurpose building covered court barangay binalbagan canlaon city negros oriental","reason":"The published title explicitly locates this project in Canlaon City or Vallehermoso, Negros Oriental; the district locality appears only as a namesake or connecting road name."},
+    ],
+  }, reporting: { enabled: false },
+});

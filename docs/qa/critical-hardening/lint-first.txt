@@ -1,0 +1,15 @@
+
+> betternegrosisland@0.1.0 lint
+> eslint .
+
+
+C:\Users\daveh\Downloads\BetterQuintoDistrito\src\api\client.ts
+  56:59   error  Unexpected control character(s) in regular expression: \x00, \x1f  no-control-regex
+  66:96   error  Unexpected control character(s) in regular expression: \x00, \x1f  no-control-regex
+  72:135  error  Unexpected control character(s) in regular expression: \x00, \x1f  no-control-regex
+
+C:\Users\daveh\Downloads\BetterQuintoDistrito\src\lib\safe-url.ts
+  11:46  error  Unexpected control character(s) in regular expression: \x00  no-control-regex
+
+✖ 4 problems (4 errors, 0 warnings)
+

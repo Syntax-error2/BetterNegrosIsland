@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Entry disabled before acknowledgment",
+    "pass": true
+  },
+  {
+    "name": "Decline stays on welcome",
+    "pass": true
+  },
+  {
+    "name": "Terms readable before entry and keyboard return to welcome",
+    "pass": true
+  },
+  {
+    "name": "Local draft acknowledgment preserves deep link",
+    "pass": true
+  },
+  {
+    "name": "Returning visitor preserves acknowledgment",
+    "pass": true
+  },
+  {
+    "name": "Mobile menu Escape closes and returns focus",
+    "pass": true
+  },
+  {
+    "name": "Isolated unreachable API returns dated project snapshot with source links and retry",
+    "pass": true
+  },
+  {
+    "name": "Filtered CSV download includes BOM, header, exact two records and provenance columns",
+    "pass": true
+  },
+  {
+    "name": "Shared Siquijor/HFEP analytics and explorer both show 2 records, NEP PHP 36m and House PHP 100m",
+    "pass": true
+  },
+  {
+    "name": "Live HFEP detail renders exact PHP 16m NEP and PHP 50m House with PDF pages",
+    "pass": true
+  },
+  {
+    "name": "Directory search isolates Bacolod by name and retains official HUC code",
+    "pass": true
+  },
+  {
+    "name": "Historical fiscal-year selector updates URL and restricts funded families",
+    "pass": true
+  },
+  {
+    "name": "Coverage show-more expands 100 reports to 200",
+    "pass": true
+  },
+  {
+    "name": "Budget-cycle search clearly states NOT GEOGRAPHICALLY ATTRIBUTABLE",
+    "pass": true
+  },
+  {
+    "name": "Chart arrow-key navigation exposes source note, PHP amounts, delta and valid percent",
+    "pass": true
+  },
+  {
+    "name": "Historical range 2024–2026 shows three exact annual values",
+    "pass": true
+  }
+]

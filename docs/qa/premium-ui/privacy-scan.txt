@@ -1,0 +1,13 @@
+
+> betternegrosisland@0.1.0 data:privacy-review
+> tsx scripts/privacy-review.ts
+
+{
+  "snapshot": "2026-11-02-37334582ca74",
+  "reviewed_at": "2026-11-02T14:34:29.172Z",
+  "comparison_records": 866,
+  "history_families": 5253,
+  "flag_count": 0,
+  "flags": [],
+  "limitations": "Pattern triage of display fields only. Not a full personal-data assessment or review of linked PDFs. Raw potentially sensitive matches are intentionally not copied to this report."
+}

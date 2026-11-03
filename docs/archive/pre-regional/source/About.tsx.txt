@@ -1,3 +1,4 @@
+import { publicError } from '../lib/ui';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import type { Disclaimer, Overview } from '../api/types';
@@ -26,7 +27,7 @@ export default function About() {
   const { scope, overview, config } = usePortal();
   useTitle(`About the data · ${shortNameOf(config)}`);
   return (
-    <main className="page main">
+    <main id="main-content" tabIndex={-1} className="page main">
       <Await state={scope} what="the portal’s queries">
         {(s) => (
           <Await state={overview} what="the data notes">
@@ -155,7 +156,7 @@ function AboutView({ scope, overview }: { scope: ScopeResult; overview: Overview
         <p>
           This portal is open source. Fork it, run <code>npm run setup</code> to pick your province, city, municipality or
           district engineering office, and deploy it to Cloudflare, Vercel or Netlify. It needs no database: the data comes
-          from the same API. <External href={SOURCE_CODE_URL}>Source code</External> · <Link to="/">Back to the projects</Link>
+          from the same API. <External href={SOURCE_CODE_URL}>Source code</External> · <Link to="/projects">Back to the projects</Link>
         </p>
       </section>
     </>
@@ -167,6 +168,7 @@ function GaaQuestions() {
   const { client, config } = usePortal();
   const places = config.scope.places ?? [];
   const [state, setState] = useState<Async<GaaResult>>({ status: 'loading' });
+  const [attempt, setAttempt] = useState(0);
   useEffect(() => {
     if (!places.length) return;
     let live = true;
@@ -177,7 +179,7 @@ function GaaQuestions() {
     return () => {
       live = false;
     };
-  }, [client, config, places.length]);
+  }, [client, config, places.length, attempt]);
 
   return (
     <section className="section" aria-labelledby="g-h">
@@ -187,7 +189,7 @@ function GaaQuestions() {
       ) : state.status === 'loading' ? (
         <p className="state" role="status"><span className="spinner" aria-hidden="true" /> Loading the searches…</p>
       ) : state.status === 'error' ? (
-        <p className="state state-error">Could not load the searches: {state.error.message}</p>
+        <div className="state state-error" role="alert"><p>{publicError(state.error)}</p><button className="button" onClick={() => {setState({status: 'loading'});setAttempt(n => n+1);}}>Try again</button></div>
       ) : (
         <>
           <div className="table queries" role="table" aria-label="Searches of the enacted budgets">

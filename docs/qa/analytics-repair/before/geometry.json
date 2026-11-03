@@ -1,0 +1,242 @@
+[
+  {
+    "charts": [
+      {
+        "bars": [
+          {
+            "height": 212.5810546875,
+            "width": 52
+          },
+          {
+            "height": 5.54833984375,
+            "width": 52
+          },
+          {
+            "height": 11.5927734375,
+            "width": 52
+          },
+          {
+            "height": 232.716796875,
+            "width": 52
+          },
+          {
+            "height": 8.1181640625,
+            "width": 52
+          },
+          {
+            "height": 8.875,
+            "width": 52.000030517578125
+          }
+        ],
+        "box": {
+          "bottom": -4297.734375,
+          "height": 300,
+          "left": 57,
+          "right": 675.5,
+          "top": -4597.734375,
+          "width": 618.5,
+          "x": 57,
+          "y": -4597.734375
+        },
+        "ticks": [],
+        "title": "A / NEP versus House bill"
+      },
+      {
+        "bars": [],
+        "box": {
+          "bottom": -4297.734375,
+          "height": 300,
+          "left": 749.5,
+          "right": 1368,
+          "top": -4597.734375,
+          "width": 618.5,
+          "x": 749.5,
+          "y": -4597.734375
+        },
+        "ticks": [],
+        "title": "B / Proposed amounts by program · HOUSE"
+      },
+      {
+        "bars": [],
+        "box": {
+          "bottom": -3752.953125,
+          "height": 300,
+          "left": 57,
+          "right": 675.5,
+          "top": -4052.953125,
+          "width": 618.5,
+          "x": 57,
+          "y": -4052.953125
+        },
+        "ticks": [],
+        "title": "C / Province title associations"
+      },
+      {
+        "bars": [],
+        "box": {
+          "bottom": -3752.953125,
+          "height": 300,
+          "left": 749.5,
+          "right": 1368,
+          "top": -4052.953125,
+          "width": 618.5,
+          "x": 749.5,
+          "y": -4052.953125
+        },
+        "ticks": [],
+        "title": "D / Document comparison classifications"
+      },
+      {
+        "bars": [],
+        "box": {
+          "bottom": -3208.171875,
+          "height": 300,
+          "left": 57,
+          "right": 1368,
+          "top": -3508.171875,
+          "width": 1311,
+          "x": 57,
+          "y": -3508.171875
+        },
+        "ticks": [],
+        "title": "F / Largest published projects · HOUSE"
+      },
+      {
+        "bars": [],
+        "box": {
+          "bottom": -1384.359375,
+          "height": 300,
+          "left": 57,
+          "right": 675.5,
+          "top": -1684.359375,
+          "width": 618.5,
+          "x": 57,
+          "y": -1684.359375
+        },
+        "ticks": [],
+        "title": "E / Historical GAA title-search trend"
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "charts": [
+      {
+        "bars": [
+          {
+            "height": 203.48095703125,
+            "width": 20.99999237060547
+          },
+          {
+            "height": 5.3106689453125,
+            "width": 21
+          },
+          {
+            "height": 11.0966796875,
+            "width": 21
+          },
+          {
+            "height": 222.7550048828125,
+            "width": 21
+          },
+          {
+            "height": 7.77044677734375,
+            "width": 21
+          },
+          {
+            "height": 8.4949951171875,
+            "width": 21
+          }
+        ],
+        "box": {
+          "bottom": 970.765625,
+          "height": 290,
+          "left": 33,
+          "right": 342,
+          "top": 680.765625,
+          "width": 309,
+          "x": 33,
+          "y": 680.765625
+        },
+        "ticks": [],
+        "title": "A / NEP versus House bill"
+      },
+      {
+        "bars": [],
+        "box": {
+          "bottom": 1569.328125,
+          "height": 290,
+          "left": 33,
+          "right": 342,
+          "top": 1279.328125,
+          "width": 309,
+          "x": 33,
+          "y": 1279.328125
+        },
+        "ticks": [],
+        "title": "B / Proposed amounts by program · HOUSE"
+      },
+      {
+        "bars": [],
+        "box": {
+          "bottom": 2142.890625,
+          "height": 290,
+          "left": 33,
+          "right": 342,
+          "top": 1852.890625,
+          "width": 309,
+          "x": 33,
+          "y": 1852.890625
+        },
+        "ticks": [],
+        "title": "C / Province title associations"
+      },
+      {
+        "bars": [],
+        "box": {
+          "bottom": 2741.453125,
+          "height": 290,
+          "left": 33,
+          "right": 342,
+          "top": 2451.453125,
+          "width": 309,
+          "x": 33,
+          "y": 2451.453125
+        },
+        "ticks": [],
+        "title": "D / Document comparison classifications"
+      },
+      {
+        "bars": [],
+        "box": {
+          "bottom": 3386.796875,
+          "height": 290,
+          "left": 33,
+          "right": 342,
+          "top": 3096.796875,
+          "width": 309,
+          "x": 33,
+          "y": 3096.796875
+        },
+        "ticks": [],
+        "title": "F / Largest published projects · HOUSE"
+      },
+      {
+        "bars": [],
+        "box": {
+          "bottom": 6627.125,
+          "height": 290,
+          "left": 33,
+          "right": 342,
+          "top": 6337.125,
+          "width": 309,
+          "x": 33,
+          "y": 6337.125
+        },
+        "ticks": [],
+        "title": "E / Historical GAA title-search trend"
+      }
+    ],
+    "width": 390
+  }
+]

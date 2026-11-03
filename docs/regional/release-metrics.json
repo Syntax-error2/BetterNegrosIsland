@@ -1,0 +1,19 @@
+{
+  "version": "2026-11-02-37334582ca74",
+  "retrieved_at": "2026-11-02T12:01:31.325Z",
+  "projects": 866,
+  "source_confirmed_nir": 851,
+  "uncertain_region": 15,
+  "title_without_locality": 64,
+  "duplicates": {
+    "comparison": 1533,
+    "history": 501
+  },
+  "comparison_sums": {
+    "nep_php": 19667189000,
+    "house_php": 21378389000
+  },
+  "nep_regional_departments": 25,
+  "nep_regional_php": 125626170000,
+  "nep_2026_baseline": 129934149000
+}

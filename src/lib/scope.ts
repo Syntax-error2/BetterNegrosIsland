@@ -17,12 +17,18 @@ import { BRIDGE_GROUPS } from '../api/types';
 
 export type Reason =
   | { kind: 'office'; label: string }
-  | { kind: 'place'; label: string };
+  | { kind: 'place'; label: string }
+  | { kind: 'region'; label: string };
 
 export interface ScopedProject extends ProjectRow {
   /** `<dataset>:<id>`, the key exclusions and reports use. */
   key: string;
   reasons: Reason[];
+  regionConfirmed?: boolean;
+  provinceMatches?: string[];
+  locationMatches?: string[];
+  geographicConfidence?: string;
+  retrieved_at?: string;
 }
 
 export interface QueryReport {
@@ -74,7 +80,11 @@ export async function resolveScope(client: Client, config: PortalConfig): Promis
     ),
   ];
 
-  const results = await Promise.all(jobs.map((j) => client.allProjects(j.dataset, j.params)));
+  const results: Awaited<ReturnType<Client['allProjects']>>[] = [];
+  for (let i = 0; i < jobs.length; i += 6) {
+    results.push(...await Promise.all(jobs.slice(i, i + 6).map(j => client.allProjects(j.dataset, j.params))));
+  }
+  if (results.some(r => r.truncated)) throw new Error('A scope query exceeds the safety limit. Narrow the scope before displaying totals.');
 
   const byKey = new Map<string, ScopedProject>();
   const queries: QueryReport[] = [];

@@ -1,0 +1,72 @@
+[
+  {
+    "requested": "/municipalities",
+    "page": 360,
+    "path": "/provinces",
+    "title": "Explore the region.",
+    "width": 375
+  },
+  {
+    "requested": "/municipalities/himamaylan",
+    "page": 360,
+    "path": "/locations/1804510000",
+    "title": "City of Himamaylan",
+    "width": 375
+  },
+  {
+    "requested": "/districts",
+    "page": 360,
+    "path": "/data-coverage",
+    "title": "Know what the data covers.",
+    "width": 375
+  },
+  {
+    "requested": "/gaa",
+    "page": 360,
+    "path": "/gaa",
+    "title": "Enacted budgets, 2020–2026.",
+    "width": 375
+  },
+  {
+    "requested": "/not-a-page",
+    "page": 360,
+    "path": "/not-a-page",
+    "title": "Page not found",
+    "width": 375
+  },
+  {
+    "requested": "/municipalities",
+    "page": 1425,
+    "path": "/provinces",
+    "title": "Explore the region.",
+    "width": 1440
+  },
+  {
+    "requested": "/municipalities/himamaylan",
+    "page": 1425,
+    "path": "/locations/1804510000",
+    "title": "City of Himamaylan",
+    "width": 1440
+  },
+  {
+    "requested": "/districts",
+    "page": 1425,
+    "path": "/data-coverage",
+    "title": "Know what the data covers.",
+    "width": 1440
+  },
+  {
+    "requested": "/gaa",
+    "page": 1425,
+    "path": "/gaa",
+    "title": "Enacted budgets, 2020–2026.",
+    "width": 1440
+  },
+  {
+    "requested": "/not-a-page",
+    "page": 1425,
+    "path": "/not-a-page",
+    "title": "Page not found",
+    "width": 1440
+  }
+]

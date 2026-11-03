@@ -1,0 +1,76 @@
+
+> betterquintodistrito@0.1.0 data:refresh
+> tsx scripts/data-ingestion/pipeline.ts refresh
+
+dpwh NIR 760
+fmr NIR 36
+hfep NIR 55
+nia NIR 0
+history Negros Occidental 2508
+history Negros Oriental 3951
+history Siquijor 4440
+history Bacolod 5253
+history Binalbagan Negros Occidental 5253
+history Calatrava Negros Occidental 5253
+history Candoni Negros Occidental 5253
+history Cauayan Negros Occidental 5253
+history Enrique B. Magalona Negros Occidental 5253
+history Hinigaran Negros Occidental 5253
+history Hinoba-an Negros Occidental 5253
+history Ilog Negros Occidental 5253
+history Isabela Negros Occidental 5253
+history La Castellana Negros Occidental 5253
+history Manapla Negros Occidental 5253
+history Moises Padilla Negros Occidental 5253
+history Murcia Negros Occidental 5253
+history Pontevedra Negros Occidental 5253
+history Pulupandan Negros Occidental 5253
+history San Enrique Negros Occidental 5253
+history Toboso Negros Occidental 5253
+history Valladolid Negros Occidental 5253
+history Salvador Benedicto Negros Occidental 5253
+history Amlan Negros Oriental 5253
+history Ayungon Negros Oriental 5253
+history Bacong Negros Oriental 5253
+history Basay Negros Oriental 5253
+history Bindoy Negros Oriental 5253
+history Dauin Negros Oriental 5253
+history Jimalalud Negros Oriental 5253
+history La Libertad Negros Oriental 5253
+history Mabinay Negros Oriental 5253
+history Manjuyod Negros Oriental 5253
+history Pamplona Negros Oriental 5253
+history San Jose Negros Oriental 5253
+history Santa Catalina Negros Oriental 5253
+history Siaton Negros Oriental 5253
+history Sibulan Negros Oriental 5253
+history Tayasan Negros Oriental 5253
+history Valencia Negros Oriental 5253
+history Vallehermoso Negros Oriental 5253
+history Zamboanguita Negros Oriental 5253
+history Enrique Villanueva Siquijor 5253
+history Larena Siquijor 5253
+history Lazi Siquijor 5253
+history Maria Siquijor 5253
+history San Juan Siquijor 5253
+history Siquijor Siquijor 5253
+history Bago Negros Occidental 5253
+history Cadiz Negros Occidental 5253
+history Escalante Negros Occidental 5253
+history Himamaylan Negros Occidental 5253
+history Kabankalan Negros Occidental 5253
+history La Carlota Negros Occidental 5253
+history Sagay Negros Occidental 5253
+history San Carlos Negros Occidental 5253
+history Silay Negros Occidental 5253
+history Sipalay Negros Occidental 5253
+history Talisay Negros Occidental 5253
+history Victorias Negros Occidental 5253
+history Bais Negros Oriental 5253
+history Bayawan Negros Oriental 5253
+history Canlaon Negros Oriental 5253
+history Dumaguete Negros Oriental 5253
+history Guihulngan Negros Oriental 5253
+history Tanjay Negros Oriental 5253
+history Bacolod Negros Occidental 5253
+PUBLISHED 2026-11-02-37334582ca74 866 5253

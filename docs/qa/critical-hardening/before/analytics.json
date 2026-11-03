@@ -1,0 +1,103 @@
+{
+  "charts": [
+    {
+      "bars": 6,
+      "box": {
+        "height": 300,
+        "width": 618.7999877929688
+      },
+      "dataTablePresent": true,
+      "dots": 0,
+      "expectedMarks": 6,
+      "hasNonzero": true,
+      "invalidPaths": 0,
+      "line": false,
+      "tableMatches": true,
+      "title": "A / NEP versus House bill",
+      "width": 618.796875
+    },
+    {
+      "bars": 3,
+      "box": {
+        "height": 234,
+        "width": 618.7999877929688
+      },
+      "dataTablePresent": true,
+      "dots": 0,
+      "expectedMarks": 3,
+      "hasNonzero": true,
+      "invalidPaths": 0,
+      "line": false,
+      "tableMatches": true,
+      "title": "B / Proposed amounts by program · HOUSE",
+      "width": 618.796875
+    },
+    {
+      "bars": 3,
+      "box": {
+        "height": 220,
+        "width": 618.7999877929688
+      },
+      "dataTablePresent": true,
+      "dots": 0,
+      "expectedMarks": 3,
+      "hasNonzero": true,
+      "invalidPaths": 0,
+      "line": false,
+      "tableMatches": true,
+      "title": "C / Province title associations",
+      "width": 618.796875
+    },
+    {
+      "bars": 6,
+      "box": {
+        "height": 322,
+        "width": 618.7999877929688
+      },
+      "dataTablePresent": true,
+      "dots": 0,
+      "expectedMarks": 6,
+      "hasNonzero": true,
+      "invalidPaths": 0,
+      "line": false,
+      "tableMatches": true,
+      "title": "D / Document comparison classifications",
+      "width": 618.796875
+    },
+    {
+      "bars": 8,
+      "box": {
+        "height": 410,
+        "width": 1311.2000732421875
+      },
+      "dataTablePresent": true,
+      "dots": 0,
+      "expectedMarks": 8,
+      "hasNonzero": true,
+      "invalidPaths": 0,
+      "line": false,
+      "tableMatches": true,
+      "title": "F / Largest published projects · HOUSE",
+      "width": 1311.1875
+    },
+    {
+      "bars": 0,
+      "box": {
+        "height": 300,
+        "width": 618.7999877929688
+      },
+      "dataTablePresent": true,
+      "dots": 7,
+      "expectedMarks": 7,
+      "hasNonzero": true,
+      "invalidPaths": 0,
+      "line": true,
+      "tableMatches": true,
+      "title": "E / Historical GAA title-search trend",
+      "width": 618.796875
+    }
+  ],
+  "client": 1425,
+  "scroll": 1425,
+  "width": 1440
+}

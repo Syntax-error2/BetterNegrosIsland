@@ -1,0 +1,887 @@
+[
+  {
+    "width": 844,
+    "height": 390,
+    "charts": [
+      {
+        "actualPositive": 6,
+        "badPaths": 0,
+        "box": {
+          "height": 300,
+          "width": 741.03125
+        },
+        "escaped": [],
+        "expectedPositive": 6,
+        "hasValues": true,
+        "horizontal": false,
+        "keys": [
+          "NEP",
+          "House"
+        ],
+        "lineDots": 0,
+        "rows": [
+          {
+            "House": 19923585000,
+            "NEP": 18199685000,
+            "axisLabel": "DPWH",
+            "label": "DPWH"
+          },
+          {
+            "House": 695000000,
+            "NEP": 475000000,
+            "axisLabel": "FMR",
+            "label": "FMR"
+          },
+          {
+            "House": 759804000,
+            "NEP": 992504000,
+            "axisLabel": "HFEP",
+            "label": "HFEP"
+          },
+          {
+            "House": null,
+            "NEP": null,
+            "axisLabel": "NIA",
+            "label": "NIA"
+          }
+        ],
+        "title": "A / NEP versus House bill",
+        "width": 741.03125
+      },
+      {
+        "actualPositive": 3,
+        "badPaths": 0,
+        "box": {
+          "height": 234,
+          "width": 741.03125
+        },
+        "escaped": [],
+        "expectedPositive": 3,
+        "hasValues": true,
+        "horizontal": true,
+        "keys": [
+          "Amount"
+        ],
+        "lineDots": 0,
+        "rows": [
+          {
+            "Amount": 19923585000,
+            "axisLabel": "DPWH",
+            "label": "DPWH"
+          },
+          {
+            "Amount": 759804000,
+            "axisLabel": "HFEP",
+            "label": "HFEP"
+          },
+          {
+            "Amount": 695000000,
+            "axisLabel": "FMR",
+            "label": "FMR"
+          },
+          {
+            "Amount": null,
+            "axisLabel": "NIA",
+            "label": "NIA"
+          }
+        ],
+        "title": "B / Proposed amounts by program · HOUSE",
+        "width": 741.03125
+      },
+      {
+        "actualPositive": 3,
+        "badPaths": 0,
+        "box": {
+          "height": 220,
+          "width": 741.03125
+        },
+        "escaped": [],
+        "expectedPositive": 3,
+        "hasValues": true,
+        "horizontal": true,
+        "keys": [
+          "Records"
+        ],
+        "lineDots": 0,
+        "rows": [
+          {
+            "Records": 432,
+            "axisLabel": "Negros Occidental",
+            "label": "Negros Occidental"
+          },
+          {
+            "Records": 189,
+            "axisLabel": "Negros Oriental",
+            "label": "Negros Oriental"
+          },
+          {
+            "Records": 74,
+            "axisLabel": "Siquijor",
+            "label": "Siquijor"
+          }
+        ],
+        "title": "C / Province title associations",
+        "width": 741.03125
+      },
+      {
+        "actualPositive": 6,
+        "badPaths": 0,
+        "box": {
+          "height": 322,
+          "width": 741.03125
+        },
+        "escaped": [],
+        "expectedPositive": 6,
+        "hasValues": true,
+        "horizontal": true,
+        "keys": [
+          "Records"
+        ],
+        "lineDots": 0,
+        "rows": [
+          {
+            "Records": 11,
+            "axisLabel": "Increased",
+            "label": "Increased"
+          },
+          {
+            "Records": 11,
+            "axisLabel": "Decreased",
+            "label": "Decreased"
+          },
+          {
+            "Records": 581,
+            "axisLabel": "Unchanged",
+            "label": "Unchanged"
+          },
+          {
+            "Records": 232,
+            "axisLabel": "House bill only",
+            "label": "House bill only"
+          },
+          {
+            "Records": 27,
+            "axisLabel": "NEP only",
+            "label": "NEP only"
+          },
+          {
+            "Records": 4,
+            "axisLabel": "Scope review",
+            "label": "Scope review"
+          }
+        ],
+        "title": "D / Document comparison classifications",
+        "width": 741.03125
+      },
+      {
+        "actualPositive": 8,
+        "badPaths": 0,
+        "box": {
+          "height": 410,
+          "width": 741.03125
+        },
+        "escaped": [],
+        "expectedPositive": 8,
+        "hasValues": true,
+        "horizontal": true,
+        "keys": [
+          "Amount"
+        ],
+        "lineDots": 0,
+        "rows": [
+          {
+            "Amount": 400000000,
+            "axisLabel": "#1",
+            "label": "Construction of DPWH Negros Island Region (NIR) Regional Office Building, Amlan, Negros Oriental (9.47117, 123.193393)"
+          },
+          {
+            "Amount": 360000000,
+            "axisLabel": "#2",
+            "label": "Bacolod Negros Occidental Economic Highway (BANOCEH), Sta. 20+680 - Sta. 20+950, Sta. 23+028 - Sta. 23+375, Sta. 23+745 - Sta. 24+245.33, Talisay City, Negros Occidental"
+          },
+          {
+            "Amount": 358750000,
+            "axisLabel": "#3",
+            "label": "Bacolod Negros Occidental Economic Highway (BANOCEH), Sta. 5+230 - Sta. 6+113, Sta. 14+450 - Sta. 14+750, Bacolod City"
+          },
+          {
+            "Amount": 315000000,
+            "axisLabel": "#4",
+            "label": "Construction of Drainage Structure (including Pumping Station) along Lacson Street, Bacolod City"
+          },
+          {
+            "Amount": 302100000,
+            "axisLabel": "#5",
+            "label": "Construction of Drainage Structures along Luzuriaga Street - Palanca Street - Burgos Street (inlcuding Pumping Station), Bacolod City"
+          },
+          {
+            "Amount": 299282000,
+            "axisLabel": "#6",
+            "label": "Bacolod Negros Occidental Economic Highway (BANOCEH), Sta. 6+770 - Sta. 7+410, Sta. 10+040 - Sta. 10+260, E.B. Magalona, Negros Occidental"
+          },
+          {
+            "Amount": 277000000,
+            "axisLabel": "#7",
+            "label": "Construction of Drainage Structure (including Pumping Station) along Araneta Avenue, Bacolod City"
+          },
+          {
+            "Amount": 268920000,
+            "axisLabel": "#8",
+            "label": "Construction of Flood Mitigation Structure, Najalin Bridge Upstream and Downstream, La Carlota, Negros Occidental"
+          }
+        ],
+        "title": "F / Largest published projects · HOUSE",
+        "width": 741.03125
+      },
+      {
+        "actualPositive": 0,
+        "badPaths": 0,
+        "box": {
+          "height": 300,
+          "width": 741.03125
+        },
+        "escaped": [],
+        "expectedPositive": 7,
+        "hasValues": true,
+        "horizontal": false,
+        "keys": [
+          "GAA"
+        ],
+        "lineDots": 7,
+        "rows": [
+          {
+            "GAA": 13093066000,
+            "axisLabel": "2020",
+            "label": "2020"
+          },
+          {
+            "GAA": 18156655000,
+            "axisLabel": "2021",
+            "label": "2021"
+          },
+          {
+            "GAA": 16618465000,
+            "axisLabel": "2022",
+            "label": "2022"
+          },
+          {
+            "GAA": 19797084000,
+            "axisLabel": "2023",
+            "label": "2023"
+          },
+          {
+            "GAA": 21159677000,
+            "axisLabel": "2024",
+            "label": "2024"
+          },
+          {
+            "GAA": 20537908000,
+            "axisLabel": "2025",
+            "label": "2025"
+          },
+          {
+            "GAA": 10802386000,
+            "axisLabel": "2026",
+            "label": "2026"
+          }
+        ],
+        "title": "E / Historical GAA title-search trend",
+        "width": 741.03125
+      }
+    ],
+    "client": 829,
+    "clipped": [],
+    "path": "/analytics",
+    "scroll": 829
+  },
+  {
+    "width": 740,
+    "height": 360,
+    "charts": [
+      {
+        "actualPositive": 6,
+        "badPaths": 0,
+        "box": {
+          "height": 300,
+          "width": 657.71875
+        },
+        "escaped": [],
+        "expectedPositive": 6,
+        "hasValues": true,
+        "horizontal": false,
+        "keys": [
+          "NEP",
+          "House"
+        ],
+        "lineDots": 0,
+        "rows": [
+          {
+            "House": 19923585000,
+            "NEP": 18199685000,
+            "axisLabel": "DPWH",
+            "label": "DPWH"
+          },
+          {
+            "House": 695000000,
+            "NEP": 475000000,
+            "axisLabel": "FMR",
+            "label": "FMR"
+          },
+          {
+            "House": 759804000,
+            "NEP": 992504000,
+            "axisLabel": "HFEP",
+            "label": "HFEP"
+          },
+          {
+            "House": null,
+            "NEP": null,
+            "axisLabel": "NIA",
+            "label": "NIA"
+          }
+        ],
+        "title": "A / NEP versus House bill",
+        "width": 657.71875
+      },
+      {
+        "actualPositive": 3,
+        "badPaths": 0,
+        "box": {
+          "height": 234,
+          "width": 657.71875
+        },
+        "escaped": [],
+        "expectedPositive": 3,
+        "hasValues": true,
+        "horizontal": true,
+        "keys": [
+          "Amount"
+        ],
+        "lineDots": 0,
+        "rows": [
+          {
+            "Amount": 19923585000,
+            "axisLabel": "DPWH",
+            "label": "DPWH"
+          },
+          {
+            "Amount": 759804000,
+            "axisLabel": "HFEP",
+            "label": "HFEP"
+          },
+          {
+            "Amount": 695000000,
+            "axisLabel": "FMR",
+            "label": "FMR"
+          },
+          {
+            "Amount": null,
+            "axisLabel": "NIA",
+            "label": "NIA"
+          }
+        ],
+        "title": "B / Proposed amounts by program · HOUSE",
+        "width": 657.71875
+      },
+      {
+        "actualPositive": 3,
+        "badPaths": 0,
+        "box": {
+          "height": 220,
+          "width": 657.71875
+        },
+        "escaped": [],
+        "expectedPositive": 3,
+        "hasValues": true,
+        "horizontal": true,
+        "keys": [
+          "Records"
+        ],
+        "lineDots": 0,
+        "rows": [
+          {
+            "Records": 432,
+            "axisLabel": "Negros Occidental",
+            "label": "Negros Occidental"
+          },
+          {
+            "Records": 189,
+            "axisLabel": "Negros Oriental",
+            "label": "Negros Oriental"
+          },
+          {
+            "Records": 74,
+            "axisLabel": "Siquijor",
+            "label": "Siquijor"
+          }
+        ],
+        "title": "C / Province title associations",
+        "width": 657.71875
+      },
+      {
+        "actualPositive": 6,
+        "badPaths": 0,
+        "box": {
+          "height": 322,
+          "width": 657.71875
+        },
+        "escaped": [],
+        "expectedPositive": 6,
+        "hasValues": true,
+        "horizontal": true,
+        "keys": [
+          "Records"
+        ],
+        "lineDots": 0,
+        "rows": [
+          {
+            "Records": 11,
+            "axisLabel": "Increased",
+            "label": "Increased"
+          },
+          {
+            "Records": 11,
+            "axisLabel": "Decreased",
+            "label": "Decreased"
+          },
+          {
+            "Records": 581,
+            "axisLabel": "Unchanged",
+            "label": "Unchanged"
+          },
+          {
+            "Records": 232,
+            "axisLabel": "House bill only",
+            "label": "House bill only"
+          },
+          {
+            "Records": 27,
+            "axisLabel": "NEP only",
+            "label": "NEP only"
+          },
+          {
+            "Records": 4,
+            "axisLabel": "Scope review",
+            "label": "Scope review"
+          }
+        ],
+        "title": "D / Document comparison classifications",
+        "width": 657.71875
+      },
+      {
+        "actualPositive": 8,
+        "badPaths": 0,
+        "box": {
+          "height": 410,
+          "width": 657.71875
+        },
+        "escaped": [],
+        "expectedPositive": 8,
+        "hasValues": true,
+        "horizontal": true,
+        "keys": [
+          "Amount"
+        ],
+        "lineDots": 0,
+        "rows": [
+          {
+            "Amount": 400000000,
+            "axisLabel": "#1",
+            "label": "Construction of DPWH Negros Island Region (NIR) Regional Office Building, Amlan, Negros Oriental (9.47117, 123.193393)"
+          },
+          {
+            "Amount": 360000000,
+            "axisLabel": "#2",
+            "label": "Bacolod Negros Occidental Economic Highway (BANOCEH), Sta. 20+680 - Sta. 20+950, Sta. 23+028 - Sta. 23+375, Sta. 23+745 - Sta. 24+245.33, Talisay City, Negros Occidental"
+          },
+          {
+            "Amount": 358750000,
+            "axisLabel": "#3",
+            "label": "Bacolod Negros Occidental Economic Highway (BANOCEH), Sta. 5+230 - Sta. 6+113, Sta. 14+450 - Sta. 14+750, Bacolod City"
+          },
+          {
+            "Amount": 315000000,
+            "axisLabel": "#4",
+            "label": "Construction of Drainage Structure (including Pumping Station) along Lacson Street, Bacolod City"
+          },
+          {
+            "Amount": 302100000,
+            "axisLabel": "#5",
+            "label": "Construction of Drainage Structures along Luzuriaga Street - Palanca Street - Burgos Street (inlcuding Pumping Station), Bacolod City"
+          },
+          {
+            "Amount": 299282000,
+            "axisLabel": "#6",
+            "label": "Bacolod Negros Occidental Economic Highway (BANOCEH), Sta. 6+770 - Sta. 7+410, Sta. 10+040 - Sta. 10+260, E.B. Magalona, Negros Occidental"
+          },
+          {
+            "Amount": 277000000,
+            "axisLabel": "#7",
+            "label": "Construction of Drainage Structure (including Pumping Station) along Araneta Avenue, Bacolod City"
+          },
+          {
+            "Amount": 268920000,
+            "axisLabel": "#8",
+            "label": "Construction of Flood Mitigation Structure, Najalin Bridge Upstream and Downstream, La Carlota, Negros Occidental"
+          }
+        ],
+        "title": "F / Largest published projects · HOUSE",
+        "width": 657.71875
+      },
+      {
+        "actualPositive": 0,
+        "badPaths": 0,
+        "box": {
+          "height": 300,
+          "width": 657.71875
+        },
+        "escaped": [],
+        "expectedPositive": 7,
+        "hasValues": true,
+        "horizontal": false,
+        "keys": [
+          "GAA"
+        ],
+        "lineDots": 7,
+        "rows": [
+          {
+            "GAA": 13093066000,
+            "axisLabel": "2020",
+            "label": "2020"
+          },
+          {
+            "GAA": 18156655000,
+            "axisLabel": "2021",
+            "label": "2021"
+          },
+          {
+            "GAA": 16618465000,
+            "axisLabel": "2022",
+            "label": "2022"
+          },
+          {
+            "GAA": 19797084000,
+            "axisLabel": "2023",
+            "label": "2023"
+          },
+          {
+            "GAA": 21159677000,
+            "axisLabel": "2024",
+            "label": "2024"
+          },
+          {
+            "GAA": 20537908000,
+            "axisLabel": "2025",
+            "label": "2025"
+          },
+          {
+            "GAA": 10802386000,
+            "axisLabel": "2026",
+            "label": "2026"
+          }
+        ],
+        "title": "E / Historical GAA title-search trend",
+        "width": 657.71875
+      }
+    ],
+    "client": 725,
+    "clipped": [],
+    "path": "/analytics",
+    "scroll": 725
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "charts": [
+      {
+        "actualPositive": 6,
+        "badPaths": 0,
+        "box": {
+          "height": 322,
+          "width": 309
+        },
+        "escaped": [],
+        "expectedPositive": 6,
+        "hasValues": true,
+        "horizontal": true,
+        "keys": [
+          "NEP",
+          "House"
+        ],
+        "lineDots": 0,
+        "rows": [
+          {
+            "House": 19923585000,
+            "NEP": 18199685000,
+            "axisLabel": "DPWH",
+            "label": "DPWH"
+          },
+          {
+            "House": 695000000,
+            "NEP": 475000000,
+            "axisLabel": "FMR",
+            "label": "FMR"
+          },
+          {
+            "House": 759804000,
+            "NEP": 992504000,
+            "axisLabel": "HFEP",
+            "label": "HFEP"
+          },
+          {
+            "House": null,
+            "NEP": null,
+            "axisLabel": "NIA",
+            "label": "NIA"
+          }
+        ],
+        "title": "A / NEP versus House bill",
+        "width": 309
+      },
+      {
+        "actualPositive": 3,
+        "badPaths": 0,
+        "box": {
+          "height": 234,
+          "width": 309
+        },
+        "escaped": [],
+        "expectedPositive": 3,
+        "hasValues": true,
+        "horizontal": true,
+        "keys": [
+          "Amount"
+        ],
+        "lineDots": 0,
+        "rows": [
+          {
+            "Amount": 19923585000,
+            "axisLabel": "DPWH",
+            "label": "DPWH"
+          },
+          {
+            "Amount": 759804000,
+            "axisLabel": "HFEP",
+            "label": "HFEP"
+          },
+          {
+            "Amount": 695000000,
+            "axisLabel": "FMR",
+            "label": "FMR"
+          },
+          {
+            "Amount": null,
+            "axisLabel": "NIA",
+            "label": "NIA"
+          }
+        ],
+        "title": "B / Proposed amounts by program · HOUSE",
+        "width": 309
+      },
+      {
+        "actualPositive": 3,
+        "badPaths": 0,
+        "box": {
+          "height": 220,
+          "width": 309
+        },
+        "escaped": [],
+        "expectedPositive": 3,
+        "hasValues": true,
+        "horizontal": true,
+        "keys": [
+          "Records"
+        ],
+        "lineDots": 0,
+        "rows": [
+          {
+            "Records": 432,
+            "axisLabel": "Negros Occidental",
+            "label": "Negros Occidental"
+          },
+          {
+            "Records": 189,
+            "axisLabel": "Negros Oriental",
+            "label": "Negros Oriental"
+          },
+          {
+            "Records": 74,
+            "axisLabel": "Siquijor",
+            "label": "Siquijor"
+          }
+        ],
+        "title": "C / Province title associations",
+        "width": 309
+      },
+      {
+        "actualPositive": 6,
+        "badPaths": 0,
+        "box": {
+          "height": 322,
+          "width": 309
+        },
+        "escaped": [],
+        "expectedPositive": 6,
+        "hasValues": true,
+        "horizontal": true,
+        "keys": [
+          "Records"
+        ],
+        "lineDots": 0,
+        "rows": [
+          {
+            "Records": 11,
+            "axisLabel": "Increased",
+            "label": "Increased"
+          },
+          {
+            "Records": 11,
+            "axisLabel": "Decreased",
+            "label": "Decreased"
+          },
+          {
+            "Records": 581,
+            "axisLabel": "Unchanged",
+            "label": "Unchanged"
+          },
+          {
+            "Records": 232,
+            "axisLabel": "House bill only",
+            "label": "House bill only"
+          },
+          {
+            "Records": 27,
+            "axisLabel": "NEP only",
+            "label": "NEP only"
+          },
+          {
+            "Records": 4,
+            "axisLabel": "Scope review",
+            "label": "Scope review"
+          }
+        ],
+        "title": "D / Document comparison classifications",
+        "width": 309
+      },
+      {
+        "actualPositive": 8,
+        "badPaths": 0,
+        "box": {
+          "height": 410,
+          "width": 309
+        },
+        "escaped": [],
+        "expectedPositive": 8,
+        "hasValues": true,
+        "horizontal": true,
+        "keys": [
+          "Amount"
+        ],
+        "lineDots": 0,
+        "rows": [
+          {
+            "Amount": 400000000,
+            "axisLabel": "#1",
+            "label": "Construction of DPWH Negros Island Region (NIR) Regional Office Building, Amlan, Negros Oriental (9.47117, 123.193393)"
+          },
+          {
+            "Amount": 360000000,
+            "axisLabel": "#2",
+            "label": "Bacolod Negros Occidental Economic Highway (BANOCEH), Sta. 20+680 - Sta. 20+950, Sta. 23+028 - Sta. 23+375, Sta. 23+745 - Sta. 24+245.33, Talisay City, Negros Occidental"
+          },
+          {
+            "Amount": 358750000,
+            "axisLabel": "#3",
+            "label": "Bacolod Negros Occidental Economic Highway (BANOCEH), Sta. 5+230 - Sta. 6+113, Sta. 14+450 - Sta. 14+750, Bacolod City"
+          },
+          {
+            "Amount": 315000000,
+            "axisLabel": "#4",
+            "label": "Construction of Drainage Structure (including Pumping Station) along Lacson Street, Bacolod City"
+          },
+          {
+            "Amount": 302100000,
+            "axisLabel": "#5",
+            "label": "Construction of Drainage Structures along Luzuriaga Street - Palanca Street - Burgos Street (inlcuding Pumping Station), Bacolod City"
+          },
+          {
+            "Amount": 299282000,
+            "axisLabel": "#6",
+            "label": "Bacolod Negros Occidental Economic Highway (BANOCEH), Sta. 6+770 - Sta. 7+410, Sta. 10+040 - Sta. 10+260, E.B. Magalona, Negros Occidental"
+          },
+          {
+            "Amount": 277000000,
+            "axisLabel": "#7",
+            "label": "Construction of Drainage Structure (including Pumping Station) along Araneta Avenue, Bacolod City"
+          },
+          {
+            "Amount": 268920000,
+            "axisLabel": "#8",
+            "label": "Construction of Flood Mitigation Structure, Najalin Bridge Upstream and Downstream, La Carlota, Negros Occidental"
+          }
+        ],
+        "title": "F / Largest published projects · HOUSE",
+        "width": 309
+      },
+      {
+        "actualPositive": 0,
+        "badPaths": 0,
+        "box": {
+          "height": 300,
+          "width": 309
+        },
+        "escaped": [],
+        "expectedPositive": 7,
+        "hasValues": true,
+        "horizontal": false,
+        "keys": [
+          "GAA"
+        ],
+        "lineDots": 7,
+        "rows": [
+          {
+            "GAA": 13093066000,
+            "axisLabel": "2020",
+            "label": "2020"
+          },
+          {
+            "GAA": 18156655000,
+            "axisLabel": "2021",
+            "label": "2021"
+          },
+          {
+            "GAA": 16618465000,
+            "axisLabel": "2022",
+            "label": "2022"
+          },
+          {
+            "GAA": 19797084000,
+            "axisLabel": "2023",
+            "label": "2023"
+          },
+          {
+            "GAA": 21159677000,
+            "axisLabel": "2024",
+            "label": "2024"
+          },
+          {
+            "GAA": 20537908000,
+            "axisLabel": "2025",
+            "label": "2025"
+          },
+          {
+            "GAA": 10802386000,
+            "axisLabel": "2026",
+            "label": "2026"
+          }
+        ],
+        "title": "E / Historical GAA title-search trend",
+        "width": 309
+      }
+    ],
+    "client": 375,
+    "clipped": [],
+    "path": "/analytics",
+    "scroll": 375
+  }
+]

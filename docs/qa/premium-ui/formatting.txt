@@ -1,0 +1,17 @@
+src/App.tsx 373ms
+src/components/Chrome.tsx 18ms (unchanged)
+src/components/DataTable.tsx 15ms (unchanged)
+src/components/ProjectTable.tsx 12ms (unchanged)
+src/components/DataChart.tsx 23ms
+src/components/OfficesSection.tsx 35ms
+src/pages/Home.tsx 57ms
+src/pages/Enacted.tsx 44ms (unchanged)
+src/pages/Analytics.tsx 33ms
+src/pages/Project.tsx 22ms (unchanged)
+src/pages/Identity.tsx 3ms
+src/pages/Coverage.tsx 12ms
+src/pages/RegionalOverview.tsx 11ms
+src/pages/Legal.tsx 10ms (unchanged)
+src/qa/AccessibilityAudit.tsx 7ms
+src/qa/TableFixture.tsx 2ms (unchanged)
+src/styles/premium.css 269ms

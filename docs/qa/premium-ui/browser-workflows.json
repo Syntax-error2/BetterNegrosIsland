@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Pagination expands 25 to 50 unique project rows",
+    "pass": true
+  },
+  {
+    "name": "Search retains only matching Hospital titles",
+    "pass": true
+  },
+  {
+    "name": "Province filter shows 74 Siquijor title-associated records",
+    "pass": true
+  },
+  {
+    "name": "Combined province/program filter retains two HFEP records with exact source amounts",
+    "pass": true
+  },
+  {
+    "name": "Actual filtered CSV has BOM, header plus two rows and exact peso values",
+    "pass": true
+  },
+  {
+    "name": "Details action shows exact live versions and original PDF page links",
+    "pass": true
+  },
+  {
+    "name": "Browser back restores combined filtered project URL and two rows",
+    "pass": true
+  },
+  {
+    "name": "Browser forward restores project detail",
+    "pass": true
+  },
+  {
+    "name": "Bacolod locality filter uses official PSGC code and 195 title associations",
+    "pass": true
+  },
+  {
+    "name": "Title sorting is consistent with displayed project order",
+    "pass": true
+  },
+  {
+    "name": "Comparison-status filter returns the 11 source increased-class records",
+    "pass": true
+  },
+  {
+    "name": "Empty result is explicit and renders no fake table rows",
+    "pass": true
+  },
+  {
+    "name": "Historical fiscal-year filter remains 602 positive-appropriation families for 2026",
+    "pass": true
+  },
+  {
+    "name": "Analytics transfers province/program filters to the project table",
+    "pass": true
+  },
+  {
+    "name": "Funding bounds apply to the explicitly selected stage, without House-to-NEP fallback",
+    "pass": true
+  },
+  {
+    "name": "Reversed funding range produces a readable validation error",
+    "pass": true
+  },
+  {
+    "name": "Mobile navigation Escape closes and returns focus to Menu",
+    "pass": true
+  },
+  {
+    "name": "Legacy districts route lands on real source coverage instead of an empty office disclosure",
+    "pass": true
+  },
+  {
+    "name": "Unreachable API shows retry plus the dated verified comparison fallback",
+    "pass": true
+  },
+  {
+    "name": "Entry remains disabled before current-version acknowledgment",
+    "pass": true
+  },
+  {
+    "name": "Decline leaves the visitor on welcome without saving entry",
+    "pass": true
+  },
+  {
+    "name": "Privacy readable before entry names supplied operator and does not invent a contact",
+    "pass": true
+  },
+  {
+    "name": "Current notice acknowledgment preserves the requested filtered deep link",
+    "pass": true
+  },
+  {
+    "name": "Returning visitor retains current-version acknowledgment",
+    "pass": true
+  },
+  {
+    "name": "Wide-value table exposes a labeled keyboard-focusable scrolling region",
+    "pass": true
+  },
+  {
+    "name": "Separate source/detail actions stay keyboard reachable within the wide table",
+    "pass": true
+  },
+  {
+    "name": "Explorer starts with real rows sooner and aggregate context collapsed",
+    "pass": true
+  },
+  {
+    "name": "Progressively disclosed filters open and filter the same 55 HFEP records",
+    "pass": true
+  }
+]

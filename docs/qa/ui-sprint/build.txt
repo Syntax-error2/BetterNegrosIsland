@@ -1,0 +1,22 @@
+
+> betterquintodistrito@0.1.0 build
+> tsc -b && vite build
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 57 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                      2.00 kB │ gzip:  0.76 kB
+dist/assets/index-DR2DmqRS.css      39.58 kB │ gzip:  8.70 kB
+dist/assets/format-CCor6lFv.js       1.09 kB │ gzip:  0.58 kB
+dist/assets/Identity-BseYJWKq.js     2.00 kB │ gzip:  1.02 kB
+dist/assets/gaa-Cm1gHzqZ.js          2.52 kB │ gzip:  1.24 kB
+dist/assets/Project-CIXSlc7x.js      7.12 kB │ gzip:  2.77 kB
+dist/assets/Legal-CJPTlEWe.js        7.89 kB │ gzip:  3.20 kB
+dist/assets/About-DB_xrbjm.js        9.25 kB │ gzip:  2.95 kB
+dist/assets/Enacted-DKf2dUzF.js     12.04 kB │ gzip:  4.26 kB
+dist/assets/use-title-CLJX0Umg.js   47.77 kB │ gzip: 17.03 kB
+dist/assets/index-oKPtBusB.js      266.91 kB │ gzip: 82.51 kB
+
+✓ built in 163ms

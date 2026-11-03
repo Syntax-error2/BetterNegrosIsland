@@ -1,0 +1,260 @@
+[
+  {
+    "bounds": {
+      "bottom": 575.625,
+      "left": 33,
+      "right": 272,
+      "top": 306.15625
+    },
+    "chart": "#chart-a",
+    "client": 305,
+    "shown": true,
+    "text": "DPWHNEP: ₱18,199,685,000House: ₱19,923,585,000Difference: ₱1,723,900,000 · 9.47%Percentage uses the NEP amount; unavailable for missing or zero baselines.Published amounts, not spending. Exact values are also in the table below.",
+    "width": 320,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": {
+      "bottom": 508.28125,
+      "left": 33,
+      "right": 272,
+      "top": 354.625
+    },
+    "chart": "#chart-b",
+    "client": 305,
+    "shown": true,
+    "text": "DPWHAmount: ₱19,923,585,000Published amounts, not spending. Exact values are also in the table below.",
+    "width": 320,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": {
+      "bottom": 535.953125,
+      "left": 33,
+      "right": 272,
+      "top": 382.296875
+    },
+    "chart": "#chart-c",
+    "client": 305,
+    "shown": true,
+    "text": "Negros OccidentalRecords: 432Counts of selected source records. Exact values are also in the table below.",
+    "width": 320,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": {
+      "bottom": 461.015625,
+      "left": 33,
+      "right": 272,
+      "top": 307.359375
+    },
+    "chart": "#chart-d",
+    "client": 305,
+    "shown": true,
+    "text": "IncreasedRecords: 11Counts of selected source records. Exact values are also in the table below.",
+    "width": 320,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": {
+      "bottom": 493.59375,
+      "left": 33,
+      "right": 272,
+      "top": 275.625
+    },
+    "chart": "#chart-f",
+    "client": 305,
+    "shown": true,
+    "text": "Construction of DPWH Negros Island Region (NIR) Regional Office Building, Amlan, Negros Oriental (9.47117, 123.193393)Amount: ₱400,000,000Published amounts, not spending. Exact values are also in the table below.",
+    "width": 320,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": {
+      "bottom": 503.890625,
+      "left": 33,
+      "right": 272,
+      "top": 350.234375
+    },
+    "chart": "#chart-e",
+    "client": 305,
+    "shown": true,
+    "text": "2021GAA: ₱18,156,655,000Published amounts, not spending. Exact values are also in the table below.",
+    "width": 320,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": null,
+    "chart": "#chart-a",
+    "client": 375,
+    "shown": false,
+    "width": 390,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": null,
+    "chart": "#chart-b",
+    "client": 375,
+    "shown": false,
+    "width": 390,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": null,
+    "chart": "#chart-c",
+    "client": 375,
+    "shown": false,
+    "width": 390,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": null,
+    "chart": "#chart-d",
+    "client": 375,
+    "shown": false,
+    "width": 390,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": null,
+    "chart": "#chart-f",
+    "client": 375,
+    "shown": false,
+    "width": 390,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": {
+      "bottom": 481.671875,
+      "left": 33,
+      "right": 342,
+      "top": 349.609375
+    },
+    "chart": "#chart-e",
+    "client": 375,
+    "shown": true,
+    "text": "2022GAA: ₱16,618,465,000Published amounts, not spending. Exact values are also in the table below.",
+    "width": 390,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": {
+      "bottom": 587.84375,
+      "left": 342.015625,
+      "right": 682.015625,
+      "top": 361.5625
+    },
+    "chart": "#chart-a",
+    "client": 753,
+    "shown": true,
+    "text": "FMRNEP: ₱475,000,000House: ₱695,000,000Difference: ₱220,000,000 · 46.32%Percentage uses the NEP amount; unavailable for missing or zero baselines.Published amounts, not spending. Exact values are also in the table below.",
+    "width": 768,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": null,
+    "chart": "#chart-b",
+    "client": 753,
+    "shown": false,
+    "width": 768,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": null,
+    "chart": "#chart-c",
+    "client": 753,
+    "shown": false,
+    "width": 768,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": null,
+    "chart": "#chart-d",
+    "client": 753,
+    "shown": false,
+    "width": 768,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": null,
+    "chart": "#chart-f",
+    "client": 753,
+    "shown": false,
+    "width": 768,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": {
+      "bottom": 495.671875,
+      "left": 112.265625,
+      "right": 452.265625,
+      "top": 363.609375
+    },
+    "chart": "#chart-e",
+    "client": 753,
+    "shown": true,
+    "text": "2023GAA: ₱19,797,084,000Published amounts, not spending. Exact values are also in the table below.",
+    "width": 768,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": {
+      "bottom": 588.25,
+      "left": 127,
+      "right": 467,
+      "top": 361.96875
+    },
+    "chart": "#chart-a",
+    "client": 1425,
+    "shown": true,
+    "text": "HFEPNEP: ₱992,504,000House: ₱759,804,000Difference: ₱-232,700,000 · -23.45%Percentage uses the NEP amount; unavailable for missing or zero baselines.Published amounts, not spending. Exact values are also in the table below.",
+    "width": 1440,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": null,
+    "chart": "#chart-b",
+    "client": 1425,
+    "shown": false,
+    "width": 1440,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": null,
+    "chart": "#chart-c",
+    "client": 1425,
+    "shown": false,
+    "width": 1440,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": null,
+    "chart": "#chart-d",
+    "client": 1425,
+    "shown": false,
+    "width": 1440,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": null,
+    "chart": "#chart-f",
+    "client": 1425,
+    "shown": false,
+    "width": 1440,
+    "escapeDismissed": true
+  },
+  {
+    "bounds": {
+      "bottom": 495.5,
+      "left": 132.33334350585938,
+      "right": 472.3333435058594,
+      "top": 363.4375
+    },
+    "chart": "#chart-e",
+    "client": 1425,
+    "shown": true,
+    "text": "2024GAA: ₱21,159,677,000Published amounts, not spending. Exact values are also in the table below.",
+    "width": 1440,
+    "escapeDismissed": true
+  }
+]

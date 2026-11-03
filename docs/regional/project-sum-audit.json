@@ -1,0 +1,1466 @@
+[
+  {
+    "endpoint": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/dpwh/projects?region=NIR",
+    "records": 760,
+    "sums": {
+      "nep_php": 17719399000,
+      "hgab2_php": 19365299000,
+      "hgab3_php": 19365299000
+    },
+    "source_sums": {
+      "nep_php": 17719399000,
+      "hgab2_php": 19365299000,
+      "hgab3_php": 19365299000,
+      "api_php": 17719399000,
+      "rows_with_amount": {
+        "nep": 547,
+        "hgab2": 736,
+        "hgab3": 736,
+        "api": 547
+      },
+      "unconfirmed_rows": 14,
+      "not_additive_across_versions": true
+    },
+    "source_meta": {
+      "dataset": "hgab",
+      "fiscal_year": 2027,
+      "currency": "PHP",
+      "scale": "pesos",
+      "source_repo": "https://github.com/csiiiv/DPWH-NEP-HB-2027-ANALYSIS",
+      "source_commit": "a0caa778442cdae5583f5a006ea7401dab00e5ac",
+      "built_at": "2026-10-26T08:46:14.383Z",
+      "notice": "Independent and unofficial. This comparison is our own reading of the published documents, not an official record of the budget department, the agencies or the House. Figures are the amounts published in the documents, not spending. No allegations. An insertion, deletion, or amount-change candidate describes a provisional comparison between identified sources. That classification alone does not establish irregularity or wrongdoing by any office or official and should not be represented as such. Absence from an API snapshot likewise does not establish absence from the published NEP or concealment. Read the full notice: https://budget.bettergov.ph/hgab/2027/methodology#disclaimer.",
+      "dataset_key": "dpwh",
+      "house_stage": "hgab3",
+      "filters": {
+        "held": "all",
+        "region": {
+          "value": "NIR",
+          "matched_on": "region_key",
+          "values": [
+            "NIR"
+          ]
+        }
+      },
+      "sort": "house",
+      "order": "desc",
+      "limit": 1,
+      "offset": 0,
+      "returned": 1,
+      "total": 760,
+      "note": "One row per comparison record. status_label is the plain status; trace is the raw code. Pairings are candidates, not confirmed changes; held = true marks an unconfirmed match. sums are per version over every matched row (not just this page). The NEP and the House bill are two versions of one budget: compare them, never add them."
+    },
+    "verified_at": "2026-11-02T12:34:13.422Z",
+    "status": "RECONCILED"
+  },
+  {
+    "endpoint": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/fmr/projects?region=NIR",
+    "records": 36,
+    "sums": {
+      "nep_php": 460000000,
+      "hgab2_php": 665000000,
+      "hgab3_php": 665000000
+    },
+    "source_sums": {
+      "nep_php": 460000000,
+      "hgab2_php": 665000000,
+      "hgab3_php": 665000000,
+      "api_php": null,
+      "rows_with_amount": {
+        "nep": 24,
+        "hgab2": 35,
+        "hgab3": 35,
+        "api": 0
+      },
+      "unconfirmed_rows": 0,
+      "not_additive_across_versions": true
+    },
+    "source_meta": {
+      "dataset": "hgab",
+      "fiscal_year": 2027,
+      "currency": "PHP",
+      "scale": "pesos",
+      "source_repo": "https://github.com/csiiiv/DPWH-NEP-HB-2027-ANALYSIS",
+      "source_commit": "a0caa778442cdae5583f5a006ea7401dab00e5ac",
+      "built_at": "2026-10-26T08:46:14.383Z",
+      "notice": "Independent and unofficial. This comparison is our own reading of the published documents, not an official record of the budget department, the agencies or the House. Figures are the amounts published in the documents, not spending. No allegations. An insertion, deletion, or amount-change candidate describes a provisional comparison between identified sources. That classification alone does not establish irregularity or wrongdoing by any office or official and should not be represented as such. Absence from an API snapshot likewise does not establish absence from the published NEP or concealment. Read the full notice: https://budget.bettergov.ph/hgab/2027/methodology#disclaimer.",
+      "dataset_key": "fmr",
+      "house_stage": "hgab2",
+      "filters": {
+        "held": "all",
+        "region": {
+          "value": "NIR",
+          "matched_on": "region_key",
+          "values": [
+            "NIR"
+          ]
+        }
+      },
+      "sort": "house",
+      "order": "desc",
+      "limit": 1,
+      "offset": 0,
+      "returned": 1,
+      "total": 36,
+      "note": "One row per comparison record. status_label is the plain status; trace is the raw code. Pairings are candidates, not confirmed changes; held = true marks an unconfirmed match. sums are per version over every matched row (not just this page). The NEP and the House bill are two versions of one budget: compare them, never add them."
+    },
+    "verified_at": "2026-11-02T12:34:14.270Z",
+    "status": "RECONCILED"
+  },
+  {
+    "endpoint": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/hfep/projects?region=NIR",
+    "records": 55,
+    "sums": {
+      "nep_php": 992504000,
+      "hgab2_php": 759804000,
+      "hgab3_php": 759804000
+    },
+    "source_sums": {
+      "nep_php": 992504000,
+      "hgab2_php": 759804000,
+      "hgab3_php": 759804000,
+      "api_php": null,
+      "rows_with_amount": {
+        "nep": 55,
+        "hgab2": 52,
+        "hgab3": 52,
+        "api": 0
+      },
+      "unconfirmed_rows": 0,
+      "not_additive_across_versions": true
+    },
+    "source_meta": {
+      "dataset": "hgab",
+      "fiscal_year": 2027,
+      "currency": "PHP",
+      "scale": "pesos",
+      "source_repo": "https://github.com/csiiiv/DPWH-NEP-HB-2027-ANALYSIS",
+      "source_commit": "a0caa778442cdae5583f5a006ea7401dab00e5ac",
+      "built_at": "2026-10-26T08:46:14.383Z",
+      "notice": "Independent and unofficial. This comparison is our own reading of the published documents, not an official record of the budget department, the agencies or the House. Figures are the amounts published in the documents, not spending. No allegations. An insertion, deletion, or amount-change candidate describes a provisional comparison between identified sources. That classification alone does not establish irregularity or wrongdoing by any office or official and should not be represented as such. Absence from an API snapshot likewise does not establish absence from the published NEP or concealment. Read the full notice: https://budget.bettergov.ph/hgab/2027/methodology#disclaimer.",
+      "dataset_key": "hfep",
+      "house_stage": "hgab2",
+      "filters": {
+        "held": "all",
+        "region": {
+          "value": "NIR",
+          "matched_on": "region_key",
+          "values": [
+            "NIR"
+          ]
+        }
+      },
+      "sort": "house",
+      "order": "desc",
+      "limit": 1,
+      "offset": 0,
+      "returned": 1,
+      "total": 55,
+      "note": "One row per comparison record. status_label is the plain status; trace is the raw code. Pairings are candidates, not confirmed changes; held = true marks an unconfirmed match. sums are per version over every matched row (not just this page). The NEP and the House bill are two versions of one budget: compare them, never add them."
+    },
+    "verified_at": "2026-11-02T12:34:15.081Z",
+    "status": "RECONCILED"
+  },
+  {
+    "endpoint": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/nia/projects?region=NIR",
+    "records": 0,
+    "sums": {
+      "nep_php": null,
+      "hgab2_php": null,
+      "hgab3_php": null
+    },
+    "source_sums": {
+      "nep_php": null,
+      "hgab2_php": null,
+      "hgab3_php": null,
+      "api_php": null,
+      "rows_with_amount": {
+        "nep": 0,
+        "hgab2": 0,
+        "hgab3": 0,
+        "api": 0
+      },
+      "unconfirmed_rows": 0,
+      "not_additive_across_versions": true
+    },
+    "source_meta": {
+      "dataset": "hgab",
+      "fiscal_year": 2027,
+      "currency": "PHP",
+      "scale": "pesos",
+      "source_repo": "https://github.com/csiiiv/DPWH-NEP-HB-2027-ANALYSIS",
+      "source_commit": "a0caa778442cdae5583f5a006ea7401dab00e5ac",
+      "built_at": "2026-10-26T08:46:14.383Z",
+      "notice": "Independent and unofficial. This comparison is our own reading of the published documents, not an official record of the budget department, the agencies or the House. Figures are the amounts published in the documents, not spending. No allegations. An insertion, deletion, or amount-change candidate describes a provisional comparison between identified sources. That classification alone does not establish irregularity or wrongdoing by any office or official and should not be represented as such. Absence from an API snapshot likewise does not establish absence from the published NEP or concealment. Read the full notice: https://budget.bettergov.ph/hgab/2027/methodology#disclaimer.",
+      "dataset_key": "nia",
+      "house_stage": "hgab2",
+      "filters": {
+        "held": "all",
+        "region": {
+          "value": "NIR",
+          "matched_on": "region_key",
+          "values": [
+            "NIR"
+          ]
+        }
+      },
+      "sort": "house",
+      "order": "desc",
+      "limit": 1,
+      "offset": 0,
+      "returned": 0,
+      "total": 0,
+      "note": "One row per comparison record. status_label is the plain status; trace is the raw code. Pairings are candidates, not confirmed changes; held = true marks an unconfirmed match. sums are per version over every matched row (not just this page). The NEP and the House bill are two versions of one budget: compare them, never add them."
+    },
+    "verified_at": "2026-11-02T12:34:15.875Z",
+    "status": "RECONCILED"
+  },
+  {
+    "endpoint": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/dpwh/projects?office=Bacolod+City+District+Engineering+Office",
+    "records": 105,
+    "sums": {
+      "nep_php": 889425000,
+      "hgab2_php": 1170418000,
+      "hgab3_php": 1170418000
+    },
+    "source_sums": {
+      "nep_php": 889425000,
+      "hgab2_php": 1170418000,
+      "hgab3_php": 1170418000,
+      "api_php": 889425000,
+      "rows_with_amount": {
+        "nep": 71,
+        "hgab2": 98,
+        "hgab3": 98,
+        "api": 71
+      },
+      "unconfirmed_rows": 4,
+      "not_additive_across_versions": true
+    },
+    "source_meta": {
+      "dataset": "hgab",
+      "fiscal_year": 2027,
+      "currency": "PHP",
+      "scale": "pesos",
+      "source_repo": "https://github.com/csiiiv/DPWH-NEP-HB-2027-ANALYSIS",
+      "source_commit": "a0caa778442cdae5583f5a006ea7401dab00e5ac",
+      "built_at": "2026-10-26T08:46:14.383Z",
+      "notice": "Independent and unofficial. This comparison is our own reading of the published documents, not an official record of the budget department, the agencies or the House. Figures are the amounts published in the documents, not spending. No allegations. An insertion, deletion, or amount-change candidate describes a provisional comparison between identified sources. That classification alone does not establish irregularity or wrongdoing by any office or official and should not be represented as such. Absence from an API snapshot likewise does not establish absence from the published NEP or concealment. Read the full notice: https://budget.bettergov.ph/hgab/2027/methodology#disclaimer.",
+      "dataset_key": "dpwh",
+      "house_stage": "hgab3",
+      "filters": {
+        "held": "all",
+        "office": "Bacolod City District Engineering Office"
+      },
+      "sort": "house",
+      "order": "desc",
+      "limit": 1,
+      "offset": 0,
+      "returned": 1,
+      "total": 105,
+      "note": "One row per comparison record. status_label is the plain status; trace is the raw code. Pairings are candidates, not confirmed changes; held = true marks an unconfirmed match. sums are per version over every matched row (not just this page). The NEP and the House bill are two versions of one budget: compare them, never add them."
+    },
+    "verified_at": "2026-11-02T12:34:17.570Z",
+    "status": "RECONCILED"
+  },
+  {
+    "endpoint": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/dpwh/projects?office=Negros+Occidental+1st+District+Engineering+Office",
+    "records": 107,
+    "sums": {
+      "nep_php": 748251000,
+      "hgab2_php": 1142694000,
+      "hgab3_php": 1142694000
+    },
+    "source_sums": {
+      "nep_php": 748251000,
+      "hgab2_php": 1142694000,
+      "hgab3_php": 1142694000,
+      "api_php": 748251000,
+      "rows_with_amount": {
+        "nep": 79,
+        "hgab2": 104,
+        "hgab3": 104,
+        "api": 79
+      },
+      "unconfirmed_rows": 3,
+      "not_additive_across_versions": true
+    },
+    "source_meta": {
+      "dataset": "hgab",
+      "fiscal_year": 2027,
+      "currency": "PHP",
+      "scale": "pesos",
+      "source_repo": "https://github.com/csiiiv/DPWH-NEP-HB-2027-ANALYSIS",
+      "source_commit": "a0caa778442cdae5583f5a006ea7401dab00e5ac",
+      "built_at": "2026-10-26T08:46:14.383Z",
+      "notice": "Independent and unofficial. This comparison is our own reading of the published documents, not an official record of the budget department, the agencies or the House. Figures are the amounts published in the documents, not spending. No allegations. An insertion, deletion, or amount-change candidate describes a provisional comparison between identified sources. That classification alone does not establish irregularity or wrongdoing by any office or official and should not be represented as such. Absence from an API snapshot likewise does not establish absence from the published NEP or concealment. Read the full notice: https://budget.bettergov.ph/hgab/2027/methodology#disclaimer.",
+      "dataset_key": "dpwh",
+      "house_stage": "hgab3",
+      "filters": {
+        "held": "all",
+        "office": "Negros Occidental 1st District Engineering Office"
+      },
+      "sort": "house",
+      "order": "desc",
+      "limit": 1,
+      "offset": 0,
+      "returned": 1,
+      "total": 107,
+      "note": "One row per comparison record. status_label is the plain status; trace is the raw code. Pairings are candidates, not confirmed changes; held = true marks an unconfirmed match. sums are per version over every matched row (not just this page). The NEP and the House bill are two versions of one budget: compare them, never add them."
+    },
+    "verified_at": "2026-11-02T12:34:19.110Z",
+    "status": "RECONCILED"
+  },
+  {
+    "endpoint": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/dpwh/projects?office=Negros+Occidental+3rd+District+Engineering+Office",
+    "records": 76,
+    "sums": {
+      "nep_php": 869831000,
+      "hgab2_php": 1123288000,
+      "hgab3_php": 1123288000
+    },
+    "source_sums": {
+      "nep_php": 869831000,
+      "hgab2_php": 1123288000,
+      "hgab3_php": 1123288000,
+      "api_php": 869831000,
+      "rows_with_amount": {
+        "nep": 52,
+        "hgab2": 75,
+        "hgab3": 75,
+        "api": 52
+      },
+      "unconfirmed_rows": 4,
+      "not_additive_across_versions": true
+    },
+    "source_meta": {
+      "dataset": "hgab",
+      "fiscal_year": 2027,
+      "currency": "PHP",
+      "scale": "pesos",
+      "source_repo": "https://github.com/csiiiv/DPWH-NEP-HB-2027-ANALYSIS",
+      "source_commit": "a0caa778442cdae5583f5a006ea7401dab00e5ac",
+      "built_at": "2026-10-26T08:46:14.383Z",
+      "notice": "Independent and unofficial. This comparison is our own reading of the published documents, not an official record of the budget department, the agencies or the House. Figures are the amounts published in the documents, not spending. No allegations. An insertion, deletion, or amount-change candidate describes a provisional comparison between identified sources. That classification alone does not establish irregularity or wrongdoing by any office or official and should not be represented as such. Absence from an API snapshot likewise does not establish absence from the published NEP or concealment. Read the full notice: https://budget.bettergov.ph/hgab/2027/methodology#disclaimer.",
+      "dataset_key": "dpwh",
+      "house_stage": "hgab3",
+      "filters": {
+        "held": "all",
+        "office": "Negros Occidental 3rd District Engineering Office"
+      },
+      "sort": "house",
+      "order": "desc",
+      "limit": 1,
+      "offset": 0,
+      "returned": 1,
+      "total": 76,
+      "note": "One row per comparison record. status_label is the plain status; trace is the raw code. Pairings are candidates, not confirmed changes; held = true marks an unconfirmed match. sums are per version over every matched row (not just this page). The NEP and the House bill are two versions of one budget: compare them, never add them."
+    },
+    "verified_at": "2026-11-02T12:34:20.974Z",
+    "status": "RECONCILED"
+  },
+  {
+    "endpoint": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/dpwh/projects?office=Siquijor+District+Engineering+Office",
+    "records": 66,
+    "sums": {
+      "nep_php": 710400000,
+      "hgab2_php": 888934000,
+      "hgab3_php": 888934000
+    },
+    "source_sums": {
+      "nep_php": 710400000,
+      "hgab2_php": 888934000,
+      "hgab3_php": 888934000,
+      "api_php": 710400000,
+      "rows_with_amount": {
+        "nep": 42,
+        "hgab2": 60,
+        "hgab3": 60,
+        "api": 42
+      },
+      "unconfirmed_rows": 1,
+      "not_additive_across_versions": true
+    },
+    "source_meta": {
+      "dataset": "hgab",
+      "fiscal_year": 2027,
+      "currency": "PHP",
+      "scale": "pesos",
+      "source_repo": "https://github.com/csiiiv/DPWH-NEP-HB-2027-ANALYSIS",
+      "source_commit": "a0caa778442cdae5583f5a006ea7401dab00e5ac",
+      "built_at": "2026-10-26T08:46:14.383Z",
+      "notice": "Independent and unofficial. This comparison is our own reading of the published documents, not an official record of the budget department, the agencies or the House. Figures are the amounts published in the documents, not spending. No allegations. An insertion, deletion, or amount-change candidate describes a provisional comparison between identified sources. That classification alone does not establish irregularity or wrongdoing by any office or official and should not be represented as such. Absence from an API snapshot likewise does not establish absence from the published NEP or concealment. Read the full notice: https://budget.bettergov.ph/hgab/2027/methodology#disclaimer.",
+      "dataset_key": "dpwh",
+      "house_stage": "hgab3",
+      "filters": {
+        "held": "all",
+        "office": "Siquijor District Engineering Office"
+      },
+      "sort": "house",
+      "order": "desc",
+      "limit": 1,
+      "offset": 0,
+      "returned": 1,
+      "total": 66,
+      "note": "One row per comparison record. status_label is the plain status; trace is the raw code. Pairings are candidates, not confirmed changes; held = true marks an unconfirmed match. sums are per version over every matched row (not just this page). The NEP and the House bill are two versions of one budget: compare them, never add them."
+    },
+    "verified_at": "2026-11-02T12:34:22.960Z",
+    "status": "RECONCILED"
+  },
+  {
+    "endpoint": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/dpwh/projects?office=Negros+Oriental+3rd+District+Engineering+Office",
+    "records": 47,
+    "sums": {
+      "nep_php": 569654000,
+      "hgab2_php": 784654000,
+      "hgab3_php": 784654000
+    },
+    "source_sums": {
+      "nep_php": 569654000,
+      "hgab2_php": 784654000,
+      "hgab3_php": 784654000,
+      "api_php": 569654000,
+      "rows_with_amount": {
+        "nep": 32,
+        "hgab2": 47,
+        "hgab3": 47,
+        "api": 32
+      },
+      "unconfirmed_rows": 0,
+      "not_additive_across_versions": true
+    },
+    "source_meta": {
+      "dataset": "hgab",
+      "fiscal_year": 2027,
+      "currency": "PHP",
+      "scale": "pesos",
+      "source_repo": "https://github.com/csiiiv/DPWH-NEP-HB-2027-ANALYSIS",
+      "source_commit": "a0caa778442cdae5583f5a006ea7401dab00e5ac",
+      "built_at": "2026-10-26T08:46:14.383Z",
+      "notice": "Independent and unofficial. This comparison is our own reading of the published documents, not an official record of the budget department, the agencies or the House. Figures are the amounts published in the documents, not spending. No allegations. An insertion, deletion, or amount-change candidate describes a provisional comparison between identified sources. That classification alone does not establish irregularity or wrongdoing by any office or official and should not be represented as such. Absence from an API snapshot likewise does not establish absence from the published NEP or concealment. Read the full notice: https://budget.bettergov.ph/hgab/2027/methodology#disclaimer.",
+      "dataset_key": "dpwh",
+      "house_stage": "hgab3",
+      "filters": {
+        "held": "all",
+        "office": "Negros Oriental 3rd District Engineering Office"
+      },
+      "sort": "house",
+      "order": "desc",
+      "limit": 1,
+      "offset": 0,
+      "returned": 1,
+      "total": 47,
+      "note": "One row per comparison record. status_label is the plain status; trace is the raw code. Pairings are candidates, not confirmed changes; held = true marks an unconfirmed match. sums are per version over every matched row (not just this page). The NEP and the House bill are two versions of one budget: compare them, never add them."
+    },
+    "verified_at": "2026-11-02T12:34:24.630Z",
+    "status": "RECONCILED"
+  },
+  {
+    "endpoint": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/dpwh/projects?office=Negros+Oriental+2nd+District+Engineering+Office",
+    "records": 58,
+    "sums": {
+      "nep_php": 603912000,
+      "hgab2_php": 694320000,
+      "hgab3_php": 694320000
+    },
+    "source_sums": {
+      "nep_php": 603912000,
+      "hgab2_php": 694320000,
+      "hgab3_php": 694320000,
+      "api_php": 603912000,
+      "rows_with_amount": {
+        "nep": 46,
+        "hgab2": 58,
+        "hgab3": 58,
+        "api": 46
+      },
+      "unconfirmed_rows": 0,
+      "not_additive_across_versions": true
+    },
+    "source_meta": {
+      "dataset": "hgab",
+      "fiscal_year": 2027,
+      "currency": "PHP",
+      "scale": "pesos",
+      "source_repo": "https://github.com/csiiiv/DPWH-NEP-HB-2027-ANALYSIS",
+      "source_commit": "a0caa778442cdae5583f5a006ea7401dab00e5ac",
+      "built_at": "2026-10-26T08:46:14.383Z",
+      "notice": "Independent and unofficial. This comparison is our own reading of the published documents, not an official record of the budget department, the agencies or the House. Figures are the amounts published in the documents, not spending. No allegations. An insertion, deletion, or amount-change candidate describes a provisional comparison between identified sources. That classification alone does not establish irregularity or wrongdoing by any office or official and should not be represented as such. Absence from an API snapshot likewise does not establish absence from the published NEP or concealment. Read the full notice: https://budget.bettergov.ph/hgab/2027/methodology#disclaimer.",
+      "dataset_key": "dpwh",
+      "house_stage": "hgab3",
+      "filters": {
+        "held": "all",
+        "office": "Negros Oriental 2nd District Engineering Office"
+      },
+      "sort": "house",
+      "order": "desc",
+      "limit": 1,
+      "offset": 0,
+      "returned": 1,
+      "total": 58,
+      "note": "One row per comparison record. status_label is the plain status; trace is the raw code. Pairings are candidates, not confirmed changes; held = true marks an unconfirmed match. sums are per version over every matched row (not just this page). The NEP and the House bill are two versions of one budget: compare them, never add them."
+    },
+    "verified_at": "2026-11-02T12:34:26.088Z",
+    "status": "RECONCILED"
+  },
+  {
+    "endpoint": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/dpwh/projects?office=Negros+Oriental+1st+District+Engineering+Office",
+    "records": 92,
+    "sums": {
+      "nep_php": 472612000,
+      "hgab2_php": 600112000,
+      "hgab3_php": 600112000
+    },
+    "source_sums": {
+      "nep_php": 472612000,
+      "hgab2_php": 600112000,
+      "hgab3_php": 600112000,
+      "api_php": 472612000,
+      "rows_with_amount": {
+        "nep": 45,
+        "hgab2": 91,
+        "hgab3": 91,
+        "api": 45
+      },
+      "unconfirmed_rows": 1,
+      "not_additive_across_versions": true
+    },
+    "source_meta": {
+      "dataset": "hgab",
+      "fiscal_year": 2027,
+      "currency": "PHP",
+      "scale": "pesos",
+      "source_repo": "https://github.com/csiiiv/DPWH-NEP-HB-2027-ANALYSIS",
+      "source_commit": "a0caa778442cdae5583f5a006ea7401dab00e5ac",
+      "built_at": "2026-10-26T08:46:14.383Z",
+      "notice": "Independent and unofficial. This comparison is our own reading of the published documents, not an official record of the budget department, the agencies or the House. Figures are the amounts published in the documents, not spending. No allegations. An insertion, deletion, or amount-change candidate describes a provisional comparison between identified sources. That classification alone does not establish irregularity or wrongdoing by any office or official and should not be represented as such. Absence from an API snapshot likewise does not establish absence from the published NEP or concealment. Read the full notice: https://budget.bettergov.ph/hgab/2027/methodology#disclaimer.",
+      "dataset_key": "dpwh",
+      "house_stage": "hgab3",
+      "filters": {
+        "held": "all",
+        "office": "Negros Oriental 1st District Engineering Office"
+      },
+      "sort": "house",
+      "order": "desc",
+      "limit": 1,
+      "offset": 0,
+      "returned": 1,
+      "total": 92,
+      "note": "One row per comparison record. status_label is the plain status; trace is the raw code. Pairings are candidates, not confirmed changes; held = true marks an unconfirmed match. sums are per version over every matched row (not just this page). The NEP and the House bill are two versions of one budget: compare them, never add them."
+    },
+    "verified_at": "2026-11-02T12:34:27.539Z",
+    "status": "RECONCILED"
+  },
+  {
+    "endpoint": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/dpwh/projects?office=Negros+Occidental+5th+District+Engineering+Office",
+    "records": 29,
+    "sums": {
+      "nep_php": 503907000,
+      "hgab2_php": 503907000,
+      "hgab3_php": 503907000
+    },
+    "source_sums": {
+      "nep_php": 503907000,
+      "hgab2_php": 503907000,
+      "hgab3_php": 503907000,
+      "api_php": 503907000,
+      "rows_with_amount": {
+        "nep": 29,
+        "hgab2": 29,
+        "hgab3": 29,
+        "api": 29
+      },
+      "unconfirmed_rows": 0,
+      "not_additive_across_versions": true
+    },
+    "source_meta": {
+      "dataset": "hgab",
+      "fiscal_year": 2027,
+      "currency": "PHP",
+      "scale": "pesos",
+      "source_repo": "https://github.com/csiiiv/DPWH-NEP-HB-2027-ANALYSIS",
+      "source_commit": "a0caa778442cdae5583f5a006ea7401dab00e5ac",
+      "built_at": "2026-10-26T08:46:14.383Z",
+      "notice": "Independent and unofficial. This comparison is our own reading of the published documents, not an official record of the budget department, the agencies or the House. Figures are the amounts published in the documents, not spending. No allegations. An insertion, deletion, or amount-change candidate describes a provisional comparison between identified sources. That classification alone does not establish irregularity or wrongdoing by any office or official and should not be represented as such. Absence from an API snapshot likewise does not establish absence from the published NEP or concealment. Read the full notice: https://budget.bettergov.ph/hgab/2027/methodology#disclaimer.",
+      "dataset_key": "dpwh",
+      "house_stage": "hgab3",
+      "filters": {
+        "held": "all",
+        "office": "Negros Occidental 5th District Engineering Office"
+      },
+      "sort": "house",
+      "order": "desc",
+      "limit": 1,
+      "offset": 0,
+      "returned": 1,
+      "total": 29,
+      "note": "One row per comparison record. status_label is the plain status; trace is the raw code. Pairings are candidates, not confirmed changes; held = true marks an unconfirmed match. sums are per version over every matched row (not just this page). The NEP and the House bill are two versions of one budget: compare them, never add them."
+    },
+    "verified_at": "2026-11-02T12:34:30.149Z",
+    "status": "RECONCILED"
+  },
+  {
+    "endpoint": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/dpwh/projects?office=Negros+Occidental+2nd+District+Engineering+Office",
+    "records": 34,
+    "sums": {
+      "nep_php": 268132000,
+      "hgab2_php": 398132000,
+      "hgab3_php": 398132000
+    },
+    "source_sums": {
+      "nep_php": 268132000,
+      "hgab2_php": 398132000,
+      "hgab3_php": 398132000,
+      "api_php": 268132000,
+      "rows_with_amount": {
+        "nep": 20,
+        "hgab2": 34,
+        "hgab3": 34,
+        "api": 20
+      },
+      "unconfirmed_rows": 0,
+      "not_additive_across_versions": true
+    },
+    "source_meta": {
+      "dataset": "hgab",
+      "fiscal_year": 2027,
+      "currency": "PHP",
+      "scale": "pesos",
+      "source_repo": "https://github.com/csiiiv/DPWH-NEP-HB-2027-ANALYSIS",
+      "source_commit": "a0caa778442cdae5583f5a006ea7401dab00e5ac",
+      "built_at": "2026-10-26T08:46:14.383Z",
+      "notice": "Independent and unofficial. This comparison is our own reading of the published documents, not an official record of the budget department, the agencies or the House. Figures are the amounts published in the documents, not spending. No allegations. An insertion, deletion, or amount-change candidate describes a provisional comparison between identified sources. That classification alone does not establish irregularity or wrongdoing by any office or official and should not be represented as such. Absence from an API snapshot likewise does not establish absence from the published NEP or concealment. Read the full notice: https://budget.bettergov.ph/hgab/2027/methodology#disclaimer.",
+      "dataset_key": "dpwh",
+      "house_stage": "hgab3",
+      "filters": {
+        "held": "all",
+        "office": "Negros Occidental 2nd District Engineering Office"
+      },
+      "sort": "house",
+      "order": "desc",
+      "limit": 1,
+      "offset": 0,
+      "returned": 1,
+      "total": 34,
+      "note": "One row per comparison record. status_label is the plain status; trace is the raw code. Pairings are candidates, not confirmed changes; held = true marks an unconfirmed match. sums are per version over every matched row (not just this page). The NEP and the House bill are two versions of one budget: compare them, never add them."
+    },
+    "verified_at": "2026-11-02T12:34:32.194Z",
+    "status": "RECONCILED"
+  },
+  {
+    "endpoint": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/dpwh/projects?office=Negros+Occidental+4th+District+Engineering+Office",
+    "records": 33,
+    "sums": {
+      "nep_php": 350200000,
+      "hgab2_php": 350200000,
+      "hgab3_php": 350200000
+    },
+    "source_sums": {
+      "nep_php": 350200000,
+      "hgab2_php": 350200000,
+      "hgab3_php": 350200000,
+      "api_php": 350200000,
+      "rows_with_amount": {
+        "nep": 33,
+        "hgab2": 33,
+        "hgab3": 33,
+        "api": 33
+      },
+      "unconfirmed_rows": 0,
+      "not_additive_across_versions": true
+    },
+    "source_meta": {
+      "dataset": "hgab",
+      "fiscal_year": 2027,
+      "currency": "PHP",
+      "scale": "pesos",
+      "source_repo": "https://github.com/csiiiv/DPWH-NEP-HB-2027-ANALYSIS",
+      "source_commit": "a0caa778442cdae5583f5a006ea7401dab00e5ac",
+      "built_at": "2026-10-26T08:46:14.383Z",
+      "notice": "Independent and unofficial. This comparison is our own reading of the published documents, not an official record of the budget department, the agencies or the House. Figures are the amounts published in the documents, not spending. No allegations. An insertion, deletion, or amount-change candidate describes a provisional comparison between identified sources. That classification alone does not establish irregularity or wrongdoing by any office or official and should not be represented as such. Absence from an API snapshot likewise does not establish absence from the published NEP or concealment. Read the full notice: https://budget.bettergov.ph/hgab/2027/methodology#disclaimer.",
+      "dataset_key": "dpwh",
+      "house_stage": "hgab3",
+      "filters": {
+        "held": "all",
+        "office": "Negros Occidental 4th District Engineering Office"
+      },
+      "sort": "house",
+      "order": "desc",
+      "limit": 1,
+      "offset": 0,
+      "returned": 1,
+      "total": 33,
+      "note": "One row per comparison record. status_label is the plain status; trace is the raw code. Pairings are candidates, not confirmed changes; held = true marks an unconfirmed match. sums are per version over every matched row (not just this page). The NEP and the House bill are two versions of one budget: compare them, never add them."
+    },
+    "verified_at": "2026-11-02T12:34:33.913Z",
+    "status": "RECONCILED"
+  },
+  {
+    "endpoint": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/dpwh/projects?q=Negros+Occidental",
+    "records": 326,
+    "sums": {
+      "nep_php": 7361915000,
+      "hgab2_php": 7851372000,
+      "hgab3_php": 7851372000
+    },
+    "source_sums": {
+      "nep_php": 7361915000,
+      "hgab2_php": 7851372000,
+      "hgab3_php": 7851372000,
+      "api_php": 7361915000,
+      "rows_with_amount": {
+        "nep": 252,
+        "hgab2": 320,
+        "hgab3": 320,
+        "api": 252
+      },
+      "unconfirmed_rows": 9,
+      "not_additive_across_versions": true
+    },
+    "source_meta": {
+      "dataset": "hgab",
+      "fiscal_year": 2027,
+      "currency": "PHP",
+      "scale": "pesos",
+      "source_repo": "https://github.com/csiiiv/DPWH-NEP-HB-2027-ANALYSIS",
+      "source_commit": "a0caa778442cdae5583f5a006ea7401dab00e5ac",
+      "built_at": "2026-10-26T08:46:14.383Z",
+      "notice": "Independent and unofficial. This comparison is our own reading of the published documents, not an official record of the budget department, the agencies or the House. Figures are the amounts published in the documents, not spending. No allegations. An insertion, deletion, or amount-change candidate describes a provisional comparison between identified sources. That classification alone does not establish irregularity or wrongdoing by any office or official and should not be represented as such. Absence from an API snapshot likewise does not establish absence from the published NEP or concealment. Read the full notice: https://budget.bettergov.ph/hgab/2027/methodology#disclaimer.",
+      "dataset_key": "dpwh",
+      "house_stage": "hgab3",
+      "filters": {
+        "q": "negros occidental",
+        "held": "all"
+      },
+      "sort": "house",
+      "order": "desc",
+      "limit": 1,
+      "offset": 0,
+      "returned": 1,
+      "total": 326,
+      "note": "One row per comparison record. status_label is the plain status; trace is the raw code. Pairings are candidates, not confirmed changes; held = true marks an unconfirmed match. sums are per version over every matched row (not just this page). The NEP and the House bill are two versions of one budget: compare them, never add them."
+    },
+    "verified_at": "2026-11-02T12:34:34.968Z",
+    "status": "RECONCILED"
+  },
+  {
+    "endpoint": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/fmr/projects?q=Negros+Occidental",
+    "records": 22,
+    "sums": {
+      "nep_php": 325000000,
+      "hgab2_php": 440000000,
+      "hgab3_php": 440000000
+    },
+    "source_sums": {
+      "nep_php": 325000000,
+      "hgab2_php": 440000000,
+      "hgab3_php": 440000000,
+      "api_php": null,
+      "rows_with_amount": {
+        "nep": 15,
+        "hgab2": 22,
+        "hgab3": 22,
+        "api": 0
+      },
+      "unconfirmed_rows": 0,
+      "not_additive_across_versions": true
+    },
+    "source_meta": {
+      "dataset": "hgab",
+      "fiscal_year": 2027,
+      "currency": "PHP",
+      "scale": "pesos",
+      "source_repo": "https://github.com/csiiiv/DPWH-NEP-HB-2027-ANALYSIS",
+      "source_commit": "a0caa778442cdae5583f5a006ea7401dab00e5ac",
+      "built_at": "2026-10-26T08:46:14.383Z",
+      "notice": "Independent and unofficial. This comparison is our own reading of the published documents, not an official record of the budget department, the agencies or the House. Figures are the amounts published in the documents, not spending. No allegations. An insertion, deletion, or amount-change candidate describes a provisional comparison between identified sources. That classification alone does not establish irregularity or wrongdoing by any office or official and should not be represented as such. Absence from an API snapshot likewise does not establish absence from the published NEP or concealment. Read the full notice: https://budget.bettergov.ph/hgab/2027/methodology#disclaimer.",
+      "dataset_key": "fmr",
+      "house_stage": "hgab2",
+      "filters": {
+        "q": "negros occidental",
+        "held": "all"
+      },
+      "sort": "house",
+      "order": "desc",
+      "limit": 1,
+      "offset": 0,
+      "returned": 1,
+      "total": 22,
+      "note": "One row per comparison record. status_label is the plain status; trace is the raw code. Pairings are candidates, not confirmed changes; held = true marks an unconfirmed match. sums are per version over every matched row (not just this page). The NEP and the House bill are two versions of one budget: compare them, never add them."
+    },
+    "verified_at": "2026-11-02T12:34:36.262Z",
+    "status": "RECONCILED"
+  },
+  {
+    "endpoint": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/hfep/projects?q=Negros+Occidental",
+    "records": 27,
+    "sums": {
+      "nep_php": 538304000,
+      "hgab2_php": 376604000,
+      "hgab3_php": 376604000
+    },
+    "source_sums": {
+      "nep_php": 538304000,
+      "hgab2_php": 376604000,
+      "hgab3_php": 376604000,
+      "api_php": null,
+      "rows_with_amount": {
+        "nep": 27,
+        "hgab2": 26,
+        "hgab3": 26,
+        "api": 0
+      },
+      "unconfirmed_rows": 0,
+      "not_additive_across_versions": true
+    },
+    "source_meta": {
+      "dataset": "hgab",
+      "fiscal_year": 2027,
+      "currency": "PHP",
+      "scale": "pesos",
+      "source_repo": "https://github.com/csiiiv/DPWH-NEP-HB-2027-ANALYSIS",
+      "source_commit": "a0caa778442cdae5583f5a006ea7401dab00e5ac",
+      "built_at": "2026-10-26T08:46:14.383Z",
+      "notice": "Independent and unofficial. This comparison is our own reading of the published documents, not an official record of the budget department, the agencies or the House. Figures are the amounts published in the documents, not spending. No allegations. An insertion, deletion, or amount-change candidate describes a provisional comparison between identified sources. That classification alone does not establish irregularity or wrongdoing by any office or official and should not be represented as such. Absence from an API snapshot likewise does not establish absence from the published NEP or concealment. Read the full notice: https://budget.bettergov.ph/hgab/2027/methodology#disclaimer.",
+      "dataset_key": "hfep",
+      "house_stage": "hgab2",
+      "filters": {
+        "q": "negros occidental",
+        "held": "all"
+      },
+      "sort": "house",
+      "order": "desc",
+      "limit": 1,
+      "offset": 0,
+      "returned": 1,
+      "total": 27,
+      "note": "One row per comparison record. status_label is the plain status; trace is the raw code. Pairings are candidates, not confirmed changes; held = true marks an unconfirmed match. sums are per version over every matched row (not just this page). The NEP and the House bill are two versions of one budget: compare them, never add them."
+    },
+    "verified_at": "2026-11-02T12:34:37.022Z",
+    "status": "RECONCILED"
+  },
+  {
+    "endpoint": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/nia/projects?q=Negros+Occidental",
+    "records": 0,
+    "sums": {
+      "nep_php": null,
+      "hgab2_php": null,
+      "hgab3_php": null
+    },
+    "source_sums": {
+      "nep_php": null,
+      "hgab2_php": null,
+      "hgab3_php": null,
+      "api_php": null,
+      "rows_with_amount": {
+        "nep": 0,
+        "hgab2": 0,
+        "hgab3": 0,
+        "api": 0
+      },
+      "unconfirmed_rows": 0,
+      "not_additive_across_versions": true
+    },
+    "source_meta": {
+      "dataset": "hgab",
+      "fiscal_year": 2027,
+      "currency": "PHP",
+      "scale": "pesos",
+      "source_repo": "https://github.com/csiiiv/DPWH-NEP-HB-2027-ANALYSIS",
+      "source_commit": "a0caa778442cdae5583f5a006ea7401dab00e5ac",
+      "built_at": "2026-10-26T08:46:14.383Z",
+      "notice": "Independent and unofficial. This comparison is our own reading of the published documents, not an official record of the budget department, the agencies or the House. Figures are the amounts published in the documents, not spending. No allegations. An insertion, deletion, or amount-change candidate describes a provisional comparison between identified sources. That classification alone does not establish irregularity or wrongdoing by any office or official and should not be represented as such. Absence from an API snapshot likewise does not establish absence from the published NEP or concealment. Read the full notice: https://budget.bettergov.ph/hgab/2027/methodology#disclaimer.",
+      "dataset_key": "nia",
+      "house_stage": "hgab2",
+      "filters": {
+        "q": "negros occidental",
+        "held": "all"
+      },
+      "sort": "house",
+      "order": "desc",
+      "limit": 1,
+      "offset": 0,
+      "returned": 0,
+      "total": 0,
+      "note": "One row per comparison record. status_label is the plain status; trace is the raw code. Pairings are candidates, not confirmed changes; held = true marks an unconfirmed match. sums are per version over every matched row (not just this page). The NEP and the House bill are two versions of one budget: compare them, never add them."
+    },
+    "verified_at": "2026-11-02T12:34:37.827Z",
+    "status": "RECONCILED"
+  },
+  {
+    "endpoint": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/dpwh/projects?q=Negros+Oriental",
+    "records": 213,
+    "sums": {
+      "nep_php": 4006178000,
+      "hgab2_php": 4133322000,
+      "hgab3_php": 4133322000
+    },
+    "source_sums": {
+      "nep_php": 4006178000,
+      "hgab2_php": 4133322000,
+      "hgab3_php": 4133322000,
+      "api_php": 4006178000,
+      "rows_with_amount": {
+        "nep": 135,
+        "hgab2": 211,
+        "hgab3": 211,
+        "api": 135
+      },
+      "unconfirmed_rows": 1,
+      "not_additive_across_versions": true
+    },
+    "source_meta": {
+      "dataset": "hgab",
+      "fiscal_year": 2027,
+      "currency": "PHP",
+      "scale": "pesos",
+      "source_repo": "https://github.com/csiiiv/DPWH-NEP-HB-2027-ANALYSIS",
+      "source_commit": "a0caa778442cdae5583f5a006ea7401dab00e5ac",
+      "built_at": "2026-10-26T08:46:14.383Z",
+      "notice": "Independent and unofficial. This comparison is our own reading of the published documents, not an official record of the budget department, the agencies or the House. Figures are the amounts published in the documents, not spending. No allegations. An insertion, deletion, or amount-change candidate describes a provisional comparison between identified sources. That classification alone does not establish irregularity or wrongdoing by any office or official and should not be represented as such. Absence from an API snapshot likewise does not establish absence from the published NEP or concealment. Read the full notice: https://budget.bettergov.ph/hgab/2027/methodology#disclaimer.",
+      "dataset_key": "dpwh",
+      "house_stage": "hgab3",
+      "filters": {
+        "q": "negros oriental",
+        "held": "all"
+      },
+      "sort": "house",
+      "order": "desc",
+      "limit": 1,
+      "offset": 0,
+      "returned": 1,
+      "total": 213,
+      "note": "One row per comparison record. status_label is the plain status; trace is the raw code. Pairings are candidates, not confirmed changes; held = true marks an unconfirmed match. sums are per version over every matched row (not just this page). The NEP and the House bill are two versions of one budget: compare them, never add them."
+    },
+    "verified_at": "2026-11-02T12:34:38.613Z",
+    "status": "RECONCILED"
+  },
+  {
+    "endpoint": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/fmr/projects?q=Negros+Oriental",
+    "records": 10,
+    "sums": {
+      "nep_php": 105000000,
+      "hgab2_php": 165000000,
+      "hgab3_php": 165000000
+    },
+    "source_sums": {
+      "nep_php": 105000000,
+      "hgab2_php": 165000000,
+      "hgab3_php": 165000000,
+      "api_php": null,
+      "rows_with_amount": {
+        "nep": 7,
+        "hgab2": 9,
+        "hgab3": 9,
+        "api": 0
+      },
+      "unconfirmed_rows": 0,
+      "not_additive_across_versions": true
+    },
+    "source_meta": {
+      "dataset": "hgab",
+      "fiscal_year": 2027,
+      "currency": "PHP",
+      "scale": "pesos",
+      "source_repo": "https://github.com/csiiiv/DPWH-NEP-HB-2027-ANALYSIS",
+      "source_commit": "a0caa778442cdae5583f5a006ea7401dab00e5ac",
+      "built_at": "2026-10-26T08:46:14.383Z",
+      "notice": "Independent and unofficial. This comparison is our own reading of the published documents, not an official record of the budget department, the agencies or the House. Figures are the amounts published in the documents, not spending. No allegations. An insertion, deletion, or amount-change candidate describes a provisional comparison between identified sources. That classification alone does not establish irregularity or wrongdoing by any office or official and should not be represented as such. Absence from an API snapshot likewise does not establish absence from the published NEP or concealment. Read the full notice: https://budget.bettergov.ph/hgab/2027/methodology#disclaimer.",
+      "dataset_key": "fmr",
+      "house_stage": "hgab2",
+      "filters": {
+        "q": "negros oriental",
+        "held": "all"
+      },
+      "sort": "house",
+      "order": "desc",
+      "limit": 1,
+      "offset": 0,
+      "returned": 1,
+      "total": 10,
+      "note": "One row per comparison record. status_label is the plain status; trace is the raw code. Pairings are candidates, not confirmed changes; held = true marks an unconfirmed match. sums are per version over every matched row (not just this page). The NEP and the House bill are two versions of one budget: compare them, never add them."
+    },
+    "verified_at": "2026-11-02T12:34:39.429Z",
+    "status": "RECONCILED"
+  },
+  {
+    "endpoint": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/hfep/projects?q=Negros+Oriental",
+    "records": 24,
+    "sums": {
+      "nep_php": 398200000,
+      "hgab2_php": 248200000,
+      "hgab3_php": 248200000
+    },
+    "source_sums": {
+      "nep_php": 398200000,
+      "hgab2_php": 248200000,
+      "hgab3_php": 248200000,
+      "api_php": null,
+      "rows_with_amount": {
+        "nep": 24,
+        "hgab2": 23,
+        "hgab3": 23,
+        "api": 0
+      },
+      "unconfirmed_rows": 0,
+      "not_additive_across_versions": true
+    },
+    "source_meta": {
+      "dataset": "hgab",
+      "fiscal_year": 2027,
+      "currency": "PHP",
+      "scale": "pesos",
+      "source_repo": "https://github.com/csiiiv/DPWH-NEP-HB-2027-ANALYSIS",
+      "source_commit": "a0caa778442cdae5583f5a006ea7401dab00e5ac",
+      "built_at": "2026-10-26T08:46:14.383Z",
+      "notice": "Independent and unofficial. This comparison is our own reading of the published documents, not an official record of the budget department, the agencies or the House. Figures are the amounts published in the documents, not spending. No allegations. An insertion, deletion, or amount-change candidate describes a provisional comparison between identified sources. That classification alone does not establish irregularity or wrongdoing by any office or official and should not be represented as such. Absence from an API snapshot likewise does not establish absence from the published NEP or concealment. Read the full notice: https://budget.bettergov.ph/hgab/2027/methodology#disclaimer.",
+      "dataset_key": "hfep",
+      "house_stage": "hgab2",
+      "filters": {
+        "q": "negros oriental",
+        "held": "all"
+      },
+      "sort": "house",
+      "order": "desc",
+      "limit": 1,
+      "offset": 0,
+      "returned": 1,
+      "total": 24,
+      "note": "One row per comparison record. status_label is the plain status; trace is the raw code. Pairings are candidates, not confirmed changes; held = true marks an unconfirmed match. sums are per version over every matched row (not just this page). The NEP and the House bill are two versions of one budget: compare them, never add them."
+    },
+    "verified_at": "2026-11-02T12:34:40.650Z",
+    "status": "RECONCILED"
+  },
+  {
+    "endpoint": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/nia/projects?q=Negros+Oriental",
+    "records": 0,
+    "sums": {
+      "nep_php": null,
+      "hgab2_php": null,
+      "hgab3_php": null
+    },
+    "source_sums": {
+      "nep_php": null,
+      "hgab2_php": null,
+      "hgab3_php": null,
+      "api_php": null,
+      "rows_with_amount": {
+        "nep": 0,
+        "hgab2": 0,
+        "hgab3": 0,
+        "api": 0
+      },
+      "unconfirmed_rows": 0,
+      "not_additive_across_versions": true
+    },
+    "source_meta": {
+      "dataset": "hgab",
+      "fiscal_year": 2027,
+      "currency": "PHP",
+      "scale": "pesos",
+      "source_repo": "https://github.com/csiiiv/DPWH-NEP-HB-2027-ANALYSIS",
+      "source_commit": "a0caa778442cdae5583f5a006ea7401dab00e5ac",
+      "built_at": "2026-10-26T08:46:14.383Z",
+      "notice": "Independent and unofficial. This comparison is our own reading of the published documents, not an official record of the budget department, the agencies or the House. Figures are the amounts published in the documents, not spending. No allegations. An insertion, deletion, or amount-change candidate describes a provisional comparison between identified sources. That classification alone does not establish irregularity or wrongdoing by any office or official and should not be represented as such. Absence from an API snapshot likewise does not establish absence from the published NEP or concealment. Read the full notice: https://budget.bettergov.ph/hgab/2027/methodology#disclaimer.",
+      "dataset_key": "nia",
+      "house_stage": "hgab2",
+      "filters": {
+        "q": "negros oriental",
+        "held": "all"
+      },
+      "sort": "house",
+      "order": "desc",
+      "limit": 1,
+      "offset": 0,
+      "returned": 0,
+      "total": 0,
+      "note": "One row per comparison record. status_label is the plain status; trace is the raw code. Pairings are candidates, not confirmed changes; held = true marks an unconfirmed match. sums are per version over every matched row (not just this page). The NEP and the House bill are two versions of one budget: compare them, never add them."
+    },
+    "verified_at": "2026-11-02T12:34:41.444Z",
+    "status": "RECONCILED"
+  },
+  {
+    "endpoint": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/dpwh/projects?q=Siquijor",
+    "records": 77,
+    "sums": {
+      "nep_php": 1040934000,
+      "hgab2_php": 1512834000,
+      "hgab3_php": 1512834000
+    },
+    "source_sums": {
+      "nep_php": 1040934000,
+      "hgab2_php": 1512834000,
+      "hgab3_php": 1512834000,
+      "api_php": 1040934000,
+      "rows_with_amount": {
+        "nep": 49,
+        "hgab2": 69,
+        "hgab3": 69,
+        "api": 49
+      },
+      "unconfirmed_rows": 2,
+      "not_additive_across_versions": true
+    },
+    "source_meta": {
+      "dataset": "hgab",
+      "fiscal_year": 2027,
+      "currency": "PHP",
+      "scale": "pesos",
+      "source_repo": "https://github.com/csiiiv/DPWH-NEP-HB-2027-ANALYSIS",
+      "source_commit": "a0caa778442cdae5583f5a006ea7401dab00e5ac",
+      "built_at": "2026-10-26T08:46:14.383Z",
+      "notice": "Independent and unofficial. This comparison is our own reading of the published documents, not an official record of the budget department, the agencies or the House. Figures are the amounts published in the documents, not spending. No allegations. An insertion, deletion, or amount-change candidate describes a provisional comparison between identified sources. That classification alone does not establish irregularity or wrongdoing by any office or official and should not be represented as such. Absence from an API snapshot likewise does not establish absence from the published NEP or concealment. Read the full notice: https://budget.bettergov.ph/hgab/2027/methodology#disclaimer.",
+      "dataset_key": "dpwh",
+      "house_stage": "hgab3",
+      "filters": {
+        "q": "siquijor",
+        "held": "all"
+      },
+      "sort": "house",
+      "order": "desc",
+      "limit": 1,
+      "offset": 0,
+      "returned": 1,
+      "total": 77,
+      "note": "One row per comparison record. status_label is the plain status; trace is the raw code. Pairings are candidates, not confirmed changes; held = true marks an unconfirmed match. sums are per version over every matched row (not just this page). The NEP and the House bill are two versions of one budget: compare them, never add them."
+    },
+    "verified_at": "2026-11-02T12:34:42.229Z",
+    "status": "RECONCILED"
+  },
+  {
+    "endpoint": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/fmr/projects?q=Siquijor",
+    "records": 2,
+    "sums": {
+      "nep_php": 30000000,
+      "hgab2_php": 30000000,
+      "hgab3_php": 30000000
+    },
+    "source_sums": {
+      "nep_php": 30000000,
+      "hgab2_php": 30000000,
+      "hgab3_php": 30000000,
+      "api_php": null,
+      "rows_with_amount": {
+        "nep": 2,
+        "hgab2": 2,
+        "hgab3": 2,
+        "api": 0
+      },
+      "unconfirmed_rows": 0,
+      "not_additive_across_versions": true
+    },
+    "source_meta": {
+      "dataset": "hgab",
+      "fiscal_year": 2027,
+      "currency": "PHP",
+      "scale": "pesos",
+      "source_repo": "https://github.com/csiiiv/DPWH-NEP-HB-2027-ANALYSIS",
+      "source_commit": "a0caa778442cdae5583f5a006ea7401dab00e5ac",
+      "built_at": "2026-10-26T08:46:14.383Z",
+      "notice": "Independent and unofficial. This comparison is our own reading of the published documents, not an official record of the budget department, the agencies or the House. Figures are the amounts published in the documents, not spending. No allegations. An insertion, deletion, or amount-change candidate describes a provisional comparison between identified sources. That classification alone does not establish irregularity or wrongdoing by any office or official and should not be represented as such. Absence from an API snapshot likewise does not establish absence from the published NEP or concealment. Read the full notice: https://budget.bettergov.ph/hgab/2027/methodology#disclaimer.",
+      "dataset_key": "fmr",
+      "house_stage": "hgab2",
+      "filters": {
+        "q": "siquijor",
+        "held": "all"
+      },
+      "sort": "house",
+      "order": "desc",
+      "limit": 1,
+      "offset": 0,
+      "returned": 1,
+      "total": 2,
+      "note": "One row per comparison record. status_label is the plain status; trace is the raw code. Pairings are candidates, not confirmed changes; held = true marks an unconfirmed match. sums are per version over every matched row (not just this page). The NEP and the House bill are two versions of one budget: compare them, never add them."
+    },
+    "verified_at": "2026-11-02T12:34:43.008Z",
+    "status": "RECONCILED"
+  },
+  {
+    "endpoint": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/hfep/projects?q=Siquijor",
+    "records": 4,
+    "sums": {
+      "nep_php": 56000000,
+      "hgab2_php": 135000000,
+      "hgab3_php": 135000000
+    },
+    "source_sums": {
+      "nep_php": 56000000,
+      "hgab2_php": 135000000,
+      "hgab3_php": 135000000,
+      "api_php": null,
+      "rows_with_amount": {
+        "nep": 4,
+        "hgab2": 3,
+        "hgab3": 3,
+        "api": 0
+      },
+      "unconfirmed_rows": 0,
+      "not_additive_across_versions": true
+    },
+    "source_meta": {
+      "dataset": "hgab",
+      "fiscal_year": 2027,
+      "currency": "PHP",
+      "scale": "pesos",
+      "source_repo": "https://github.com/csiiiv/DPWH-NEP-HB-2027-ANALYSIS",
+      "source_commit": "a0caa778442cdae5583f5a006ea7401dab00e5ac",
+      "built_at": "2026-10-26T08:46:14.383Z",
+      "notice": "Independent and unofficial. This comparison is our own reading of the published documents, not an official record of the budget department, the agencies or the House. Figures are the amounts published in the documents, not spending. No allegations. An insertion, deletion, or amount-change candidate describes a provisional comparison between identified sources. That classification alone does not establish irregularity or wrongdoing by any office or official and should not be represented as such. Absence from an API snapshot likewise does not establish absence from the published NEP or concealment. Read the full notice: https://budget.bettergov.ph/hgab/2027/methodology#disclaimer.",
+      "dataset_key": "hfep",
+      "house_stage": "hgab2",
+      "filters": {
+        "q": "siquijor",
+        "held": "all"
+      },
+      "sort": "house",
+      "order": "desc",
+      "limit": 1,
+      "offset": 0,
+      "returned": 1,
+      "total": 4,
+      "note": "One row per comparison record. status_label is the plain status; trace is the raw code. Pairings are candidates, not confirmed changes; held = true marks an unconfirmed match. sums are per version over every matched row (not just this page). The NEP and the House bill are two versions of one budget: compare them, never add them."
+    },
+    "verified_at": "2026-11-02T12:34:43.802Z",
+    "status": "RECONCILED"
+  },
+  {
+    "endpoint": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/nia/projects?q=Siquijor",
+    "records": 0,
+    "sums": {
+      "nep_php": null,
+      "hgab2_php": null,
+      "hgab3_php": null
+    },
+    "source_sums": {
+      "nep_php": null,
+      "hgab2_php": null,
+      "hgab3_php": null,
+      "api_php": null,
+      "rows_with_amount": {
+        "nep": 0,
+        "hgab2": 0,
+        "hgab3": 0,
+        "api": 0
+      },
+      "unconfirmed_rows": 0,
+      "not_additive_across_versions": true
+    },
+    "source_meta": {
+      "dataset": "hgab",
+      "fiscal_year": 2027,
+      "currency": "PHP",
+      "scale": "pesos",
+      "source_repo": "https://github.com/csiiiv/DPWH-NEP-HB-2027-ANALYSIS",
+      "source_commit": "a0caa778442cdae5583f5a006ea7401dab00e5ac",
+      "built_at": "2026-10-26T08:46:14.383Z",
+      "notice": "Independent and unofficial. This comparison is our own reading of the published documents, not an official record of the budget department, the agencies or the House. Figures are the amounts published in the documents, not spending. No allegations. An insertion, deletion, or amount-change candidate describes a provisional comparison between identified sources. That classification alone does not establish irregularity or wrongdoing by any office or official and should not be represented as such. Absence from an API snapshot likewise does not establish absence from the published NEP or concealment. Read the full notice: https://budget.bettergov.ph/hgab/2027/methodology#disclaimer.",
+      "dataset_key": "nia",
+      "house_stage": "hgab2",
+      "filters": {
+        "q": "siquijor",
+        "held": "all"
+      },
+      "sort": "house",
+      "order": "desc",
+      "limit": 1,
+      "offset": 0,
+      "returned": 0,
+      "total": 0,
+      "note": "One row per comparison record. status_label is the plain status; trace is the raw code. Pairings are candidates, not confirmed changes; held = true marks an unconfirmed match. sums are per version over every matched row (not just this page). The NEP and the House bill are two versions of one budget: compare them, never add them."
+    },
+    "verified_at": "2026-11-02T12:34:44.776Z",
+    "status": "RECONCILED"
+  },
+  {
+    "endpoint": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/dpwh/projects?q=Bacolod",
+    "records": 191,
+    "sums": {
+      "nep_php": 6281817000,
+      "hgab2_php": 6609251000,
+      "hgab3_php": 6609251000
+    },
+    "source_sums": {
+      "nep_php": 6281817000,
+      "hgab2_php": 6609251000,
+      "hgab3_php": 6609251000,
+      "api_php": 6281817000,
+      "rows_with_amount": {
+        "nep": 141,
+        "hgab2": 183,
+        "hgab3": 183,
+        "api": 141
+      },
+      "unconfirmed_rows": 4,
+      "not_additive_across_versions": true
+    },
+    "source_meta": {
+      "dataset": "hgab",
+      "fiscal_year": 2027,
+      "currency": "PHP",
+      "scale": "pesos",
+      "source_repo": "https://github.com/csiiiv/DPWH-NEP-HB-2027-ANALYSIS",
+      "source_commit": "a0caa778442cdae5583f5a006ea7401dab00e5ac",
+      "built_at": "2026-10-26T08:46:14.383Z",
+      "notice": "Independent and unofficial. This comparison is our own reading of the published documents, not an official record of the budget department, the agencies or the House. Figures are the amounts published in the documents, not spending. No allegations. An insertion, deletion, or amount-change candidate describes a provisional comparison between identified sources. That classification alone does not establish irregularity or wrongdoing by any office or official and should not be represented as such. Absence from an API snapshot likewise does not establish absence from the published NEP or concealment. Read the full notice: https://budget.bettergov.ph/hgab/2027/methodology#disclaimer.",
+      "dataset_key": "dpwh",
+      "house_stage": "hgab3",
+      "filters": {
+        "q": "bacolod",
+        "held": "all"
+      },
+      "sort": "house",
+      "order": "desc",
+      "limit": 1,
+      "offset": 0,
+      "returned": 1,
+      "total": 191,
+      "note": "One row per comparison record. status_label is the plain status; trace is the raw code. Pairings are candidates, not confirmed changes; held = true marks an unconfirmed match. sums are per version over every matched row (not just this page). The NEP and the House bill are two versions of one budget: compare them, never add them."
+    },
+    "verified_at": "2026-11-02T12:34:45.791Z",
+    "status": "RECONCILED"
+  },
+  {
+    "endpoint": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/fmr/projects?q=Bacolod",
+    "records": 5,
+    "sums": {
+      "nep_php": 45000000,
+      "hgab2_php": 90000000,
+      "hgab3_php": 90000000
+    },
+    "source_sums": {
+      "nep_php": 45000000,
+      "hgab2_php": 90000000,
+      "hgab3_php": 90000000,
+      "api_php": null,
+      "rows_with_amount": {
+        "nep": 2,
+        "hgab2": 5,
+        "hgab3": 5,
+        "api": 0
+      },
+      "unconfirmed_rows": 0,
+      "not_additive_across_versions": true
+    },
+    "source_meta": {
+      "dataset": "hgab",
+      "fiscal_year": 2027,
+      "currency": "PHP",
+      "scale": "pesos",
+      "source_repo": "https://github.com/csiiiv/DPWH-NEP-HB-2027-ANALYSIS",
+      "source_commit": "a0caa778442cdae5583f5a006ea7401dab00e5ac",
+      "built_at": "2026-10-26T08:46:14.383Z",
+      "notice": "Independent and unofficial. This comparison is our own reading of the published documents, not an official record of the budget department, the agencies or the House. Figures are the amounts published in the documents, not spending. No allegations. An insertion, deletion, or amount-change candidate describes a provisional comparison between identified sources. That classification alone does not establish irregularity or wrongdoing by any office or official and should not be represented as such. Absence from an API snapshot likewise does not establish absence from the published NEP or concealment. Read the full notice: https://budget.bettergov.ph/hgab/2027/methodology#disclaimer.",
+      "dataset_key": "fmr",
+      "house_stage": "hgab2",
+      "filters": {
+        "q": "bacolod",
+        "held": "all"
+      },
+      "sort": "house",
+      "order": "desc",
+      "limit": 1,
+      "offset": 0,
+      "returned": 1,
+      "total": 5,
+      "note": "One row per comparison record. status_label is the plain status; trace is the raw code. Pairings are candidates, not confirmed changes; held = true marks an unconfirmed match. sums are per version over every matched row (not just this page). The NEP and the House bill are two versions of one budget: compare them, never add them."
+    },
+    "verified_at": "2026-11-02T12:34:46.657Z",
+    "status": "RECONCILED"
+  },
+  {
+    "endpoint": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/hfep/projects?q=Bacolod",
+    "records": 0,
+    "sums": {
+      "nep_php": null,
+      "hgab2_php": null,
+      "hgab3_php": null
+    },
+    "source_sums": {
+      "nep_php": null,
+      "hgab2_php": null,
+      "hgab3_php": null,
+      "api_php": null,
+      "rows_with_amount": {
+        "nep": 0,
+        "hgab2": 0,
+        "hgab3": 0,
+        "api": 0
+      },
+      "unconfirmed_rows": 0,
+      "not_additive_across_versions": true
+    },
+    "source_meta": {
+      "dataset": "hgab",
+      "fiscal_year": 2027,
+      "currency": "PHP",
+      "scale": "pesos",
+      "source_repo": "https://github.com/csiiiv/DPWH-NEP-HB-2027-ANALYSIS",
+      "source_commit": "a0caa778442cdae5583f5a006ea7401dab00e5ac",
+      "built_at": "2026-10-26T08:46:14.383Z",
+      "notice": "Independent and unofficial. This comparison is our own reading of the published documents, not an official record of the budget department, the agencies or the House. Figures are the amounts published in the documents, not spending. No allegations. An insertion, deletion, or amount-change candidate describes a provisional comparison between identified sources. That classification alone does not establish irregularity or wrongdoing by any office or official and should not be represented as such. Absence from an API snapshot likewise does not establish absence from the published NEP or concealment. Read the full notice: https://budget.bettergov.ph/hgab/2027/methodology#disclaimer.",
+      "dataset_key": "hfep",
+      "house_stage": "hgab2",
+      "filters": {
+        "q": "bacolod",
+        "held": "all"
+      },
+      "sort": "house",
+      "order": "desc",
+      "limit": 1,
+      "offset": 0,
+      "returned": 0,
+      "total": 0,
+      "note": "One row per comparison record. status_label is the plain status; trace is the raw code. Pairings are candidates, not confirmed changes; held = true marks an unconfirmed match. sums are per version over every matched row (not just this page). The NEP and the House bill are two versions of one budget: compare them, never add them."
+    },
+    "verified_at": "2026-11-02T12:34:47.465Z",
+    "status": "RECONCILED"
+  },
+  {
+    "endpoint": "https://budget.bettergov.ph/api/v1/hgab/2027/datasets/nia/projects?q=Bacolod",
+    "records": 0,
+    "sums": {
+      "nep_php": null,
+      "hgab2_php": null,
+      "hgab3_php": null
+    },
+    "source_sums": {
+      "nep_php": null,
+      "hgab2_php": null,
+      "hgab3_php": null,
+      "api_php": null,
+      "rows_with_amount": {
+        "nep": 0,
+        "hgab2": 0,
+        "hgab3": 0,
+        "api": 0
+      },
+      "unconfirmed_rows": 0,
+      "not_additive_across_versions": true
+    },
+    "source_meta": {
+      "dataset": "hgab",
+      "fiscal_year": 2027,
+      "currency": "PHP",
+      "scale": "pesos",
+      "source_repo": "https://github.com/csiiiv/DPWH-NEP-HB-2027-ANALYSIS",
+      "source_commit": "a0caa778442cdae5583f5a006ea7401dab00e5ac",
+      "built_at": "2026-10-26T08:46:14.383Z",
+      "notice": "Independent and unofficial. This comparison is our own reading of the published documents, not an official record of the budget department, the agencies or the House. Figures are the amounts published in the documents, not spending. No allegations. An insertion, deletion, or amount-change candidate describes a provisional comparison between identified sources. That classification alone does not establish irregularity or wrongdoing by any office or official and should not be represented as such. Absence from an API snapshot likewise does not establish absence from the published NEP or concealment. Read the full notice: https://budget.bettergov.ph/hgab/2027/methodology#disclaimer.",
+      "dataset_key": "nia",
+      "house_stage": "hgab2",
+      "filters": {
+        "q": "bacolod",
+        "held": "all"
+      },
+      "sort": "house",
+      "order": "desc",
+      "limit": 1,
+      "offset": 0,
+      "returned": 0,
+      "total": 0,
+      "note": "One row per comparison record. status_label is the plain status; trace is the raw code. Pairings are candidates, not confirmed changes; held = true marks an unconfirmed match. sums are per version over every matched row (not just this page). The NEP and the House bill are two versions of one budget: compare them, never add them."
+    },
+    "verified_at": "2026-11-02T12:34:48.452Z",
+    "status": "RECONCILED"
+  }
+]

@@ -1,36 +1,53 @@
 {
-  "name": "transparency-portal",
+  "name": "betternegrosisland",
   "private": true,
   "license": "MIT",
   "version": "0.1.0",
   "type": "module",
-  "description": "A forkable FY2027 budget transparency portal for one LGU or DPWH district engineering office, built on the BetterGov.ph Budget API.",
+  "description": "Independent regional budget transparency for Negros Occidental, Negros Oriental, Bacolod and Siquijor.",
   "scripts": {
     "dev": "vite",
     "setup": "tsx scripts/setup.ts",
-    "check": "tsx scripts/check.ts",
+    "check": "npm run data:validate",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "lint": "eslint .",
     "deploy:cloudflare": "npm run build && wrangler deploy",
-    "build:poster": "tsx scripts/build-poster.ts"
+    "build:poster": "tsx scripts/build-poster.ts",
+    "test": "tsx --tsconfig tsconfig.app.json --test tests/*.test.ts",
+    "data:discover": "tsx scripts/data-ingestion/pipeline.ts discover",
+    "data:fetch": "tsx scripts/data-ingestion/pipeline.ts fetch",
+    "data:validate": "tsx scripts/data-ingestion/pipeline.ts validate",
+    "data:report": "tsx scripts/data-ingestion/pipeline.ts report",
+    "data:refresh": "tsx scripts/data-ingestion/pipeline.ts refresh",
+    "data:refresh:candidate": "node scripts/data-ingestion/candidate.mjs",
+    "check:legacy-live": "tsx scripts/check.ts",
+    "data:privacy-review": "tsx scripts/privacy-review.ts"
   },
   "dependencies": {
+    "@fontsource/plus-jakarta-sans": "^5.3.0",
+    "qrcode": "^1.5.4",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
-    "react-router-dom": "^7.14.2"
+    "react-router-dom": "^7.14.2",
+    "recharts": "^3.10.1"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@types/node": "^24.12.2",
+    "@types/pngjs": "^6.0.5",
+    "@types/qrcode": "^1.5.6",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.1",
+    "axe-core": "^4.14.0",
     "eslint": "^10.2.1",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.5.0",
+    "jsqr": "^1.4.0",
     "playwright-core": "1.63.0",
+    "pngjs": "^7.0.0",
     "tsx": "^4.19.2",
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.58.2",
@@ -39,5 +56,8 @@
   },
   "engines": {
     "node": "^20.19.0 || >=22.12.0"
+  },
+  "overrides": {
+    "minimatch": "11.0.1"
   }
 }

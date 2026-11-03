@@ -12,9 +12,11 @@ export type DatasetKey = 'dpwh' | 'fmr' | 'hfep' | 'nia';
 export const DATASET_KEYS: readonly DatasetKey[] = ['dpwh', 'fmr', 'hfep', 'nia'];
 
 /** What the portal is for. Only changes wording; the scope decides the data. */
-export type PortalKind = 'deo' | 'province' | 'city' | 'municipality';
+export type PortalKind = 'deo' | 'province' | 'city' | 'municipality' | 'district' | 'region';
 
 export const KIND_LABELS: Record<PortalKind, string> = {
+  region: 'Administrative region',
+  district: 'Congressional district',
   deo: 'DPWH district engineering office',
   province: 'Province',
   city: 'City',

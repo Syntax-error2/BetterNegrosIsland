@@ -1,0 +1,366 @@
+[
+  {
+    "before": {
+      "heading": "A proposal asks for funding.",
+      "height": 353.70001220703125,
+      "inactive": [
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        }
+      ],
+      "nav": 476.25,
+      "step": "Step 1 of 5",
+      "y": 299.20001220703125
+    },
+    "after": {
+      "heading": "The House has its own version.",
+      "height": 353.70001220703125,
+      "inactive": [
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        }
+      ],
+      "nav": 476.25,
+      "step": "Step 2 of 5",
+      "y": 299.20001220703125
+    }
+  },
+  {
+    "before": {
+      "heading": "The House has its own version.",
+      "height": 353.70001220703125,
+      "inactive": [
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        }
+      ],
+      "nav": 476.25,
+      "step": "Step 2 of 5",
+      "y": 299.20001220703125
+    },
+    "after": {
+      "heading": "An appropriation authorizes spending.",
+      "height": 353.70001220703125,
+      "inactive": [
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        }
+      ],
+      "nav": 476.25,
+      "step": "Step 3 of 5",
+      "y": 299.20001220703125
+    }
+  },
+  {
+    "before": {
+      "heading": "An appropriation authorizes spending.",
+      "height": 353.70001220703125,
+      "inactive": [
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        }
+      ],
+      "nav": 476.25,
+      "step": "Step 3 of 5",
+      "y": 299.20001220703125
+    },
+    "after": {
+      "heading": "Actual spending needs separate evidence.",
+      "height": 353.70001220703125,
+      "inactive": [
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        }
+      ],
+      "nav": 476.25,
+      "step": "Step 4 of 5",
+      "y": 299.20001220703125
+    }
+  },
+  {
+    "before": {
+      "heading": "Actual spending needs separate evidence.",
+      "height": 353.70001220703125,
+      "inactive": [
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        }
+      ],
+      "nav": 476.25,
+      "step": "Step 4 of 5",
+      "y": 299.20001220703125
+    },
+    "after": {
+      "heading": "Now read a real record.",
+      "height": 353.70001220703125,
+      "inactive": [
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        }
+      ],
+      "nav": 476.25,
+      "step": "Step 5 of 5",
+      "y": 299.20001220703125
+    }
+  },
+  {
+    "after": {
+      "heading": "Actual spending needs separate evidence.",
+      "height": 353.70001220703125,
+      "inactive": [
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        }
+      ],
+      "nav": 476.25,
+      "step": "Step 4 of 5",
+      "y": 299.20001220703125
+    }
+  },
+  {
+    "after": {
+      "heading": "An appropriation authorizes spending.",
+      "height": 353.70001220703125,
+      "inactive": [
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        }
+      ],
+      "nav": 476.25,
+      "step": "Step 3 of 5",
+      "y": 299.20001220703125
+    }
+  },
+  {
+    "after": {
+      "heading": "The House has its own version.",
+      "height": 353.70001220703125,
+      "inactive": [
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        }
+      ],
+      "nav": 476.25,
+      "step": "Step 2 of 5",
+      "y": 299.20001220703125
+    }
+  },
+  {
+    "after": {
+      "heading": "A proposal asks for funding.",
+      "height": 353.70001220703125,
+      "inactive": [
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        },
+        {
+          "hidden": true,
+          "inert": true,
+          "visibility": "hidden"
+        }
+      ],
+      "nav": 476.25,
+      "step": "Step 1 of 5",
+      "y": 299.20001220703125
+    }
+  }
+]

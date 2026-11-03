@@ -1,0 +1,42 @@
+dpwh:house-reading:2991 Negros Occidental 4th District Engineering Office Antipolo Br. (B00197NR) along Jct Pontevedra-La Castellana Rd
+gaa:18-001|vallehermosocanlaon cityla castellana rd  k0149  805  k0150  000 k0150  778  k0153  000 k0157  000  k0157  378 Vallehermoso-Canlaon City-La Castellana Rd - K0149 + 805 - K0150 + 000, K0150 + 778 - K0153 + 000, K0157 + 000 - K0157 + 378
+gaa:18-001|vallehermosocanlaon cityla castellana rd  k0066  617  k0069  000 Vallehermoso-Canlaon City-La Castellana Rd - K0066 + 617 - K0069 + 000
+gaa:18-001|vallehermosocanlaon cityla castellana rd  k0085  000  k0087  242 Vallehermoso-Canlaon City-La Castellana Rd - K0085 + 000 - K0087 + 242
+gaa:18-001|vallehermosocanlaon cityla castellana rd  k0148  992  k0149  13588 Vallehermoso-Canlaon City-La Castellana Rd - K0148 + (-992) - K0149 + 135.88
+gaa:18-001|himamaylan city  negros oriental boundary  tayasan road sta 18553  sta 19178 negros occidental Himamaylan City - Negros Oriental Boundary - Tayasan Road, Sta. 18+553 - Sta. 19+178, Negros Occidental 
+gaa:18-001|vallehermosocanlaon cityla castellana rd  k0166  513  k0168  539 Vallehermoso-Canlaon City-La Castellana Rd - K0166 + 513 - K0168 + 539
+gaa:18-001|vallehermosocanlaon cityla castellana rd  k0152  573  k0152  600 k0152  688  k0152  725 k0154  216  k0154  407 Vallehermoso-Canlaon City-La Castellana Rd - K0152 + 573 - K0152 + 600, K0152 + 688 - K0152 + 725, K0154 + 216 - K0154 + 407
+gaa:18-001|masulog br b0068nr along vallehermosocanlaon cityla castellana rd Masulog Br (B0068NR) along Vallehermoso-Canlaon City-La Castellana Rd
+gaa:18-001|taburda br b00198nr along vallehermosocanlaon cityla castellana rd Taburda Br. (B00198NR) along Vallehermoso-Canlaon City-La Castellana Rd
+gaa:18-001|odiong br b00201nr along vallehermosocanlaon cityla castellana rd Odiong Br. (B00201NR) along Vallehermoso-Canlaon City-La Castellana Rd
+gaa:18-001|vallehermosocanlaon cityla castellana rd  k0071  190  k0071  440 Vallehermoso-Canlaon City-La Castellana Rd - K0071 + 190 - K0071 + 440
+gaa:18-001|himamaylan city  negros oriental boundary  tayasan road negros occidental Himamaylan City   -   Negros Oriental Boundary   -   Tayasan Road, Negros Occidental
+gaa:18-001|linothangan br b00065nr along vallehermosocanlaon cityla castellana rd Linothangan Br. (B00065NR) along Vallehermoso-Canlaon City-La Castellana Rd
+gaa:18-001|vallehermosocanlaon cityla castellana rd  k0065  092  k0066  617 Vallehermoso-Canlaon City-La Castellana Rd - K0065 + 092 - K0066 + 617
+gaa:18-001|vallehermosocanlaon cityla castellana rd  k0076500  k0079132 Vallehermoso-Canlaon City-La Castellana Rd - K0076+500 - K0079+132
+gaa:18-001|vallehermosocanlaon cityla castellana rd  k0078  170  k0078  215 Vallehermoso-Canlaon City-La Castellana Rd - K0078 + 170 - K0078 + 215
+gaa:18-001|vallehermoso  canlaon city  la castellana rd  k0072  000  k0073  655 Vallehermoso - Canlaon City - La Castellana Rd - K0072 + 000 - K0073 + 655
+gaa:18-001|vallehermoso  canlaon city  la castellana rd  k0156  000  k0157  000 k0157  378  k0158  000 Vallehermoso - Canlaon City - La Castellana Rd - K0156 + 000 - K0157 + 000, K0157 + 378 - K0158 + 000
+gaa:18-001|vallehermoso  canlaon city  la castellana rd  k0160  500  k0160  627 k0160  834  k0161  000 k0161  889  k0162  000 k0164700  k0166  487 Vallehermoso - Canlaon City - La Castellana Rd - K0160 + 500 - K0160 + 627, K0160 + 834 - K0161 + 000, K0161 + 889 - K0162 + 000, K0164+700 - K0166 + 487
+gaa:18-001|malaiba br 1 b00409nr along vallehermosocanlaon cityla castellana rd Malaiba Br. 1 (B00409NR) along Vallehermoso-Canlaon City-La Castellana Rd
+gaa:18-001|regionwide  nationwide  roads and bridges  feasibility studies preliminary and detailed engineering economic analysis technical studies traffic impact assessment  region vii  fullscale feasibility study phase ii of the himamaylan  tayasan road negros oriental Regionwide / Nationwide - Roads and Bridges - Feasibility Studies/ Preliminary and Detailed Engineering/ Economic Analysis/ Technical Studies/ Traffic Impact Assessment - Region VII - Full-scale Feasibility Study (Phase II) of the Himamaylan - Tayasan Road, Negros Oriental
+gaa:18-001|vallehermosocanlaon cityla castellana rd  k0074  376  k0075  569 Vallehermoso-Canlaon City-La Castellana Rd - K0074 + 376 - K0075 + 569
+gaa:18-001|vallehermosocanlaon cityla castellana rd  k0075  595  k0079  200 Vallehermoso-Canlaon City-La Castellana Rd - K0075 + 595 - K0079 + 200
+gaa:18-001|vallehermosocanlaon cityla castellana rd  k0079  349  k0079  492 Vallehermoso-Canlaon City-La Castellana Rd - K0079 + 349 - K0079 + 492
+gaa:18-001|vallehermosocanlaon cityla castellana rd  k0153  393  k0153  490 k0153  735  k0154  000 k0156  695  k0157  000 Vallehermoso-Canlaon City-La Castellana Rd - K0153 + 393 - K0153 + 490, K0153 + 735 - K0154 + 000, K0156 + 695 - K0157 + 000
+gaa:18-001|vallehermosocanlaon cityla castellana rd  k0153  490  k0153  566 Vallehermoso-Canlaon City-La Castellana Rd - K0153 + 490 - K0153 + 566
+gaa:18-001|vallehermosocanlaon cityla castellana rd  k0158  308  k0158  100 Vallehermoso-Canlaon City-La Castellana Rd - K0158 + (-308) - K0158 + (-100)
+gaa:18-001|himamaylan city  negros oriental boundary  tayasan road phase i negros occidental Himamaylan City - Negros Oriental Boundary - Tayasan Road, Phase I, Negros Occidental
+gaa:18-001|regionwidenationwide  roads and bridges  conduct of feasibility studies preliminary and detailed engineering economic analysis technical studies traffic impact assessment  region vii  himamaylan  tayasan road negros oriental Regionwide/Nationwide - Roads and Bridges - Conduct of Feasibility Studies/ Preliminary and Detailed Engineering/ Economic Analysis/ Technical Studies/ Traffic Impact Assessment - Region VII - Himamaylan - Tayasan Road, Negros Oriental
+gaa:18-001|vallehermosocanlaon cityla castellana rd  k0152  608  k0152  953 Vallehermoso-Canlaon City-La Castellana Rd - K0152 + 608 - K0152 + 953
+gaa:18-001|vallehermosocanlaon cityla castellana rd  k0152  953  k0153  080 Vallehermoso-Canlaon City-La Castellana Rd - K0152 + 953 - K0153 + 080
+gaa:18-001|vallehermosocanlaon cityla castellana rd  k0153  080  k0153  365 Vallehermoso-Canlaon City-La Castellana Rd - K0153 + 080 - K0153 + 365
+gaa:18-001|vallehermosocanlaon cityla castellana rd  k0158  000  k0160  500 Vallehermoso-Canlaon City-La Castellana Rd - K0158 + 000 - K0160 + 500
+gaa:18-001|vallehermosocanlaon cityla castellana rd  k0065  41270  k0066  53370 Vallehermoso-Canlaon City-La Castellana Rd - K0065 + 412.70 - K0066 + 533.70
+gaa:18-001|vallehermosocanlaon cityla castellana rd  k0079  314  k0079  497 Vallehermoso-Canlaon City-La Castellana Rd - K0079 + 314 - K0079 + 497
+gaa:18-001|vallehermosocanlaon cityla castellana rd  k0148  798  k0148  853 k0149  209  k0149  559 Vallehermoso-Canlaon City-La Castellana Rd - K0148 + 798 - K0148 + 853, K0149 + 209 - K0149 + 559
+gaa:18-001|vallehermosocanlaon cityla castellana rd  k0150  000  k0150  100 k0166  252  k0166  480 k0166  513  k0167  270 k0167  591  k0168  620 k0168  665  k0169  732 k0170  010  k0170  040 Vallehermoso-Canlaon City-La Castellana Rd - K0150 + 000 - K0150 + 100, K0166 + 252 - K0166 + 480, K0166 + 513 - K0167 + 270, K0167 + 591 - K0168 + 620, K0168 + 665 - K0169 + 732, K0170 + 010 - K0170 + 040
+gaa:18-001|vallehermosocanlaon cityla castellana rd  k0153000  k0154606 k0160  627  k0160  827 k0163  000  k0164  685 k0166  513  k0168  000 k0169000  k0171  089 Vallehermoso-Canlaon City-La Castellana Rd - K0153+000 - K0154+606, K0160 + 627 - K0160 + 827, K0163 + 000 - K0164 + 685, K0166 + 513 - K0168 + 000, K0169+000 - K0171 + 089
+gaa:18-001|antulan br b00199nr along vallehermosocanlaon cityla castellana rd Antulan Br. (B00199NR) along Vallehermoso-Canlaon City-La Castellana Rd
+gaa:18-001|indurayan br b00200nr along vallehermosocanlaon cityla castellana rd Indurayan Br. (B00200NR) along Vallehermoso-Canlaon City-La Castellana Rd
+gaa:18-001|vallehermosocanlaon cityla castellana rd  k0156  000  k0156  062 k0156  195  k0156  232 k0156  489  k0156  529 k0159  273  k0159  1424 Vallehermoso-Canlaon City-La Castellana Rd - K0156 + 000 - K0156 + 062, K0156 + 195 - K0156 + 232, K0156 + 489 - K0156 + 529, K0159 + (-273) - K0159 + (-142.4)

@@ -1,0 +1,5 @@
+{
+  "beforeSwap": "http://localhost:5132/compare?left=dpwh%3Ahouse-reading%3A1918&right=hfep%3Aib%3Ap885%3Ar51%7Cinfrastructure",
+  "afterSwap": "http://localhost:5132/compare?left=hfep%3Aib%3Ap885%3Ar51%7Cinfrastructure&right=dpwh%3Ahouse-reading%3A1918",
+  "afterReload": "http://localhost:5132/compare?left=hfep%3Aib%3Ap885%3Ar51%7Cinfrastructure&right=dpwh%3Ahouse-reading%3A1918"
+}

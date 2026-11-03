@@ -1,0 +1,12 @@
+{
+  "chartWidths": 11,
+  "chartCases": 66,
+  "productionWidths": 3,
+  "historyReflowWidths": 11,
+  "welcomeWidths": 11,
+  "accessibilityAudits": 8,
+  "automatedAccessibilityViolations": 0,
+  "keyboardTooltipCases": 12,
+  "knownDependencyVulnerabilities": 0,
+  "release": "LOCAL REVIEW ONLY — legal/operator/hosting gates open"
+}

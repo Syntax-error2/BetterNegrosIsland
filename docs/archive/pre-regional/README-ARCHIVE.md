@@ -1,0 +1,1 @@
+Archived predecessor district implementation and documents. These files preserve migration history and are not imported or shipped as current pages. Active routes use RegionalOverview, RegionalPlaces, RegionalMethodology and the PSGC directory.

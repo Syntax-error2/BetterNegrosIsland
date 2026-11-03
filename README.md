@@ -1,174 +1,94 @@
-# Transparency Portal
+# BetterNegrosIsland
 
-A small, forkable website that shows citizens **every FY 2027 budget project** for one
-LGU (province, city or municipality) or one DPWH district engineering office: what the
-NEP gave it, what the House bill (House Bill 10858) gives it, what was added or dropped,
-and the page of the source document each figure is on. Beside it, the **enacted budgets
-of 2020 to 2026** for the same area: each DPWH office's budget year by year, and every
-program or project in any department whose name names the place.
+**Negros Island Region Transparency Portal**
 
-<p align="center">
-  <img src="docs/poster/create-your-own-transparency-portal-1080x1080.png" alt="Create your own transparency portal: for your LGU or DPWH district office. A sample portal for the Province of Bohol, and three steps: fork, run npm run setup, deploy." width="540">
-</p>
+Open Data. A Stronger Negros Island.
 
-**See a sample:** [transparency-portal.bettergov.workers.dev](https://transparency-portal.bettergov.workers.dev),
-the Province of Bohol, built from this repository as it is.
+An independent, free, open-source civic budget portal covering Negros Occidental (including Bacolod in regional navigation), Negros Oriental, and Siquijor. No login, registration, user database, tracking analytics, or always-on application backend.
 
-It has no backend and no database. Everything comes from the public
-[BetterGov.ph Budget API](https://budget.bettergov.ph/docs), the same data behind
-[budget.bettergov.ph](https://budget.bettergov.ph/hgab/2027/overview). Build it once and
-host the static files anywhere: Cloudflare, Vercel, Netlify, GitHub Pages or a plain web
-server.
+**Working local review build. Public launch is not approved.** See [the implementation report](docs/regional/IMPLEMENTATION_REPORT.md), [QA report](UI_QA_REPORT.md), and [release gate](docs/RELEASE.md).
 
-## Five minutes to your own portal
+The latest [critical hardening report](docs/qa/critical-hardening/REPORT.md) documents the SVG viewport-collapse fix, shared KPI cards, history repair, trusted source links and actual QA limits. The [processing inventory](docs/qa/critical-hardening/PRIVACY_PROCESSING.md) records unresolved operator decisions.
 
-```bash
-git clone https://github.com/bettergovph/transparency-portal my-portal
-cd my-portal
-npm install
-npm run setup     # pick your province, city, municipality or DPWH office
-npm run check     # counts every query against the live API
-npm run dev       # http://localhost:5132
+The preceding 3 November 2026 [analytics repair report](docs/qa/analytics-repair/REPORT.md) contains the latest chart root-cause analysis, rendered geometry/table checks, screenshots and verification limits. The [master layout, footer, brand and motion report](docs/qa/master-layout/REPORT.md) preserves the preceding layout evidence. The normal review preview remains on port 5132.
+
+## Foundation and identity
+
+Built from [BetterGov.PH's open-source Transparency Portal](https://github.com/bettergovph/transparency-portal), upstream commit `cc65e379e0dfd14ed3020ea2d322cab0403b86c3`. The original [MIT license](LICENSE) and copyright are preserved. [Original upstream README](docs/UPSTREAM_README.md).
+
+**Powered by BetterGov.PH Budget Data.** BetterGov.PH is the original project and budget data provider. BetterNegrosIsland uses the supplied regional logo and its own identity. No official government affiliation, endorsement, or partnership is implied. Source records retain the upstream notices and restrictions; the software license does not override data terms. The predecessor district portal and its evidence are retained under `docs/archive/pre-regional`, `docs/qa`, and existing release archives for migration history only.
+
+## Citizen tools
+
+The homepage question shortcuts lead to Community Spotlight, analytics, historical appropriations, `/compare`, and `/budget-guide`. Project results offer “Share card” and “Compare”; `/evidence/:dataset/:id` creates a dated PNG with a public source QR code locally in the browser. Comparison selections survive in the URL. Localhost comparison links remain local until approved hosting exists. [Implementation and actual QA](docs/qa/citizen-tools/REPORT.md).
+
+## Run locally
+
+Use Node 22.12+ (or supported Node 20.19+) and npm:
+
+```sh
+npm ci
+npm run dev
 ```
 
-`npm run setup` asks a few questions, looks up exact names and ids in the API, and
-writes `portal.config.ts`. That file is the only one a fork needs to change.
+Open [the local portal](http://localhost:5132/). Port 5132 is fixed; Vite fails instead of silently changing it. The current development server has been left running for review. Stop it with Ctrl+C in its terminal.
 
-## What the portal shows
+React, TypeScript, Vite, React Router, the original API client and static hosting foundation are retained. Recharts is loaded with Analytics. Plus Jakarta Sans is served locally under its bundled font license. Welcome acknowledgment stores only a version string in browser storage; blocked storage permits current-session entry. Terms and Privacy Notice remain review drafts. The operator supplied by the owner is Aqura Information Technology Solutions / Dave Hermoso, Binalbagan, Negros Occidental. No privacy contact has been added at the owner’s request; hosting, rights-request handling and legal review remain pending.
 
-| Page | What is on it |
+## What the snapshot contains
+
+The snapshot retrieved on **2 November 2026** has **866 unique FY2027 comparison records** (773 DPWH, 38 farm-to-market roads, 55 health facilities, no NIA records returned by the documented queries), **5,253 GAA historical families**, and **2,578 query ledger entries**. Of the comparison records, 851 explicitly have source region NIR; 15 are supplementary uncertain office/title associations. Pagination is complete **for the documented queries**, not the whole government budget.
+
+A separate NEP region-18 rollup reconciles to PHP 125,626,170,000 for FY2027. It has a broader coding scope than the comparison projects and is never added to them. Execution endpoints do not support reliable local attribution; no regional disbursement is inferred.
+
+The directory contains 63 unique official PSGC codes: 19 cities and 44 municipalities. Its accessible PSA lists are dated 31 July 2025. The later September 2026 workbook download was blocked by the source website; current-release validation remains outstanding. Bacolod keeps its separate HUC code. Historical VI/VII classifications remain original; title associations are documented separately and are not a certified monetary crosswalk. Directory coverage does not establish budget completeness.
+
+[Coverage and source decisions](docs/SCOPE.md) · [Ingestion report](docs/regional/INGESTION_REPORT.md) · [API documentation](https://budget.bettergov.ph/docs) · [PSA geography](https://psa.gov.ph/classification/psgc/municipalities/1800000000)
+
+## Data ingestion and checks
+
+```sh
+npm run data:discover   # public OpenAPI paths, no bulk extraction
+npm run data:fetch      # full conservative regional extraction
+npm run data:validate   # offline published-shard checks
+npm run data:report     # validate and regenerate the readable report
+npm run data:refresh    # extraction, validation and snapshot promotion
+npm test
+npm run data:privacy-review
+npm run lint
+npm run build
+```
+
+`data:fetch` and `data:refresh` intentionally run the same complete transaction. Historical collection searches 38 departments with 67 province/Bacolod/province-qualified locality queries, all cursors. A refresh makes about 2,610 requests and can take several minutes. Run manually when a new source build is published; do not run repeatedly during development. An opt-in daily candidate workflow is prepared but has not been enabled or connected to hosting; see [automatic data updates](docs/AUTOMATIC_DATA_UPDATES.md). `npm run data:refresh:candidate -- --rehearse` checks isolated preparation with existing data and no extraction. A failure preserves the current public snapshot.
+
+The 30 project query sums can be independently audited against one-row source responses with `npx tsx scripts/data-ingestion/audit-sums.ts`. It refuses a changed source build. The legacy inherited live checker remains available as `npm run check:legacy-live`; it is not the regional snapshot gate. `npm run check` runs the offline regional validator.
+
+Static JSON is outside the JS bundle. The overview loads a small manifest, summary and source metadata; projects, coverage and historical families load on demand. Whole history and project shards remain relatively large before hosting compression; further department/year shards and real low-bandwidth measurements are follow-up work. Individual details retain the live API integration and show a clearly dated cached comparison when the API is unavailable.
+
+## Routes
+
+| Route | Content |
 | --- | --- |
-| **Projects** (`/`) | The headline figures; the DPWH offices in scope (`#offices`), each with its 2027 figures, tier and status counts, and under it the legislative districts it serves with their representatives (a shared office's money is shown once, never split); the six statuses; and every project with search, filters (program, status, DPWH office, reason), sorting and a CSV download. An office's line count or status opens the list filtered to it. Filters live in the URL, so a filtered list can be shared. |
-| **Budgets 2020–2026** (`/gaa`) | The enacted budgets (GAA) for the same area: each DPWH office's whole budget by year, grouped by Congress, with the 2027 NEP and House bill beside it but apart; the yearly totals of the programs that name the place (click a year to filter); and every such program or project, in any department, with its amount in each year, search, department and year filters, and a CSV download. |
-| **A project** (`/projects/:program/:id`) | The amount in every version with a link to the exact PDF page, how the two versions were matched, notes on the line, and why it is in this portal. |
-| **About the data** (`/about`) | Every question the portal asks the API, for 2027 and for 2020–2026, with counts and a link to check each one, every line removed by hand and why, the source documents, plain-language rules and terms, and the notices. |
+| `/` | Regional editorial overview, dated comparison, three provinces |
+| `/projects` | Search, title-association geography, program/status/stage/office filters, amount bounds, sort, load-more, exact CSV |
+| `/projects/:dataset/:id` | Live source identity, versions, PDF pages, uncertainty, dated outage fallback |
+| `/provinces` | All 63 cities and municipalities, searchable |
+| `/provinces/:slug` | Negros Occidental, Negros Oriental, Siquijor directories |
+| `/locations/:psgcCode` | PSGC locality profile and associated projects |
+| `/analytics` | Eight scoped views; URL filters, exact tables, historical year/department controls |
+| `/budget-history` | GAA 2020–2026, historical office budgets, query families and export |
+| `/data-coverage` | Reconciled query reports, uncertainty and collection boundaries |
+| `/methodology`, `/about` | Definitions, source attribution and independent identity |
+| `/terms`, `/privacy` | Versioned notices available before entry |
 
-## How a portal decides which projects are its own
+Legacy `/municipalities`, locality slugs, `/districts` and `/gaa` remain compatible where a clear destination exists. The checkout folder retains its predecessor name for continuity.
 
-The scope in `portal.config.ts` has three parts. A project is in the portal for one or
-more stated reasons, and every row shows them.
+## Deployment
 
-```ts
-scope: {
-  // Every DPWH line the documents list under these offices.
-  offices: ['Bohol 1st District Engineering Office'],
-  // Every line in the four programs whose title names the place.
-  places: [{ label: 'Bohol', region: 'VII' }],
-  // District cards to show (representative, offices, tiers).
-  districts: ['leg:bohol:1st'],
-  // Lines removed by hand. Each needs a reason; the About page publishes them.
-  exclude: [],
-}
-```
+`npm run build` creates a static `dist/`; it includes the verified data artifacts and public license. Configure SPA fallback, public access without a host login, compression and the supplied security headers. Configure the actual `siteUrl` before generating production canonical/social URLs. [Deployment instructions](docs/deploy.md).
 
-- **A DPWH office** brings in its whole ledger. Use this for a DEO portal, and for a
-  province or city with its own district engineering offices.
-- **A place name** searches the titles of all four programs: DPWH, farm-to-market roads,
-  health facilities and irrigation. That catches projects under the DPWH Central Office
-  and the programs that have no office. `q` is the search: every word must appear
-  (`'Carmen Bohol'` needs both). `region` keeps a common name to one region; lines that
-  give no region at all (the irrigation list) are kept, since they cannot be ruled out.
-- **The same place names** search the enacted budgets, 2020–2026: every department's
-  programs, activities and projects whose name contains `q`. The GAA has no region, so
-  `region` cannot narrow these; make `q` specific instead. DPWH offices' yearly totals
-  come with the offices.
-- **Exclusions** are for namesakes: `<program>:<id>` for a 2027 line, `gaa:<family key>`
-  for a 2020–2026 program (the key is in the CSV). `npm run check -- --verbose` lists the
-  2027 lines found only by name under another office, which are the ones to review.
+No remote fork, production host, domain, or public release has been created. Operator legal/privacy completion, latest PSGC validation, hosting acceptance, native zoom and independent accessibility/device QA remain open.
 
-Examples for each kind are in [`examples/`](examples): a DEO, a highly urbanised city
-(Quezon City, whose offices are shared), and a municipality (Carmen, Bohol, a name used
-in several provinces). Check any of them with `npm run check -- --config=examples/deo.config.ts`.
+## Current UI/privacy sprint
 
-### What it cannot do yet
-
-The API places DPWH money by **office**, and finds other lines by **name**. It does not
-yet say which city or municipality a project is in. A municipality portal therefore
-relies on titles that spell the town out. The source workbench's location lens, which
-places lines by the place their title names, is being brought into budget.bettergov.ph;
-once the API serves it, a municipality scope can use it directly. See
-[docs/api.md](docs/api.md#gaps).
-
-## Rules this portal keeps
-
-These come from the API and the comparison behind it. A fork should keep them.
-
-- Amounts are integer pesos as published. A dash means "this document has no such
-  line", never zero.
-- The NEP and the House bill are two versions of one budget: they are **compared, never
-  added**.
-- "In the House bill only" and "In the NEP only" are **candidates**: leads to check,
-  not confirmed insertions or deletions. Unconfirmed matches are flagged on every row.
-- A DPWH office that serves several districts (Tier B) is shown whole; its money is
-  never split between them.
-- The disclaimers are printed from the API response itself, so their wording cannot
-  drift from budget.bettergov.ph. Keep them on every page that shows figures.
-- Nothing is hidden silently: hand exclusions are listed, with reasons, on the About
-  page.
-- Enacted amounts (2020–2026) are appropriations: the authority to spend, not spending.
-  A year counts only where its amount is above zero. Years are shown side by side, and
-  the 2027 versions are never added to them.
-- `npm run check` reconciles every 2020–2026 search, department by department and year
-  by year, against the API's own totals, so a lost page cannot go unnoticed.
-
-## Citizen reports
-
-Reports about a project will go to one central service on budget.bettergov.ph for every
-portal (not built yet). A portal does not collect reports itself; it links to the central
-form with the project's reference. Until the service opens, `reporting.enabled` stays
-`false` and the project page says reporting is coming. The link contract is in
-[docs/reporting.md](docs/reporting.md).
-
-## Deploying
-
-`npm run build` writes static files to `dist/`. Each host needs one rule: unknown paths
-serve `index.html`, because the routes are client-side. That rule is already in the repo
-for each:
-
-| Host | How |
-| --- | --- |
-| Cloudflare Workers | `npm run deploy:cloudflare` (uses `wrangler.jsonc`; rename `name` first) |
-| Vercel | Import the repo; `vercel.json` has the build and the rewrite |
-| Netlify | Import the repo; `netlify.toml` has the build and the redirect |
-| Anything else | Serve `dist/` and send unknown paths to `/index.html` |
-
-Set `siteUrl` in the config for link previews. Set `VITE_API_BASE` only to point at a
-different API host (a staging copy, for example). More in [docs/deploy.md](docs/deploy.md).
-
-## Poster
-
-"Create your own transparency portal", for sharing: a
-[feed post (1080×1350)](https://budget-assets.bettergov.ph/hgab/2027/campaign/create-your-own-transparency-portal-1080x1350.png?v=222d351a)
-and a [square post (1080×1080)](https://budget-assets.bettergov.ph/hgab/2027/campaign/create-your-own-transparency-portal-1080x1080.png?v=9689903f),
-also in [`docs/poster/`](docs/poster) and the
-[BetterGov campaign gallery](https://budget-assets.bettergov.ph/hgab/2027/campaign/index.html).
-
-The sample image is the real portal, screenshotted when the poster is built, and the background lists every DPWH
-district engineering office. To rebuild it after a design change, run the portal (`npm run dev`) and then
-`npm run build:poster`. It needs Playwright's Chromium (`npx playwright-core install chromium`).
-
-## Stack
-
-React 19, TypeScript, Vite and React Router: the same as budget.bettergov.ph, with its
-type (Figtree, Inter, JetBrains Mono) and colours (`src/styles/theme.css`). Three runtime
-dependencies, about 95 KB gzipped. (`playwright-core`, a development dependency, is used only to
-build the poster.)
-
-```text
-portal.config.ts      the one file a fork edits
-src/config.ts         what the config means, and its checks
-src/api/              the API client and the response types it reads
-src/lib/scope.ts      config → the portal's 2027 projects, each with its reasons
-src/lib/gaa.ts        config → the 2020–2026 programs that name the places
-src/pages/            Projects (with offices and their districts), Enacted (2020–2026), Project, About
-src/styles/           theme tokens and layout
-scripts/setup.ts      npm run setup
-scripts/check.ts      npm run check (exits non-zero on a broken config; use it in CI)
-scripts/build-poster.ts  npm run build:poster → docs/poster/
-examples/             a DEO, a city, a municipality
-```
-
-## Licence
-
-MIT. The budget documents are works of the Philippine government; the comparison data
-carries the notices printed on every page.
+The new transparent wordmark is used throughout. Project results use a six-column native table with exact amounts and separate source actions; mobile cards share the same rows. All financial tables use the reusable DataTable. Advanced filters and aggregate context are progressive disclosures, while active shared filters are preserved. See [the current remediation report](docs/qa/premium-ui/REPORT.md), [QA](UI_QA_REPORT.md), [design](DESIGN.md), and [frontend contract](FRONTEND_CONTRACT.md). Development-only extreme fixtures and local axe controls are excluded from production. Existing budget snapshot artifacts remain unchanged.

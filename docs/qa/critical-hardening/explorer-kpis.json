@@ -1,0 +1,122 @@
+[
+  {
+    "brokenImages": [],
+    "clipped": [],
+    "heading": "Follow the projects. Examine the evidence.",
+    "kpis": [
+      {
+        "height": 174,
+        "noteBottom": 840.5875129699707,
+        "top": 687.3875122070312,
+        "valueClient": 199,
+        "valueWidth": 199
+      },
+      {
+        "height": 174,
+        "noteBottom": 1014.5875015258788,
+        "top": 861.3875122070312,
+        "valueClient": 195,
+        "valueWidth": 195
+      },
+      {
+        "height": 174,
+        "noteBottom": 1188.587501525879,
+        "top": 1035.3875732421875,
+        "valueClient": 195,
+        "valueWidth": 195
+      },
+      {
+        "height": 174,
+        "noteBottom": 1363.387550354004,
+        "top": 1209.3875732421875,
+        "valueClient": 195,
+        "valueWidth": 195
+      }
+    ],
+    "pageWidth": 305,
+    "path": "/projects?province=siquijor&program=hfep",
+    "scrollWidth": 305,
+    "width": 320,
+    "status": "PASS"
+  },
+  {
+    "brokenImages": [],
+    "clipped": [],
+    "heading": "Follow the projects. Examine the evidence.",
+    "kpis": [
+      {
+        "height": 188,
+        "noteBottom": 678.1499900817871,
+        "top": 510.9500122070313,
+        "valueClient": 217,
+        "valueWidth": 217
+      },
+      {
+        "height": 188,
+        "noteBottom": 678.1500015258789,
+        "top": 510.9500122070313,
+        "valueClient": 210,
+        "valueWidth": 210
+      },
+      {
+        "height": 188,
+        "noteBottom": 866.9499893188477,
+        "top": 698.9500122070312,
+        "valueClient": 209,
+        "valueWidth": 209
+      },
+      {
+        "height": 188,
+        "noteBottom": 866.9499893188477,
+        "top": 698.9500122070312,
+        "valueClient": 210,
+        "valueWidth": 210
+      }
+    ],
+    "pageWidth": 585,
+    "path": "/projects?province=siquijor&program=hfep",
+    "scrollWidth": 585,
+    "width": 600,
+    "status": "PASS"
+  },
+  {
+    "brokenImages": [],
+    "clipped": [],
+    "heading": "Follow the projects. Examine the evidence.",
+    "kpis": [
+      {
+        "height": 188,
+        "noteBottom": 602.3500022888184,
+        "top": 434.3500061035156,
+        "valueClient": 282,
+        "valueWidth": 282
+      },
+      {
+        "height": 188,
+        "noteBottom": 602.3500022888184,
+        "top": 434.3500061035156,
+        "valueClient": 282,
+        "valueWidth": 282
+      },
+      {
+        "height": 188,
+        "noteBottom": 602.3500022888184,
+        "top": 434.3500061035156,
+        "valueClient": 282,
+        "valueWidth": 282
+      },
+      {
+        "height": 188,
+        "noteBottom": 602.3500137329102,
+        "top": 434.3500061035156,
+        "valueClient": 283,
+        "valueWidth": 283
+      }
+    ],
+    "pageWidth": 1425,
+    "path": "/projects?province=siquijor&program=hfep",
+    "scrollWidth": 1425,
+    "width": 1440,
+    "status": "PASS"
+  }
+]

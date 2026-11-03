@@ -1,0 +1,29 @@
+{
+  "links": [
+    {
+      "href": "/#community-spotlight",
+      "text": "What mentions my community?Choose a place and explore qualified title matches."
+    },
+    {
+      "href": "/analytics#chart-a",
+      "text": "What differs between budget versions?Read the NEP and House bill comparison on the same scale."
+    },
+    {
+      "href": "/budget-history",
+      "text": "What was appropriated in earlier years?Browse enacted GAA records for FY2020–FY2026."
+    },
+    {
+      "href": "/compare",
+      "text": "How do two records compare?Inspect exact amounts, stages and source references side by side."
+    },
+    {
+      "href": "/budget-guide",
+      "text": "How do I read a budget figure?Take the one-minute guide, with a real published example."
+    },
+    {
+      "href": "/projects",
+      "text": "What can I share responsibly?Choose a record and create a dated evidence card with its source."
+    }
+  ],
+  "communityFocus": "community-spotlight"
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "passed": true,
+    "name": "Mobile navigation initially collapsed"
+  },
+  {
+    "passed": true,
+    "name": "Mobile navigation opens"
+  },
+  {
+    "passed": true,
+    "name": "Escape closes menu and restores button focus"
+  },
+  {
+    "passed": true,
+    "name": "Menu selection navigates, collapses and focuses main"
+  },
+  {
+    "passed": true,
+    "name": "Lazy-route disclaimer anchor scrolls and focuses"
+  },
+  {
+    "passed": true,
+    "name": "Full original upstream notice remains expandable"
+  },
+  {
+    "passed": true,
+    "name": "Operator anchor and authorized details after focus fix"
+  },
+  {
+    "passed": true,
+    "name": "First visit keeps requested locality URL and disables entry"
+  },
+  {
+    "passed": true,
+    "name": "Terms readable before acknowledgment with transparent brand"
+  },
+  {
+    "passed": true,
+    "name": "Privacy readable before entry; no invented contact"
+  },
+  {
+    "passed": true,
+    "name": "Return from notices preserves locality URL"
+  },
+  {
+    "passed": true,
+    "name": "Decline retains welcome and disabled entry"
+  },
+  {
+    "passed": true,
+    "name": "Acknowledgment enables entry"
+  },
+  {
+    "passed": true,
+    "name": "Entry reaches locality without account"
+  },
+  {
+    "passed": true,
+    "name": "Returning visit retains acknowledgment"
+  },
+  {
+    "passed": true,
+    "name": "Advanced filters open with native disclosure"
+  },
+  {
+    "passed": true,
+    "name": "Province/program selection resolves to two HFEP records"
+  },
+  {
+    "passed": true,
+    "name": "Exact PHP values preserved in settled HFEP table"
+  },
+  {
+    "passed": true,
+    "name": "CSV download contains header plus two real source rows"
+  },
+  {
+    "passed": true,
+    "name": "Project detail retains live API request and source identity"
+  }
+]
