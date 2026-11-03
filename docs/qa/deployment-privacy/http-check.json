@@ -1,0 +1,103 @@
+{
+  "checked_at": "2026-11-03T05:41:35.860Z",
+  "origin": "http://127.0.0.1:5134",
+  "cases": [
+    {
+      "path": "/",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "cache": "public, max-age=0, must-revalidate",
+      "result": "PASS"
+    },
+    {
+      "path": "/analytics",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "cache": "public, max-age=0, must-revalidate",
+      "result": "PASS"
+    },
+    {
+      "path": "/privacy",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "cache": "public, max-age=0, must-revalidate",
+      "result": "PASS"
+    },
+    {
+      "path": "/we-are-not-ignorant",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "cache": "public, max-age=0, must-revalidate",
+      "result": "PASS"
+    },
+    {
+      "path": "/projects/dpwh/house-reading%3A1918",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "cache": "public, max-age=0, must-revalidate",
+      "result": "PASS"
+    },
+    {
+      "path": "/evidence/hfep/ib%3Ap885%3Ar51%7Cinfrastructure",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "cache": "public, max-age=0, must-revalidate",
+      "result": "PASS"
+    },
+    {
+      "path": "/data/manifest.json",
+      "status": 200,
+      "type": "application/json",
+      "cache": "no-cache, must-revalidate",
+      "result": "PASS"
+    },
+    {
+      "path": "/data/missing-audit-file.json",
+      "status": 404,
+      "type": "text/html; charset=utf-8",
+      "cache": "public, max-age=0, must-revalidate",
+      "result": "PASS"
+    },
+    {
+      "path": "/assets/missing-audit-file.js",
+      "status": 404,
+      "type": "text/html; charset=utf-8",
+      "cache": "public, max-age=0, must-revalidate",
+      "result": "PASS"
+    },
+    {
+      "path": "/brand/missing-audit-file.png",
+      "status": 404,
+      "type": "text/html; charset=utf-8",
+      "cache": "public, max-age=0, must-revalidate",
+      "result": "PASS"
+    },
+    {
+      "path": "/.env",
+      "status": 404,
+      "type": "text/html; charset=utf-8",
+      "cache": "public, max-age=0, must-revalidate",
+      "result": "PASS"
+    },
+    {
+      "path": "/__qa/charts",
+      "status": 404,
+      "type": "text/html; charset=utf-8",
+      "cache": "public, max-age=0, must-revalidate",
+      "result": "PASS"
+    },
+    {
+      "path": "/not-a-real-page",
+      "status": 404,
+      "type": "text/html; charset=utf-8",
+      "cache": "public, max-age=0, must-revalidate",
+      "result": "PASS"
+    }
+  ],
+  "module": {
+    "path": "/assets/index-BLpLaovS.js",
+    "status": 200,
+    "result": "PASS"
+  },
+  "limits": "HTTP checks on this origin only; no legal clearance or other-host verification implied."
+}

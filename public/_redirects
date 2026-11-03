@@ -1,0 +1,22 @@
+# Generated: application routes only. Missing data/assets must remain 404.
+/ /index.html 200
+/projects /index.html 200
+/provinces /index.html 200
+/municipalities /index.html 200
+/analytics /index.html 200
+/compare /index.html 200
+/budget-guide /index.html 200
+/budget-history /index.html 200
+/data-coverage /index.html 200
+/methodology /index.html 200
+/terms /index.html 200
+/privacy /index.html 200
+/gaa /index.html 200
+/about /index.html 200
+/districts /index.html 200
+/we-are-not-ignorant /index.html 200
+/projects/:dataset/:id /index.html 200
+/evidence/:dataset/:id /index.html 200
+/provinces/:slug /index.html 200
+/locations/:psgcCode /index.html 200
+/municipalities/:slug /index.html 200

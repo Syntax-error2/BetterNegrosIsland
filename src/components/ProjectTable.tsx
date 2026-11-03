@@ -65,9 +65,7 @@ export default function ProjectTable({
                 {p.region && <span>Published region: {p.region}</span>}
               </div>
               <p className="scope-evidence">
-                <span className="evidence-mark" aria-hidden="true">
-                  {p.regionConfirmed ? "✓" : "?"}
-                </span>
+                <svg className="evidence-mark" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" strokeWidth="2"><path d={p.regionConfirmed?'m4 12 5 5L20 6':'M9 9a3 3 0 0 1 6 1c0 2-3 2-3 4m0 3h.01'}/></svg>
                 {p.regionConfirmed
                   ? "Source-confirmed NIR · locality unverified"
                   : "Title / office association · location uncertain"}

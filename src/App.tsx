@@ -9,6 +9,7 @@ const About = lazy(() => import("./pages/RegionalMethodology"));
 const EvidenceCard = lazy(() => import("./pages/EvidenceCard"));
 const CompareRecords = lazy(() => import("./pages/CompareRecords"));
 const BudgetGuide = lazy(() => import("./pages/BudgetGuide"));
+const RegionalChanges = lazy(() => import("./pages/RegionalChanges"));
 const Analytics = lazy(() => import("./pages/Analytics"));
 const Coverage = lazy(() => import("./pages/Coverage"));
 const Places = lazy(() => import("./pages/RegionalPlaces"));
@@ -28,6 +29,7 @@ function LegacyLocation() {
 }
 const Legal = lazy(() => import("./pages/Legal"));
 import LegalEntry from "./components/LegalEntry";
+import PageErrorBoundary from "./components/PageErrorBoundary";
 const Identity = lazy(() => import("./pages/Identity"));
 const TableFixture = import.meta.env.DEV
   ? lazy(() => import("./qa/TableFixture"))
@@ -62,7 +64,7 @@ export default function App() {
             </ul>
           </div>
         )}
-        <Suspense
+        <PageErrorBoundary key={location.pathname}><Suspense
           fallback={
             <main
               id="main-content"
@@ -94,6 +96,7 @@ export default function App() {
             <Route path="/evidence/:dataset/:id" element={<EvidenceCard />} />
             <Route path="/compare" element={<CompareRecords />} />
             <Route path="/budget-guide" element={<BudgetGuide />} />
+            <Route path="/we-are-not-ignorant" element={<RegionalChanges />} />
             <Route path="/analytics" element={<Analytics />} />
             <Route path="/data-coverage" element={<Coverage />} />
             <Route
@@ -126,7 +129,7 @@ export default function App() {
               }
             />
           </Routes>
-        </Suspense>
+        </Suspense></PageErrorBoundary>
         <Footer />
       </LegalEntry>
       <BackToTop />

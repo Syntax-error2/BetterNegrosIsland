@@ -1,0 +1,9 @@
+{
+  "reviewed_at": "2026-11-03T05:46:02.298Z",
+  "scope": "All JSON strings in public/data, including nested raw records and retained snapshots",
+  "files": 11,
+  "strings": 268663,
+  "flag_count": 0,
+  "findings": [],
+  "limitations": "Pattern triage only: cannot determine lawful basis, identify every person, review linked PDFs or certify Data Privacy Act compliance. Matching content is intentionally not reproduced."
+}

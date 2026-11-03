@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { usePortal } from "../lib/portal-context";
-import { SOURCE_CODE_URL } from "../lib/links";
+import { SOURCE_CODE_URL, PORTAL_REPOSITORY_URL } from "../lib/links";
 import { useSnapshot, type Manifest } from "../lib/snapshot";
 import BrandLogo from "./BrandLogo";
 
@@ -27,6 +27,7 @@ export function Masthead() {
   return <>
     <a className="skip-link" href="#main-content">Skip to content</a>
     <div className="civic-strip"><div className="page page--wide"><span>Independent civic transparency initiative</span><span>Free to explore · Open to everyone</span></div></div>
+    <Link className="regional-reading-banner" to="/we-are-not-ignorant" onClick={close}><span>We are not ignorant.</span><span>Negros Island · Read the budget changes <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" strokeWidth="2"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></span></Link>
     <header className="civic-header" onKeyDown={e => { if(e.key==='Escape'&&resources){setResources(false);resourceButton.current?.focus();e.stopPropagation();} else if (e.key === "Escape" && open) { setOpen(false); menuButton.current?.focus(); } }}>
       <div className="page page--wide civic-header-grid">
         <Link to="/" className="civic-header-brand" aria-label="BetterNegrosIsland — overview" onClick={close}><BrandLogo /></Link>
@@ -65,7 +66,7 @@ export function Footer() {
         </div>
         <FooterLinks title="Explore">{[["/","Overview"],["/projects","Projects"],["/provinces","Places"],["/analytics","Analytics"],["/budget-history","Budget history"],["/data-coverage","Data coverage"]].map(([to,label]) => <li key={to}><Link to={to}>{label}</Link></li>)}</FooterLinks>
         <FooterLinks title="Information">
-          <li><Link to="/budget-guide">Budget reading guide</Link></li><li><Link to="/compare">Compare two records</Link></li><li><Link to="/methodology">Methodology</Link></li><li><Link to="/methodology#data-sources">Data sources</Link></li><li><Link to="/about">About the initiative</Link></li><li><a href="https://bettergov.ph" target="_blank" rel="noopener noreferrer">BetterGov.PH</a></li><li><a href={SOURCE_CODE_URL} target="_blank" rel="noopener noreferrer">Original open-source repository</a></li>
+          <li><Link to="/budget-guide">Budget reading guide</Link></li><li><Link to="/compare">Compare two records</Link></li><li><Link to="/methodology">Methodology</Link></li><li><Link to="/methodology#data-sources">Data sources</Link></li><li><Link to="/about">About the initiative</Link></li><li><a href={PORTAL_REPOSITORY_URL} target="_blank" rel="noopener noreferrer">BetterNegrosIsland repository</a></li><li><a href="https://bettergov.ph" target="_blank" rel="noopener noreferrer">BetterGov.PH</a></li><li><a href={SOURCE_CODE_URL} target="_blank" rel="noopener noreferrer">Original open-source repository</a></li>
         </FooterLinks>
         <FooterLinks title="Legal & accountability">
           <li><Link to="/terms">Terms of Use</Link></li><li><Link to="/privacy">Privacy Notice</Link></li><li><Link to="/methodology#data-disclaimer">Full data disclaimer</Link></li><li><Link to="/methodology#source-attribution">Source attribution</Link></li><li><Link to="/about#operator">Operator information</Link></li>

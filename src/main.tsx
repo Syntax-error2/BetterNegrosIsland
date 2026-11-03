@@ -32,3 +32,4 @@ import './styles/hardening.css';
 
 import './styles/citizen-tools.css';
 import './styles/navigation.css';
+import './styles/regional-changes.css';

@@ -24,7 +24,7 @@ The homepage question shortcuts lead to Community Spotlight, analytics, historic
 
 ## Run locally
 
-Use Node 22.12+ (or supported Node 20.19+) and npm:
+Use Node 24 (see `.nvmrc`) and npm for the recommended deployment setup:
 
 ```sh
 npm ci
@@ -33,7 +33,11 @@ npm run dev
 
 Open [the local portal](http://localhost:5132/). Port 5132 is fixed; Vite fails instead of silently changing it. The current development server has been left running for review. Stop it with Ctrl+C in its terminal.
 
-React, TypeScript, Vite, React Router, the original API client and static hosting foundation are retained. Recharts is loaded with Analytics. Plus Jakarta Sans is served locally under its bundled font license. Welcome acknowledgment stores only a version string in browser storage; blocked storage permits current-session entry. Terms and Privacy Notice remain review drafts. The operator supplied by the owner is Aqura Information Technology Solutions / Dave Hermoso, Binalbagan, Negros Occidental. No privacy contact has been added at the owner’s request; hosting, rights-request handling and legal review remain pending.
+React, TypeScript, Vite, React Router, the original API client and static hosting foundation are retained. Recharts is loaded with Analytics. Plus Jakarta Sans is served locally under its bundled font license. Welcome acknowledgment stores only a version string in browser storage; blocked storage permits current-session entry. Terms and Privacy Notice remain review drafts. The operator supplied by the owner is Aqura Information Technology Solutions / Dave Hermoso, Binalbagan, Negros Occidental. A monitored portal privacy contact has not been supplied; BetterGov.PH supplies the data, and no arrangement appointing it to handle this portal’s privacy requests has been verified. Hosting, rights handling and legal review remain pending.
+
+Run `npm run verify` for data validation, privacy pattern scans, tests, lint, build and deployment-policy checks. [Deployment instructions](docs/deploy.md) describe the optional HTTPS `VITE_SITE_URL`, host configuration and a local HTTP rehearsal. Passing checks do not provide legal clearance or deploy the website.
+
+The red banner opens `/we-are-not-ignorant`, an independently prepared Negros Island reading view using source-confirmed NIR changes only, with unconfirmed pairings excluded by default. [Privacy/deployment and regional feature audit](docs/qa/deployment-privacy/REPORT.md).
 
 ## What the snapshot contains
 

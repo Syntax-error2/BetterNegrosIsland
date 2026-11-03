@@ -16,7 +16,7 @@ Some existing analytics regression tests intentionally pin the reference snapsho
 
 The final deploy step must upload the **validated artifact**, after the checks succeed, using the selected host's scoped credential stored in its secret manager. Use an atomic site deployment, preserve a rollback release and previously referenced snapshot files, and leave the previous live release in place on extraction, validation or deploy failure. Never trigger publication from a failed job or rebuild from an unrelated checkout. No deployment hook, token or public repository has been fabricated here.
 
-The supplied `_headers` gives mutable manifest/status files revalidation and versioned shards long-lived immutable caching. Apply the equivalent settings if the selected host does not support `_headers`; verify the actual HTTP responses after deployment. New page loads read the deployed manifest. An already-open page keeps its loaded snapshot until reloaded, preventing mixed-version figures.
+The generated host configuration gives mutable manifest/status files revalidation and exact, existing checksummed shards long-lived immutable caching. Missing paths do not receive a blanket immutable rule. Verify actual HTTP responses after deployment. New page loads read the deployed manifest. An already-open page keeps its loaded snapshot until reloaded, preventing mixed-version figures.
 
 ## Coverage and freshness
 

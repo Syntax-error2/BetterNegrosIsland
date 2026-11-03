@@ -47,6 +47,7 @@ export default function Legal() {
             independent, nonpartisan initiative, not a government service or an
             endorsed BetterGov.PH project.
           </p>
+          <p>BetterGov.PH supplies budget data. BetterNegrosIsland independently selects and presents it. The data provider is not presented as this portal’s privacy officer or rights-request handler; no such arrangement has been verified.</p>
           <h2>2. What this portal processes</h2>
           <p>
             You can read public information without an account, email address,
@@ -167,6 +168,7 @@ export default function Legal() {
             not yet operational. No portal privacy contact or submission form
             has been added.
           </p>
+          <p>For an initial privacy or correction request, provide only the affected page or source-record reference and a short description through a verified private operator channel once available. Do not post identity documents, private contact details, health information or other sensitive personal data in public GitHub issues or social-media comments. Request identity verification only when necessary and through an appropriate private process.</p>
           <h2>7. Security and accountability</h2>
           <p>
             Data minimization, local fonts, escaped text rendering, restricted
@@ -240,6 +242,7 @@ export default function Legal() {
             or misrepresent this portal as an official source. Quote the budget
             stage, source, and limitations when sharing.
           </p>
+          <p>Public-source availability is not permission for unrestricted republication of personal information. Do not add or republish unrelated identifiers, private contact details or sensitive personal information. This disclaimer does not waive anyone’s legal rights or remove the operator’s responsibilities under applicable law.</p>
           <h2>6. Source links and open-source license</h2>
           <p>
             External sites and documents are controlled by their providers. This

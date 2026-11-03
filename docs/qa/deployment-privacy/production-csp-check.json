@@ -1,0 +1,9 @@
+{
+  "cspErrors": [],
+  "normalChecks": [
+    "regional changes",
+    "analytics six chart viewports",
+    "evidence image"
+  ],
+  "note": "The intentionally withheld lazy chunk generated expected load errors during recovery QA."
+}

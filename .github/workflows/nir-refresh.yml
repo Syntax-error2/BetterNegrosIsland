@@ -41,6 +41,7 @@ jobs:
           fs.cpSync(c.directory+'/public/data','public/data',{recursive:true});
           JS
       - run: npm run data:validate
+      - run: npm run audit:published
       - name: Verify current-candidate integrity, cards and community summaries
         run: npx tsx --tsconfig tsconfig.app.json --test tests/snapshot.test.ts tests/citizen-tools.test.ts tests/community.test.ts
       - run: npm run build

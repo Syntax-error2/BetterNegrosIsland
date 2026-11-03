@@ -2,28 +2,38 @@
 
 **BetterNegrosIsland is a working local review build. No hosted deployment or public release is claimed.** See [release gates](RELEASE.md) and [current implementation report](regional/IMPLEMENTATION_REPORT.md).
 
-The app builds with `npm ci` then `npm run build` into `dist/`. It needs only static hosting, SPA fallback for non-file paths, and public access without login. No database, worker application logic or always-on backend is required.
+Use Node 24 (see `.nvmrc`). Install with `npm ci` and run `npm run verify`; deploy the resulting `dist/` directory. Only static hosting is needed: no database, Worker application logic or always-on backend. Route fallbacks are restricted to real application paths, so missing JSON, JavaScript, images and development fixtures return 404.
 
 Before packaging/deploying:
 
 ```sh
-npm run data:validate
-npm run data:privacy-review
-npm test
-npm run lint
-npm run build
+npm ci
+npm run verify
+npm audit --omit=dev
 ```
 
 Data is already included under `public/data/`. An ordinary build must not trigger thousands of API calls. Run `npm run data:refresh` separately when the source changes, inspect the report, then rebuild. Failed extraction preserves the last successful pointer; publish the status artifact with it to disclose refresh failure.
 
 For scheduled, isolated preparation, see [automatic data updates](AUTOMATIC_DATA_UPDATES.md). The opt-in GitHub workflow prepares a validated site artifact daily; its host-specific publish step is pending the hosting choice. `npm run data:refresh:candidate -- --rehearse` tests preparation using existing data without API extraction or local snapshot promotion.
 
-Set the real `siteUrl` in `portal.config.ts` and rebuild before public release. This produces absolute canonical/Open Graph URLs for the supplied BetterNegrosIsland logo. The local folder name is historical only. Cloudflare's configured static worker name is `betternegrosisland`; choose an available account-specific name if needed. `npm run deploy:cloudflare` performs a real public deployment and has not been run.
+Set `VITE_SITE_URL` in the host's build environment to the real HTTPS website origin (or set `siteUrl` in `portal.config.ts`) before the final build. It must contain no path, credentials, query or fragment. This produces absolute canonical/Open Graph URLs for the supplied logo. `VITE_*` values are public build settings: never put secrets in them. Cloudflare's static Worker name is `betternegrosisland`; choose an available account-specific name if needed. `npm run deploy:cloudflare` verifies, builds and performs a real deployment; it has not been run.
 
-Keep `public/_headers` or configure equivalent host-native headers, especially CSP and privacy permissions. Fonts are self-hosted. For Vercel/Netlify use the supplied rewrite configuration. For any host, ensure missing asset/data files return 404 rather than HTML disguised as JSON. Configure short/no-cache lifetime for `/data/manifest.json` and `/data/refresh-status.json`; versioned snapshot shards may be cached long-term. Enable gzip/Brotli through the host. No compression or header behavior is certified until tested on the actual host.
+`npm run build` generates Cloudflare/Netlify `_headers` and `_redirects`, plus equivalent Vercel headers/rewrites, from `scripts/deployment-policy.mjs`. Edit that policy rather than generated files; `npm run deployment:check` detects drift. Keep `404.html`, `_headers` and `_redirects` in the upload. Netlify uses `netlify.toml`; Vercel uses `vercel.json`; Cloudflare Workers uses `wrangler.jsonc` with explicit route rewrites and 404 handling. Cloudflare Pages can use the same `dist/` files.
+
+Mutable manifest/status files revalidate. Only exact, existing checksummed snapshot URLs receive immutable caching: wildcard rules can otherwise cache a missing asset for a year. Fonts are self-hosted and no third-party analytics were added. Security headers restrict script/font/image origins, framing and device permissions. Verify actual HTTPS, headers, compression and provider practices after selecting the host; local checks do not certify the remote host.
+
+Local Cloudflare runtime rehearsal (no deployment):
+
+```sh
+npx wrangler dev --local --ip 127.0.0.1 --port 5134
+# From another terminal:
+node scripts/check-deployment.mjs http://127.0.0.1:5134
+```
+
+Build before starting this runtime. On Windows, stop/restart Wrangler after rebuilding `dist/`; directory replacement can disable its asset watcher with EPERM. The production app includes a recovery screen for failed lazy-page loads after a deployment; Reload current version requests the latest document and preserves the address/query string.
 
 The project and whole historical shards are deferred, not initial-bundle imports. Their uncompressed size remains material; use compression and measure on low-bandwidth connections, with department/year sharding as a follow-up. Never put a hosting authentication gate on the public portal.
 
 After an approved deployment, verify unauthenticated first and returning visits, regional acknowledgment, deep-route reloads, shared filters, all three provinces and representative locality profiles including Bacolod/Siquijor, source PDFs, outage recovery, CSV, mobile menu, favicon, social metadata, HTTP security/cache/compression headers, actual hosting log retention, and privacy contacts.
 
-Operator supplied by owner: Aqura Information Technology Solutions / Dave Hermoso, Binalbagan, Negros Occidental. No privacy contact is published at the owner’s request. Operational rights-request handling, legal/privacy review, the latest PSGC reconciliation, final host/domain selection and independent device/accessibility acceptance remain outstanding. No optional analytics, account system or citizen report submission has been enabled.
+Operator supplied by owner: Aqura Information Technology Solutions / Dave Hermoso, Binalbagan, Negros Occidental. A monitored portal privacy contact has not been supplied; BetterGov.PH is the data source, not an appointed portal privacy handler. Operational rights-request handling, lawful criteria, host logging/retention, legal/privacy review, latest PSGC reconciliation, final host/domain and independent device/accessibility acceptance remain outstanding. No optional analytics, account system or citizen report submission has been enabled.

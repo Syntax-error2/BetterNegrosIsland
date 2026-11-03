@@ -36,7 +36,7 @@ export default function PortalProvider({ children }: { children: ReactNode }) {
   const config = portalConfig;
   const { pathname } = useLocation();
   const needsDistricts = /^\/(projects|analytics|locations|municipalities|budget-history|gaa)(\/|$)/.test(pathname);
-  const needsScope = /^\/(projects|analytics|locations|municipalities|evidence|compare)(\/|$)/.test(pathname);
+  const needsScope = /^\/(projects|analytics|locations|municipalities|evidence|compare|we-are-not-ignorant)(\/|$)/.test(pathname);
   const client = useMemo(() => createClient(import.meta.env.VITE_API_BASE || config.api || DEFAULT_API), [config.api]);
   const [attempt, setAttempt] = useState(0);
 
