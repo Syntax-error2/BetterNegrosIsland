@@ -1,0 +1,107 @@
+[
+  {
+    "brokenImages": [],
+    "clipped": [],
+    "heading": "We areNotIgnorant",
+    "kpis": [],
+    "pageWidth": 305,
+    "path": "/we-are-not-ignorant",
+    "scrollWidth": 305,
+    "width": 320,
+    "hero": {
+      "artBottom": 812.0250244140625,
+      "artLeft": -123.9749984741211,
+      "artRight": 402.32498931884766,
+      "artTop": 22.5625,
+      "backAboveLogo": true,
+      "backHref": "/",
+      "posterBottom": 754.2750244140625,
+      "posterRight": 304.8000183105469,
+      "posterTop": 0
+    }
+  },
+  {
+    "brokenImages": [],
+    "clipped": [],
+    "heading": "We areNotIgnorant",
+    "kpis": [],
+    "pageWidth": 360,
+    "path": "/we-are-not-ignorant",
+    "scrollWidth": 360,
+    "width": 375,
+    "hero": {
+      "artBottom": 748.8375377655029,
+      "artLeft": -10.15000057220459,
+      "artRight": 475.20000553131104,
+      "artTop": 20.80000114440918,
+      "backAboveLogo": true,
+      "backHref": "/",
+      "posterBottom": 695.7750244140625,
+      "posterRight": 360,
+      "posterTop": 0
+    }
+  },
+  {
+    "brokenImages": [],
+    "clipped": [],
+    "heading": "We areNotIgnorant",
+    "kpis": [],
+    "pageWidth": 1425,
+    "path": "/we-are-not-ignorant",
+    "scrollWidth": 1425,
+    "width": 1440,
+    "hero": {
+      "artBottom": 957.1000366210938,
+      "artLeft": 767.4249877929688,
+      "artRight": 1367.2000122070312,
+      "artTop": 57.4375,
+      "backAboveLogo": true,
+      "backHref": "/",
+      "posterBottom": 959.5,
+      "posterRight": 1424.800048828125,
+      "posterTop": 0
+    }
+  },
+  {
+    "brokenImages": [],
+    "clipped": [],
+    "heading": "We areNotIgnorant",
+    "kpis": [],
+    "pageWidth": 1905,
+    "path": "/we-are-not-ignorant",
+    "scrollWidth": 1905,
+    "width": 1920,
+    "hero": {
+      "artBottom": 1019.7250366210938,
+      "artLeft": 1188.9749755859375,
+      "artRight": 1828,
+      "artTop": 61.1875,
+      "backAboveLogo": true,
+      "backHref": "/",
+      "posterBottom": 1022.125,
+      "posterRight": 1904.800048828125,
+      "posterTop": 0
+    }
+  },
+  {
+    "brokenImages": [],
+    "clipped": [],
+    "heading": "We areNotIgnorant",
+    "kpis": [],
+    "pageWidth": 2545,
+    "path": "/we-are-not-ignorant",
+    "scrollWidth": 2545,
+    "width": 2560,
+    "hero": {
+      "artBottom": 1019.7250366210938,
+      "artLeft": 1809.7750244140625,
+      "artRight": 2448.800048828125,
+      "artTop": 61.1875,
+      "backAboveLogo": true,
+      "backHref": "/",
+      "posterBottom": 1022.125,
+      "posterRight": 2544.800048828125,
+      "posterTop": 0
+    }
+  }
+]

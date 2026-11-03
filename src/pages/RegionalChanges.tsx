@@ -55,7 +55,8 @@ export default function RegionalChanges(){
           <div className="campaign-wordwall" aria-hidden="true">{wall}</div>
           <img className="campaign-art" src="/campaign/nir-reading-hand-v1.webp" width="1024" height="1536" alt="" aria-hidden="true" decoding="async"/>
           <div className="campaign-head">
-            <div className="campaign-brand-row"><Link className="campaign-logo" to="/" aria-label="BetterNegrosIsland — overview"><BrandLogo/></Link><Link className="campaign-home" to="/">Back to overview</Link></div>
+            <Link className="campaign-home" to="/">← Back to overview</Link>
+            <div className="campaign-brand-row"><Link className="campaign-logo" to="/" aria-label="BetterNegrosIsland — overview"><BrandLogo/></Link></div>
             <h1 className="campaign-headline" aria-label="We are not ignorant"><span>We are</span><span className="is-red">Not</span><span>Ignorant</span></h1>
             <p className="campaign-sub"><strong>{full.rows.length.toLocaleString('en-PH')} House-only and adjusted project records in the FY2027 NIR snapshot.</strong><br/>Read the proposals. Follow the sources.</p>
             <p className="campaign-intro">DPWH, farm-to-market roads, health facilities and irrigation. House-only first, then increases, then decreases; largest published amounts first within each category. Source-confirmed NIR only. {full.excludedUnconfirmed} unconfirmed change records are excluded by default.</p>
