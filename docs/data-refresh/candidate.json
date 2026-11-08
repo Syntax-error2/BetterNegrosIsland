@@ -1,0 +1,17 @@
+{
+  "prepared_at": "2026-11-08T22:23:53.505Z",
+  "mode": "FRESH API CANDIDATE",
+  "published": false,
+  "data_changed": true,
+  "previous_version": "2026-11-02-37334582ca74",
+  "candidate_version": "2026-11-08-781070e61b35",
+  "retrieved_at": "2026-11-08T22:17:13.213Z",
+  "previous_records": 866,
+  "candidate_records": 866,
+  "added": 0,
+  "removed": 0,
+  "changed": 0,
+  "note": "Complete only for the configured FY2027 programs, regional/office/title queries and FY2020–FY2026 history. No deployment or legal/privacy clearance.",
+  "review_branch": "codex/nir-data-review-8f65d71f2cdd06f3",
+  "collection_fingerprint": "8f65d71f2cdd06f3debbb6c282034616aeabe5df11a9c8eab85fb4c1a11a15a1"
+}
