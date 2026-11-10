@@ -43,3 +43,27 @@
 
 /data/snapshots/2026-11-02-37334582ca74/summary.json
   Cache-Control: public, max-age=31536000, immutable
+
+/data/snapshots/2026-11-10-50147d4038cf/coverage.json
+  Cache-Control: public, max-age=31536000, immutable
+
+/data/snapshots/2026-11-10-50147d4038cf/districts.json
+  Cache-Control: public, max-age=31536000, immutable
+
+/data/snapshots/2026-11-10-50147d4038cf/history.json
+  Cache-Control: public, max-age=31536000, immutable
+
+/data/snapshots/2026-11-10-50147d4038cf/manifest.json
+  Cache-Control: public, max-age=31536000, immutable
+
+/data/snapshots/2026-11-10-50147d4038cf/nep.json
+  Cache-Control: public, max-age=31536000, immutable
+
+/data/snapshots/2026-11-10-50147d4038cf/overview.json
+  Cache-Control: public, max-age=31536000, immutable
+
+/data/snapshots/2026-11-10-50147d4038cf/scope.json
+  Cache-Control: public, max-age=31536000, immutable
+
+/data/snapshots/2026-11-10-50147d4038cf/summary.json
+  Cache-Control: public, max-age=31536000, immutable

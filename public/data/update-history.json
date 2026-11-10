@@ -1,7 +1,24 @@
 {
-  "current_version": "2026-11-02-37334582ca74",
+  "current_version": "2026-11-10-50147d4038cf",
   "notice": "Updates compare retained portal snapshots. They are not differences between NEP and House budget stages. No earlier change history is inferred.",
   "receipts": [
+    {
+      "version": "2026-11-10-50147d4038cf",
+      "retrieved_at": "2026-11-10T01:40:28.079Z",
+      "source_build": "2026-10-26T08:46:14.383Z",
+      "records": 866,
+      "history_families": 5253,
+      "manifest": "/data/snapshots/2026-11-10-50147d4038cf/manifest.json",
+      "scope": "/data/snapshots/2026-11-10-50147d4038cf/scope.json",
+      "previous_version": "2026-11-02-37334582ca74",
+      "previous_scope": "/data/snapshots/2026-11-02-37334582ca74/scope.json",
+      "changes": [],
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "revised": 0
+      }
+    },
     {
       "version": "2026-11-02-37334582ca74",
       "retrieved_at": "2026-11-02T12:01:31.325Z",
