@@ -1,0 +1,38 @@
+{
+  "version": "2026-11-12-fb4fea67df08",
+  "retrieved_at": "2026-11-12T23:42:59.731Z",
+  "source_build": "2026-10-26T08:46:14.383Z",
+  "source_commit": "a0caa778442cdae5583f5a006ea7401dab00e5ac",
+  "scope": "/data/snapshots/2026-11-12-fb4fea67df08/scope.json",
+  "overview": "/data/snapshots/2026-11-12-fb4fea67df08/overview.json",
+  "districts": "/data/snapshots/2026-11-12-fb4fea67df08/districts.json",
+  "history": "/data/snapshots/2026-11-12-fb4fea67df08/history.json",
+  "nep": "/data/snapshots/2026-11-12-fb4fea67df08/nep.json",
+  "project_count": 866,
+  "history_count": 5253,
+  "coverage": "/data/snapshots/2026-11-12-fb4fea67df08/coverage.json",
+  "requests": 2607,
+  "limitations": [
+    "Complete only for the documented source queries, not the whole government budget.",
+    "Historical province-qualified title searches can miss records without geographic names.",
+    "PSGC accessible city/municipality lists dated July 2025; latest workbook blocked.",
+    "Province/locality matches are title associations, not independently verified physical locations."
+  ],
+  "summary": "/data/snapshots/2026-11-12-fb4fea67df08/summary.json",
+  "checksums": {
+    "/data/snapshots/2026-11-12-fb4fea67df08/scope.json": "56d4d78f33b8d3a66ea93274abbbac4db66387f69c07c24ab4f4b8bd93c41862",
+    "/data/snapshots/2026-11-12-fb4fea67df08/history.json": "ac1300b283982e71604ad9692ac46273213a660c2a8ea7bacf441db61bf5e4f8",
+    "/data/snapshots/2026-11-12-fb4fea67df08/overview.json": "011db0724c9a37094c72cc8648e166aca5666e2a30aa7d43d2b9e0f85a55761c",
+    "/data/snapshots/2026-11-12-fb4fea67df08/districts.json": "3a630f3ac02da0d4acc967e1edc44b8d3e3f6d7df4a196c2f0a11e15b3200371",
+    "/data/snapshots/2026-11-12-fb4fea67df08/nep.json": "9428a27fccd38e47ebf5d6806d0f03d5d0c9d25cbfb32f55dc8dfcd1f12c0706",
+    "/data/snapshots/2026-11-12-fb4fea67df08/summary.json": "d67be16ad6b56edd0dd66e6688e1f515aa0cb5ac11304807e751d3c10561caa4",
+    "/data/snapshots/2026-11-12-fb4fea67df08/coverage.json": "0726f86a0c64266aa8212860d4d05bf6ff73455080ae9c71ef89889a92d62ed2"
+  },
+  "scope_sha256": "56d4d78f33b8d3a66ea93274abbbac4db66387f69c07c24ab4f4b8bd93c41862",
+  "source_confirmed_nir": 851,
+  "uncertain_region": 15,
+  "duplicates_across_queries": {
+    "comparison": 1533,
+    "history": 501
+  }
+}
