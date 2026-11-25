@@ -1,4 +1,4 @@
-export const LEGAL_VERSION = '2026-11-04-privacy.10';
+export const LEGAL_VERSION = '2026-11-25-privacy.12';
 export const ACK_KEY = 'betternegrosisland:legal';
 export function hasAcknowledgment(storage: Pick<Storage, 'getItem'> | undefined): boolean {
   try { return storage?.getItem(ACK_KEY) === LEGAL_VERSION; } catch { return false; }

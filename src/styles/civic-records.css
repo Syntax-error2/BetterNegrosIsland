@@ -1,0 +1,84 @@
+.civic-filters {
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid #c8d8e6;
+  border-radius: 10px;
+}
+.civic-callout {
+  padding: 1rem 1.2rem;
+  border-inline-start: 4px solid #26715b;
+  background: #edf7f3;
+  border-radius: 0 8px 8px 0;
+  color: #173e34;
+}
+.civic-callout p { margin: 0.25rem 0 0; max-width: 105ch; }
+.civic-metrics, .civic-values, .civic-checklist {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.6rem;
+  margin: 1rem 0;
+}
+.civic-metrics > div, .civic-values > div, .civic-checklist > div {
+  min-width: 0;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  background: #f2f7fb;
+}
+.civic-metrics > div { border: 1px solid #ccdfef; }
+.civic-metrics strong {
+  display: block;
+  color: #082b58;
+  font-size: clamp(1.05rem, 2.4vw, 1.55rem);
+  font-variant-numeric: tabular-nums;
+  overflow-wrap: anywhere;
+}
+.civic-metrics small, .civic-checklist small { display: block; color: #42566c; }
+.civic-record-list { display: grid; gap: 0.8rem; margin-block: 1rem; }
+.civic-record {
+  min-width: 0;
+  padding: clamp(0.9rem, 3vw, 1.4rem);
+  border: 1px solid #c8d8e6;
+  border-radius: 12px;
+  background: #fff;
+  overflow-wrap: anywhere;
+}
+.civic-record h2 {
+  margin: 0.35rem 0 0;
+  color: #092e54;
+  font-size: clamp(1.1rem, 2.6vw, 1.4rem);
+  line-height: 1.35;
+}
+.civic-record p { margin: 0.45rem 0 0; }
+.civic-record-meta, .civic-results, .civic-links {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem 1rem;
+  flex-wrap: wrap;
+}
+.civic-record-meta {
+  color: #41556b;
+  font-size: 0.875rem;
+  justify-content: space-between;
+}
+.civic-label {
+  background: #e6f0fa;
+  border-radius: 1rem;
+  padding: 0.15rem 0.55rem;
+  color: #163d62;
+  font-weight: 600;
+}
+.civic-label--cut { background: #f8eade; color: #7d3d15; }
+.civic-values--pair { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.civic-checklist { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.civic-record dt { color: #41556b; font-size: 0.85rem; margin-bottom: 0.2rem; }
+.civic-record dd { margin: 0; font-weight: 650; color: #113456; }
+.civic-record dd small, .civic-record dd span { font-weight: 400; }
+.civic-links a { display: inline-flex; align-items: center; gap: 0.25rem; min-height: 44px; }
+.civic-results { justify-content: space-between; }
+@media (max-width: 58rem) {
+  .civic-checklist { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 40rem) {
+  .civic-metrics, .civic-values, .civic-checklist { grid-template-columns: 1fr; }
+  .civic-filters .field { max-width: none; }
+}

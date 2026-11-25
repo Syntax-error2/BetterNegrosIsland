@@ -27,13 +27,15 @@
     "deployment:check": "node scripts/generate-deployment.mjs --check",
     "verify": "npm run data:validate && npm run data:privacy-review && npm run audit:published && npm test && npm run lint && npm run build && npm run deployment:check",
     "data:reading": "tsx scripts/build-reading-data.ts",
-    "data:hearings": "tsx scripts/refresh-hearings.ts"
+    "data:hearings": "tsx scripts/refresh-hearings.ts",
+    "data:tracker": "node scripts/refresh-tracker.mjs"
   },
   "dependencies": {
     "@fontsource/anton": "^5.3.0",
     "@fontsource/inter": "^5.3.0",
     "@fontsource/jetbrains-mono": "^5.3.0",
     "@fontsource/plus-jakarta-sans": "^5.3.0",
+    "leaflet": "^1.9.4",
     "qrcode": "^1.5.4",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
@@ -42,6 +44,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+    "@types/leaflet": "^1.9.21",
     "@types/node": "^24.12.2",
     "@types/pngjs": "^6.0.5",
     "@types/qrcode": "^1.5.6",

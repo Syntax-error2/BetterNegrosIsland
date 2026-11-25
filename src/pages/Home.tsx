@@ -310,6 +310,7 @@ function Projects({
         </p>
       </PageHead>
 
+      {locality && <p><Link to={"/local-disclosures?lgu=" + LOCATIONS.find((place) => place.name === locality)?.code}>Open the local transparency checklist</Link></p>}
       <details className="explorer-context">
         <summary>
           Source scope and comparison totals · {count(all.length)} records

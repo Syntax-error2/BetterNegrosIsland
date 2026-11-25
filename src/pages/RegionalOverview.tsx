@@ -132,6 +132,7 @@ export default function RegionalOverview() {
           </button>
         </div>
       )}
+      <section className="tracker-promotion"><h2>Follow a project beyond the headline.</h2><p>Explore published coordinates, historical contracts, source documents and guided budget questions in the new project tracker.</p><div className="citizen-toolbar"><Link className="button button-primary" to="/tracker">Open project tracker</Link><Link to="/contracts">Search contracts</Link><Link to="/documents">Check documents</Link><Link to="/ask">Ask BetterNegros</Link></div></section>
       <ResponsibleUse />
     </main>
   );

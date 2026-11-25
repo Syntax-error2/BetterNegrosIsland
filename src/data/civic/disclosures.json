@@ -1,0 +1,125 @@
+{
+  "checked": "2026-11-25",
+  "auditDirectory": "https://www.coa.gov.ph/reports/annual-audit-reports/",
+  "guide": "https://lgu.bettergov.ph/guide",
+  "sources": [
+    {
+      "code": "1830200000",
+      "type": "budget",
+      "title": "Annual Budget Report",
+      "year": 2025,
+      "issuer": "Bacolod City Government",
+      "href": "https://bacolodcity.gov.ph/full-disclosure-policy/",
+      "note": "Open 2025_ABR under Annual Reports."
+    },
+    {
+      "code": "1830200000",
+      "type": "investment",
+      "title": "Resolution 445 approving development-fund AIP items",
+      "year": 2025,
+      "issuer": "Bacolod City Government",
+      "href": "https://bacolodcity.gov.ph/wp-content/uploads/2024/09/Reso-445.pdf",
+      "note": "The resolution covers the 20% Development Fund AIP, a portion of the full city program."
+    },
+    {
+      "code": "1830200000",
+      "type": "procurement",
+      "title": "Updated Annual Procurement Plan",
+      "year": 2026,
+      "issuer": "Bacolod City Government",
+      "href": "https://bacolodcity.gov.ph/full-disclosure-policy/",
+      "note": "Open Updated Annual Procurement Plan 2026 under Annual Procurement Plan."
+    },
+    {
+      "code": "1830200000",
+      "type": "audit",
+      "title": "Annual Audit Report",
+      "year": 2023,
+      "issuer": "Commission on Audit",
+      "href": "https://www.coa.gov.ph/wpfd_file/bacolod-city-annual-audit-report-2023/"
+    },
+    {
+      "code": "1804503000",
+      "type": "audit",
+      "title": "Annual Audit Report",
+      "year": 2025,
+      "issuer": "Commission on Audit",
+      "href": "https://www.coa.gov.ph/wpfd_file/binalbagan-annual-audit-report-2025/"
+    },
+    {
+      "code": "1804624000",
+      "type": "audit",
+      "title": "Annual Audit Report",
+      "year": 2019,
+      "issuer": "Commission on Audit",
+      "href": "https://www.coa.gov.ph/wpfd_file/vallehermoso-annual-audit-report-2019/"
+    },
+    {
+      "code": "1804610000",
+      "type": "budget",
+      "title": "Annual Budget Plan",
+      "year": 2022,
+      "issuer": "Dumaguete City Government",
+      "href": "https://dumaguetecity.gov.ph/transparency/",
+      "note": "Open Annual Budget Plan 2022 under Full Disclosure Policy – 2022."
+    },
+    {
+      "code": "1804610000",
+      "type": "procurement",
+      "title": "Annual Procurement Plan",
+      "year": 2026,
+      "issuer": "Dumaguete City Government",
+      "href": "https://dumaguetecity.gov.ph/wp-content/uploads/2025/03/APP-FY-2026.pdf"
+    },
+    {
+      "code": "1804610000",
+      "type": "audit",
+      "title": "Annual Audit Report",
+      "year": 2023,
+      "issuer": "Commission on Audit",
+      "href": "https://www.coa.gov.ph/wpfd_file/dumaguete-city-annual-audit-report-2023/"
+    },
+    {
+      "code": "1804500000",
+      "type": "budget",
+      "title": "Annual Budget Report",
+      "year": 2023,
+      "issuer": "Province of Negros Occidental",
+      "href": "https://www.negros-occ.gov.ph/transparency/",
+      "note": "Find Annual Budget Report 2023 under Full Disclosure Policy."
+    },
+    {
+      "code": "1804500000",
+      "type": "procurement",
+      "title": "Annual Procurement Plan",
+      "year": 2026,
+      "issuer": "Province of Negros Occidental",
+      "href": "https://www.negros-occ.gov.ph/bids-and-awards-2/",
+      "note": "The provincial procurement page lists the final and updated plan."
+    },
+    {
+      "code": "1804500000",
+      "type": "audit",
+      "title": "Annual Audit Report",
+      "year": 2022,
+      "issuer": "Commission on Audit",
+      "href": "https://www.coa.gov.ph/wpfd_file/negros-occidental-annual-audit-report-2022/"
+    },
+    {
+      "code": "1804600000",
+      "type": "audit",
+      "title": "Annual Audit Report",
+      "year": 2023,
+      "issuer": "Commission on Audit",
+      "href": "https://www.coa.gov.ph/wpfd_file/negros-oriental-annual-audit-report-2023/"
+    },
+    {
+      "code": "1806100000",
+      "type": "audit",
+      "title": "Annual Audit Report",
+      "year": 2023,
+      "issuer": "Commission on Audit",
+      "href": "https://www.coa.gov.ph/wpfd_file/siquijor-annual-audit-report-2023/"
+    }
+  ]
+}

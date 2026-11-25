@@ -1,0 +1,2 @@
+# Tracker source and derived files are verified against their published byte hashes.
+public/data/tracker/** -text

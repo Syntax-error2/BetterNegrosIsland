@@ -1,0 +1,58 @@
+{
+  "source": "https://visualizations.bettergov.ph/philgeps",
+  "documentation": "https://github.com/bettergovph/open-data-visualization/blob/main/data/philgeps-v2/README.md",
+  "query": "https://visualizations.bettergov.ph/api/philgeps/v2/awards?search=BACOLOD&page_size=100&page=1",
+  "checked": "2026-11-25",
+  "buyerFilter": "exact buyer name",
+  "sampledRows": 100,
+  "buyers": [
+    {
+      "code": "1830200000",
+      "name": "City of Bacolod",
+      "agency": "CITY OF BACOLOD, NEGROS OCCIDENTAL"
+    },
+    {
+      "code": "1804624000",
+      "name": "Vallehermoso",
+      "agency": "MUNICIPALITY OF VALLEHERMOSO, NEGROS"
+    }
+  ],
+  "rows": [
+    {
+      "reference": "5750387",
+      "code": "1830200000",
+      "agency": "CITY OF BACOLOD, NEGROS OCCIDENTAL",
+      "title": "PURCHASE OF 3,333 BOTTLES OF MOSQUITО LARVICIDE GR",
+      "awardee": "V3 PESTMASTERS AGRO CHEM AND PEST CONTROL SVCS., INC.",
+      "amount": 3832950,
+      "date": "2025-09-19"
+    },
+    {
+      "reference": "5750380",
+      "code": "1830200000",
+      "agency": "CITY OF BACOLOD, NEGROS OCCIDENTAL",
+      "title": "PURCHASE OF DRUGS AND MEDICINES FOR USE OF THE BAC",
+      "awardee": "NEGROS MEDICAL TRADING",
+      "amount": 1302250,
+      "date": "2025-09-18"
+    },
+    {
+      "reference": "5758994",
+      "code": "1804624000",
+      "agency": "MUNICIPALITY OF VALLEHERMOSO, NEGROS",
+      "title": "Lease of Venue",
+      "awardee": "SM PRIME HOLDINGS, INC.- PARK INN BY RADISSON BACOLOD",
+      "amount": 173250,
+      "date": "2025-09-15"
+    },
+    {
+      "reference": "5737655",
+      "code": "1830200000",
+      "agency": "CITY OF BACOLOD, NEGROS OCCIDENTAL",
+      "title": "PURCHASE OF SCHOOL SUPPLIES FOR KINDER TO GRADE 6",
+      "awardee": "NEW CHINA ENTERPRISES, INC.",
+      "amount": 29882952,
+      "date": "2025-09-11"
+    }
+  ]
+}

@@ -16,7 +16,13 @@ The preceding 3 November 2026 [analytics repair report](docs/qa/analytics-repair
 
 Built from [BetterGov.PH's open-source Transparency Portal](https://github.com/bettergovph/transparency-portal), upstream commit `cc65e379e0dfd14ed3020ea2d322cab0403b86c3`. The original [MIT license](LICENSE) and copyright are preserved. [Original upstream README](docs/UPSTREAM_README.md).
 
+The [public records tools](docs/PUBLIC_RECORDS.md) compare FY2027 multi-purpose building proposal stages, show a PhilGEPS awards pilot, link selected DPWH contracts to Bisto, and index LGU disclosures.
+
 **Powered by BetterGov.PH Budget Data.** BetterGov.PH is the original project and budget data provider. BetterNegrosIsland uses the supplied regional logo and its own identity. No official government affiliation, endorsement, or partnership is implied. Source records retain the upstream notices and restrictions; the software license does not override data terms. The predecessor district portal and its evidence are retained under `docs/archive/pre-regional`, `docs/qa`, and existing release archives for migration history only.
+
+## Project tracker
+
+The [project tracker tools](docs/PROJECT_TRACKER.md) add `/tracker`, `/contracts`, `/documents` and `/ask`: an optional source-coordinate map, dated historical DPWH contract explorer, document centre with local PDF fingerprint checks, and guided source-backed questions. `npm run data:tracker` updates this separate collection without changing the proposal snapshot.
 
 ## Citizen tools
 

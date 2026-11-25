@@ -11,6 +11,14 @@ const About = lazy(() => import("./pages/RegionalMethodology"));
 const EvidenceCard = lazy(() => import("./pages/EvidenceCard"));
 const CompareRecords = lazy(() => import("./pages/CompareRecords"));
 const BudgetGuide = lazy(() => import("./pages/BudgetGuide"));
+const Tracker = lazy(() => import('./pages/Tracker'));
+const Contracts = lazy(() => import('./pages/Contracts'));
+const Documents = lazy(() => import('./pages/Documents'));
+const Ask = lazy(() => import('./pages/Ask'));
+const BudgetStages = lazy(() => import('./pages/BudgetStages'));
+const Procurement = lazy(() => import('./pages/Procurement'));
+const SiteEvidence = lazy(() => import('./pages/SiteEvidence'));
+const LocalDisclosures = lazy(() => import('./pages/LocalDisclosures'));
 const RegionalChanges = lazy(() => import("./pages/RegionalChanges"));
 const Saved = lazy(()=>import('./pages/CitizenPages').then(m=>({default:m.Saved})));
 const Topics = lazy(()=>import('./pages/CitizenPages').then(m=>({default:m.Topics})));
@@ -109,6 +117,14 @@ export default function App() {
             <Route path="/evidence/:dataset/:id" element={<EvidenceCard />} />
             <Route path="/compare" element={<CompareRecords />} />
             <Route path="/budget-guide" element={<BudgetGuide />} />
+            <Route path="/tracker" element={<Tracker />} />
+            <Route path="/contracts" element={<Contracts />} />
+            <Route path="/documents" element={<Documents />} />
+            <Route path="/ask" element={<Ask />} />
+            <Route path="/budget-stages" element={<BudgetStages />} />
+            <Route path="/procurement" element={<Procurement />} />
+            <Route path="/site-evidence" element={<SiteEvidence />} />
+            <Route path="/local-disclosures" element={<LocalDisclosures />} />
             <Route path="/we-are-not-ignorant" element={<RegionalChanges />} />
             <Route path="/saved" element={<Saved/>}/>
             <Route path="/topics" element={<Topics/>}/>

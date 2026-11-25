@@ -4,9 +4,10 @@ import { usePortal } from "../lib/portal-context";
 import { SOURCE_CODE_URL, PORTAL_REPOSITORY_URL } from "../lib/links";
 import { useSnapshot, type Manifest } from "../lib/snapshot";
 import BrandLogo from "./BrandLogo";
+import { civicPaths, civicRoutes } from "../lib/civic-routes";
 
-const NAV = [["/", "Overview"], ["/projects", "Projects"], ["/provinces", "Places"], ["/analytics", "Analytics"], ["/budget-history", "Budget history"]];
-const RESOURCES = [["/updates","What changed in the data"],["/topics","Browse everyday needs"],["/saved","Saved records & searches"],["/data-quality","Data reading notes"],["/glossary","Budget glossary & languages"],["/hearings","Budget hearing mentions"],["/budget-guide","One-minute budget guide"],["/compare","Compare two records"],["/data-coverage","Data coverage & updates"],["/methodology","Methodology & sources"],["/about","About the initiative"]];
+const NAV = [["/", "Overview"], ["/projects", "Projects"], ["/tracker", "Project tracker"], ["/provinces", "Places"], ["/analytics", "Analytics"], ["/budget-history", "Budget history"]];
+const RESOURCES = [...civicRoutes,["/contracts","Historical contracts"],["/documents","Document centre"],["/ask","Ask BetterNegros"],["/updates","What changed in the data"],["/topics","Browse everyday needs"],["/saved","Saved records & searches"],["/data-quality","Data reading notes"],["/glossary","Budget glossary & languages"],["/hearings","Budget hearing mentions"],["/budget-guide","One-minute budget guide"],["/compare","Compare two records"],["/data-coverage","Data coverage & updates"],["/methodology","Methodology & sources"],["/about","About the initiative"]];
 
 export function Masthead() {
   const snapshot = useSnapshot<Manifest>();
@@ -39,10 +40,10 @@ export function Masthead() {
             <div id="nav-resource-links" className="nav-resource-links" hidden={!resources}>{RESOURCES.map(([to,label])=><NavLink key={to} to={to} onClick={close}>{label}</NavLink>)}</div>
           </div>
         </nav>
-        <Link className="header-source" to="/data-coverage">
+        {civicPaths.includes(pathname) ? <Link className="header-source" to="/methodology">Public source records</Link> : <Link className="header-source" to="/data-coverage">
           <span className="header-source-label"><span aria-hidden="true" className="snapshot-indicator" />{snapshot.status === "ready" ? "Dated snapshot" : snapshot.status === "error" ? "Snapshot unavailable" : "Reading snapshot…"}</span>
           <span>{snapshot.status === "ready" ? <>Retrieved {snapshot.value.retrieved_at.slice(0,10)}</> : "Inspect data coverage"}</span>
-        </Link>
+        </Link>}
       </div>
     </header>
   </>;

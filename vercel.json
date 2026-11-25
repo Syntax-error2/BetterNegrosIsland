@@ -25,7 +25,7 @@
         },
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self' https://budget.bettergov.ph; font-src 'self'; manifest-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'"
+          "value": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://tile.openstreetmap.org; connect-src 'self' https://budget.bettergov.ph; font-src 'self'; manifest-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'"
         }
       ]
     },
@@ -149,6 +149,38 @@
   ],
   "rewrites": [
     {
+      "source": "/budget-stages",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/procurement",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/site-evidence",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/local-disclosures",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/tracker",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/contracts",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/documents",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/ask",
+      "destination": "/index.html"
+    },
+    {
       "source": "/",
       "destination": "/index.html"
     },
@@ -258,6 +290,38 @@
     },
     {
       "source": "/hearings",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/budget-stages",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/procurement",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/site-evidence",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/local-disclosures",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/tracker",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/contracts",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/documents",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/ask",
       "destination": "/index.html"
     },
     {

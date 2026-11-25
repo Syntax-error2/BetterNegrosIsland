@@ -41,3 +41,5 @@ import '@fontsource/inter/latin-700.css';
 import '@fontsource/jetbrains-mono/latin-500.css';
 import '@fontsource/jetbrains-mono/latin-700.css';
 import './styles/reading-tools.css';
+import './styles/tracker.css';
+import './styles/civic-records.css';

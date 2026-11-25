@@ -3,7 +3,9 @@ const SOURCE_HOSTS = new Set([
   'budget.bettergov.ph', 'budget-assets.bettergov.ph', 'juris-assets.bettergov.ph',
   'bettergov.ph', 'www.bettergov.ph', 'www.dbm.gov.ph', 'dbm.gov.ph',
   'budget-transparency-portal.senate.gov.ph', 'www.congress.gov.ph',
-  'psa.gov.ph', 'privacy.gov.ph',
+  'bisto.ph', 'api.dpwh.bettergov.ph', 'visualizations.bettergov.ph', 'lgu.bettergov.ph',
+  'www.coa.gov.ph', 'bacolodcity.gov.ph', 'dumaguetecity.gov.ph', 'www.negros-occ.gov.ph',
+  'psa.gov.ph', 'privacy.gov.ph', 'www.dpwh.gov.ph', 'dpwh.gov.ph', 'transparency.dpwh.gov.ph',
 ]);
 const REFERENCE_HOSTS = new Set(['github.com', 'bills.juris.ph', 'commons.wikimedia.org', 'www.openstreetmap.org']);
 

@@ -1,0 +1,4330 @@
+{
+  "source": "https://budget.bettergov.ph/gaa/multi-purpose/nep-vs-house-bill",
+  "file": "https://budget-assets.bettergov.ph/hgab/2027/mpb-years/senate.csv",
+  "date": "2026-11-23",
+  "sha256": "6fb31394ca77eba04d11ca107ad36337b556aa4c05d7832c3aade86cfab4861c",
+  "nationalRows": 5807,
+  "portalSnapshot": "2026-11-02-37334582ca74",
+  "rows": [
+    {
+      "id": "house-reading:10792",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Mandalagan, Bacolod City, 10.689906645, 122.98809403",
+      "reportTitle": "",
+      "office": "Bacolod City District Engineering Office",
+      "nep": null,
+      "house": 10000000,
+      "senate": 10000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10792",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10792",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10793",
+      "title": "Construction of Multi-Purpose Building, Barangay 12, Bacolod City",
+      "reportTitle": "",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 0,
+      "status": "cut",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10793",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10793",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10794",
+      "title": "Construction of Multi-Purpose Building, Barangay 28, Bacolod City",
+      "reportTitle": "Construction of Multi-Purpose Building, Barangay 28, Bacolod City (10.66290, 122.95807)",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 15000000,
+      "house": 15000000,
+      "senate": 15000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10794",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10794",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10795",
+      "title": "Construction of Multi-Purpose Building, Barangay 40, Bacolod City",
+      "reportTitle": "Construction of Multi-Purpose Building, Barangay 40, Bacolod City (10.658562, 122.952030)",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 20000000,
+      "house": 20000000,
+      "senate": 20000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10795",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10795",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10796",
+      "title": "Construction of Multi-Purpose Building (Activity Center), Barangay Singcang-Airport, Bacolod City",
+      "reportTitle": "Construction of Multi-Purpose Building (Activity Center), Barangay Singcang-Airport, Bacolod City (10.646086, 122.931728)",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 25000000,
+      "house": 25000000,
+      "senate": 25000000,
+      "status": "renamed",
+      "page": "181",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=181",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10796",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10796",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10797",
+      "title": "Construction of Multi-Purpose Building, Barangay Alijis, Bacolod City",
+      "reportTitle": "",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 10000000,
+      "house": 10000000,
+      "senate": 0,
+      "status": "cut",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10797",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10797",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10798",
+      "title": "Constuction of Multi-Purpose Building at Purok 3, Batad, Barangay Singcang Airport, Bacolod City, 10.66193229, 122.9323547",
+      "reportTitle": "",
+      "office": "Bacolod City District Engineering Office",
+      "nep": null,
+      "house": 10000000,
+      "senate": 10000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10798",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10798",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10799",
+      "title": "Construction of Multi-Purpose Building (Completion) at DPWH-Bacolod City DEO Compound, Bacolod City",
+      "reportTitle": "Construction of Multi-Purpose Building (Completion) at DPWH-Bacolod City DEO Compound, Bacolod City (10.653205, 122.953864)",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 8000000,
+      "house": 8000000,
+      "senate": 0,
+      "status": "cut",
+      "page": "181",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=181",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10799",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10799",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10800",
+      "title": "Construction of Multi-Purpose Building (Covered Court), Barangay Alangilan, Bacolod City",
+      "reportTitle": "Construction of Multi-Purpose Building (Covered Court), Purok 12A, Barangay Alangilan, Bacolod City (10.6602944, 123.1261639)",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 7000000,
+      "house": 7000000,
+      "senate": 7000000,
+      "status": "renamed",
+      "page": "181",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=181",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10800",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10800",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10801",
+      "title": "Construction of Multi-Purpose Building (Covered Court), Barangay Cabug, Bacolod City",
+      "reportTitle": "Construction of Multi-Purpose Building (Covered Court), Barangay Cabug, Bacolod City (10.59883333, 122.9475833)",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 10000000,
+      "house": 10000000,
+      "senate": 10000000,
+      "status": "renamed",
+      "page": "181",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=181",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10801",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10801",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10802",
+      "title": "Construction of Multi-Purpose Building (Covered Court), Barangay Estefania, Bacolod City",
+      "reportTitle": "Construction of Multi-Purpose Building (Covered Court), Barangay Estefania, Bacolod City (10.67035833, 122.991925)",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 8000000,
+      "house": 8000000,
+      "senate": 8000000,
+      "status": "renamed",
+      "page": "181",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=181",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10802",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10802",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10803",
+      "title": "Construction of Multi-Purpose Building(Covered Court), Purok Sunflower, Barangay Tangub, Bacolod City, 10.6331636, 122.9385407",
+      "reportTitle": "",
+      "office": "Bacolod City District Engineering Office",
+      "nep": null,
+      "house": 10000000,
+      "senate": 10000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10803",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10803",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10804",
+      "title": "Construction of Multi-Purpose Building (Covered Court), Barangay Taculing, Bacolod City",
+      "reportTitle": "Construction of Multi-Purpose Building (Covered Court), Barangay Taculing, Bacolod City (10.6459167, 122.9533)",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "181",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=181",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10804",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10804",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10805",
+      "title": "Construction of Multi-Purpose Building (DRRMO) in Barangay Taculing, Bacolod City, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building (DRRMO) in Barangay Taculing, Bacolod City, Negros Occidental (10.645844, 122.953060)",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "renamed",
+      "page": "181",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=181",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10805",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10805",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10806",
+      "title": "Construction of Multi-Purpose Building, East Villa, Barangay Estefania, Bacolod City, 10.669720, 122.999145",
+      "reportTitle": "",
+      "office": "Bacolod City District Engineering Office",
+      "nep": null,
+      "house": 8000000,
+      "senate": 8000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10806",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10806",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10807",
+      "title": "Construction of Multi-Purpose Building, Barangay Handumanan, Bacolod City",
+      "reportTitle": "",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 30000000,
+      "house": 30000000,
+      "senate": 0,
+      "status": "cut",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10807",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10807",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10808",
+      "title": "Construction of Multi-Purpose Building in Barangay 12, Bacolod City, Negros Occidental",
+      "reportTitle": "",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 0,
+      "status": "cut",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10808",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10808",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10809",
+      "title": "Construction of Multi-Purpose Building in Barangay Banago, Bacolod City, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building in Barangay Banago, Bacolod City, Negros Occidental (10.70894, 122.95007)",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10809",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10809",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10810",
+      "title": "Construction of Multi-Purpose Building in Barangay Cabug, Bacolod City, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building in Barangay Cabug, Bacolod City, Negros Occidental (10.605295, 122.946122)",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10810",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10810",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10811",
+      "title": "Construction of Multi-Purpose Building in Barangay Estefania, Bacolod City, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building in Barangay Estefania, Bacolod City, Negros Occidental (10.669813, 122.987135)",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10811",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10811",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10812",
+      "title": "Construction of Multi-Purpose Building in Barangay Granada, Bacolod City, Negros Occidental",
+      "reportTitle": "",
+      "office": "Bacolod City District Engineering Office",
+      "nep": null,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10812",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10812",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10813",
+      "title": "Construction of Multi-Purpose Building in Barangay Handumanan, Bacolod City, Negros Occidental",
+      "reportTitle": "",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 0,
+      "status": "cut",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10813",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10813",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10814",
+      "title": "Construction of Multi-Purpose Building in Barangay Singcang-Airport (BCPO), Bacolod City, Negros Occidental",
+      "reportTitle": "",
+      "office": "Bacolod City District Engineering Office",
+      "nep": null,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10814",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10814",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10815",
+      "title": "Construction of Multi-Purpose Building in Barangay Tangub, Bacolod City, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building in Barangay Tangub, Bacolod City, Negros Occidental (10.64099722, 122.9238167)",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10815",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10815",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10816",
+      "title": "Construction of Multi-Purpose Building in Barangay Villamonte, Bacolod City, Negros Occidental",
+      "reportTitle": "",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 0,
+      "status": "cut",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10816",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10816",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10817",
+      "title": "Construction of Multi-Purpose Building in Vista Alegre Bacolod City, Negros Occidental, 11.083333, 123.03333",
+      "reportTitle": "",
+      "office": "Bacolod City District Engineering Office",
+      "nep": null,
+      "house": 20000000,
+      "senate": 0,
+      "status": "cut",
+      "page": "181",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=181",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10817",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10817",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10818",
+      "title": "Construction of Multi-Purpose Building, Barangay Punta TayTay, Bacolod City",
+      "reportTitle": "Construction of Multi-Purpose Building, Barangay Punta TayTay, Bacolod City (10.59969444, 122.9052167)",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 30000000,
+      "house": 30000000,
+      "senate": 30000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10818",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10818",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10819",
+      "title": "Construction of Multi-Purpose Building, Purok Henrietta, Barangay Singcang-Airport, Bacolod City, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building, Purok Henrietta, Barangay Singcang-Airport, Bacolod City, Negros Occidental (10.657763, 122.933237)",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10819",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10819",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10820",
+      "title": "Construction of Multi-Purpose Building, Purok Jose Rizal, Barangay 14, Bacolod City",
+      "reportTitle": "",
+      "office": "Bacolod City District Engineering Office",
+      "nep": null,
+      "house": 10000000,
+      "senate": 10000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10820",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10820",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10821",
+      "title": "Construction of Multi-Purpose Building, Purok Kapalaran, Barangay Singcang, Bacolod City",
+      "reportTitle": "Construction of Multi-Purpose Building, Purok Kapalaran, Barangay Singcang, Bacolod City (10.645677, 122.931365)",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 20000000,
+      "house": 20000000,
+      "senate": 20000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10821",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10821",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10822",
+      "title": "Construction of Multi-Purpose Building, Purok KBS, Barangay Sum-ag, Bacolod City, 10.5973767, 120.9109917",
+      "reportTitle": "",
+      "office": "Bacolod City District Engineering Office",
+      "nep": null,
+      "house": 10000000,
+      "senate": 10000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10822",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10822",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10823",
+      "title": "Construction of Multi-Purpose Buildings, Purok Sunflower, Barangay Taculing, Bacolod City, 10.655219, 122.956330",
+      "reportTitle": "",
+      "office": "Bacolod City District Engineering Office",
+      "nep": null,
+      "house": 28000000,
+      "senate": 0,
+      "status": "cut",
+      "page": "181",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=181",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10823",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10823",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10824",
+      "title": "Construction of Multi-Purpose Building, Barangay Taculing, Bacolod City",
+      "reportTitle": "",
+      "office": "Bacolod City District Engineering Office",
+      "nep": null,
+      "house": 10000000,
+      "senate": 0,
+      "status": "cut",
+      "page": "181",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=181",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10824",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10824",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10825",
+      "title": "Construction of Multi-Purpose Building, Villa Angeles, Barangay Estefania, Bacolod City, 10.663840, 122.985995",
+      "reportTitle": "",
+      "office": "Bacolod City District Engineering Office",
+      "nep": null,
+      "house": 20000000,
+      "senate": 20000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10825",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10825",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10826",
+      "title": "Construction of Multi-Purpose Building, Barangay Villamonte, Bacolod City",
+      "reportTitle": "Construction of Multi-Purpose Building, Purok Sto. Niño, Barangay Villamonte, Bacolod City (10.673202, 122.976629)",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10826",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10826",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10827",
+      "title": "Rehabilitation of Multi-Purpose Building, Barangay 14, Bacolod City",
+      "reportTitle": "",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 0,
+      "status": "cut",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10827",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10827",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10828",
+      "title": "Rehabilitation of Multi-Purpose Building, Barangay 1, Bacolod, City",
+      "reportTitle": "Rehabilitation of Multi-Purpose Building, Barangay 1, Bacolod, City (10.692249, 122.952188)",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 15000000,
+      "house": 15000000,
+      "senate": 15000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10828",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10828",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10829",
+      "title": "Rehabilitation of Multi-Purpose Building, Barangay 29, Bacolod City",
+      "reportTitle": "Rehabilitation of Multi-Purpose Building, Barangay 29, Bacolod City (10.66504, 122.95033)",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 10000000,
+      "house": 10000000,
+      "senate": 10000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10829",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10829",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10830",
+      "title": "Rehabilitation of Multi-Purpose Building, Barangay 2, Bacolod City",
+      "reportTitle": "Rehabilitation of Multi-Purpose Building, Barangay 2, Bacolod City (10.686852, 122.951839)",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10830",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10830",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10831",
+      "title": "Rehabilitation of Multi-Purpose Building, Barangay 35, Bacolod City",
+      "reportTitle": "Rehabilitation of Multi-Purpose Building, Barangay 35, Bacolod City (10.66436, 122.93570)",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10831",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10831",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10832",
+      "title": "Rehabilitation of Multi-Purpose Building, Barangay 3, Bacolod City",
+      "reportTitle": "Rehabilitation of Multi-Purpose Building, Barangay 3, Bacolod City (10.686697, 122.952926)",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10832",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10832",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10833",
+      "title": "Rehabilitation of Multi-Purpose Building, Barangay Alangilan, Bacolod City",
+      "reportTitle": "Rehabilitation of Multi-Purpose Building (Covered Court), Purok 3, Barangay Alangilan, Bacolod City (10.6616, 123.0787)",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10833",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10833",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10834",
+      "title": "Rehabilitation of Multi-Purpose Building, Barangay Granada, Bacolod City",
+      "reportTitle": "Rehabilitation of Multi-Purpose Building, Barangay Granada, Bacolod City (10.6659040, 123.0342110)",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 20000000,
+      "house": 20000000,
+      "senate": 20000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10834",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10834",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10835",
+      "title": "Rehabilitation of Multi-Purpose Building, Barangay Mandalagan, Bacolod City",
+      "reportTitle": "Rehabilitation of Multi-Purpose Building, Barangay Mandalagan, Bacolod City (10.68994, 122.98517)",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 10000000,
+      "house": 10000000,
+      "senate": 10000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10835",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10835",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10836",
+      "title": "Rehabilitation of Multi-Purpose Building, Purok Magsaysay, Barangay 14, Bacolod City",
+      "reportTitle": "",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 0,
+      "status": "cut",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10836",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10836",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10837",
+      "title": "Rehabilitation of Multi-Purpose Building, Purok Santol, Barangay Mandalagan, Bacolod City, 10. 69249, 122.96616",
+      "reportTitle": "",
+      "office": "Bacolod City District Engineering Office",
+      "nep": null,
+      "house": 5500000,
+      "senate": 5500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10837",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10837",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10838",
+      "title": "Rehabilitation of Multi-Purpose Building, Barangay Singcang-Airport, Bacolod City",
+      "reportTitle": "",
+      "office": "Bacolod City District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10838",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10838",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10839",
+      "title": "Rehabilitation of Multi-Purpose Building, Barangay Villamonte, Bacolod City",
+      "reportTitle": "Rehabilitation of Multi-Purpose Building (Gymnasium), Barangay Villamonte, Bacolod City (10.669479, 122.966172)",
+      "office": "Bacolod City District Engineering Office",
+      "nep": 15000000,
+      "house": 15000000,
+      "senate": 15000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10839",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10839",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10840",
+      "title": "Rehabilitation of Mult-Purpose Building, Barangay Banago, Bacolod City, 10.70446, 122.94905",
+      "reportTitle": "",
+      "office": "Bacolod City District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10840",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10840",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10841",
+      "title": "Rehabilitation of Road at Crispino V. Ramos Avenue, Barangay Taculing, Bacolod City",
+      "reportTitle": "",
+      "office": "Bacolod City District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 0,
+      "status": "cut",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10841",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10841",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10842",
+      "title": "Rehablitation of Multi-Purpose Building, Federation of Senior Citizen Association of Bacolod (FSCAB), Barangay 16, Bacolod City",
+      "reportTitle": "",
+      "office": "Bacolod City District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 0,
+      "status": "cut",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10842",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10842",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10843",
+      "title": "Construction of 2-units Multi-Purpose Building including facilities, Barangay Singcang- Airport, Bacolod City",
+      "reportTitle": "",
+      "office": "Central Office",
+      "nep": null,
+      "house": 55000000,
+      "senate": 55000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10843",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10843",
+      "localities": [
+        "1830200000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10844",
+      "title": "Construction of Multi-Purpose Building, Barangay Guinhalaran, Silay City, Negros Occidental (10.77485333, 122.98327167)",
+      "reportTitle": "",
+      "office": "Central Office",
+      "nep": null,
+      "house": 100000000,
+      "senate": 100000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10844",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10844",
+      "localities": [
+        "1804526000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10845",
+      "title": "Construction of Multi-Purpose Building, Isabela, Negros Occidental, 10.206388, 123.004489",
+      "reportTitle": "",
+      "office": "Central Office",
+      "nep": null,
+      "house": 70000000,
+      "senate": 70000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10845",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10845",
+      "localities": [
+        "1804514000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10846",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay II, Municipality of Manapla, Negros Occidental",
+      "reportTitle": "Construction (Completion) of Multi-Purpose Building, Barangay II, Municipality of Manapla, Negros Occidental (10.959751, 123.123466)",
+      "office": "Negros Occidental 1st District Engineering Office",
+      "nep": 10000000,
+      "house": 10000000,
+      "senate": 10000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10846",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10846",
+      "localities": [
+        "1804518000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10847",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Mabini, Cadiz City, Negros Occidental",
+      "reportTitle": "Construction (Completion) of Multi-Purpose Building, Barangay Mabini, Cadiz City, Negros Occidental (10.90577219, 123.27764108)",
+      "office": "Negros Occidental 1st District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10847",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10847",
+      "localities": [
+        "1804504000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10848",
+      "title": "Construction Multi-Purpose Building at Technological University of the Philippines Visayas - Sagay Campus, Sagay City, Negros Occidental, 10.891401, 123.426569",
+      "reportTitle": "",
+      "office": "Negros Occidental 1st District Engineering Office",
+      "nep": null,
+      "house": 25000000,
+      "senate": 25000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10848",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10848",
+      "localities": [
+        "1804523000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10849",
+      "title": "Construction Multi-Purpose Building, College of Education Building at Philippine Normal University, Cadiz City, Negros Occidental, 10.9575, 123.300555",
+      "reportTitle": "",
+      "office": "Negros Occidental 1st District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10849",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10849",
+      "localities": [
+        "1804504000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10850",
+      "title": "Construction of Multi-Purpose Building, Barangay Alacaygan, EB Magalona, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building, Barangay Alacaygan, EB Magalona, Negros Occidental (10.840728, 123.058398)",
+      "office": "Negros Occidental 1st District Engineering Office",
+      "nep": 10000000,
+      "house": 10000000,
+      "senate": 10000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10850",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10850",
+      "localities": [],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10851",
+      "title": "Construction of Multi-Purpose Building at Daan Banwa E.S. Victorias City, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building at Daan Banwa E.S. Victorias City, Negros Occidental (10.903525, 123.060444)",
+      "office": "Negros Occidental 1st District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10851",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10851",
+      "localities": [
+        "1804531000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10852",
+      "title": "Construction of Multi-Purpose Building at Victorias E.S., Barangay 4, Victorias City, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building at Victorias E.S., Barangay 4, Victorias City, Negros Occidental (10.899858, 123.072260)",
+      "office": "Negros Occidental 1st District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10852",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10852",
+      "localities": [
+        "1804531000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10853",
+      "title": "Construction of Multi-Purpose Building, Barangay Bato, Sagay City, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building, Barangay Bato, Sagay City, Negros Occidental (10.811818, 123.379930)",
+      "office": "Negros Occidental 1st District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10853",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10853",
+      "localities": [
+        "1804523000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10854",
+      "title": "Construction of Multi-Purpose Building, Barangay Cabatangan, Talisay City, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building, Barangay Cabatangan, Talisay City, Negros Occidental (10.6724767, 123.11714666666666)",
+      "office": "Negros Occidental 1st District Engineering Office",
+      "nep": 10000000,
+      "house": 10000000,
+      "senate": 10000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10854",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10854",
+      "localities": [
+        "1804528000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10855",
+      "title": "Construction of Multi-Purpose Building, Barangay Cadiz Viejo, Cadiz City, Negros Occidental, 11.001388, 123.200277",
+      "reportTitle": "",
+      "office": "Negros Occidental 1st District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10855",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10855",
+      "localities": [
+        "1804504000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10856",
+      "title": "Construction of Multi-Purpose Building, Barangay Caduha-an, Cadiz City, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building, Barangay Caduha-an, Cadiz City, Negros Occidental (10.95, 123.18194444444445)",
+      "office": "Negros Occidental 1st District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10856",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10856",
+      "localities": [
+        "1804504000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10857",
+      "title": "Construction of Multi-Purpose Building (Covered Court), Barangay Zone I, Cadiz City, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building (Covered Court), Barangay Zone I, Cadiz City, Negros Occidental (10.95726137, 123.29919088)",
+      "office": "Negros Occidental 1st District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10857",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10857",
+      "localities": [
+        "1804504000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10858",
+      "title": "Construction of Multi-Purpose Building, Barangay I-A, Municipality of Manapla, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building, Barangay I-A, Municipality of Manapla, Negros Occidental (10.944539, 123.134503)",
+      "office": "Negros Occidental 1st District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10858",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10858",
+      "localities": [
+        "1804518000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10859",
+      "title": "Construction of Multi Purpose Building in Barangay 13, Victorias City, Negros Occidental, 10.893286, 123.058770",
+      "reportTitle": "",
+      "office": "Negros Occidental 1st District Engineering Office",
+      "nep": null,
+      "house": 6000000,
+      "senate": 0,
+      "status": "cut",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10859",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10859",
+      "localities": [
+        "1804531000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10860",
+      "title": "Construction of Multi-Purpose Building in Barangay 1, E.B. Magalona, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building in Barangay 1, E.B. Magalona, Negros Occidental (10.878974, 122.978104)",
+      "office": "Negros Occidental 1st District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10860",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10860",
+      "localities": [],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10861",
+      "title": "Construction of Multi-Purpose Building in Cansilayan, Murcia, Negros Occidental",
+      "reportTitle": "",
+      "office": "Negros Occidental 1st District Engineering Office",
+      "nep": null,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10861",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10861",
+      "localities": [
+        "1804520000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10862",
+      "title": "Construction of Multi-Purpose Building in Barangay Chambery, Manapla, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building in Barangay Chambery, Manapla, Negros Occidental (10.981651, 123.168524)",
+      "office": "Negros Occidental 1st District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10862",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10862",
+      "localities": [
+        "1804518000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10863",
+      "title": "Construction of Multi-Purpose Building in Barangay Eustaquio Lopez, Silay, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building in Barangay Eustaquio Lopez, Silay, Negros Occidental (10.816788, 123.036582)",
+      "office": "Negros Occidental 1st District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10863",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10863",
+      "localities": [
+        "1804526000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10864",
+      "title": "Construction of Multi-Purpose Building in Barangay Luna, Cadiz, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building in Barangay Luna, Cadiz, Negros Occidental (10.950015, 123.227953)",
+      "office": "Negros Occidental 1st District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10864",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10864",
+      "localities": [
+        "1804504000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10865",
+      "title": "Construction of Multi Purpose Building in Zone 12-A, Talisay, Negros Occidental",
+      "reportTitle": "",
+      "office": "Negros Occidental 1st District Engineering Office",
+      "nep": null,
+      "house": 10000000,
+      "senate": 10000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10865",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10865",
+      "localities": [
+        "1804528000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10866",
+      "title": "Construction of Multi-Purpose Building, Barangay Lopez Jaena, Sagay City, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building, Barangay Lopez Jaena, Sagay City, Negros Occidental (10.0831701, 123.423381)",
+      "office": "Negros Occidental 1st District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10866",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10866",
+      "localities": [
+        "1804523000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10867",
+      "title": "Construction of Multi-Purpose Building, Barangay Maquiling, Sagay City, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building, Barangay Maquiling, Sagay City, Negros Occidental (10.790028, 123.373510)",
+      "office": "Negros Occidental 1st District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10867",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10867",
+      "localities": [
+        "1804523000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10868",
+      "title": "Construction of Multi-Purpose Building, Old Silay City Jail, Mabini St., Silay City, Negros Occidental, 10.793864, 122.976893",
+      "reportTitle": "",
+      "office": "Negros Occidental 1st District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 0,
+      "status": "cut",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10868",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10868",
+      "localities": [
+        "1804526000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10869",
+      "title": "Construction of Multi-Purpose Building, Barangay Poblacion II, Sagay City, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building, Barangay Poblacion II, Sagay City, Negros Occidental (10.893368, 123.402554)",
+      "office": "Negros Occidental 1st District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10869",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10869",
+      "localities": [
+        "1804523000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10870",
+      "title": "Construction of Multi-Purpose Building, Purok Santan, Barangay General Luna, Sagay City, Negros Occidental",
+      "reportTitle": "",
+      "office": "Negros Occidental 1st District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 0,
+      "status": "cut",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10870",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10870",
+      "localities": [
+        "1804523000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10871",
+      "title": "Construction of Multi-Purpose Building, Barangay San Pablo, Municipality of Manapla, Negros Occidental",
+      "reportTitle": "",
+      "office": "Negros Occidental 1st District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10871",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10871",
+      "localities": [
+        "1804518000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10872",
+      "title": "Construction of Multi-Purpose Building, Sitio Hiyang-Hiyang, Barangay Celestino Villacin, Cadiz City, Negros Occidental",
+      "reportTitle": "",
+      "office": "Negros Occidental 1st District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 0,
+      "status": "cut",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10872",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10872",
+      "localities": [
+        "1804504000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10873",
+      "title": "Construction of Multi-Purpose Building, Barangay Taba-ao, Sagay City, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building, Barangay Taba-ao, Sagay City, Negros Occidental (10.934753, 123.450335)",
+      "office": "Negros Occidental 1st District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10873",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10873",
+      "localities": [
+        "1804523000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10874",
+      "title": "Construction of Multi-Purpose Building, Barangay Tomongtong, EB Magalona, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building, Barangay Tomongtong, EB Magalona, Negros Occidental (10.891297, 122.955066)",
+      "office": "Negros Occidental 1st District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "renamed",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10874",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10874",
+      "localities": [],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10875",
+      "title": "Construction of Multi-Purpose Building, Barangay Tortosa, Municipality of Manapla, Negros Occidental",
+      "reportTitle": "",
+      "office": "Negros Occidental 1st District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10875",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10875",
+      "localities": [
+        "1804518000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10876",
+      "title": "Construction of Multi-Purpose Building (VAWC, PWD, Senior Citizen, SK) Barangay V.F. Gustilo, Cadiz City, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building (VAWC, PWD, Senior Citizen, SK) Barangay V.F. Gustilo, Cadiz City, Negros Occidental (10.79911612, 123.29484788)",
+      "office": "Negros Occidental 1st District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "182",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=182",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10876",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10876",
+      "localities": [
+        "1804504000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10877",
+      "title": "Construction of Multi-Purpose Building, Barangay Zone 6, Cadiz City, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building, Barangay Zone 6, Cadiz City, Negros Occidental (10.95184463, 123.31997247)",
+      "office": "Negros Occidental 1st District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10877",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10877",
+      "localities": [
+        "1804504000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10878",
+      "title": "Construction of 2 units Multi-Purpose Building, Barangay Cabagna-an, La Castellana, Negros Occidental",
+      "reportTitle": "",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10878",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10878",
+      "localities": [
+        "1804517000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10879",
+      "title": "Construction of Multi-Purpose Building, Barangay Biao, Binalbagan, Negros Occidental, 10.120720, 122.981399",
+      "reportTitle": "",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 0,
+      "status": "cut",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10879",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10879",
+      "localities": [
+        "1804503000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10880",
+      "title": "Construction of Multi-Purpose Building, Barangay Cabacungan, La Castellana, Negros Occidental",
+      "reportTitle": "",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "nep": null,
+      "house": 10000000,
+      "senate": 10000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10880",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10880",
+      "localities": [
+        "1804517000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10881",
+      "title": "Construction of Multi-Purpose Building in Barangay 4, Isabela, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building in Barangay 4, Isabela, Negros Occidental, (10.203592, 122.988903)",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "renamed",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10881",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10881",
+      "localities": [
+        "1804514000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10882",
+      "title": "Construction of Multi-Purpose Building in Barangay III, Hinigaran, Negros Occidental",
+      "reportTitle": "",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 0,
+      "status": "cut",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10882",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10882",
+      "localities": [
+        "1804511000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10883",
+      "title": "Construction of Multi-Purpose Building in Barangay Robles, La Castellana, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building in Barangay Robles, La Castellana, Negros Occidental, (10.323705, 123.018846)",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "renamed",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10883",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10883",
+      "localities": [
+        "1804517000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10884",
+      "title": "Construction of Multi-Purpose Building in Barangay San Pedro, Binalbagan, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building in Barangay San Pedro, Binalbagan, Negros Occidental (10.1951520, 122.8602607)",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "renamed",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10884",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10884",
+      "localities": [
+        "1804503000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10885",
+      "title": "Construction of Multi-Purpose Building in Barangay Talaban, Himamaylan City, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building in Barangay Talaban, Himamaylan City, Negros Occidental, (10.126308, 122.869194)",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "renamed",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10885",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10885",
+      "localities": [
+        "1804510000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10886",
+      "title": "Construction of Multi-Purpose Building, Phase II, Hinigaran Medical Clinic, Barangay 3, Hinigaran, Negros Occidental, 10.270973, 122.853582",
+      "reportTitle": "",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "nep": null,
+      "house": 10000000,
+      "senate": 0,
+      "status": "cut",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10886",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10886",
+      "localities": [
+        "1804511000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10887",
+      "title": "Construction of Multi-Purpose Building, Phase II, Barangay San Jose, Binalbagan, Negros Occidental, 10.197508, 122.898621",
+      "reportTitle": "",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "nep": null,
+      "house": 10000000,
+      "senate": 0,
+      "status": "cut",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10887",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10887",
+      "localities": [
+        "1804503000",
+        "1804617000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10888",
+      "title": "Construction of Multi-Purpose Building , San Agustin Heights, Barangay Narauis, Hinigaran, Negros Occidental, 10.2541, 122.8731",
+      "reportTitle": "",
+      "office": "Negros Occidental 2nd District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10888",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10888",
+      "localities": [
+        "1804511000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10889",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay 1, Hinoba-an, Negros Occidental",
+      "reportTitle": "Construction (Completion) of Multi-Purpose Building, Barangay 1, Hinoba-an, Negros Occidental (9.600625, 122.466837)",
+      "office": "Negros Occidental 3rd District Engineering Office",
+      "nep": 30000000,
+      "house": 36000000,
+      "senate": 36000000,
+      "status": "renamed",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10889",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10889",
+      "localities": [
+        "1804512000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10890",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay 1, Ilog, Negros Occidental",
+      "reportTitle": "Construction (Completion) of Multi-Purpose Building, Barangay 1, Ilog, Negros Occidental (10.02491,122.76942)",
+      "office": "Negros Occidental 3rd District Engineering Office",
+      "nep": 30000000,
+      "house": 30000000,
+      "senate": 30000000,
+      "status": "renamed",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10890",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10890",
+      "localities": [
+        "1804513000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10891",
+      "title": "Construction of Multi-Purpose Building, Barangay 8, Kabankalan, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building, Barangay 8, Kabankalan, Negros Occidental (9.98823, 122.815108333333)",
+      "office": "Negros Occidental 3rd District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10891",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10891",
+      "localities": [
+        "1804515000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10892",
+      "title": "Construction of Multi-Purpose Building, Barangay Baclao, Cauayan, Negros Occidental, 16.938276, 121.764754",
+      "reportTitle": "",
+      "office": "Negros Occidental 3rd District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 0,
+      "status": "cut",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10892",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10892",
+      "localities": [
+        "1804507000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10893",
+      "title": "Construction of Multi-Purpose Building, Barangay Balicotoc, Ilog, Negros Occidental",
+      "reportTitle": "",
+      "office": "Negros Occidental 3rd District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10893",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10893",
+      "localities": [
+        "1804513000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10894",
+      "title": "Construction of Multi-Purpose Building, Barangay Bantayan, Kabankalan, Negros Occidental",
+      "reportTitle": "",
+      "office": "Negros Occidental 3rd District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10894",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10894",
+      "localities": [
+        "1804515000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10895",
+      "title": "Construction of Multi-Purpose Building, Barangay Bulata, Cauayan, Negros Occidental",
+      "reportTitle": "",
+      "office": "Negros Occidental 3rd District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10895",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10895",
+      "localities": [
+        "1804507000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10896",
+      "title": "Construction of Multi-Purpose Building, Barangay Bulwangan, Hinoba-an, Negros Occidental",
+      "reportTitle": "",
+      "office": "Negros Occidental 3rd District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 0,
+      "status": "cut",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10896",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10896",
+      "localities": [
+        "1804512000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10897",
+      "title": "Construction of Multi-Purpose Building, Barangay Cabia-an, Candoni, Negros Occidental",
+      "reportTitle": "",
+      "office": "Negros Occidental 3rd District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10897",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10897",
+      "localities": [
+        "1804506000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10898",
+      "title": "Construction of Multi-Purpose Building, Barangay Camugao, Kabankalan, Negros Occidental",
+      "reportTitle": "",
+      "office": "Negros Occidental 3rd District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10898",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10898",
+      "localities": [
+        "1804515000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10899",
+      "title": "Construction of Multi-Purpose Building (Candoni Gym), Barangay East, Candoni, Negros Occidental",
+      "reportTitle": "",
+      "office": "Negros Occidental 3rd District Engineering Office",
+      "nep": null,
+      "house": 15000000,
+      "senate": 15000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10899",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10899",
+      "localities": [
+        "1804506000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10900",
+      "title": "Construction of Multi-Purpose Building, Barangay Caningay, Candoni, Negros Occidental",
+      "reportTitle": "",
+      "office": "Negros Occidental 3rd District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10900",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10900",
+      "localities": [
+        "1804506000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10901",
+      "title": "Construction of Multi-Purpose Building, Barangay Galicia, Ilog, Negros Occidental",
+      "reportTitle": "",
+      "office": "Negros Occidental 3rd District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10901",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10901",
+      "localities": [
+        "1804513000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10902",
+      "title": "Construction of Multi-Purpose Building in Barangay 3, Sipalay, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building in Barangay 3, Sipalay, Negros Occidental (9.75435,122.414630555556)",
+      "office": "Negros Occidental 3rd District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "renamed",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10902",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10902",
+      "localities": [
+        "1804527000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10903",
+      "title": "Construction of Multi-Purpose Building in Barangay Galicia, Ilog, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building in Barangay Galicia, Ilog, Negros Occidental (9.98405,122.7187)",
+      "office": "Negros Occidental 3rd District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "renamed",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10903",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10903",
+      "localities": [
+        "1804513000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10904",
+      "title": "Construction of Multi-purpose Building in KITEMPCO-Ville, Barangay Tulabangi,Kabankalan City, Negros Occidental, 9.997125, 122.806131",
+      "reportTitle": "",
+      "office": "Negros Occidental 3rd District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10904",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10904",
+      "localities": [
+        "1804515000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10905",
+      "title": "Construction of Multi-Purpose Building in Barangay Poblacion East, Candoni, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building in Barangay Poblacion East, Candoni, Negros Occidental (9.83128888888889,122.643533333333)",
+      "office": "Negros Occidental 3rd District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "renamed",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10905",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10905",
+      "localities": [
+        "1804506000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10906",
+      "title": "Construction of Multi-Purpose Building in Barangay Talubangi, Kabankalan, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building in Barangay Talubangi, Kabankalan, Negros Occidental (10.0073194444444,122.803880555556)",
+      "office": "Negros Occidental 3rd District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "renamed",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10906",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10906",
+      "localities": [
+        "1804515000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10907",
+      "title": "Construction of Multi-Purpose Building, Barangay Isio, Cauayan, Negros Occidental",
+      "reportTitle": "",
+      "office": "Negros Occidental 3rd District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10907",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10907",
+      "localities": [
+        "1804507000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10908",
+      "title": "Construction of Multi-Purpose Building, Barangay Poblacion, Cauayan, Negros Occidental",
+      "reportTitle": "",
+      "office": "Negros Occidental 3rd District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10908",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10908",
+      "localities": [
+        "1804507000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10909",
+      "title": "Construction of Multi-Purpose Buildings, Barangay Hilamonan, Kabankalan, Negros Occidental",
+      "reportTitle": "",
+      "office": "Negros Occidental 3rd District Engineering Office",
+      "nep": null,
+      "house": 10000000,
+      "senate": 0,
+      "status": "cut",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10909",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10909",
+      "localities": [
+        "1804515000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10910",
+      "title": "Construction of Multi-Purpose Building, Barangay Tabugon, Kabankalan",
+      "reportTitle": "",
+      "office": "Negros Occidental 3rd District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10910",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10910",
+      "localities": [
+        "1804515000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10911",
+      "title": "Construction of Multi-Purpose Building, Barangay West, Candoni, Negros Occidental",
+      "reportTitle": "",
+      "office": "Negros Occidental 3rd District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10911",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10911",
+      "localities": [
+        "1804506000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10912",
+      "title": "Construction of Multi-Purpose Building, Barangay Yaoyao, Cauayan, Negros Occidental",
+      "reportTitle": "",
+      "office": "Negros Occidental 3rd District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10912",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10912",
+      "localities": [
+        "1804507000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10913",
+      "title": "Construction (Completion) of Multi-Purpose Building at Barangay Palaka, Municipality of Valladolid, Negros Occidental",
+      "reportTitle": "Construction (Completion) of Multi-Purpose Building at Barangay Palaka (10.47511N, 122.82187E), Municipality of Valladolid, Negros Occidental",
+      "office": "Negros Occidental 4th District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10913",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10913",
+      "localities": [
+        "1804530000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10914",
+      "title": "Construction of Multi-Purpose Building at Barangay Batuan, La Carlota City, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building at Barangay Batuan (10.445650N, 122.906731E), La Carlota City, Negros Occidental",
+      "office": "Negros Occidental 4th District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10914",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10914",
+      "localities": [
+        "1804516000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10915",
+      "title": "Construction of Multi-Purpose Building at Barangay Batuan, Municipality of Valladolid, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building at Barangay Batuan (10.440042N, 122.895635E), Municipality of Valladolid, Negros Occidental",
+      "office": "Negros Occidental 4th District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10915",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10915",
+      "localities": [
+        "1804530000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10916",
+      "title": "Construction of Multi-Purpose Building at Barangay Don Jorge L. Araneta, Bago City, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building at Barangay Don Jorge L. Araneta (10.474156N, 122.953981E), Bago City, Negros Occidental",
+      "office": "Negros Occidental 4th District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10916",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10916",
+      "localities": [
+        "1804502000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10917",
+      "title": "Construction of Multi-Purpose Building at Barangay Malingin, Bago City, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building at Barangay Malingin (10.493848N, 122.917819E), Bago City, Negros Occidental",
+      "office": "Negros Occidental 4th District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10917",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10917",
+      "localities": [
+        "1804502000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10918",
+      "title": "Construction of Multi-Purpose Building at Barangay San Juan, Municipality of Pontevedra, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building at Barangay San Juan (10.379155N, 122.86699E), Municipality of Pontevedra, Negros Occidental",
+      "office": "Negros Occidental 4th District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10918",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10918",
+      "localities": [
+        "1804521000",
+        "1806105000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10919",
+      "title": "Construction of Multi-Purpose Building at Barangay Tibsoc, Municipality of San Enrique, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building at Barangay Tibsoc (10.39723N, 122.8604933E), Municipality of San Enrique, Negros Occidental",
+      "office": "Negros Occidental 4th District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10919",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10919",
+      "localities": [
+        "1804525000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10920",
+      "title": "Construction of Multi-Purpose Building at Barangay Yubo, La Carlota City, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building at Barangay Yubo (10.390568N, 123.047212E), La Carlota City, Negros Occidental",
+      "office": "Negros Occidental 4th District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10920",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10920",
+      "localities": [
+        "1804516000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10921",
+      "title": "Construction of Multi-Purpose Building at Barangay Zamora, Municipality of Pontevedra, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building at Barangay Zamora (10.369883N, 123.016253E), Municipality of Pontevedra, Negros Occidental",
+      "office": "Negros Occidental 4th District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10921",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10921",
+      "localities": [
+        "1804521000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10922",
+      "title": "Construction of Multi-Purpose Building in Barangay 2, La Carlota, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building in Barangay 2 (10.427124N, 122.920415E), La Carlota, Negros Occidental",
+      "office": "Negros Occidental 4th District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "renamed",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10922",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10922",
+      "localities": [
+        "1804516000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10923",
+      "title": "Construction of Multi-Purpose Building in Barangay Bacong-Montilla, Bago City, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building in Barangay Bacong-Montilla (10.520519N, 123.032155E), Bago City, Negros Occidental",
+      "office": "Negros Occidental 4th District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "renamed",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10923",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10923",
+      "localities": [
+        "1804603000",
+        "1804502000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10924",
+      "title": "Construction of Multi-Purpose Building in Barangay Poblacion, San Enrique, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building in Barangay Poblacion (10.413317N, 122.853609E), San Enrique, Negros Occidental",
+      "office": "Negros Occidental 4th District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "renamed",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10924",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10924",
+      "localities": [
+        "1804525000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10925",
+      "title": "Construction of Multi-Purpose Building in Barangay Poblacion, Valladolid, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building in Barangay Poblacion (10.461422N, 122.823025E), Valladolid, Negros Occidental",
+      "office": "Negros Occidental 4th District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "renamed",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10925",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10925",
+      "localities": [
+        "1804530000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10926",
+      "title": "Rehabilitation (Completion) of Multi-Purpose Building at Barangay Dulao, Bago City, Negros Occidental",
+      "reportTitle": "Rehabilitation (Completion) of Multi-Purpose Building at Barangay Dulao (10.548538N, 122.951471E), Bago City, Negros Occidental",
+      "office": "Negros Occidental 4th District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10926",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10926",
+      "localities": [
+        "1804502000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10927",
+      "title": "Construction of Multi-Purpose Building in Barangay Igmaya-an, Salvador Benedicto, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building in Barangay Igmaya-an, Salvador Benedicto, Negros Occidental (123.196118°, 10.558662°)",
+      "office": "Negros Occidental 5th District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "renamed",
+      "page": "183",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=183",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10927",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10927",
+      "localities": [
+        "1804532000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10928",
+      "title": "Construction of Multi-Purpose Building in Barangay III, San Carlos City, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building in Barangay III, San Carlos City, Negros Occidental (123.424715°, 10.485163°)",
+      "office": "Negros Occidental 5th District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "renamed",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10928",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10928",
+      "localities": [
+        "1804524000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10929",
+      "title": "Construction of Multi-Purpose Building in Barangay Minapasuk, Calatrava, Negros Occidental",
+      "reportTitle": "Construction of Multi-Purpose Building in Barangay Minapasuk, Calatrava, Negros Occidental (123.347141°, 10.698551°)",
+      "office": "Negros Occidental 5th District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "renamed",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10929",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10929",
+      "localities": [
+        "1804505000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10930",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Agutayon, Jimalalud, Negros Oriental, 10.028011, 123.171694",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10930",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10930",
+      "localities": [
+        "1804612000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10931",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Aniniaw, La Libertad, Negros Oriental, 10.064801, 123.167055",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10931",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10931",
+      "localities": [
+        "1804613000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10932",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Atotes, Bindoy, Negros Oriental, 9.756519, 123.083211",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10932",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10932",
+      "localities": [
+        "1804607000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10933",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Aya, La Libertad, Negros Oriental",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10933",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10933",
+      "localities": [
+        "1804613000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10934",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Bagawines Vallehermoso, Negros Oriental, 10.355162, 123.324091",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10934",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10934",
+      "localities": [
+        "1804624000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10935",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Bala-as, Jimalalud, Negros Oriental, 10.008519, 123.205576",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10935",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10935",
+      "localities": [
+        "1804612000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10936",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Bala-as, Manjuyod, Negros Oriental, 9.713913, 123.151013",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10936",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10936",
+      "localities": [
+        "1804615000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10937",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Bangcal, Jimalalud, Negros Oriental, 10.010238, 123.193203",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10937",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10937",
+      "localities": [
+        "1804612000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10938",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Banog, Jimalalud, Negros Oriental, 10.009224, 123.15501",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10938",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10938",
+      "localities": [
+        "1804612000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10939",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Biga-a La Libertad, Negros Oriental, 10.025857, 123.204158",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10939",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10939",
+      "localities": [
+        "1804613000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10940",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Camandayon Jimalalud, Negros Oriental, 9.992865, 123.197553",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10940",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10940",
+      "localities": [
+        "1804612000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10941",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Cangharay, Jimalalud, Negros Oriental, 9.983988, 123.174318",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10941",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10941",
+      "localities": [
+        "1804612000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10942",
+      "title": "Construction(Completion) of Multi-Purpose Building, Barangay Canlahao, Jimalalud, Negros Oriental, 9.995572, 123.189265",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10942",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10942",
+      "localities": [
+        "1804612000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10943",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Elecia, La Libertad, Negros Oriental, 10.066565, 123.103256",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10943",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10943",
+      "localities": [
+        "1804613000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10944",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Eli, Jimalalud Negros Oriental, 10.012528, 123.129903",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10944",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10944",
+      "localities": [
+        "1804612000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10945",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Ilaya, Tayasan, Negros Oriental, 9.9304, 123.150809",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 0,
+      "status": "cut",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10945",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10945",
+      "localities": [
+        "1804622000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10946",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Maaslum, Manjuyod, Negros Oriental, 9.655565, 123.11653",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10946",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10946",
+      "localities": [
+        "1804615000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10947",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Mabato, Ayungon, Negros Oriental, 9.805947, 122.993758",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10947",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10947",
+      "localities": [
+        "1804602000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10948",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Maglahos Vallehermoso, Negros Oriental, 10.399160, 123.274578",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10948",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10948",
+      "localities": [
+        "1804624000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10949",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Malabago, Jimalalud, Negros Oriental, 10.011454, 123.166117",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10949",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10949",
+      "localities": [
+        "1804612000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10950",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Mambaid, Jimalalud Negros Oriental, 9.995463, 123.210155",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10950",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10950",
+      "localities": [
+        "1804612000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10951",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Mambulod, La Libertad, Negros Oriental, 10.03814, 123.18471",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10951",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10951",
+      "localities": [
+        "1804613000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10952",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Manghulyawon, La Libertad, Negros Oriental, 10.041980, 123.207428",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10952",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10952",
+      "localities": [
+        "1804613000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10953",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Martilo, La Libertad, Negros Oriental, 10.050020, 123.241690",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10953",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10953",
+      "localities": [
+        "1804613000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10954",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Masulog, Canlaon City, Negros Oriental, 10.370634, 123.182936",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10954",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10954",
+      "localities": [
+        "1804608000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10955",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Matuog, Tayasan, Negros Oriental, 9.913352, 123.154643",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10955",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10955",
+      "localities": [
+        "1804622000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10956",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Pacuan, Jimalalud, Negros Oriental, 10.037262, 123.1154247",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10956",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10956",
+      "localities": [
+        "1804612000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10957",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Poblacion, Bindoy, Negros Oriental, 9.757660, 123.140655",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10957",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10957",
+      "localities": [
+        "1804607000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10958",
+      "title": "Construction (Completion) of Multi-Purpose Building (Public Buildings), Barangay Poblacion, La Libertad, Negros Oriental, 10.025899, 123.234892",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 10000000,
+      "senate": 10000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10958",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10958",
+      "localities": [
+        "1804613000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10959",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Sac-Sac, Manjuyod, Negros Oriental, 9.692873, 123.137225",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10959",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10959",
+      "localities": [
+        "1804615000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10960",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Salvacion, Manjuyod, Negros Oriental, 9.698409, 123.107833",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10960",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10960",
+      "localities": [
+        "1804615000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10961",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Santa Monica, Manjuyod, Negros Oriental, 9.679637, 123.137372",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10961",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10961",
+      "localities": [
+        "1804615000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10962",
+      "title": "Construction (Completion) of Multi-Purpose Building, Sitio Villa, Iowa, Barangay Pula, Canlaon City, Negros Oriental, 10.413407, 123.186103",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10962",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10962",
+      "localities": [
+        "1804608000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10963",
+      "title": "Construction (Completion) of Multi-Purpose Building, S. Mapot, Barangay Malaiba, Canlaon City, Negros Oriental, 10.425262, 123.182441",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10963",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10963",
+      "localities": [
+        "1804608000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10964",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Solonggon, La Libertad, Negros Oriental, 10.047532, 123.214606",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10964",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10964",
+      "localities": [
+        "1804613000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10965",
+      "title": "Construction (Completion) of Multi-Purpose Building, S. Pina- mentigan, Barangay Budlasan, Canlaon City, Negros Oriental, 10.346183, 123.205796",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10965",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10965",
+      "localities": [
+        "1804608000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10966",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Suba, Manjuyod, Negros Oriental, 9.672619, 123.147811",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10966",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10966",
+      "localities": [
+        "1804615000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10967",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Tagaytay, Bindoy, Negros Oriental, 9.762108, 123.136958",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10967",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10967",
+      "localities": [
+        "1804607000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10968",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Tagbino, Vallehermoso, Negros Oriental, 10.374556, 123.268916",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10968",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10968",
+      "localities": [
+        "1804624000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10969",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Tamao, Jimalalud, Negros Oriental, 9.985523, 123.142777",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10969",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10969",
+      "localities": [
+        "1804612000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10970",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Tanglad, Manjuyod, Negros Oriental, 9.670403, 123.065775",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10970",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10970",
+      "localities": [
+        "1804615000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10971",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Tubod, Bindoy, Negros Oriental, 9.741933, 123.119069",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10971",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10971",
+      "localities": [
+        "1804607000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10972",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Tubod, Manjuyod, Negros Oriental, 9.682178, 123.134924",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10972",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10972",
+      "localities": [
+        "1804615000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10973",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Tupas, Manjuyod, Negros Oriental, 9.6797677, 123.1452200",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10973",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10973",
+      "localities": [
+        "1804615000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10974",
+      "title": "Construction of Multi-Purpose Building (Covered Court), Barangay Bacong, Tayasan, Negros Oriental",
+      "reportTitle": "Construction of Multi-Purpose Building (Covered Court), Barangay Bacong, Tayasan, Negros Oriental (9.946395,123.154758)",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10974",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10974",
+      "localities": [
+        "1804603000",
+        "1804622000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10975",
+      "title": "Construction of Multi-Purpose Building (Covered Court), Purok Everlasting A, Barangay Malaiba, Canlaon City, Negros Oriental",
+      "reportTitle": "Construction of Multi-Purpose Building (Covered Court), Purok Everlasting A, Barangay Malaiba, Canlaon City, Negros Oriental (10.427772, 123.19795)",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10975",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10975",
+      "localities": [
+        "1804608000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10976",
+      "title": "Construction of Multi-Purpose Building (Covered Court), Purok Galuvilla, Barangay Mabigo, Canlaon City, Negros Oriental",
+      "reportTitle": "",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10976",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10976",
+      "localities": [
+        "1804608000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10977",
+      "title": "Construction of Multi-Purpose Building (Covered Court), Purok Yellow Tops, Barangay Panubigan, Canlaon City, Negros Oriental",
+      "reportTitle": "Construction of Multi-Purpose Building (Covered Court), Purok Yellow Tops, Barangay Panubigan, Canlaon City, Negros Oriental (10.3898086, 123.2270065)",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10977",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10977",
+      "localities": [
+        "1804608000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10978",
+      "title": "Construction of Multi-Purpose Building (Covered Court), Sitio Bonbon, Barangay Binalbagan, Canlaon City, Negros Oriental",
+      "reportTitle": "Construction of Multi-Purpose Building (Covered Court), Sitio Bonbon, Barangay Binalbagan, Canlaon City, Negros Oriental (10.386818, 123.251478)",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10978",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10978",
+      "localities": [
+        "1804503000",
+        "1804608000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10979",
+      "title": "Construction of Multi-Purpose Building (Covered Court), Sitio Ledesma, Barangay Pula Canlaon City, Negros Oriental",
+      "reportTitle": "Construction of Multi-Purpose Building (Covered Court), Sitio Ledesma, Barangay Pula Canlaon City, Negros Oriental (10.400838, 123.200172)",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10979",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10979",
+      "localities": [
+        "1804608000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10980",
+      "title": "Construction of Multi-Purpose Building (Covered Court), Sitio Malapay, Barangay Bagawines, Vallehermoso, Negros Oriental",
+      "reportTitle": "Construction of Multi-Purpose Building (Covered Court), Sitio Malapay, Barangay Bagawines, Vallehermoso, Negros Oriental (10.36908, 123.33105)",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10980",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10980",
+      "localities": [
+        "1804624000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10981",
+      "title": "Construction of Multi-Purpose Building (Covered Court), Sitio Palaming, Barangay Binalbagan, Canlaon City, Negros Oriental",
+      "reportTitle": "Construction of Multi-Purpose Building (Covered Court), Sitio Palaming, Barangay Binalbagan, Canlaon City, Negros Oriental (10.364278, 123.248575 )",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10981",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10981",
+      "localities": [
+        "1804503000",
+        "1804608000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10982",
+      "title": "Construction of Multi-Purpose Building (Covered Court), Sitio Upper, Barangay Don E Villegas, Vallehermoso, Negros Oriental",
+      "reportTitle": "Construction of Multi-Purpose Building (Covered Court), Sitio Upper, Barangay Don E Villegas, Vallehermoso, Negros Oriental (10.31919, 123.31741 )",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10982",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10982",
+      "localities": [
+        "1804624000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10983",
+      "title": "Construction of Multi-Purpose Building (Covered Court), Barangay Upper Pinocawan, Vallehermoso, Negros Oriental",
+      "reportTitle": "Construction of Multi-Purpose Building (Covered Court), Barangay Upper Pinocawan, Vallehermoso, Negros Oriental (10.325072, 123.2823889)",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10983",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10983",
+      "localities": [
+        "1804624000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10984",
+      "title": "Construction of Multi-Purpose Building, Galvan Area, Barangay Budlasan, Canlaon City, Negros Oriental",
+      "reportTitle": "Construction of Multi-Purpose Building, Galvan Area, Barangay Budlasan, Canlaon City, Negros Oriental (10.337207, 123.202602 )",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10984",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10984",
+      "localities": [
+        "1804608000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10985",
+      "title": "Construction of Multi-Purpose Building in Barangay Puan, Vallehermoso, Negros Oriental",
+      "reportTitle": "Construction of Multi-Purpose Building in Barangay Puan, Vallehermoso, Negros Oriental (10.3233568, 123.3268155 )",
+      "office": "Negros Oriental 1st District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "renamed",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10985",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10985",
+      "localities": [
+        "1804624000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10986",
+      "title": "Construction of Multi-Purpose Building at Sitio Baisan, Barangay Kalumboyan, Bayawan City, Negros Oriental",
+      "reportTitle": "",
+      "office": "Negros Oriental 2nd District Engineering Office",
+      "nep": null,
+      "house": 15000000,
+      "senate": 15000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10986",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10986",
+      "localities": [
+        "1804606000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10987",
+      "title": "Construction of Multi-Purpose Building, Barangay Calabnugan, Sibulan, Negros Oriental",
+      "reportTitle": "Construction of Multi-Purpose Building, Barangay Calabnugan, Sibulan, Negros Oriental (9.34231, 123.26625)",
+      "office": "Negros Oriental 2nd District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10987",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10987",
+      "localities": [
+        "1804620000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10988",
+      "title": "Construction of Multi-Purpose Building (Covered Court), Barangay Canggohob, Mabinay, Negros Oriental",
+      "reportTitle": "Construction of Multi-Purpose Building (Covered Court), Barangay Canggohob, Mabinay, Negros Oriental (9.628762, 122.966696)",
+      "office": "Negros Oriental 2nd District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10988",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10988",
+      "localities": [
+        "1804614000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10989",
+      "title": "Construction of Multi-Purpose Building, Barangay Looc, Bais City, Negros Oriental",
+      "reportTitle": "",
+      "office": "Negros Oriental 2nd District Engineering Office",
+      "nep": null,
+      "house": 8000000,
+      "senate": 8000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10989",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10989",
+      "localities": [
+        "1804604000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10990",
+      "title": "Construction of Multi-Purpose Building, Barangay Magatas, Sibulan, Negros Oriental",
+      "reportTitle": "Construction of Multi-Purpose Building, Barangay Magatas, Sibulan, Negros Oriental (9.34319, 123.27227)",
+      "office": "Negros Oriental 2nd District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10990",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10990",
+      "localities": [
+        "1804620000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10991",
+      "title": "Construction of Multi-Purpose Building, Barangay Obogon, Tanjay City, Negros Oriental",
+      "reportTitle": "Construction of Multi-Purpose Building, Barangay Obogon, Tanjay City, Negros Oriental (9.503811, 123.146924)",
+      "office": "Negros Oriental 2nd District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10991",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10991",
+      "localities": [
+        "1804621000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10992",
+      "title": "Construction of Multi-Purpose Building, Barangay Taclobo, Dumaguete City, Negros Oriental",
+      "reportTitle": "",
+      "office": "Negros Oriental 2nd District Engineering Office",
+      "nep": 20000000,
+      "house": 20000000,
+      "senate": 0,
+      "status": "cut",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10992",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10992",
+      "localities": [
+        "1804610000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10993",
+      "title": "Construction of Multi-Purpose Building, Barangay Tara, Mabinay, Negros Oriental",
+      "reportTitle": "Construction of Multi-Purpose Building, Barangay Tara, Mabinay, Negros Oriental (9.667892, 122.881847)",
+      "office": "Negros Oriental 2nd District Engineering Office",
+      "nep": 6000000,
+      "house": 6000000,
+      "senate": 6000000,
+      "status": "renamed",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10993",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10993",
+      "localities": [
+        "1804614000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10994",
+      "title": "Rehabilitation/Completion of Multi-Purpose Building, Barangay Agan-an, Sibulan, Negros Oriental",
+      "reportTitle": "",
+      "office": "Negros Oriental 2nd District Engineering Office",
+      "nep": null,
+      "house": 3000000,
+      "senate": 0,
+      "status": "cut",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10994",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10994",
+      "localities": [
+        "1804620000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10995",
+      "title": "Rehabilitation/Completion of Multi-Purpose Building (Covered Court), Barangay Ajong, Sibulan, Negros Oriental",
+      "reportTitle": "",
+      "office": "Negros Oriental 2nd District Engineering Office",
+      "nep": null,
+      "house": 3000000,
+      "senate": 3000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10995",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10995",
+      "localities": [
+        "1804620000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10996",
+      "title": "Rehabilitation (Completion) of Multi-Purpose Building (Covered Court), Barangay Janti- anon, Amlan, Negros Oriental",
+      "reportTitle": "",
+      "office": "Negros Oriental 2nd District Engineering Office",
+      "nep": null,
+      "house": 3000000,
+      "senate": 3000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10996",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10996",
+      "localities": [
+        "1804601000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10997",
+      "title": "Rehabilitation (Completion) of Multi-Purpose Building (Covered Court), Barangay Olympia, Bais City, Negros Oriental",
+      "reportTitle": "",
+      "office": "Negros Oriental 2nd District Engineering Office",
+      "nep": null,
+      "house": 3000000,
+      "senate": 3000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10997",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10997",
+      "localities": [
+        "1804604000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10998",
+      "title": "Rehabilitation (Completion) of Multi-Purpose Building (Covered Court), Poblacion, Mabinay, Negros Oriental",
+      "reportTitle": "",
+      "office": "Negros Oriental 2nd District Engineering Office",
+      "nep": null,
+      "house": 4000000,
+      "senate": 4000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10998",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10998",
+      "localities": [
+        "1804614000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:10999",
+      "title": "Rehabilitation (Completion) of Multi-Purpose Building, Barangay Panala-an, Bais City, Negros Oriental",
+      "reportTitle": "",
+      "office": "Negros Oriental 2nd District Engineering Office",
+      "nep": null,
+      "house": 3000000,
+      "senate": 3000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A10999",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A10999",
+      "localities": [
+        "1804604000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:11000",
+      "title": "Rehabilitation/Completion of Multi-Purpose Building, Barangay Poblacion, Sibulan, Negros Oriental",
+      "reportTitle": "",
+      "office": "Negros Oriental 2nd District Engineering Office",
+      "nep": null,
+      "house": 3000000,
+      "senate": 3000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A11000",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A11000",
+      "localities": [
+        "1804620000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:11001",
+      "title": "Rehabilitation (Completion) of Multi-Purpose Building, Barangay Sta. Cruz Viejo, Tanjay City, Negros Oriental",
+      "reportTitle": "",
+      "office": "Negros Oriental 2nd District Engineering Office",
+      "nep": null,
+      "house": 4000000,
+      "senate": 4000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A11001",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A11001",
+      "localities": [
+        "1804621000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:11002",
+      "title": "Rehabilitation of Multi-Purpose Building, Barangay Calindagan, Dumaguete City, Negros Oriental",
+      "reportTitle": "",
+      "office": "Negros Oriental 2nd District Engineering Office",
+      "nep": null,
+      "house": 10000000,
+      "senate": 10000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A11002",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A11002",
+      "localities": [
+        "1804610000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:11003",
+      "title": "Construction of Multi-Purpose at Barangay Maninihon, Bayawan City, Negros Oriental",
+      "reportTitle": "",
+      "office": "Negros Oriental 3rd District Engineering Office",
+      "nep": null,
+      "house": 10000000,
+      "senate": 10000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A11003",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A11003",
+      "localities": [
+        "1804606000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:11004",
+      "title": "Construction of Multi-Purpose Building at Basay, Negros Oriental, 9.407922, 123.639095",
+      "reportTitle": "",
+      "office": "Negros Oriental 3rd District Engineering Office",
+      "nep": null,
+      "house": 10000000,
+      "senate": 10000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A11004",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A11004",
+      "localities": [
+        "1804605000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:11005",
+      "title": "Construction of Multi-Purpose Building at Barangay Casile, Dauin, Negros Oriental, 9.212692, 123.227338",
+      "reportTitle": "",
+      "office": "Negros Oriental 3rd District Engineering Office",
+      "nep": null,
+      "house": 10000000,
+      "senate": 10000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A11005",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A11005",
+      "localities": [
+        "1804609000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:11006",
+      "title": "Construction of Multi-Purpose Building at Barangay Malabago, Bacong, Negros Oriental",
+      "reportTitle": "",
+      "office": "Negros Oriental 3rd District Engineering Office",
+      "nep": null,
+      "house": 10000000,
+      "senate": 10000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A11006",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A11006",
+      "localities": [
+        "1804603000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:11007",
+      "title": "Construction of Multi-Purpose Building, Barangay Jawa, Valencia, Negros Oriental",
+      "reportTitle": "Construction of Multi-Purpose Building, Barangay Jawa, Valencia, Negros Oriental (9.27563, 123.239228)",
+      "office": "Negros Oriental 3rd District Engineering Office",
+      "nep": 20000000,
+      "house": 20000000,
+      "senate": 20000000,
+      "status": "renamed",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A11007",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A11007",
+      "localities": [
+        "1804623000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:11008",
+      "title": "Construction of Multi-Purpose Building, Barangay Malongcay Dacu, Dauin, Negros Oriental",
+      "reportTitle": "Construction of Multi-Purpose Building, Barangay Malongcay Dacu, Dauin, Negros Oriental (9.18378, 123.20442)",
+      "office": "Negros Oriental 3rd District Engineering Office",
+      "nep": 10000000,
+      "house": 10000000,
+      "senate": 10000000,
+      "status": "renamed",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A11008",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A11008",
+      "localities": [
+        "1804609000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:11009",
+      "title": "Construction of Multi-Purpose Building, Barangay San Francisco, Santa Catalina, Negros Oriental",
+      "reportTitle": "Construction of Multi-Purpose Building, Barangay San Francisco, Santa Catalina, Negros Oriental (9.1808, 122.897053)",
+      "office": "Negros Oriental 3rd District Engineering Office",
+      "nep": 15000000,
+      "house": 15000000,
+      "senate": 15000000,
+      "status": "renamed",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A11009",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A11009",
+      "localities": [
+        "1804618000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:11010",
+      "title": "Construction (Completion) of 2-Storey Multi-purpose Building, Barangay Logucan, Maria, Siquijor, 9.152961, 123.649934",
+      "reportTitle": "",
+      "office": "Siquijor District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A11010",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A11010",
+      "localities": [
+        "1806104000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:11011",
+      "title": "Construction (Completion) of 2-Storey Multi-purpose Building Barangay, Barangay Simacolong, Lazi, Siquijor, 9.130231, 123.651331",
+      "reportTitle": "",
+      "office": "Siquijor District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A11011",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A11011",
+      "localities": [
+        "1806103000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:11012",
+      "title": "Construction (Completion) of Multi-purpose Building, Barangay Bagacay, Larena, Siquijor, 9.259457, 123.598532",
+      "reportTitle": "",
+      "office": "Siquijor District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A11012",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A11012",
+      "localities": [
+        "1806102000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:11013",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Basac, Larena, Siquijor",
+      "reportTitle": "Construction (Completion) of Multi-Purpose Building, Barangay Basac, Larena, Siquijor (9.21809, 123.61640)",
+      "office": "Siquijor District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A11013",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A11013",
+      "localities": [
+        "1806102000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:11014",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Bogo, Maria, Siquijor",
+      "reportTitle": "Construction (Completion) of Multi-Purpose Building, Barangay Bogo, Maria, Siquijor (9.233067, 123.662921)",
+      "office": "Siquijor District Engineering Office",
+      "nep": 5500000,
+      "house": 5500000,
+      "senate": 5500000,
+      "status": "renamed",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A11014",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A11014",
+      "localities": [
+        "1806104000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:11015",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Cabal-asan, Maria, Siquijor",
+      "reportTitle": "Construction (Completion) of Multi-Purpose Building, Barangay Cabal-asan, Maria, Siquijor (9.207921, 123.652248)",
+      "office": "Siquijor District Engineering Office",
+      "nep": 5500000,
+      "house": 5500000,
+      "senate": 5500000,
+      "status": "renamed",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A11015",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A11015",
+      "localities": [
+        "1806104000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:11016",
+      "title": "Construction (Completion) of Multi-purpose Building, Barangay Caitican, Siquijor, Siquijor, 9.191679, 123.503686",
+      "reportTitle": "",
+      "office": "Siquijor District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A11016",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A11016",
+      "localities": [
+        "1806106000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:11017",
+      "title": "Construction (Completion) of Multi-purpose Building, Barangay Calalinan, Siquijor, Siquijor, 9.213472, 123.500298",
+      "reportTitle": "",
+      "office": "Siquijor District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A11017",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A11017",
+      "localities": [
+        "1806106000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:11018",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Can-asagan, San Juan, Siquijor",
+      "reportTitle": "Construction (Completion) of Multi-Purpose Building, Barangay Can-asagan, San Juan, Siquijor (9.171167, 123.496833)",
+      "office": "Siquijor District Engineering Office",
+      "nep": 5300000,
+      "house": 5300000,
+      "senate": 5300000,
+      "status": "renamed",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A11018",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A11018",
+      "localities": [
+        "1806105000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:11019",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Candaping A, Maria, Siquijor",
+      "reportTitle": "Construction (Completion) of Multi-Purpose Building, Barangay Candaping A, Maria, Siquijor (9.170278, 123.657944)",
+      "office": "Siquijor District Engineering Office",
+      "nep": 5500000,
+      "house": 5500000,
+      "senate": 5500000,
+      "status": "renamed",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A11019",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A11019",
+      "localities": [
+        "1806104000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:11020",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Cang-isad, Siquijor, Siquijor, 9.210911, 123.543947",
+      "reportTitle": "",
+      "office": "Siquijor District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A11020",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A11020",
+      "localities": [
+        "1806106000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:11021",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Ibabao, Siquijor, Siquijor",
+      "reportTitle": "",
+      "office": "Siquijor District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 0,
+      "status": "cut",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A11021",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A11021",
+      "localities": [
+        "1806106000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:11022",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Panlautan, Siquijor, Siquijor",
+      "reportTitle": "",
+      "office": "Siquijor District Engineering Office",
+      "nep": 5500000,
+      "house": 5500000,
+      "senate": 0,
+      "status": "cut",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A11022",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A11022",
+      "localities": [
+        "1806106000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:11023",
+      "title": "Construction (Completion) of Multi-purpose Building, Barangay Pasihagon, Siquijor, Siquijor, 9.20294, 123.466424",
+      "reportTitle": "",
+      "office": "Siquijor District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A11023",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A11023",
+      "localities": [
+        "1806106000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:11024",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Poblacion Norte, Maria, Siquijor",
+      "reportTitle": "Construction (Completion) of Multi-Purpose Building, Barangay Poblacion Norte, Maria, Siquijor (9.198769, 123.657466)",
+      "office": "Siquijor District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A11024",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A11024",
+      "localities": [
+        "1806104000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:11025",
+      "title": "Construction (Completion) of Multi-Purpose Building, Purok 1, Barangay Catulayan, San Juan, Siquijor, 9.126581, 123.538666",
+      "reportTitle": "",
+      "office": "Siquijor District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A11025",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A11025",
+      "localities": [
+        "1806105000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:11026",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Sandugan, Larena, Siquijor",
+      "reportTitle": "Construction (Completion) of Multi-Purpose Building, Barangay Sandugan, Larena, Siquijor (9.29163, 123.60029)",
+      "office": "Siquijor District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A11026",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A11026",
+      "localities": [
+        "1806102000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:11027",
+      "title": "Construction (Completion) of Multi-purpose Building, Barangay Solangon, San Juan, Siquijor, 9.171162, 123.478661",
+      "reportTitle": "",
+      "office": "Siquijor District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A11027",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A11027",
+      "localities": [
+        "1806105000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:11028",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Tambisan, Siquijor, Siquijor",
+      "reportTitle": "Construction (Completion) of Multi-Purpose Building, Barangay Tambisan, Siquijor, Siquijor (9.19302, 123.46145)",
+      "office": "Siquijor District Engineering Office",
+      "nep": 5000000,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "renamed",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A11028",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A11028",
+      "localities": [
+        "1806106000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:11029",
+      "title": "Construction (Completion) of Multi-Purpose Building, Barangay Tinago, Siquijor, Siquijor, 9.213857, 123.47523",
+      "reportTitle": "",
+      "office": "Siquijor District Engineering Office",
+      "nep": null,
+      "house": 5000000,
+      "senate": 5000000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A11029",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A11029",
+      "localities": [
+        "1806106000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:11031",
+      "title": "Rehabilitation of Multi-Purpose Building, Barangay Napo, San Juan, Siquijor",
+      "reportTitle": "",
+      "office": "Siquijor District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 2500000,
+      "status": "unchanged",
+      "page": "",
+      "pdf": "",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A11031",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A11031",
+      "localities": [
+        "1806105000"
+      ],
+      "linked": true
+    },
+    {
+      "id": "house-reading:11032",
+      "title": "Rehabilitation of Multi-Purpose Building, Barangay Simacolong, Lazi, Siquijor",
+      "reportTitle": "",
+      "office": "Siquijor District Engineering Office",
+      "nep": null,
+      "house": 2500000,
+      "senate": 0,
+      "status": "cut",
+      "page": "184",
+      "pdf": "https://budget-assets.bettergov.ph/senate/2027/pdf/senate-cr-annex-a4.pdf#page=184",
+      "record": "https://budget.bettergov.ph/senate/2027/dpwh/p/house-reading%3A11032",
+      "houseRecord": "https://budget.bettergov.ph/hgab/2027/dpwh/p/house-reading%3A11032",
+      "localities": [
+        "1806103000"
+      ],
+      "linked": true
+    }
+  ]
+}

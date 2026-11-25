@@ -40,6 +40,7 @@ export default function RegionalPlaces() {
             "Negros Occidental including Bacolod, Negros Oriental, and Siquijor. All 63 cities and municipalities are represented."}
         </p>
       </PageHead>
+      <p><Link to={province ? "/local-disclosures?province=" + province.slug : "/local-disclosures"}>Browse local budgets, plans, and audit reports</Link></p>
       <p className="notice">
         Directory coverage is not budget completeness. Counts are title
         associations, not verified project locations or exclusive LGU

@@ -1,4 +1,4 @@
-const baseRoutes=['/','/projects','/projects/:dataset/:id','/evidence/:dataset/:id','/provinces','/provinces/:slug','/locations/:psgcCode','/municipalities','/municipalities/:slug','/analytics','/compare','/budget-guide','/budget-history','/data-coverage','/methodology','/terms','/privacy','/corrections','/gaa','/about','/districts','/we-are-not-ignorant','/saved','/topics','/updates','/data-quality','/glossary','/hearings'];
+const baseRoutes=['/budget-stages','/procurement','/site-evidence','/local-disclosures','/tracker','/contracts','/documents','/ask','/','/projects','/projects/:dataset/:id','/evidence/:dataset/:id','/provinces','/provinces/:slug','/locations/:psgcCode','/municipalities','/municipalities/:slug','/analytics','/compare','/budget-guide','/budget-history','/data-coverage','/methodology','/terms','/privacy','/corrections','/gaa','/about','/districts','/we-are-not-ignorant','/saved','/topics','/updates','/data-quality','/glossary','/hearings'];
 export const clientRoutes=[...baseRoutes,...baseRoutes.map(p=>'/snapshots/:snapshot'+(p==='/'?'':p))];
 import fs from 'node:fs';
 import { createHash } from 'node:crypto';
@@ -7,7 +7,7 @@ export const securityHeaders={
   'X-Frame-Options':'DENY',
   'Referrer-Policy':'no-referrer',
   'Permissions-Policy':'camera=(), microphone=(), geolocation=(), payment=(), usb=()',
-  'Content-Security-Policy':"default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self' https://budget.bettergov.ph; font-src 'self'; manifest-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'",
+  'Content-Security-Policy':"default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://tile.openstreetmap.org; connect-src 'self' https://budget.bettergov.ph; font-src 'self'; manifest-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'",
 };
 const shards=[];
 for(const version of fs.readdirSync('public/data/snapshots')){

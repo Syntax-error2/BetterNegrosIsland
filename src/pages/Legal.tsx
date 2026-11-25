@@ -24,7 +24,7 @@ export default function Legal() {
     <main id="main-content" tabIndex={-1} className="page page--reading main legal-page legal-document">
       <Link to={returnTo}>← Return to the portal</Link>
       <div className="legal-document-brand"><BrandLogo /></div>
-      <p className="legal-revision">Review draft · Revised 4 November 2026 · Version {LEGAL_VERSION}</p>
+      <p className="legal-revision">Review draft · Revised 25 November 2026 · Version {LEGAL_VERSION}</p>
       <h1>{title}</h1>
       <p className="notice">
         <strong>Privacy and legal review remain pending.</strong> This portal is
@@ -70,6 +70,10 @@ export default function Legal() {
             <dt>Optional saved records and searches</dt>
             <dd>When you choose Save record or Save this search, this browser stores public record identifiers and the selected search path and terms under <code>betternegrosisland:notebook:v1</code>. There is no account or automatic cross-device synchronization. Use public budget terms only; do not save personal information in searches. Other people using this browser profile can see these items. They remain until removed in <Link to="/saved">Saved items</Link> or browser data is cleared. Clearing saved items leaves the notice acknowledgment in place. If storage fails, the reading list is held in memory for the current visit and is labeled accordingly.</dd>
             <dt>Private corrections and privacy email</dt><dd>The <Link to="/corrections">contact page</Link> opens your email app. There is no portal submission endpoint. Your email service and the project inbox provider process the message, sender address, metadata and any attachments you choose to send. Send only a page/source reference and a brief description initially. Do not send identity documents or sensitive attachments. Provider arrangements, inbox access controls and retention/deletion procedures still require documented review. Private messages and requester details must not be placed in the public correction log.</dd>
+            <dt>Optional street map</dt>
+            <dd>Choosing Load street map on Project tracker requests street tiles from tile.openstreetmap.org. OpenStreetMap receives connection information, requested tile coordinates and this website’s origin. No device location is requested. The map is not loaded until chosen, and closing it stops further tile requests. Project list, document and guided-question tools work without it. Map use follows <a href="https://osmfoundation.org/wiki/Privacy_Policy" target="_blank" rel="noopener noreferrer">OpenStreetMap Foundation’s privacy policy</a>.</dd>
+            <dt>Local PDF fingerprint check and guided questions</dt>
+            <dd>Files chosen for fingerprint checking are read and hashed in this browser; this application does not upload the file, filename or hash. Guided questions are interpreted and calculated locally from retained public records, without an external AI service. Use public budget terms only. Shareable question links contain the selected question category, place, program and stage. Contract searches can appear in URLs and host logs. Historical contract and document metadata have separate source dates.</dd>
             <dt>Technical delivery</dt>
             <dd>
               Serving pages and data can reveal IP addresses, browser/request
