@@ -14,6 +14,7 @@ import { External } from "../components/Bits";
 import { downloadText } from "../lib/csv";
 import DataTable from "../components/DataTable";
 import evidence from "../data/civic/evidence.json";
+import { projectTimelinePath } from "../lib/project-timeline";
 
 const evidenceIds = new Set(evidence.rows.map((row) => row.id));
 
@@ -305,7 +306,7 @@ function Ledger({ index }: { index: TrackerIndex }) {
                 </dl>
                 <p>
                   <External href={r.url}>DPWH source contract</External>
-                  {evidenceIds.has(r.id) && <> · <Link to={"/site-evidence?id=" + r.id}>Compare dated progress and open Bisto</Link></>}
+{evidenceIds.has(r.id) && <> · <Link to={projectTimelinePath(r.id)}>Open project timeline</Link> · <Link to={"/site-evidence?id=" + r.id}>Compare dated progress and open Bisto</Link></>}
                   {!record && (
                     <>
                       {" "}

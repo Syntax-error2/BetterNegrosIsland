@@ -1,0 +1,660 @@
+{
+  "source": "https://compass.gov.ph/lgsf/falgu",
+  "dataset": "LGSF-FA",
+  "year": 2026,
+  "version": "v7",
+  "asOf": "2026-09-30",
+  "checked": "2026-11-25",
+  "csvSha256": "cbb240014b5dc30e6be990431ce652e7c9c41fd050bbad66478c86e10da26c6b",
+  "sourceRows": 83,
+  "rows": [
+    {
+      "province": "Negros Occidental",
+      "locality": "",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 17100000000,
+      "cashAuthority": 17100000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Oriental",
+      "locality": "",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 13300000000,
+      "cashAuthority": 13300000000,
+      "sourceRows": 2
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Bacolod",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 9400000000,
+      "cashAuthority": 9400000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Oriental",
+      "locality": "Dumaguete",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 4400000000,
+      "cashAuthority": 4400000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Siquijor",
+      "locality": "",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 3400000000,
+      "cashAuthority": 3400000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Kabankalan",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 3200000000,
+      "cashAuthority": 3200000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "",
+      "purpose": "Construction of Local Road in Barangay Guadalupe, City of San Carlos, Negros Occidental",
+      "allotment": 3000000000,
+      "cashAuthority": 3000000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Bago",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 2900000000,
+      "cashAuthority": 2900000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Oriental",
+      "locality": "Bais",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 2800000000,
+      "cashAuthority": 2800000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Cadiz",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 2500000000,
+      "cashAuthority": 2500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Cadiz",
+      "purpose": "Expansion of hospital buildings in Barangay Tinampa-an, City of Cadiz, Negros Occidental",
+      "allotment": 2500000000,
+      "cashAuthority": 2500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Sagay",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 2300000000,
+      "cashAuthority": 2300000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Bacolod",
+      "purpose": "Installation of Solar Streetlights in Identified Key Priority Areas in Barangay Mansilingan, City of Bacolod, Negros Island Region (NIR)",
+      "allotment": 2180000000,
+      "cashAuthority": 2180000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "",
+      "purpose": "Adaptation and mitigation projects: Solar Power for Province-owned Hospital (Teresita L. Jalandoni Provincial Hospital) Barangay Lantad, City of Silay, Negros Occidental",
+      "allotment": 2100000000,
+      "cashAuthority": 2100000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Silay",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 2100000000,
+      "cashAuthority": 2100000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Silay",
+      "purpose": "Improvement of Farm-to-market road in Barangay, Eustaquio Lopez, City of Silay",
+      "allotment": 2100000000,
+      "cashAuthority": 2100000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Oriental",
+      "locality": "Bayawan",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 2000000000,
+      "cashAuthority": 2000000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "San Carlos",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 2000000000,
+      "cashAuthority": 2000000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Himamaylan",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 1800000000,
+      "cashAuthority": 1800000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Talisay",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 1700000000,
+      "cashAuthority": 1700000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Bacolod",
+      "purpose": "Installation of Solar Streetlights in Identified Key Priority Areas in Barangay Vista Alegre, City of Bacolod, Negros Island Region (NIR)",
+      "allotment": 1600000000,
+      "cashAuthority": 1600000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Oriental",
+      "locality": "Guihulngan",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 1600000000,
+      "cashAuthority": 1600000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "",
+      "purpose": "Construction of Local Road in Barangay Gatuslao, Candoni, Negros Occidental",
+      "allotment": 1500000000,
+      "cashAuthority": 1500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "",
+      "purpose": "Construction of Local Road in Barangay Payao, Binalbagan to Barangay Libacao, City of Himamaylan, Negros Occidental",
+      "allotment": 1500000000,
+      "cashAuthority": 1500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "",
+      "purpose": "Construction of Local Road in Barangay Sebucawan, Isabela, Negros Occidental",
+      "allotment": 1500000000,
+      "cashAuthority": 1500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "",
+      "purpose": "Construction of Local Road in Barangay Salvacion, Murcia, Negros Occidental",
+      "allotment": 1500000000,
+      "cashAuthority": 1500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "",
+      "purpose": "Construction of Local Road in Barangay Talacdan, Cauayan to Barangay Guiljungan, Cauayan, Negros Occidental",
+      "allotment": 1500000000,
+      "cashAuthority": 1500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "",
+      "purpose": "Construction of Local Road in Barangay Canlandog, Murcia, Negros Occidental",
+      "allotment": 1500000000,
+      "cashAuthority": 1500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Escalante",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 1500000000,
+      "cashAuthority": 1500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "",
+      "purpose": "Construction of Local Road in Barangay Tiling, Cauayan, Negros Occidental",
+      "allotment": 1500000000,
+      "cashAuthority": 1500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "",
+      "purpose": "Construction of Local Road in Barangay Anahaw, Hinigaran, Negros Occidental",
+      "allotment": 1500000000,
+      "cashAuthority": 1500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Oriental",
+      "locality": "Tanjay",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 1300000000,
+      "cashAuthority": 1300000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Bacolod",
+      "purpose": "Installation of Solar Streetlights in Identified Key Priority Areas in Barangay Singcang-Airport, City of Bacolod, Negros Island Region (NIR)",
+      "allotment": 1300000000,
+      "cashAuthority": 1300000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Sipalay",
+      "purpose": "Adaptation and mitigation projects: Proposed supply and installation of 100 units LED integrated solar streetlights (7 kilometers), 70 meters spanning at Barangay Manlucahoc, City of Sipalay, Negros Occidental",
+      "allotment": 1200000000,
+      "cashAuthority": null,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Sipalay",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 1200000000,
+      "cashAuthority": 1200000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Bacolod",
+      "purpose": "Installation of Solar Streetlights in Identified Key Priority Areas in Barangay Pahanocoy, City of Bacolod, Negros Island Region (NIR)",
+      "allotment": 1150000000,
+      "cashAuthority": 1150000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Oriental",
+      "locality": "Ayungon",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 1000000000,
+      "cashAuthority": 1000000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Bacolod",
+      "purpose": "Installation of Solar Streetlights in Identified Key Priority Areas in Barangay Handumanan, City of Bacolod, Negros Island Region (NIR)",
+      "allotment": 760000000,
+      "cashAuthority": 760000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Bacolod",
+      "purpose": "Installation of Solar Streetlights in Identified Key Priority Areas in Barangay Estefania, City of Bacolod, Negros Island Region (NIR)",
+      "allotment": 740000000,
+      "cashAuthority": 740000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Bacolod",
+      "purpose": "Installation of Solar Streetlights in Identified Key Priority Areas in Barangay Mandalagan, City of Bacolod, Negros Island Region (NIR)",
+      "allotment": 720000000,
+      "cashAuthority": 720000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Oriental",
+      "locality": "Zamboanguita",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 700000000,
+      "cashAuthority": 700000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Oriental",
+      "locality": "Manjuyod",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Cauayan",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Enrique B. Magalona",
+      "purpose": "Adaptation and mitigation projects: Installation of Solar Street Lights in Barangay Consing, Enrique B. Magalona to Barangay Alacaygan, Enrique B. Magalona, Negros Occidental, Negros Island Region (NIR)",
+      "allotment": 500000000,
+      "cashAuthority": null,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Manapla",
+      "purpose": "Construction of multi-purpose building in Barangay Barangay I-A, Manapla",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Salvador Benedicto",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Ilog",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Valladolid",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Oriental",
+      "locality": "Basay",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Candoni",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Moises Padilla",
+      "purpose": "Construction of water supply and sanitation project in Barangay Inolingan, Moises Padilla",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Oriental",
+      "locality": "Tayasan",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Oriental",
+      "locality": "Valencia",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Pulupandan",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Oriental",
+      "locality": "La Libertad",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Oriental",
+      "locality": "Bacong",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Oriental",
+      "locality": "Mabinay",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "La Castellana",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Oriental",
+      "locality": "Santa Catalina",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Oriental",
+      "locality": "Dauin",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Oriental",
+      "locality": "Bindoy",
+      "purpose": "Construction of farm-to-market road in Barangay Atotes, Bindoy",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Oriental",
+      "locality": "Amlan",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project - Food Assistance (Rice Distribution Project)",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Oriental",
+      "locality": "Amlan",
+      "purpose": "Improvement of Water supply system in Barangay Silab, Amlan, Negros Oriental",
+      "allotment": 500000000,
+      "cashAuthority": null,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Manapla",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Oriental",
+      "locality": "Vallehermoso",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Hinigaran",
+      "purpose": "Assistance to Indigent Individuals or Families Food assistance/rice distribution project",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Oriental",
+      "locality": "Bindoy",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Pulupandan",
+      "purpose": "Improvement of multi-purpose building in Barangay Barangay Zone 4, Pulupandan",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Moises Padilla",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Bacolod",
+      "purpose": "Installation of Solar Streetlights in Identified Key Priority Areas in Barangay Granada, City of Bacolod, Negros Island Region (NIR)",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Oriental",
+      "locality": "Sibulan",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Siquijor",
+      "locality": "Siquijor",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Oriental",
+      "locality": "Pamplona",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Oriental",
+      "locality": "Tayasan",
+      "purpose": "Concreting of Local Road in Barangay Suquib, Tayasan",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Hinoba-an",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Enrique B. Magalona",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Oriental",
+      "locality": "Jimalalud",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Pontevedra",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Murcia",
+      "purpose": "Assistance to Indigent Individuals or Families - Food assistance/rice distribution project",
+      "allotment": 500000000,
+      "cashAuthority": 500000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Bacolod",
+      "purpose": "Installation of Solar Streetlights in Identified Key Priority Areas in Barangay Banago, City of Bacolod, Negros Island Region (NIR)",
+      "allotment": 450000000,
+      "cashAuthority": 450000000,
+      "sourceRows": 1
+    },
+    {
+      "province": "Negros Occidental",
+      "locality": "Isabela",
+      "purpose": "Assistance to Indigent Individuals or Families - Food Assistance",
+      "allotment": 250000000,
+      "cashAuthority": 250000000,
+      "sourceRows": 2
+    }
+  ]
+}

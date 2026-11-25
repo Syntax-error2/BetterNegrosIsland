@@ -149,6 +149,18 @@
   ],
   "rewrites": [
     {
+      "source": "/project-timeline",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/lgu-spending",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/fund-releases",
+      "destination": "/index.html"
+    },
+    {
       "source": "/budget-stages",
       "destination": "/index.html"
     },
@@ -290,6 +302,18 @@
     },
     {
       "source": "/hearings",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/project-timeline",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/lgu-spending",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/snapshots/:snapshot/fund-releases",
       "destination": "/index.html"
     },
     {

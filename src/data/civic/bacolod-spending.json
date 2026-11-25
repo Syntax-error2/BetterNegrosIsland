@@ -1,0 +1,69 @@
+{
+  "place": "City of Bacolod",
+  "code": "1830200000",
+  "checked": "2026-11-25",
+  "period": "Q4, 2025",
+  "report": "https://bacolodcity.gov.ph/wp-content/uploads/2022/08/2025_4thsre.xls",
+  "abr": "https://bacolodcity.gov.ph/wp-content/uploads/2022/08/2025_ABR.xlsx",
+  "source": "https://bacolodcity.gov.ph/full-disclosure-policy/",
+  "coa": "https://www.coa.gov.ph/wpfd_file/bacolod-city-annual-audit-report-2023/",
+  "reportSha256": "20c41e8b6874516af1b3073a3ffa1ee19131c926ad86bc287ef0b403fcb79117",
+  "abrSha256": "8a778fd19a2c58240fa52ff13ce5937f9061d448706b71f06441e49fcdbbb819",
+  "proposedGeneralFund": 440000000000,
+  "rows": [
+    {
+      "label": "General Public Services",
+      "appropriation": 250929861653,
+      "actual": 169135963041,
+      "row": 25
+    },
+    {
+      "label": "Education, Culture & Sports/Manpower Development",
+      "appropriation": 32496352122,
+      "actual": 29109675641,
+      "row": 26
+    },
+    {
+      "label": "Health, Nutrition & Population Control",
+      "appropriation": 35290635414,
+      "actual": 31641713169,
+      "row": 27
+    },
+    {
+      "label": "Labor and Employment",
+      "appropriation": 423641655,
+      "actual": 0,
+      "row": 28
+    },
+    {
+      "label": "Housing and Community Development",
+      "appropriation": 2657898002,
+      "actual": 2247256771,
+      "row": 29
+    },
+    {
+      "label": "Social Services and Social Welfare",
+      "appropriation": 23524634053,
+      "actual": 19225293105,
+      "row": 30
+    },
+    {
+      "label": "Economic Services",
+      "appropriation": 23411033101,
+      "actual": 19502687106,
+      "row": 31
+    },
+    {
+      "label": "Debt Service (FE) (Interest Expense & Other Charges)",
+      "appropriation": 26500194000,
+      "actual": 15563173357,
+      "row": 32
+    },
+    {
+      "label": "CAPITAL/INVESTMENT EXPENDITURES",
+      "appropriation": 85045750000,
+      "actual": 51650488393,
+      "row": 48
+    }
+  ]
+}

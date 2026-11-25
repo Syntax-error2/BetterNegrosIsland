@@ -1,10 +1,11 @@
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import {
   CivicFocus, CivicRecords, CivicResults, CivicSearch, CivicSelect, CivicSource,
 } from '../components/CivicRecords';
 import { civicCsv, civilDate, matchingText } from '../lib/civic-records';
 import { useCivicFilters } from '../lib/use-civic-filters';
 import awards from '../data/civic/awards.json';
+import BidNotices from '../components/BidNotices';
 
 const amountFormat = new Intl.NumberFormat('en-PH', {
   style: 'currency', currency: 'PHP', minimumFractionDigits: 2, maximumFractionDigits: 4,
@@ -12,7 +13,7 @@ const amountFormat = new Intl.NumberFormat('en-PH', {
 const places = new Map(awards.buyers.map((buyer) => [buyer.code, buyer.name]));
 const keys = (row: typeof awards.rows[number]) => [row.reference, row.date, row.agency, row.awardee, row.amount].join('|');
 
-export default function Procurement() {
+function Awards() {
   const { params, change, reset, limit, more } = useCivicFilters('ref');
   const place = params.get('lgu') ?? '';
   const term = params.get('q') ?? '';
@@ -25,7 +26,7 @@ export default function Procurement() {
     ? (b.amount ?? -1) - (a.amount ?? -1) || b.date.localeCompare(a.date)
     : b.date.localeCompare(a.date));
 
-  return <CivicRecords title="Local procurement awards" description="Search a pilot sample of published PhilGEPS award notices by buyer, awardee, or reference number.">
+  return <>
     <p className="tracker-stamp">
       Extract checked {civilDate(awards.checked)}. {' '}
       <CivicSource href={awards.source}>BetterGov.PH PhilGEPS explorer</CivicSource>
@@ -66,5 +67,23 @@ export default function Procurement() {
       </article>)}
     </div>
     <CivicResults count={rows.length} noun="pilot awards" limit={limit} more={more} />
+  </>;
+}
+
+export default function Procurement() {
+  const [params] = useSearchParams();
+  const showBids = params.get('view') === 'bids' && !params.has('ref');
+  const buyer = params.get('lgu');
+  const bidParams = new URLSearchParams({ view: 'bids', ...(buyer ? { lgu: buyer } : {}) });
+  const awardPath = buyer ? '/procurement?' + new URLSearchParams({ lgu: buyer }) : '/procurement';
+  return <CivicRecords
+    title={showBids ? 'Bid opportunities and awards' : 'Local procurement awards'}
+    description="Search archived PhilGEPS bid notices and a separate sample of award records from Bacolod and Vallehermoso."
+  >
+    <nav className="record-views" aria-label="Procurement views">
+      <Link to={'/procurement?' + bidParams} aria-current={showBids ? 'page' : undefined}>Bid notices</Link>
+      <Link to={awardPath} aria-current={showBids ? undefined : 'page'}>Award records</Link>
+    </nav>
+    {showBids ? <BidNotices /> : <Awards />}
   </CivicRecords>;
 }

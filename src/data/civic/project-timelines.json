@@ -1,0 +1,498 @@
+{
+  "checked": "2026-11-25",
+  "rows": [
+    {
+      "id": "26RA0012",
+      "advertisement": "2026-03-04",
+      "deadline": "2026-03-24",
+      "abc": 4711659.99,
+      "award": "2026-06-10",
+      "awardAmount": null,
+      "advertisementPdf": null,
+      "awardDocument": null,
+      "contractDocument": null,
+      "effectivity": "2026-06-23",
+      "started": "2026-06-23",
+      "completed": null,
+      "contractAmount": 4570563.38,
+      "budget": [
+        {
+          "id": "gaa:2026:300226127476000",
+          "year": 2026,
+          "title": "Construction of Multi-Purpose Building, Barangay 5, Silay City, Negros Occidental (10.77902, 122.98082333)",
+          "amount": 5000000
+        }
+      ],
+      "bistoReports": 0
+    },
+    {
+      "id": "26RA0013",
+      "advertisement": "2026-03-04",
+      "deadline": "2026-03-24",
+      "abc": 4711659.99,
+      "award": "2026-06-10",
+      "awardAmount": null,
+      "advertisementPdf": null,
+      "awardDocument": null,
+      "contractDocument": null,
+      "effectivity": "2026-06-23",
+      "started": "2026-06-23",
+      "completed": null,
+      "contractAmount": 4569829.49,
+      "budget": [
+        {
+          "id": "gaa:2026:300226127478000",
+          "year": 2026,
+          "title": "Construction of Multi-Purpose Building, Barangay 8, City of Victorias, Negros Occidental (10.84699222, 123.0991908)",
+          "amount": 5000000
+        }
+      ],
+      "bistoReports": 0
+    },
+    {
+      "id": "26RA0107",
+      "advertisement": "2026-05-06",
+      "deadline": "2026-05-26",
+      "abc": 4321798.53,
+      "award": "2026-06-10",
+      "awardAmount": null,
+      "advertisementPdf": null,
+      "awardDocument": null,
+      "contractDocument": null,
+      "effectivity": "2026-06-23",
+      "started": "2026-06-23",
+      "completed": "2026-07-25",
+      "contractAmount": 4206971.55,
+      "budget": [
+        {
+          "id": "gaa:2026:300203103326000",
+          "year": 2026,
+          "title": "Access Road leading to Sitio Bago-ATA Village, (Sta. 0+750 - Sta. 0+975) Brgy. Puey, Sagay City, Negros Occidental",
+          "amount": 4410000
+        }
+      ],
+      "bistoReports": 0
+    },
+    {
+      "id": "26RB0016",
+      "advertisement": "2026-03-06",
+      "deadline": "2026-03-26",
+      "abc": 4694059.41,
+      "award": "2026-06-04",
+      "awardAmount": null,
+      "advertisementPdf": null,
+      "awardDocument": null,
+      "contractDocument": null,
+      "effectivity": "2026-06-17",
+      "started": "2026-06-17",
+      "completed": "2026-09-11",
+      "contractAmount": 4553229.17,
+      "budget": [
+        {
+          "id": "gaa:2026:300221110241000",
+          "year": 2026,
+          "title": "Construction of Road, Barangay Montilla, Moises Padilla, Negros Occidental (Sta. 00+000.00 - Sta 00+260.00)",
+          "amount": 4900000
+        }
+      ],
+      "bistoReports": 0
+    },
+    {
+      "id": "26RA0001",
+      "advertisement": "2025-12-16",
+      "deadline": "2026-01-22",
+      "abc": 5569285.04,
+      "award": null,
+      "awardAmount": null,
+      "advertisementPdf": null,
+      "awardDocument": null,
+      "contractDocument": null,
+      "effectivity": null,
+      "started": null,
+      "completed": null,
+      "contractAmount": 0,
+      "budget": [],
+      "bistoReports": 0
+    },
+    {
+      "id": "26RA0002",
+      "advertisement": "2025-12-16",
+      "deadline": "2026-01-22",
+      "abc": 8450024.1,
+      "award": null,
+      "awardAmount": null,
+      "advertisementPdf": null,
+      "awardDocument": null,
+      "contractDocument": null,
+      "effectivity": null,
+      "started": null,
+      "completed": null,
+      "contractAmount": 0,
+      "budget": [],
+      "bistoReports": 0
+    },
+    {
+      "id": "26RG0010",
+      "advertisement": "2026-04-30",
+      "deadline": "2026-05-28",
+      "abc": 2970000,
+      "award": "2026-06-18",
+      "awardAmount": null,
+      "advertisementPdf": null,
+      "awardDocument": null,
+      "contractDocument": null,
+      "effectivity": "2026-07-06",
+      "started": "2026-07-06",
+      "completed": "2026-09-27",
+      "contractAmount": 2940300,
+      "budget": [],
+      "bistoReports": 0
+    },
+    {
+      "id": "26RG0020",
+      "advertisement": "2026-02-11",
+      "deadline": "2026-03-03",
+      "abc": 9244964.18,
+      "award": "2026-06-11",
+      "awardAmount": null,
+      "advertisementPdf": null,
+      "awardDocument": null,
+      "contractDocument": null,
+      "effectivity": "2026-07-06",
+      "started": "2026-07-06",
+      "completed": null,
+      "contractAmount": 8407960.29,
+      "budget": [],
+      "bistoReports": 0
+    },
+    {
+      "id": "26RH0029",
+      "advertisement": "2026-02-28",
+      "deadline": "2026-04-21",
+      "abc": 4321800,
+      "award": "2026-06-03",
+      "awardAmount": null,
+      "advertisementPdf": null,
+      "awardDocument": null,
+      "contractDocument": null,
+      "effectivity": "2026-06-16",
+      "started": "2026-06-16",
+      "completed": "2026-07-21",
+      "contractAmount": 4270000,
+      "budget": [],
+      "bistoReports": 0
+    },
+    {
+      "id": "26RH0036",
+      "advertisement": "2026-02-28",
+      "deadline": "2026-04-14",
+      "abc": 4321800,
+      "award": "2026-06-03",
+      "awardAmount": null,
+      "advertisementPdf": null,
+      "awardDocument": null,
+      "contractDocument": null,
+      "effectivity": "2026-06-16",
+      "started": "2026-06-16",
+      "completed": "2026-07-20",
+      "contractAmount": 4289038.85,
+      "budget": [
+        {
+          "id": "gaa:2026:300203103328000",
+          "year": 2026,
+          "title": "Access Road from Crossing Tabuac to Cantumbol Dos Falls, Sta. 2+557.50 - 2+667, Bais City, Negros Oriental",
+          "amount": 4410000
+        }
+      ],
+      "bistoReports": 0
+    },
+    {
+      "id": "26RG0004",
+      "advertisement": "2026-03-06",
+      "deadline": "2026-03-26",
+      "abc": 1972866,
+      "award": null,
+      "awardAmount": null,
+      "advertisementPdf": null,
+      "awardDocument": null,
+      "contractDocument": null,
+      "effectivity": null,
+      "started": null,
+      "completed": null,
+      "contractAmount": 0,
+      "budget": [],
+      "bistoReports": 0
+    },
+    {
+      "id": "26RG0006",
+      "advertisement": "2026-03-19",
+      "deadline": "2026-04-07",
+      "abc": 1980000,
+      "award": null,
+      "awardAmount": null,
+      "advertisementPdf": null,
+      "awardDocument": null,
+      "contractDocument": null,
+      "effectivity": null,
+      "started": null,
+      "completed": null,
+      "contractAmount": 0,
+      "budget": [],
+      "bistoReports": 0
+    },
+    {
+      "id": "26RJ0018",
+      "advertisement": "2026-05-28",
+      "deadline": "2026-06-23",
+      "abc": 87851670,
+      "award": "2026-07-06",
+      "awardAmount": null,
+      "advertisementPdf": null,
+      "awardDocument": null,
+      "contractDocument": null,
+      "effectivity": "2026-07-20",
+      "started": "2026-07-20",
+      "completed": null,
+      "contractAmount": 87608421.9,
+      "budget": [
+        {
+          "id": "gaa:2026:310302100648000",
+          "year": 2026,
+          "title": "Dumanhog Br. (B00012SJ) along Siquijor Circumferential Rd",
+          "amount": 91038000
+        }
+      ],
+      "bistoReports": 0
+    },
+    {
+      "id": "26RJ0027",
+      "advertisement": "2026-07-15",
+      "deadline": "2026-08-20",
+      "abc": 2970000,
+      "award": "2026-09-09",
+      "awardAmount": null,
+      "advertisementPdf": null,
+      "awardDocument": null,
+      "contractDocument": null,
+      "effectivity": "2026-09-22",
+      "started": "2026-09-22",
+      "completed": null,
+      "contractAmount": 2944910.26,
+      "budget": [
+        {
+          "id": "gaa:2026:300226123890000",
+          "year": 2026,
+          "title": "Construction of Multi-Purpose Building - (Barangay Center) Brgy. Tambisan, San Juan, Siquijor (9.188670, 123.462879 )",
+          "amount": 3000000
+        }
+      ],
+      "bistoReports": 0
+    },
+    {
+      "id": "25HM0025",
+      "advertisement": "2024-11-06",
+      "deadline": "2024-12-03",
+      "abc": 9961700,
+      "award": "2025-02-05",
+      "awardAmount": 9886091.49,
+      "advertisementPdf": "https://dcs.infrawatch.ph/advertisement/25HM0025/25hm0025_-_bid_docs_plan.pdf",
+      "awardDocument": "https://dcs.infrawatch.ph/notice_of_award/25HM0025/25hm0025_noa.pdf",
+      "contractDocument": "https://dcs.infrawatch.ph/contract_agreement/25HM0025/25hm0025_contract.pdf",
+      "effectivity": "2025-02-18",
+      "started": "2025-02-18",
+      "completed": "2026-03-02",
+      "contractAmount": 9886091.49,
+      "budget": [],
+      "bistoReports": 0
+    },
+    {
+      "id": "25HM0026",
+      "advertisement": "2024-11-06",
+      "deadline": "2024-12-03",
+      "abc": 4900000,
+      "award": "2025-03-06",
+      "awardAmount": 4753000,
+      "advertisementPdf": "https://dcs.infrawatch.ph/advertisement/25HM0026/25hm0026_-_bid_docs_plan.pdf",
+      "awardDocument": "https://dcs.infrawatch.ph/notice_of_award/25HM0026/25hm0026_noa.pdf",
+      "contractDocument": "https://dcs.infrawatch.ph/contract_agreement/25HM0026/25hm0026_contract.pdf",
+      "effectivity": "2025-03-17",
+      "started": "2025-03-17",
+      "completed": "2025-05-15",
+      "contractAmount": 4753000,
+      "budget": [
+        {
+          "id": "gaa:2025:300203103043000",
+          "year": 2025,
+          "title": "Canlambo-Balolong-Bintangan Road, Brgy. Canlambo, Larena, Siquijor",
+          "amount": 5000000
+        }
+      ],
+      "bistoReports": 0
+    },
+    {
+      "id": "26RJ0001",
+      "advertisement": "2026-02-10",
+      "deadline": "2026-03-03",
+      "abc": 32438000,
+      "award": null,
+      "awardAmount": null,
+      "advertisementPdf": null,
+      "awardDocument": null,
+      "contractDocument": null,
+      "effectivity": null,
+      "started": null,
+      "completed": null,
+      "contractAmount": 0,
+      "budget": [],
+      "bistoReports": 0
+    },
+    {
+      "id": "26RJ0002",
+      "advertisement": "2026-02-10",
+      "deadline": "2026-03-03",
+      "abc": 16277800,
+      "award": null,
+      "awardAmount": null,
+      "advertisementPdf": null,
+      "awardDocument": null,
+      "contractDocument": null,
+      "effectivity": null,
+      "started": null,
+      "completed": null,
+      "contractAmount": 0,
+      "budget": [],
+      "bistoReports": 0
+    },
+    {
+      "id": "26R00003",
+      "advertisement": "2026-05-01",
+      "deadline": "2026-05-26",
+      "abc": 70927500,
+      "award": "2026-06-17",
+      "awardAmount": null,
+      "advertisementPdf": null,
+      "awardDocument": null,
+      "contractDocument": null,
+      "effectivity": "2026-06-25",
+      "started": "2026-06-25",
+      "completed": null,
+      "contractAmount": 68430051.95,
+      "budget": [
+        {
+          "id": "gaa:2026:310201101764000",
+          "year": 2026,
+          "title": "Bacolod-Murcia-DS Benedicto-Sn Carlos City Rd - K0064 + 289 - K0065 + 052, K0068 + 293 - K0069 + 571",
+          "amount": 73500000
+        }
+      ],
+      "bistoReports": 0
+    },
+    {
+      "id": "26R00004",
+      "advertisement": "2026-02-20",
+      "deadline": "2026-03-17",
+      "abc": 18800000,
+      "award": "2026-05-25",
+      "awardAmount": null,
+      "advertisementPdf": null,
+      "awardDocument": null,
+      "contractDocument": null,
+      "effectivity": "2026-06-10",
+      "started": "2026-06-10",
+      "completed": null,
+      "contractAmount": 18140618.35,
+      "budget": [
+        {
+          "id": "gaa:2026:300215108201000",
+          "year": 2026,
+          "title": "Construction of Road leading to the New Development Area, Sta. 0+480 - Sta. 0+980, Barangay Igmayaan, Don Salvador Benedicto, Negros Occidental",
+          "amount": 19600000
+        }
+      ],
+      "bistoReports": 0
+    },
+    {
+      "id": "25G00001",
+      "advertisement": "2024-09-27",
+      "deadline": "2024-10-22",
+      "abc": 48250000,
+      "award": "2025-03-06",
+      "awardAmount": 47767499.97,
+      "advertisementPdf": null,
+      "awardDocument": "https://dcs.infrawatch.ph/notice_of_award/25G00001/25g0000127_noa_bac_reso.pdf",
+      "contractDocument": "https://dcs.infrawatch.ph/contract_agreement/25G00001/25g00001_contract.pdf",
+      "effectivity": "2025-03-18",
+      "started": "2025-03-18",
+      "completed": "2025-11-08",
+      "contractAmount": 47766655.13,
+      "budget": [
+        {
+          "id": "gaa:2025:310304101422000",
+          "year": 2025,
+          "title": "Ilog Br. (B00217NR) along Bacolod South Rd (Kabankalan-Hinobaan Section)",
+          "amount": 50000000
+        }
+      ],
+      "bistoReports": 0
+    },
+    {
+      "id": "25G00002",
+      "advertisement": "2024-09-27",
+      "deadline": "2024-10-22",
+      "abc": 9457000,
+      "award": "2025-03-06",
+      "awardAmount": 9361449.4,
+      "advertisementPdf": null,
+      "awardDocument": "https://dcs.infrawatch.ph/notice_of_award/25G00002/25g0000127_noa_bac_reso.pdf",
+      "contractDocument": "https://dcs.infrawatch.ph/contract_agreement/25G00002/25g00002_contract.pdf",
+      "effectivity": "2025-03-18",
+      "started": "2025-03-18",
+      "completed": "2025-07-10",
+      "contractAmount": 9361449.4,
+      "budget": [
+        {
+          "id": "gaa:2025:310304101420000",
+          "year": 2025,
+          "title": "Malogo Br. (B00151NR) along Bacolod North Rd",
+          "amount": 9800000
+        }
+      ],
+      "bistoReports": 0
+    },
+    {
+      "id": "26R00001",
+      "advertisement": "2026-04-23",
+      "deadline": "2026-05-18",
+      "abc": 47285000,
+      "award": "2026-06-11",
+      "awardAmount": null,
+      "advertisementPdf": null,
+      "awardDocument": null,
+      "contractDocument": null,
+      "effectivity": null,
+      "started": null,
+      "completed": null,
+      "contractAmount": 0,
+      "budget": [],
+      "bistoReports": 0
+    },
+    {
+      "id": "26R00002",
+      "advertisement": "2026-04-23",
+      "deadline": "2026-05-18",
+      "abc": 94570000,
+      "award": "2026-06-11",
+      "awardAmount": null,
+      "advertisementPdf": null,
+      "awardDocument": null,
+      "contractDocument": null,
+      "effectivity": null,
+      "started": null,
+      "completed": null,
+      "contractAmount": 0,
+      "budget": [],
+      "bistoReports": 0
+    }
+  ],
+  "bistoChecked": "2026-11-25"
+}

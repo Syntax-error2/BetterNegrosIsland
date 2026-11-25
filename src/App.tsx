@@ -19,6 +19,9 @@ const BudgetStages = lazy(() => import('./pages/BudgetStages'));
 const Procurement = lazy(() => import('./pages/Procurement'));
 const SiteEvidence = lazy(() => import('./pages/SiteEvidence'));
 const LocalDisclosures = lazy(() => import('./pages/LocalDisclosures'));
+const ProjectTimeline = lazy(() => import('./pages/ProjectTimeline'));
+const LguSpending = lazy(() => import('./pages/LguSpending'));
+const FundReleases = lazy(() => import('./pages/FundReleases'));
 const RegionalChanges = lazy(() => import("./pages/RegionalChanges"));
 const Saved = lazy(()=>import('./pages/CitizenPages').then(m=>({default:m.Saved})));
 const Topics = lazy(()=>import('./pages/CitizenPages').then(m=>({default:m.Topics})));
@@ -125,6 +128,9 @@ export default function App() {
             <Route path="/procurement" element={<Procurement />} />
             <Route path="/site-evidence" element={<SiteEvidence />} />
             <Route path="/local-disclosures" element={<LocalDisclosures />} />
+            <Route path="/project-timeline" element={<ProjectTimeline />} />
+            <Route path="/lgu-spending" element={<LguSpending />} />
+            <Route path="/fund-releases" element={<FundReleases />} />
             <Route path="/we-are-not-ignorant" element={<RegionalChanges />} />
             <Route path="/saved" element={<Saved/>}/>
             <Route path="/topics" element={<Topics/>}/>

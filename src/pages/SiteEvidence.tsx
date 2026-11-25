@@ -5,6 +5,7 @@ import {
 import { civilDate, matchingText } from '../lib/civic-records';
 import { useCivicFilters } from '../lib/use-civic-filters';
 import { PROVINCES } from '../lib/geography';
+import { projectTimelinePath } from '../lib/project-timeline';
 import evidence from '../data/civic/evidence.json';
 
 const offices = [...PROVINCES.map((p) => [p.slug, p.name] as const), ['regional', 'NIR regional offices'] as const];
@@ -43,6 +44,7 @@ export default function SiteEvidence() {
             <dd>{row.sourceStatus || 'Status unavailable'} <span>· {progress(row.sourceProgress)} reported progress</span></dd></div>
         </dl>
         <div className="civic-links">
+          <Link to={projectTimelinePath(row.id)}>Open project timeline</Link>
           <CivicSource href={row.bisto}>Open {row.id} on Bisto</CivicSource>
           <CivicSource href={row.api}>DPWH source data via BetterGov.PH</CivicSource>
           <Link to={'/contracts?' + new URLSearchParams({ province: row.zone, contract: row.id })}>Archived contract</Link>

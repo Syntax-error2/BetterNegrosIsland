@@ -81,8 +81,12 @@ export default function LocalDisclosures() {
           </dl>
           <div className="civic-links">
             <Link to={place.path}>Place profile</Link>
+            {place.type !== 'Province' && <>
+              <Link to={'/lgu-spending?lgu=' + place.code}>Find reported spending</Link>
+              <Link to={'/fund-releases?view=assistance&lgu=' + place.code}>Find national project assistance</Link>
+            </>}
             {awards.buyers.some((buyer) => buyer.code === place.code) &&
-              <Link to={'/procurement?lgu=' + place.code}>Browse pilot awards</Link>}
+              <Link to={'/procurement?view=bids&lgu=' + place.code}>Browse pilot bids and awards</Link>}
             {!focus && <Link to={'/local-disclosures?lgu=' + place.code}>Open this checklist</Link>}
           </div>
         </article>;

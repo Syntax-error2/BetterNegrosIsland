@@ -4,6 +4,8 @@ const SOURCE_HOSTS = new Set([
   'bettergov.ph', 'www.bettergov.ph', 'www.dbm.gov.ph', 'dbm.gov.ph',
   'budget-transparency-portal.senate.gov.ph', 'www.congress.gov.ph',
   'bisto.ph', 'api.dpwh.bettergov.ph', 'visualizations.bettergov.ph', 'lgu.bettergov.ph',
+  'dcs.infrawatch.ph', 'compass.gov.ph', 'open.philgeps.gov.ph', 'notices.philgeps.gov.ph',
+  'blgf.gov.ph', 'scene.ph',
   'www.coa.gov.ph', 'bacolodcity.gov.ph', 'dumaguetecity.gov.ph', 'www.negros-occ.gov.ph',
   'psa.gov.ph', 'privacy.gov.ph', 'www.dpwh.gov.ph', 'dpwh.gov.ph', 'transparency.dpwh.gov.ph',
 ]);

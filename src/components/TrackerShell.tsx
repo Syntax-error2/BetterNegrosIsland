@@ -29,7 +29,7 @@ export default function TrackerShell({
       tabIndex={-1}
       className="page page--wide main tracker-page"
     >
-      <nav className="tracker-tools" aria-label={civic ? "Public records tools" : "Project tracker tools"}>
+      <nav className={"tracker-tools" + (civic ? " tracker-tools--records" : "")} aria-label={civic ? "Public records tools" : "Project tracker tools"}>
         {(civic ? civicRoutes : TRACKER_TOOLS).map(([to, label]) => (
           <NavLink key={to} to={to}>
             {label}

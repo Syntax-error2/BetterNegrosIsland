@@ -1,4 +1,7 @@
 # Generated: application routes only. Missing data/assets must remain 404.
+/project-timeline /index.html 200
+/lgu-spending /index.html 200
+/fund-releases /index.html 200
 /budget-stages /index.html 200
 /procurement /index.html 200
 /site-evidence /index.html 200
@@ -35,6 +38,9 @@
 /provinces/:slug /index.html 200
 /locations/:psgcCode /index.html 200
 /municipalities/:slug /index.html 200
+/snapshots/:snapshot/project-timeline /index.html 200
+/snapshots/:snapshot/lgu-spending /index.html 200
+/snapshots/:snapshot/fund-releases /index.html 200
 /snapshots/:snapshot/budget-stages /index.html 200
 /snapshots/:snapshot/procurement /index.html 200
 /snapshots/:snapshot/site-evidence /index.html 200
